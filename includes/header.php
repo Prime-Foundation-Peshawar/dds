@@ -4,18 +4,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Department of Dental Sciences - Riphah International University (Peshawar Campus)</title>
+  <title>Department of Dental Sciences | Peshawar Dental College — Riphah Peshawar Campus</title>
   <meta name="description"
-    content="Department of Dental Sciences - Riphah International University (Peshawar Campus) — PM&DC recognized BDS institution affiliated with Riphah International University. Warsak Road, Peshawar, KP, Pakistan." />
+    content="Department of Dental Sciences, Riphah International University – Peshawar Campus. Peshawar Dental College — PM&DC recognized BDS programmes. Warsak Road, Peshawar." />
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="assets/images/logo/favicon-logo.jpg" sizes="32x32">
   <link rel="apple-touch-icon" href="assets/images/logo/favicon-logo.jpg">
   
-  <meta property="og:title" content="Department of Dental Sciences - Riphah International University (Peshawar Campus)">
-  <meta property="og:description" content="Department of Dental Sciences - Riphah International University (Peshawar Campus) — PM&DC recognized BDS institution affiliated with Riphah International University. Warsak Road, Peshawar, KP, Pakistan.">
+  <meta property="og:title" content="Department of Dental Sciences | Peshawar Dental College — Riphah Peshawar Campus">
+  <meta property="og:description" content="Department of Dental Sciences — Peshawar Dental College. PM&DC recognized BDS programmes at Riphah International University – Peshawar Campus.">
   <meta property="og:image" content="https://dds.riphahpsh.edu.pk/assets/images/logo/favicon-logo.jpg">
-  <meta property="og:url" content=https://dds.riphahpsh.edu.pk/">
+  <meta property="og:url" content="https://dds.riphahpsh.edu.pk/">
 
   <!-- Bootstrap 5.3 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
@@ -45,7 +45,7 @@
         </div>
         <div class="d-flex align-items-center gap-3">
           <a href="http://careers.prime.edu.pk" target="_blank"><i class="bi bi-briefcase me-1"></i>Careers</a>
-          <a href="https://pmc.prime.edu.pk/portal_login.php"><i class="bi bi-person-circle me-1"></i>Portal Login</a>
+          <a href="https://pdc.prime.edu.pk/" target="_blank"><i class="bi bi-person-circle me-1"></i>Portal Login</a>
           <a href="vacant-seats.php" class="tb-cta"><i class="bi bi-door-open me-1"></i>Vacant Seats</a>
         </div>
       </div>
@@ -58,10 +58,11 @@
       <a class="pmc-brand" href="index.php">
         <div class="">
           <img src="assets/images/logo/riphah-psh.png"
-            alt="Department of Dental Sciences - Riphah International University (Peshawar Campus)" width="200px;" />
+            alt="Department of Dental Sciences (DDS) — Riphah Peshawar Campus" width="200px;" />
         </div>
-        <div class="pmc-brand-text">
-          <!-- optional text removed for brevity -->
+        <div class="pmc-brand-text d-none d-xl-block" style="margin-left:10px;line-height:1.2;">
+          <div style="font-size:.72rem;font-weight:700;color:var(--navy);">Department of Dental Sciences</div>
+          <div style="font-size:.65rem;color:var(--teal);">Peshawar Dental College · Riphah Peshawar Campus</div>
         </div>
       </a>
 
@@ -72,20 +73,22 @@
       <div class="collapse navbar-collapse" id="navMain">
         <ul class="navbar-nav ms-auto align-items-lg-center position-static">
 
-          <li class="nav-item"><a class="nav-link active" href="index.php">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://riphahpsh.edu.pk/" target="_blank">Campus</a></li>
 
           <!-- ABOUT mega -->
           <li class="nav-item mega-menu-wrapper position-static">
-            <a class="nav-link dropdown-toggle" href="about.php">About Us</a>
+            <a class="nav-link dropdown-toggle" href="about.php">About</a>
             <div class="mega-menu">
               <div class="container">
                 <div class="row g-4">
                   <div class="col-lg-3">
                     <div class="mega-col-head"><i class="bi bi-info-circle-fill"></i> About Us</div>
-                    <a class="mega-link" href="about.php"><i class="bi bi-building"></i>Introduction</a>
-                    <a class="mega-link" href="vision-mission.php"><i class="bi bi-eye"></i>Vision & Mission</a>
+                    <a class="mega-link" href="about.php"><i class="bi bi-building"></i>About DDS</a>
+                    <a class="mega-link" href="pdc.php"><i class="bi bi-award"></i>Peshawar Dental College</a>
+                    <a class="mega-link" href="vision-mission.php"><i class="bi bi-eye"></i>Vision &amp; Mission</a>
                     <a class="mega-link" href="faculty.php"><i class="bi bi-people"></i>Faculty</a>
-                    <a class="mega-link" href="https://pdc.prime.edu.pk/upload/organogram/Organogram%20March%2013,%202023-PDC.pdf"><i class="bi bi-geo-alt"></i>Organogram</a>
+                    <a class="mega-link" href="https://pdc.prime.edu.pk/upload/organogram/Organogram%20March%2013,%202023-PDC.pdf" target="_blank"><i class="bi bi-diagram-3"></i>Organogram</a>
                   </div>
                   <div class="col-lg-3">
                     <div class="mega-col-head"><i class="bi bi-buildings-fill"></i> Campus Life</div>
@@ -104,6 +107,7 @@
                         class="bi bi-heart-pulse"></i>Mercy Teaching Hospital</a>
                     <a class="mega-link" href="https://pth.prime.edu.pk/" target="_blank"><i
                         class="bi bi-capsule-pill"></i>Prime Teaching Hospital</a>
+                    <a class="mega-link" href="pdc.php#hospital"><i class="bi bi-hospital"></i>Peshawar Dental Hospital</a>
                     <!-- <a class="mega-link" href="https://prime.edu.pk/pf/community-development.php" target="_blank"><i
                         class="bi bi-people-fill"></i>Community Dev. Center</a> -->
                     <hr class="my-2" style="border-color:var(--border);">
@@ -129,7 +133,16 @@
             </div>
           </li>
 
-          <!-- ADMISSIONS mega (unchanged except vacant seats link updated to new external if needed, but internal link kept) -->
+          <li class="nav-item mega-menu-wrapper">
+            <a class="nav-link dropdown-toggle" href="#programs">Programs</a>
+            <div class="dropdown-menu plain-dd" style="min-width:260px;">
+              <a class="dropdown-item" href="pdc.php"><i class="bi bi-mortarboard"></i>Peshawar Dental College — BDS</a>
+              <a class="dropdown-item" href="pg-coming-soon.php"><i class="bi bi-hourglass-split"></i>Postgraduate Dental (Coming Soon)</a>
+              <a class="dropdown-item" href="dental-education.php"><i class="bi bi-book"></i>Dental Education Overview</a>
+            </div>
+          </li>
+
+          <!-- ADMISSIONS mega -->
           <li class="nav-item mega-menu-wrapper position-static">
             <a class="nav-link dropdown-toggle" href="admissions.php">Admissions</a>
             <div class="mega-menu">
@@ -167,7 +180,7 @@
                       Criteria</a> -->
                     <!-- <a class="mega-link" href="admissions.php#process"><i class="bi bi-list-ol"></i>Admission
                       Process</a> -->
-                    <a class="mega-link" href="https://pmc.prime.edu.pk/portal_login.php"><i class="bi bi-person-circle"></i>Portal
+                    <a class="mega-link" href="https://pdc.prime.edu.pk/" target="_blank"><i class="bi bi-person-circle"></i>Portal
                       Login</a>
                   </div>
                   <!-- <div class="col-lg-3">
@@ -194,8 +207,8 @@
                     <div class="mega-col-head"><i class="bi bi-book-fill"></i> Education</div>
                     <a class="mega-link" href="dental-education.php"><i class="bi bi-journal-medical"></i>Dental
                       Education</a>
-                    <!-- <a class="mega-link" href="pg-dental-education.php"><i
-                        class="bi bi-journal-medical"></i>Postgraduate Dental Education</a> -->
+                    <a class="mega-link" href="pg-coming-soon.php"><i
+                        class="bi bi-journal-medical"></i>Postgraduate Dental Education</a>
                     <a class="mega-link" href="curriculum.php"><i class="bi bi-journal-text"></i>Curriculum (Undergraduate)</a>
                     <a class="mega-link" href="pg-curriculum.php"><i class="bi bi-journal-text"></i>Curriculum (Postgraduate)</a>
                     <a class="mega-link" href="examinations.php"><i class="bi bi-clipboard-pulse"></i>Examinations &
@@ -243,18 +256,17 @@
               <a class="dropdown-item" href="https://riphahpsh.edu.pk/umr.php"><i class="bi bi-mortarboard"></i>UMR Society</a>
               <a class="dropdown-item" href="https://riphahpsh.edu.pk/social-welfare.php"><i class="bi bi-heart"></i>Social Welfare Society</a>
               <a class="dropdown-item" href="https://riphahpsh.edu.pk/literary-society.php"><i class="bi bi-pen"></i>Literature & Arts Society</a>
-              <a class="dropdown-item" href="#"><i class="bi bi-trophy"></i>Sports Society</a>
+              <a class="dropdown-item" href="https://riphahpsh.edu.pk/sports-society.php"><i class="bi bi-trophy"></i>Sports Society</a>
             </div>
           </li>
 
           <li class="nav-item"><a class="nav-link" href="https://riphahpsh.edu.pk/news-letter.php">Newsletter</a></li>
-          <!-- <li class="nav-item"><a class="nav-link" href="gallery.php">Gallery</a></li> -->
           <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
-          <!-- <li class="nav-item">
+          <li class="nav-item">
             <a class="nav-link nav-btn-apply" href="admissions.php" style="color: #ffffff !important;">
-              <i class="bi bi-mortarboard-fill"></i> Admissions 2026-27 Apply Now
+              <i class="bi bi-mortarboard-fill"></i> Apply
             </a>
-          </li> -->
+          </li>
         </ul>
       </div>
     </div>

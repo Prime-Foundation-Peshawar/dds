@@ -5,11 +5,11 @@
     <div class="row align-items-center">
       <!-- Left side: title & breadcrumb -->
       <div class="col-lg-8">
-        <h1>Peshawar Dental College (PDC)</h1>
+        <h1>Peshawar Dental College</h1>
         <div class="breadcrumb-pmc">
           <a href="index.php">Home</a>
           <span class="sep"><i class="bi bi-chevron-right"></i></span>
-          Peshawar Dental College (PDC)
+          Peshawar Dental College
         </div>
       </div>
       <!-- Right side: logo -->
@@ -31,22 +31,23 @@
           <!-- Introduction -->
           <h2 class="sec-title" style="font-size:1.8rem;">Introduction</h2>
           <p style="font-family:var(--font-body);font-size:.95rem;color:var(--gray-dark);line-height:1.85;">
-            Peshawar Dental College is project of Prime Foundation. It was established in year 2010. It is recognized by Federal Ministry of Health, Pakistan Medical and Dental Council (PM&DC), HEC and affiliated with Riphah International University Islamabad. The college is for female only. Peshawar Dental College is student –centered college with clear objective of producing female dentists who are professionally competent, excellent in ethical values and practice, cognizant of community health needs, research minded, well versed in IT and latest health technologies to meet the international challenges.
+            <strong>Peshawar Dental College</strong> is the dental college of the <strong>Department of Dental Sciences</strong> at Riphah International University – Peshawar Campus. Established in 2010, it is recognized by the Federal Ministry of Health, Pakistan Medical and Dental Council (PM&amp;DC), and HEC. The College is for female students only, with a clear objective of producing dentists who are professionally competent, excellent in ethical values and practice, cognizant of community health needs, research-minded, and well versed in information technology and contemporary health technologies.
           </p>
           <p style="font-family:var(--font-body);font-size:.95rem;color:var(--gray-dark);line-height:1.85;">
-            Alhamdulillah, Peshawar dental college has completed almost its 12 years and so far more than 450 graduates have been qualified from the institute. PDC is providing services to students and community of KP through different Academic, Social and Research activities.
+            Alhamdulillah, Peshawar Dental College has completed almost twelve years of service, with more than 450 graduates qualifying from the institute. The College continues to serve students and the community of KP through academic, social, and research activities.
           </p>
           <p style="font-family:var(--font-body);font-size:.95rem;color:var(--gray-dark);line-height:1.85;">
-            The main purpose of PDC is to provide educational facility to undergraduate students but it is also providing facility to post graduate students of both university and CPSP programs. PDC conducts a 4 years course of study leading to the award of BDS degree. We have taken a step ahead and start an integrated modular system from the session 2019-2020.
+            The principal purpose of Peshawar Dental College is undergraduate education, while facilities are also provided for postgraduate students of university and CPSP programmes. The College conducts a four-year course of study leading to the award of the BDS degree. An integrated modular system was introduced from session 2019&ndash;2020.
           </p>
           <p style="font-family:var(--font-body);font-size:.95rem;color:var(--gray-dark);line-height:1.85;">
-            The BDS program is focused on the professional knowledge and skill development with an emphasis on ethical values as our priority and our mission. PDC also share the Undergraduate Medical Research (UMR) program as a regular component of the education program. We have experienced highly qualified faculty members, state of art well equipped departments, library & laboratories.
+            The BDS programme focuses on professional knowledge and skill development, with ethical values as a priority. Undergraduate Medical Research (UMR) is a regular component of the education programme. The College is supported by experienced faculty, well-equipped departments, library, and laboratories.
+          </p>
+          <h2 class="sec-title" style="font-size:1.8rem;" id="hospital">Peshawar Dental Hospital</h2>
+          <p style="font-family:var(--font-body);font-size:.95rem;color:var(--gray-dark);line-height:1.85;">
+            Peshawar Dental College has its own hospital — a tertiary care teaching hospital in Peshawar. The hospital provides outstanding patient care and uninterrupted training for undergraduate and postgraduate students of Riphah International University and CPSP. The Operation Theater runs regularly for oral and maxillofacial surgery. Preclinical skill development is provided at surgical skill laboratories and phantom laboratories; clinical skills are developed in small groups under faculty supervision.
           </p>
           <p style="font-family:var(--font-body);font-size:.95rem;color:var(--gray-dark);line-height:1.85;">
-            Peshawar Dental College (PDC) has its own hospital which is one of tertiary care teaching hospital of the Peshawar. Hospital is providing outstanding patient care that is our prime responsibility, also help in providing uninterrupted training facilities both to the undergraduate and postgraduate students of Riphah international university and college of physician and surgeons Pakistan (CPSP). The Operation Theater runs regularly providing services to the patients of oral and maxillofacial surgery. Preclinical Skill development is provided at surgical skill labs and phantom lab in PMC & PDC. Clinical skills are developed in small groups in the clinical premises under the supervision of the faculty.
-          </p>
-          <p style="font-family:var(--font-body);font-size:.95rem;color:var(--gray-dark);line-height:1.85;">
-            In addition to academic activities of PDC, co-curricular activities are also mandatory for the student’s health. They are organized through seminars on the needed topics by authorities at national and international level, workshops on many themes, oral health awareness visits to schools, free dental camps, Social welfare (SWS) activity, sports week & literally week etc.
+            In addition to academic activities, co-curricular programmes support student development through seminars, workshops, oral health awareness visits to schools, free dental camps, Social Welfare Society activities, sports week, and literary week.
           </p>
 
           <!-- Vision & Mission -->

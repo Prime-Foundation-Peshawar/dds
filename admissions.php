@@ -17,13 +17,11 @@
 
           <!-- College Introduction -->
           <p style="font-family:var(--font-body);font-size:.95rem;color:var(--gray-dark);line-height:1.85;">
-            Riphah International University - Peshawar Campus Peshawar with a mission to achieve excellence in professional competence and
-            ethical values, offers merit-based admissions to a five-year Bachelor of Medicine, Bachelor of Surgery
-            (MBBS) programme. The transparent admission process ensures the admission of high quality students to
-            fulfill the goal of the institution by producing graduates who are capable of delivering ethically driven
-            quality health care to the community, contribute in the advancement of health research, development of
-            evidence-based health care interventions and prove to be a socially responsible, honest, respectable and
-            patriotic professionals.
+            The <strong>Department of Dental Sciences</strong> at Riphah International University – Peshawar Campus, through <strong>Peshawar Dental College</strong>, offers merit-based admissions to the Bachelor of Dental Surgery (BDS) programme for female students. The transparent admission process aims to produce dentists who are professionally competent, ethically grounded, and committed to community oral health.
+          </p>
+          <p style="font-size:.9rem;margin-bottom:1.25rem;">
+            <a href="https://riphahpsh.edu.pk/admissions.php" target="_blank">Campus admissions hub</a> ·
+            Prospectus and fee PDFs remain available via the links below (hosted on legacy download servers). Postgraduate dental programs are <a href="pg-coming-soon.php">coming soon</a>.
           </p>
 
           <!-- KMU & Quota Note -->

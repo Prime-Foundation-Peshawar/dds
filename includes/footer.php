@@ -41,12 +41,10 @@
         <div class="col-lg-4">
           <div class="foot-brand">
             <img src="assets/images/logo/riphah-psh-white.png"
-              alt="Department of Medical Sciences - Riphah International University (Peshawar Campus)" width="250px" />
-            <!-- <div class="foot-name">Department of Medical Sciences - Riphah International University (Peshawar Campus)</div> -->
+              alt="Department of Dental Sciences (DDS) — Riphah Peshawar Campus" width="250px" />
           </div>
           <p class="foot-desc">
-            Come with commitment, grow with wisdom and leave with professional and ethical competence for a bright
-            future
+            Department of Dental Sciences, Riphah International University – Peshawar Campus — comprising Peshawar Dental College.
           </p>
           <div class="foot-socials">
             <a href="https://www.facebook.com/share/17Mw2CuEkD/" class="soc-btn" target="_blank"
@@ -64,7 +62,8 @@
             <li><a href="about.php">About Us</a></li>
             <li><a href="vision-mission.php">Vision & Mission</a></li>
             <li><a href="faculty-all.php">Faculty</a></li>
-            <!--<li><a href="admissions.php">Admissions</a></li>-->
+            <li><a href="admissions.php">Admissions</a></li>
+            <li><a href="pdc.php">Peshawar Dental College</a></li>
             <li><a href="vacant-seats.php">Vacant Seats</a></li>
             <li><a href="contact.php">Contact Us</a></li>
           </ul>
@@ -90,9 +89,9 @@
                 href="mailto:info@riphahpsh.edu.pk">info@riphahpsh.edu.pk</a></span></div>
           <!--<div class="foot-contact"><i class="bi bi-clock-fill"></i><span>Mon – Sat: 8:00 AM – 2:00 PM</span></div>-->
           <div class="mt-3">
-            <a href="https://pmc.prime.edu.pk/portal_login.php" class="btn-pmc btn-pmc-teal"
+            <a href="https://pdc.prime.edu.pk/" target="_blank" class="btn-pmc btn-pmc-teal"
               style="background:var(--teal);color:white;font-size:.82rem;padding:10px 20px;">
-              <i class="bi bi-person-circle"></i>Portal Login
+              <i class="bi bi-person-circle"></i> Portal Login
             </a>
           </div>
         </div>

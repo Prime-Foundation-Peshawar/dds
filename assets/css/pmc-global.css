@@ -1,8 +1,9 @@
 /* ═══════════════════════════════════════════════════════════════
-   PMC GLOBAL STYLESHEET
+   RIPHAH PESHAWAR CAMPUS GLOBAL STYLESHEET
+   (legacy filename: pmc-global.css — class aliases kept for compatibility)
    Fonts  : Montserrat (headings) · Quicksand (body)
    Colors : Navy #0A1628 · Teal #00A896 · Gold #C9A84C
-   Version: 2.0 — Full Revamp 2025
+   Version: 2.1 — Campus rebrand alignment 2026
 ═══════════════════════════════════════════════════════════════ */
 
 /* ── GOOGLE FONTS ── */
@@ -729,4 +730,36 @@ p, li, span, td, th, label, input, textarea, select, .font-body {
 @media (max-width: 575.98px) {
   .pmc-topbar .d-flex { flex-wrap: wrap; gap: 4px; }
   .recog-grid { flex-direction: column; }
+}
+
+/* ── Campus token aliases (riphah-* / campus-* → existing pmc-* system) ── */
+:root {
+  --riphah-navy: var(--navy);
+  --riphah-teal: var(--teal);
+  --riphah-gold: var(--gold);
+  --campus-navy: var(--navy);
+  --campus-teal: var(--teal);
+  --campus-gold: var(--gold);
+}
+.riphah-section,
+.campus-section { padding: 80px 0; }
+.riphah-card,
+.campus-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  padding: 28px 24px;
+  box-shadow: var(--shadow-sm);
+}
+.btn-riphah,
+.btn-campus {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-head);
+  font-weight: 700;
+  font-size: .85rem;
+  padding: 12px 22px;
+  border-radius: 999px;
+  transition: var(--ease);
 }

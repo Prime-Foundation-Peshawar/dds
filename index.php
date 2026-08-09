@@ -4,7 +4,7 @@
 <div id="heroSlider">
 
   <!-- SLIDE 3 — Education & Research -->
-  <div class="hero-slide slide-bg-3">
+  <div class="hero-slide active slide-bg-3">
     <div class="slide-overlay"></div>
     <div class="slide-grid"></div>
     <div class="slide-circle-1"></div>
@@ -12,11 +12,9 @@
     <div class="container slide-inner">
       <div class="row align-items-center g-5">
         <div class="col-lg-6">
-          <div class="slide-eyebrow"><i class="bi bi-flask-fill"></i> Education & Research</div>
-          <h1 class="slide-title">Learning That<br />Goes <span class="hl-teal">Beyond</span><br />the Classroom</h1>
-          <p class="slide-body">From outcome-based curricula and clinical skill labs to undergraduate research and
-            faculty publications — Department of Dental Sciences prepares doctors who think critically, act ethically,
-            and lead confidently.</p>
+          <div class="slide-eyebrow"><i class="bi bi-emoji-smile-fill"></i> Department of Dental Sciences</div>
+          <h1 class="slide-title">Educating<br /><span class="hl-teal">Ethical</span><br />Dental Professionals</h1>
+          <p class="slide-body">Peshawar Dental College — BDS education with clinical training, research, and ethical practice at Riphah International University – Peshawar Campus.</p>
           <div class="slide-actions">
             <a href="Dental-education.php" class="btn-pmc btn-pmc-primary"><i class="bi bi-book-fill"></i> Dental
               Education</a>
@@ -206,27 +204,22 @@
         <div class="pmc-card">
           <div class="pmc-card-icon"><i class="bi bi-clipboard-pulse"></i></div>
           <h4>Peshawar Dental College</h4>
-          <p>Peshawar Dental College is project of Prime Foundation. It was established in year 2010. It is recognized
-            by Federal Ministry of Health, Pakistan Medical and Dental Council (PM&DC), HEC and affiliated with Riphah
-            International University Islamabad.</p>
-          <div class="mt-3 mb-4"><span class="pmc-tag prog-tag">Outcome-Based</span><span class="pmc-tag prog-tag">2
-              Hospitals</span></div>
+          <p>Established in 2010; a PM&amp;DC-recognized BDS programme for female students, affiliated with Riphah International University.</p>
+          <div class="mt-3 mb-4"><span class="pmc-tag prog-tag">BDS</span><span class="pmc-tag prog-tag">PM&amp;DC</span><span class="pmc-tag prog-tag">Female</span></div>
           <a href="pdc.php" class="btn-pmc btn-pmc-outline" style="font-size:.8rem;padding:9px 18px;">Learn
             More <i class="bi bi-arrow-right"></i></a>
         </div>
       </div>
       <div class="col-lg-6 col-md-6 fu fu-delay-2">
         <div class="pmc-card">
-          <div class="pmc-card-icon"><i class="bi bi-airplane"></i></div>
+          <div class="pmc-card-icon"><i class="bi bi-hourglass-split"></i></div>
           <h4>Postgraduate Dental Education</h4>
-          <p>To be available soon</p>
+          <p>Postgraduate dental programmes in the Department of Dental Sciences are forthcoming, including FCPS/MCPS and university postgraduate pathways.</p>
           <div class="mt-3 mb-4">
-              <!--<span class="pmc-tag prog-tag">Faculty</span>-->
-              <span
-              class="pmc-tag prog-tag">Programs</span>
+              <span class="pmc-tag prog-tag">Coming Soon</span>
               </div>
-          <a href="#" class="btn-pmc btn-pmc-outline"
-            style="font-size:.8rem;padding:9px 18px;">Explore <i class="bi bi-arrow-right"></i></a>
+          <a href="pg-coming-soon.php" class="btn-pmc btn-pmc-outline"
+            style="font-size:.8rem;padding:9px 18px;">Details <i class="bi bi-arrow-right"></i></a>
         </div>
       </div>
       <!-- <div class="col-lg-4 col-md-6 fu fu-delay-3">
@@ -258,16 +251,9 @@
         <span class="sec-eyebrow">About </span>
         <h2 class="sec-title">Department of Dental Sciences</h2>
 
-        <p class="sec-desc">Department of Dental Sciences is project of Riphah International University Peshawar Campus.
-          It was established in year 2010. It is recognized by Federal Ministry of Health, Pakistan Medical and Dental
-          Council (PM&DC), HEC and affiliated with Riphah International University Islamabad. The college is for female
-          only. Peshawar Dental College is student –centered college with clear objective of producing female dentists
-          who are professionally competent, excellent in ethical values and practice, cognizant of community health
-          needs, research minded, well versed in IT and latest health technologies to meet the international challenges.
+        <p class="sec-desc">The Department of Dental Sciences is a constituent department of Riphah International University – Peshawar Campus. It comprises <strong>Peshawar Dental College</strong>, established in 2010. The College is recognized by the Federal Ministry of Health, PM&amp;DC, and HEC, and offers a student-centred BDS programme for female students — professionally competent, ethically grounded, research-minded, and community-aware.
         </p>
-        <p class="sec-desc">Alhamdulillah, Peshawar dental college has completed almost its 12 years and so far more
-          than 450 graduates have been qualified from the institute. PDC is providing services to students and community
-          of KP through different Academic, Social and Research activities.</p>
+        <p class="sec-desc">Peshawar Dental College has graduated more than 450 dentists and continues to serve students and communities in KP through academic, social, and research activities, with clinical training at Peshawar Dental Hospital and affiliated teaching hospitals.</p>
         <a href="about.php" class="btn-pmc btn-pmc-primary mt-4"><i class="bi bi-arrow-right-circle"></i> Read Full
           About Department of Dental Sciences</a>
       </div>
@@ -285,21 +271,18 @@
     <div class="text-center mb-5 fu">
       <span class="sec-eyebrow" style="color:var(--gold-light);">Affiliated Teaching Hospitals</span>
       <h2 class="sec-title" style="color:white;">Clinical Training at Its Finest</h2>
-      <p class="sec-desc mx-auto" style="max-width:570px;">Department of Dental Sciences students rotate through four
-        affiliated institutions
-        offering comprehensive, real-world clinical exposure throughout their BDS training.</p>
+      <p class="sec-desc mx-auto" style="max-width:570px;color:rgba(255,255,255,.75);">Students of the Department of Dental Sciences train at Peshawar Dental Hospital and affiliated teaching hospitals for comprehensive clinical exposure.</p>
     </div>
     <div class="row g-4">
-      <!--<div class="col-lg-4 col-md-6 fu fu-delay-1">-->
-      <!--  <div class="hosp-card">-->
-      <!--    <div class="hosp-ico"><i class="bi bi-hospital-fill"></i></div>-->
-      <!--    <div class="hosp-name">Kuwait Teaching Hospital</div>-->
-      <!--    <p class="hosp-desc">Major tertiary care centre providing comprehensive clinical rotations across all Dental-->
-      <!--      and surgical specialties.</p><a href="https://prime.edu.pk/pf/idx_kth.php" class="hosp-link"-->
-      <!--      target="_blank">Learn More <i class="bi bi-arrow-right"></i></a>-->
-      <!--  </div>-->
-      <!--</div>-->
-      <div class="col-lg-6 col-md-6 fu fu-delay-2">
+      <div class="col-lg-4 col-md-6 fu fu-delay-1">
+        <div class="hosp-card">
+          <div class="hosp-ico"><i class="bi bi-emoji-smile-fill"></i></div>
+          <div class="hosp-name">Peshawar Dental Hospital</div>
+          <p class="hosp-desc">Tertiary care dental teaching hospital providing patient care and clinical training for BDS students.</p>
+          <a href="pdc.php#hospital" class="hosp-link">Learn More <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 fu fu-delay-2">
         <div class="hosp-card">
           <div class="hosp-ico"><i class="bi bi-heart-pulse-fill"></i></div>
           <div class="hosp-name">Mercy Teaching Hospital</div>
@@ -308,7 +291,7 @@
               class="bi bi-arrow-right"></i></a>
         </div>
       </div>
-      <div class="col-lg-6 col-md-6 fu fu-delay-3">
+      <div class="col-lg-4 col-md-6 fu fu-delay-3">
         <div class="hosp-card">
           <div class="hosp-ico"><i class="bi bi-capsule-pill"></i></div>
           <div class="hosp-name">Prime Teaching Hospital</div>
