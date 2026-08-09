@@ -1,153 +1,258 @@
 <?php include('includes/header.php'); ?>
+
+<!-- PAGE HERO -->
 <div class="page-hero">
   <div class="page-hero-grid"></div>
   <div class="container page-hero-content">
-    <div class="row align-items-center">
-      <!-- Left side: title & breadcrumb -->
+    <div class="row align-items-center g-4">
       <div class="col-lg-8">
+        <span class="page-hero-eyebrow">Department of Dental Sciences</span>
         <h1>Peshawar Dental College</h1>
         <div class="breadcrumb-pmc">
           <a href="index.php">Home</a>
           <span class="sep"><i class="bi bi-chevron-right"></i></span>
-          Peshawar Dental College
+          <a href="about.php">About</a>
+          <span class="sep"><i class="bi bi-chevron-right"></i></span>
+          <span class="current">Peshawar Dental College</span>
         </div>
       </div>
-      <!-- Right side: logo -->
-      <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end mt-3 mt-lg-0">
-        <img src="assets/images/logo/pdc.png" class="img-fluid" alt="PDC Logo"
-          style="max-height: 120px; filter: drop-shadow(0 0 0.75rem rgba(255, 255, 255, 1));" />
+      <div class="col-lg-4 d-flex justify-content-lg-end justify-content-start">
+        <div class="pmc-hero-logo">
+          <img src="assets/images/logo/pdc.png" alt="Peshawar Dental College logo" />
+        </div>
       </div>
     </div>
   </div>
 </div>
 
+<!-- MAIN CONTENT -->
 <section class="pmc-section">
   <div class="container">
     <div class="row g-5">
-      <!-- Main content column -->
       <div class="col-lg-8">
-        <div class="page-content fu">
+        <div class="page-content">
 
-          <!-- Introduction -->
-          <h2 class="sec-title" style="font-size:1.8rem;">Introduction</h2>
-          <p style="font-family:var(--font-body);font-size:.95rem;color:var(--gray-dark);line-height:1.85;">
-            <strong>Peshawar Dental College</strong> is the dental college of the <strong>Department of Dental Sciences</strong> at Riphah International University – Peshawar Campus. Established in 2010, it is recognized by the Federal Ministry of Health, Pakistan Medical and Dental Council (PM&amp;DC), and HEC. The College is for female students only, with a clear objective of producing dentists who are professionally competent, excellent in ethical values and practice, cognizant of community health needs, research-minded, and well versed in information technology and contemporary health technologies.
-          </p>
-          <p style="font-family:var(--font-body);font-size:.95rem;color:var(--gray-dark);line-height:1.85;">
-            Alhamdulillah, Peshawar Dental College has completed almost twelve years of service, with more than 450 graduates qualifying from the institute. The College continues to serve students and the community of KP through academic, social, and research activities.
-          </p>
-          <p style="font-family:var(--font-body);font-size:.95rem;color:var(--gray-dark);line-height:1.85;">
-            The principal purpose of Peshawar Dental College is undergraduate education, while facilities are also provided for postgraduate students of university and CPSP programmes. The College conducts a four-year course of study leading to the award of the BDS degree. An integrated modular system was introduced from session 2019&ndash;2020.
-          </p>
-          <p style="font-family:var(--font-body);font-size:.95rem;color:var(--gray-dark);line-height:1.85;">
-            The BDS programme focuses on professional knowledge and skill development, with ethical values as a priority. Undergraduate Medical Research (UMR) is a regular component of the education programme. The College is supported by experienced faculty, well-equipped departments, library, and laboratories.
-          </p>
-          <h2 class="sec-title" style="font-size:1.8rem;" id="hospital">Peshawar Dental Hospital</h2>
-          <p style="font-family:var(--font-body);font-size:.95rem;color:var(--gray-dark);line-height:1.85;">
-            Peshawar Dental College has its own hospital — a tertiary care teaching hospital in Peshawar. The hospital provides outstanding patient care and uninterrupted training for undergraduate and postgraduate students of Riphah International University and CPSP. The Operation Theater runs regularly for oral and maxillofacial surgery. Preclinical skill development is provided at surgical skill laboratories and phantom laboratories; clinical skills are developed in small groups under faculty supervision.
-          </p>
-          <p style="font-family:var(--font-body);font-size:.95rem;color:var(--gray-dark);line-height:1.85;">
-            In addition to academic activities, co-curricular programmes support student development through seminars, workshops, oral health awareness visits to schools, free dental camps, Social Welfare Society activities, sports week, and literary week.
-          </p>
+          <!-- Intro — college scope (department overview lives on about.php) -->
+          <div class="about-intro fu">
+            <span class="sec-eyebrow">College Profile</span>
+            <h2 class="sec-title" style="font-size:1.75rem;">Peshawar Dental College</h2>
+            <p class="about-lead">
+              The undergraduate dental college of the <strong>Department of Dental Sciences</strong> — a <strong>female-only</strong> BDS programme with ethics-centred teaching and hospital-based clinical training.
+            </p>
+            <p>
+              Established in <strong>2010</strong> and recognized by the Federal Ministry of Health, <strong>PM&amp;DC</strong>, and <strong>HEC</strong>, PDC prepares dentists who are professionally competent, research-minded, and attentive to community oral health needs.
+            </p>
+            <p>
+              More than <strong>450 graduates</strong> have qualified from the College. The principal focus is undergraduate education, with facilities also supporting postgraduate learners of university and CPSP programmes. An integrated modular BDS system has been in place since session <strong>2019–2020</strong>, with Undergraduate Medical Research (UMR) as a regular component.
+            </p>
+            <p>
+              For department overview and campus location, see <a href="about.php"><strong>About DDS</strong></a>. Values are on <a href="vision-mission.php"><strong>Vision &amp; Mission</strong></a>.
+            </p>
+          </div>
 
-          <!-- Vision & Mission -->
-          <h2 class="sec-title" style="font-size:1.8rem; margin-top:40px;">Our Vision &amp; Mission</h2>
-          <div class="pmc-card mb-4"
-            style="border-left:4px solid var(--teal);border-radius:12px;background:var(--teal-pale);">
-            <div style="display:flex;gap:14px;align-items:flex-start;padding:4px 0;">
-              <i class="bi bi-eye-fill" style="font-size:1.6rem;color:var(--teal);flex-shrink:0;margin-top:4px;"></i>
+          <!-- Quick facts -->
+          <div class="about-facts fu fu-delay-1">
+            <div class="about-fact">
+              <i class="bi bi-patch-check-fill"></i>
               <div>
-                <h5 style="margin:0 0 8px;">Vision Statement</h5>
-                <p style="margin:0;">To produce dentists with clear objectives to help in long term development of the
-                  community through the following attributes;</p>
-                <ul style="margin-top:8px; margin-bottom:0;">
-                  <li>Professional competence</li>
-                  <li>Excellence in ethical values and practice</li>
-                  <li>Cognizance of community oral and dental health needs</li>
-                  <li>Research mindedness and lifelong learning</li>
-                  <li>Competence in IT and current oral and dental health technologies</li>
-                  <li>Capability to successfully meet the local and global oral and dental health challenges</li>
-                  <li>Competitiveness at national and global level</li>
-                </ul>
+                <strong>PM&amp;DC · HEC</strong>
+                <span>Recognised college</span>
               </div>
             </div>
-          </div>
-          <div class="pmc-card mb-4"
-            style="border-left:4px solid var(--gold);border-radius:12px;background:var(--gold-pale);">
-            <div style="display:flex;gap:14px;align-items:flex-start;padding:4px 0;">
-              <i class="bi bi-bullseye" style="font-size:1.6rem;color:var(--gold);flex-shrink:0;margin-top:4px;"></i>
+            <div class="about-fact">
+              <i class="bi bi-mortarboard-fill"></i>
               <div>
-                <h5 style="margin:0 0 8px;">Mission Statement</h5>
-                <p style="margin:0;font-weight:700;font-size:1.05rem;color:var(--navy);">To Achieve Excellence in
-                  professional competence and ethical values</p>
+                <strong>BDS Programme</strong>
+                <span>Four-year undergraduate</span>
               </div>
-              <div><img src="assets/images/about/mission.jpg" alt="Mission" style="width:120px; height:80px; object-fit:cover; border-radius:8px;" /></div>
             </div>
-          </div>
-          <div class="pmc-card"
-            style="border-left:4px solid var(--navy);border-radius:12px;background:var(--off-white);">
-            <div style="display:flex;gap:14px;align-items:flex-start;padding:4px 0;">
-              <i class="bi bi-quote" style="font-size:1.6rem;color:var(--navy);flex-shrink:0;margin-top:4px;"></i>
+            <div class="about-fact">
+              <i class="bi bi-gender-female"></i>
               <div>
-                <h5 style="margin:0 0 8px;">Our Slogan</h5>
-                <p style="margin:0;font-style:italic;font-size:1.05rem;color:var(--navy);">“Come with commitment, grow
-                  with wisdom and leave with professional and ethical competence for a bright future”.</p>
-                <p style="margin-top:8px;">We believe in creating your tomorrow today.</p>
+                <strong>Female Students</strong>
+                <span>Dedicated college intake</span>
+              </div>
+            </div>
+            <div class="about-fact">
+              <i class="bi bi-people-fill"></i>
+              <div>
+                <strong>450+ Graduates</strong>
+                <span>Serving KP &amp; beyond</span>
               </div>
             </div>
           </div>
 
-          <!-- Gallery -->
-          <h2 class="sec-title" style="font-size:1.8rem; margin-top:40px;">Gallery</h2>
-          <div class="row g-3">
-            <div class="col-6 col-md-4">
-              <a href="assets/images/campus/pdc12.jpeg" data-bs-toggle="lightbox" data-bs-gallery="pdc-gallery">
-                <img src="assets/images/campus/pdc12.jpeg" class="img-fluid rounded-3 shadow-sm" alt="PDC Campus"
-                  style="height:200px; object-fit:cover; width:100%;">
+          <!-- Programme highlights -->
+          <div class="about-block fu" id="programme">
+            <div class="about-block-head">
+              <h3>BDS Programme Highlights</h3>
+              <p>What shapes teaching and learning at Peshawar Dental College.</p>
+            </div>
+            <div class="about-attr-grid">
+              <div class="about-attr"><i class="bi bi-check2-circle"></i><span>Four-year BDS with integrated modular system (from 2019–20)</span></div>
+              <div class="about-attr"><i class="bi bi-check2-circle"></i><span>Professional knowledge with ethical values as a priority</span></div>
+              <div class="about-attr"><i class="bi bi-check2-circle"></i><span>UMR as a regular part of undergraduate education</span></div>
+              <div class="about-attr"><i class="bi bi-check2-circle"></i><span>Experienced faculty and well-equipped departments</span></div>
+              <div class="about-attr"><i class="bi bi-check2-circle"></i><span>Library, laboratories, and skill-lab support</span></div>
+              <div class="about-attr"><i class="bi bi-check2-circle"></i><span>Co-curricular: camps, seminars, sports &amp; literary week</span></div>
+            </div>
+          </div>
+
+          <!-- Dental hospital -->
+          <div class="about-block fu" id="hospital">
+            <div class="about-block-head">
+              <h3>Peshawar Dental Hospital</h3>
+              <p>On-campus tertiary care teaching hospital for patient care and student training.</p>
+            </div>
+            <p>
+              The hospital provides continuous clinical exposure for undergraduate and postgraduate students of Riphah International University and CPSP. The Operation Theater runs regularly for oral and maxillofacial surgery. Preclinical skill development takes place in surgical skill and phantom laboratories; clinical skills are developed in small groups under faculty supervision.
+            </p>
+            <div class="pmc-hosp-grid mt-3">
+              <div class="pmc-hosp-card" style="cursor:default;">
+                <i class="bi bi-hospital"></i>
+                <strong>Tertiary Dental Care</strong>
+                <span>Patient care &amp; teaching hospital</span>
+              </div>
+              <div class="pmc-hosp-card" style="cursor:default;">
+                <i class="bi bi-scissors"></i>
+                <strong>Oral &amp; Maxillofacial OT</strong>
+                <span>Regular operative lists</span>
+              </div>
+              <div class="pmc-hosp-card" style="cursor:default;">
+                <i class="bi bi-clipboard2-pulse"></i>
+                <strong>Skill Laboratories</strong>
+                <span>Phantom &amp; surgical skills labs</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Clinical training sites -->
+          <div class="about-block fu" id="clinical">
+            <div class="about-block-head">
+              <h3>Clinical Training Sites</h3>
+              <p>Dental hospital training plus rotations at affiliated teaching hospitals.</p>
+            </div>
+            <div class="pmc-hosp-grid">
+              <a class="pmc-hosp-card" href="pdc.php#hospital">
+                <i class="bi bi-hospital"></i>
+                <strong>Peshawar Dental Hospital</strong>
+                <span>Primary dental teaching hospital</span>
+              </a>
+              <a class="pmc-hosp-card" href="https://mth.prime.edu.pk/" target="_blank" rel="noopener">
+                <i class="bi bi-heart-pulse"></i>
+                <strong>Mercy Teaching Hospital</strong>
+                <span>Affiliated clinical rotations</span>
+              </a>
+              <a class="pmc-hosp-card" href="https://pth.prime.edu.pk/" target="_blank" rel="noopener">
+                <i class="bi bi-building"></i>
+                <strong>Prime Teaching Hospital</strong>
+                <span>Adjacent affiliated site</span>
               </a>
             </div>
-            <div class="col-6 col-md-4">
-              <a href="assets/images/campus/pdc.jpeg" data-bs-toggle="lightbox" data-bs-gallery="pdc-gallery">
-                <img src="assets/images/campus/pdc.jpeg" class="img-fluid rounded-3 shadow-sm" alt="PDC Campus"
-                  style="height:200px; object-fit:cover; width:100%;">
-              </a>
+          </div>
+
+          <!-- Campus gallery -->
+          <div class="about-block fu" id="gallery">
+            <div class="about-block-head">
+              <h3>Campus Gallery</h3>
+              <p>A glimpse of PDC buildings and grounds on Warsak Road.</p>
             </div>
-            <div class="col-6 col-md-4">
-              <a href="assets/images/campus/pdc1.jpeg" data-bs-toggle="lightbox" data-bs-gallery="pdc-gallery">
-                <img src="assets/images/campus/pdc1.jpeg" class="img-fluid rounded-3 shadow-sm" alt="PDC Campus"
-                  style="height:200px; object-fit:cover; width:100%;">
-              </a>
+            <div class="pmc-gallery-grid">
+              <?php
+              $pdc_gallery = [
+                ['src' => 'assets/images/campus/pdc12.jpeg', 'alt' => 'PDC campus exterior'],
+                ['src' => 'assets/images/campus/pdc.jpeg',  'alt' => 'Peshawar Dental College'],
+                ['src' => 'assets/images/campus/pdc1.jpeg', 'alt' => 'PDC campus view'],
+                ['src' => 'assets/images/campus/pdc5.jpeg', 'alt' => 'PDC academic block'],
+                ['src' => 'assets/images/campus/pdc7.jpeg', 'alt' => 'PDC campus grounds'],
+                ['src' => 'assets/images/campus/pdc10.jpeg','alt' => 'PDC facilities'],
+              ];
+              foreach ($pdc_gallery as $i => $img):
+              ?>
+              <button type="button"
+                      class="pmc-gallery-item<?= $i === 0 ? ' pmc-gallery-item--wide' : '' ?>"
+                      data-img="<?= htmlspecialchars($img['src']) ?>"
+                      data-title="<?= htmlspecialchars($img['alt']) ?>"
+                      onclick="openPmcLightbox(this)"
+                      aria-label="Open <?= htmlspecialchars($img['alt']) ?>">
+                <img src="<?= htmlspecialchars($img['src']) ?>"
+                     alt="<?= htmlspecialchars($img['alt']) ?>"
+                     loading="lazy" decoding="async" />
+                <span class="pmc-gallery-zoom"><i class="bi bi-zoom-in"></i></span>
+              </button>
+              <?php endforeach; ?>
             </div>
-            <div class="col-6 col-md-4">
-              <a href="assets/images/campus/pdc5.jpeg" data-bs-toggle="lightbox" data-bs-gallery="pdc-gallery">
-                <img src="assets/images/campus/pdc5.jpeg" class="img-fluid rounded-3 shadow-sm" alt="PDC Campus"
-                  style="height:200px; object-fit:cover; width:100%;">
-              </a>
-            </div>
-            <div class="col-6 col-md-4">
-              <a href="assets/images/campus/pdc7.jpeg" data-bs-toggle="lightbox" data-bs-gallery="pdc-gallery">
-                <img src="assets/images/campus/pdc7.jpeg" class="img-fluid rounded-3 shadow-sm" alt="PDC Campus"
-                  style="height:200px; object-fit:cover; width:100%;">
-              </a>
-            </div>
-            <div class="col-6 col-md-4">
-              <a href="assets/images/campus/pdc10.jpeg" data-bs-toggle="lightbox" data-bs-gallery="pdc-gallery">
-                <img src="assets/images/campus/pdc10.jpeg" class="img-fluid rounded-3 shadow-sm" alt="PDC Campus"
-                  style="height:200px; object-fit:cover; width:100%;">
-              </a>
+            <div class="about-cta-row">
+              <a href="gallery.php" class="btn-pmc btn-pmc-primary"><i class="bi bi-images"></i> Full Photo Gallery</a>
+              <a href="admissions.php" class="btn-pmc btn-pmc-outline"><i class="bi bi-mortarboard"></i> Admissions</a>
+              <a href="faculty.php" class="btn-pmc btn-pmc-outline"><i class="bi bi-people"></i> Faculty</a>
             </div>
           </div>
 
         </div>
       </div>
-
-      <!-- Sidebar -->
       <?php include('includes/sidebar.php'); ?>
     </div>
   </div>
 </section>
 
-<?php include('includes/footer.php'); ?>
+<!-- Lightweight lightbox -->
+<div class="pmc-lightbox" id="pmcPageLightbox" onclick="closePmcLightboxBackdrop(event)">
+  <button type="button" class="lb-close" onclick="closePmcLightbox()" aria-label="Close"><i class="bi bi-x-lg"></i></button>
+  <button type="button" class="lb-prev" onclick="pmcLbNav(-1)" aria-label="Previous"><i class="bi bi-chevron-left"></i></button>
+  <button type="button" class="lb-next" onclick="pmcLbNav(1)" aria-label="Next"><i class="bi bi-chevron-right"></i></button>
+  <div class="lb-inner">
+    <div id="pmcLbImgWrap"></div>
+    <div class="lb-caption" id="pmcLbCaption"></div>
+    <div class="lb-counter" id="pmcLbCounter"></div>
+  </div>
+</div>
 
-<!-- Lightbox script (optional) -->
-<script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+<script>
+let pmcLbItems = [];
+let pmcLbCurrent = 0;
+
+function openPmcLightbox(el) {
+  pmcLbItems = [...document.querySelectorAll('.pmc-gallery-item[data-img]')];
+  pmcLbCurrent = Math.max(0, pmcLbItems.indexOf(el));
+  renderPmcLightbox();
+  document.getElementById('pmcPageLightbox').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closePmcLightbox() {
+  document.getElementById('pmcPageLightbox').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+function closePmcLightboxBackdrop(e) {
+  if (e.target === document.getElementById('pmcPageLightbox')) closePmcLightbox();
+}
+
+function pmcLbNav(dir) {
+  if (!pmcLbItems.length) return;
+  pmcLbCurrent = (pmcLbCurrent + dir + pmcLbItems.length) % pmcLbItems.length;
+  renderPmcLightbox();
+}
+
+function renderPmcLightbox() {
+  const el = pmcLbItems[pmcLbCurrent];
+  if (!el) return;
+  const img = el.dataset.img || '';
+  const title = el.dataset.title || '';
+  document.getElementById('pmcLbImgWrap').innerHTML =
+    `<img src="${img}" class="lb-img" alt="${title}" />`;
+  document.getElementById('pmcLbCaption').textContent = title;
+  document.getElementById('pmcLbCounter').textContent = `${pmcLbCurrent + 1} / ${pmcLbItems.length}`;
+}
+
+document.addEventListener('keydown', (e) => {
+  const box = document.getElementById('pmcPageLightbox');
+  if (!box || !box.classList.contains('open')) return;
+  if (e.key === 'Escape') closePmcLightbox();
+  if (e.key === 'ArrowLeft') pmcLbNav(-1);
+  if (e.key === 'ArrowRight') pmcLbNav(1);
+});
+</script>
+
+<?php include('includes/footer.php'); ?>

@@ -34,6 +34,10 @@ $page_description = $page_description ?? 'Department of Dental Sciences, Riphah 
   <meta property="og:image" content="<?= htmlspecialchars(base_url) ?>assets/images/logo/favicon-logo.jpg">
   <meta property="og:url" content="<?= htmlspecialchars(base_url) ?>">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
   <link href="<?= dds_asset('assets/css/pmc-global.css') ?>" rel="stylesheet" />
@@ -75,9 +79,9 @@ $page_description = $page_description ?? 'Department of Dental Sciences, Riphah 
           <img src="assets/images/logo/riphah-psh.png"
             alt="Department of Dental Sciences (DDS) — Riphah Peshawar Campus" width="200px;" />
         </div>
-        <div class="pmc-brand-text d-none d-xl-block" style="margin-left:10px;line-height:1.2;">
-          <div style="font-size:.72rem;font-weight:700;color:var(--navy);">Department of Dental Sciences</div>
-          <div style="font-size:.65rem;color:var(--teal);">Peshawar Dental College · Riphah Peshawar Campus</div>
+        <div class="pmc-brand-text d-none d-md-block" style="margin-left:10px;line-height:1.25;">
+          <div style="font-size:.88rem;font-weight:700;color:var(--navy);">Department of Dental Sciences</div>
+          <div style="font-size:.72rem;color:var(--teal);">Peshawar Dental College · Riphah Peshawar Campus</div>
         </div>
       </a>
 

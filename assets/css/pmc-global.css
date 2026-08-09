@@ -2,22 +2,20 @@
    RIPHAH PESHAWAR CAMPUS GLOBAL STYLESHEET
    (legacy filename: pmc-global.css — class aliases kept for compatibility)
    Fonts  : Montserrat (headings) · Quicksand (body)
-   Colors : Navy #0A1628 · Teal #00A896 · Gold #C9A84C
-   Version: 2.1 — Campus rebrand alignment 2026
+   Colors : Navy #0A1628 · Dark Orange #C2410C · Gold #C9A84C
+   Version: 2.2 — DDS dark-orange brand 2026
 ═══════════════════════════════════════════════════════════════ */
 
-/* ── GOOGLE FONTS ── */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
-
 /* ── DESIGN TOKENS ── */
+/* Fonts loaded via <link> in header.php (avoids render-blocking @import) */
 :root {
-  /* Brand */
+  /* Brand — accent vars keep --teal* names for class compatibility */
   --navy:        #0A1628;
   --navy-mid:    #122040;
   --navy-deep:   #060e1a;
-  --teal:        #00A896;
-  --teal-light:  #00c9b3;
-  --teal-pale:   #e6f9f7;
+  --teal:        #C2410C;
+  --teal-light:  #EA580C;
+  --teal-pale:   #FFF1E6;
   --gold:        #C9A84C;
   --gold-light:  #e0c068;
   --gold-pale:   #fdf6e3;
@@ -337,7 +335,7 @@ p, li, span, td, th, label, input, textarea, select, .font-body {
 .page-hero::before {
   content: '';
   position: absolute; inset: 0;
-  background-image: radial-gradient(circle at 80% 50%, rgba(0,168,150,.12) 0%, transparent 60%),
+  background-image: radial-gradient(circle at 80% 50%, rgba(194,65,12,.14) 0%, transparent 60%),
                     radial-gradient(circle at 20% 80%, rgba(201,168,76,.08) 0%, transparent 40%);
 }
 .page-hero-grid {
@@ -395,9 +393,9 @@ p, li, span, td, th, label, input, textarea, select, .font-body {
 .btn-pmc-primary {
   background: var(--teal);
   color: white;
-  box-shadow: 0 4px 18px rgba(0,168,150,.32);
+  box-shadow: 0 4px 18px rgba(194,65,12,.32);
 }
-.btn-pmc-primary:hover { background: var(--teal-light); color: white; box-shadow: 0 8px 28px rgba(0,168,150,.42); }
+.btn-pmc-primary:hover { background: var(--teal-light); color: white; box-shadow: 0 8px 28px rgba(194,65,12,.42); }
 .btn-pmc-navy {
   background: var(--navy);
   color: white;
@@ -560,7 +558,7 @@ p, li, span, td, th, label, input, textarea, select, .font-body {
 
 /* ── CTA BAND ── */
 .cta-band {
-  background: linear-gradient(120deg, var(--teal) 0%, #008f7e 100%);
+  background: linear-gradient(120deg, var(--teal) 0%, #9A3412 100%);
   padding: 70px 0;
 }
 .cta-band h2 {
