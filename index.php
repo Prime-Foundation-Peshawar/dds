@@ -491,4 +491,35 @@
 </section> -->
 
 <!-- ═══ FOOTER ═══ -->
+<section class="pmc-section recog-strip">
+  <div class="container">
+    <div class="text-center mb-5 fu">
+      <span class="sec-eyebrow">Recognitions &amp; Accreditations</span>
+      <h2 class="sec-title" style="color:white;">Recognized by Leading Institutions</h2>
+    </div>
+    <div class="recog-grid fu">
+      <div class="recog-cell">
+        <div class="recog-ico"><i class="bi bi-patch-check-fill"></i></div>
+        <div class="recog-name">Pakistan Medical &amp; Dental Council<br /><small style="opacity:.5;font-size:.62rem;">(PM&amp;DC)</small></div>
+      </div>
+      <div class="recog-cell">
+        <div class="recog-ico"><i class="bi bi-building-fill"></i></div>
+        <div class="recog-name">Riphah International University</div>
+      </div>
+      <div class="recog-cell">
+        <div class="recog-ico"><i class="bi bi-award-fill"></i></div>
+        <div class="recog-name">College of Physicians &amp; Surgeons Pakistan<br /><small style="opacity:.5;font-size:.62rem;">(CPSP)</small></div>
+      </div>
+      <div class="recog-cell">
+        <div class="recog-ico"><i class="bi bi-hospital-fill"></i></div>
+        <div class="recog-name">Ministry of Health<br /><small style="opacity:.5;font-size:.62rem;">Pakistan</small></div>
+      </div>
+      <div class="recog-cell" style="border-right:none;">
+        <div class="recog-ico"><i class="bi bi-globe-americas"></i></div>
+        <div class="recog-name">World Health Organization<br /><small style="opacity:.5;font-size:.62rem;">(WHO)</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <?php include('includes/footer.php'); ?>
