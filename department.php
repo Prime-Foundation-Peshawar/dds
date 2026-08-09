@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once __DIR__ . '/includes/departments-data.php';
 
 $slug = isset($_GET['slug']) ? strtolower(trim($_GET['slug'])) : '';

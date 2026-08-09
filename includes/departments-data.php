@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * Academic departments under DDS / PDC.
  * Faculty sourced from faculty.php; intros/activities can be refined by each department.
