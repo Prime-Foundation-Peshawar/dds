@@ -88,20 +88,64 @@ document.addEventListener('DOMContentLoaded', () => {
     counters.forEach(c => cObs.observe(c));
   }
 
-  /* ── 5. SMOOTH ANCHOR SCROLL ── */
-  document.querySelectorAll('a[href^="#"]').forEach(a => {
+  /* ── 5. SMOOTH ANCHOR SCROLL (hash + page.php#id menu links) ── */
+  function navOffset() {
+    const navEl = document.querySelector('.pmc-nav');
+    return (navEl ? navEl.offsetHeight : 0) + 16;
+  }
+
+  function scrollToHash(hash, smooth = true) {
+    if (!hash || hash === '#') return false;
+    let target = null;
+    try { target = document.querySelector(hash); } catch (_) { return false; }
+    if (!target) return false;
+    const top = target.getBoundingClientRect().top + window.scrollY - navOffset();
+    window.scrollTo({ top: Math.max(0, top), behavior: smooth ? 'smooth' : 'auto' });
+    return true;
+  }
+
+  function closeMenus() {
+    document.querySelectorAll('.mega-menu, .dropdown-menu.plain-dd').forEach(m => { m.style.display = ''; });
+    const collapse = document.getElementById('navMain');
+    if (collapse && collapse.classList.contains('show') && window.bootstrap?.Collapse) {
+      bootstrap.Collapse.getOrCreateInstance(collapse).hide();
+    }
+  }
+
+  document.querySelectorAll('a[href*="#"]').forEach(a => {
     a.addEventListener('click', e => {
       const href = a.getAttribute('href');
-      if (href === '#') return;
-      const target = document.querySelector(href);
-      if (target) {
-        e.preventDefault();
-        const navH = document.querySelector('.pmc-nav')?.offsetHeight || 0;
-        const top = target.getBoundingClientRect().top + window.scrollY - navH - 16;
-        window.scrollTo({ top, behavior: 'smooth' });
-      }
+      if (!href || href === '#') return;
+
+      const url = new URL(href, window.location.href);
+      const hash = url.hash;
+      if (!hash || hash === '#') return;
+
+      // Same-page hash (e.g. #eligibility or admissions.php#eligibility)
+      const samePage =
+        url.pathname.replace(/\/+$/, '') === window.location.pathname.replace(/\/+$/, '') ||
+        url.pathname.endsWith(window.location.pathname.split('/').pop());
+
+      if (!samePage) return; // let browser navigate to other page + hash
+
+      const target = document.querySelector(hash);
+      if (!target) return;
+
+      e.preventDefault();
+      closeMenus();
+      history.pushState(null, '', hash);
+      scrollToHash(hash, true);
     });
   });
+
+  // Landing on page with hash (from Admissions mega menu)
+  if (window.location.hash) {
+    const hash = window.location.hash;
+    // Defer until layout/sticky nav height is ready
+    requestAnimationFrame(() => {
+      setTimeout(() => scrollToHash(hash, false), 50);
+    });
+  }
 
   /* ── 6. BACK TO TOP ── */
   const btt = document.getElementById('backToTop');
@@ -124,7 +168,6 @@ function initSlider() {
 
   const slides = slider.querySelectorAll('.hero-slide');
   const dots   = slider.querySelectorAll('.slider-dot');
-  const prog   = slider.querySelector('.slide-progress');
   const prevBtn = slider.querySelector('.slider-prev');
   const nextBtn = slider.querySelector('.slider-next');
 
@@ -134,17 +177,53 @@ function initSlider() {
   let autoTimer = null;
   const INTERVAL = 6000;
 
+  const lazyBgs = slider.querySelectorAll('.hero-slide[data-lazy-bg]');
+  let lazyBgLoaded = false;
+  function loadLazyBgs() {
+    if (lazyBgLoaded) return;
+    lazyBgLoaded = true;
+    lazyBgs.forEach(slide => {
+      const media = slide.querySelector('.slide-media') || slide;
+      media.classList.add('bg-ready');
+      slide.removeAttribute('data-lazy-bg');
+    });
+  }
+  if (lazyBgs.length) {
+    if ('requestIdleCallback' in window) {
+      requestIdleCallback(loadLazyBgs, { timeout: 2500 });
+    } else {
+      setTimeout(loadLazyBgs, 1200);
+    }
+  }
+
+  function restartDotProgress(activeDot) {
+    if (!activeDot) return;
+    const bar = activeDot.querySelector('.slider-dot-bar');
+    if (!bar) return;
+    bar.style.animation = 'none';
+    void bar.offsetWidth;
+    bar.style.animation = `slideProgress ${INTERVAL}ms linear forwards`;
+  }
+
   function goTo(n) {
+    if (n !== current) loadLazyBgs();
     slides[current].classList.remove('active');
-    if (dots[current]) dots[current].classList.remove('active');
+    if (dots[current]) {
+      dots[current].classList.remove('active');
+      dots[current].setAttribute('aria-selected', 'false');
+      const prevBar = dots[current].querySelector('.slider-dot-bar');
+      if (prevBar) {
+        prevBar.style.animation = 'none';
+        prevBar.style.width = '0';
+      }
+    }
     current = ((n % slides.length) + slides.length) % slides.length;
+    void slides[current].offsetWidth;
     slides[current].classList.add('active');
-    if (dots[current]) dots[current].classList.add('active');
-    // restart progress bar
-    if (prog) {
-      prog.style.animation = 'none';
-      void prog.offsetWidth; // reflow
-      prog.style.animation = `slideProgress ${INTERVAL}ms linear forwards`;
+    if (dots[current]) {
+      dots[current].classList.add('active');
+      dots[current].setAttribute('aria-selected', 'true');
+      restartDotProgress(dots[current]);
     }
   }
 
@@ -156,11 +235,9 @@ function initSlider() {
     if (autoTimer) clearInterval(autoTimer);
   }
 
-  // Init first slide
   goTo(0);
   startAuto();
 
-  // Controls
   if (nextBtn) nextBtn.addEventListener('click', () => { goTo(current + 1); startAuto(); });
   if (prevBtn) prevBtn.addEventListener('click', () => { goTo(current - 1); startAuto(); });
 
@@ -168,7 +245,6 @@ function initSlider() {
     dot.addEventListener('click', () => { goTo(i); startAuto(); });
   });
 
-  // Touch/swipe support
   let touchStartX = 0;
   slider.addEventListener('touchstart', e => { touchStartX = e.touches[0].clientX; }, { passive: true });
   slider.addEventListener('touchend', e => {
@@ -176,7 +252,6 @@ function initSlider() {
     if (Math.abs(diff) > 50) { diff > 0 ? goTo(current + 1) : goTo(current - 1); startAuto(); }
   });
 
-  // Pause on hover
   slider.addEventListener('mouseenter', stopAuto);
   slider.addEventListener('mouseleave', startAuto);
 }
