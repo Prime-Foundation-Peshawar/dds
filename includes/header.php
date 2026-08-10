@@ -44,7 +44,11 @@ $page_description = $page_description ?? 'Department of Dental Sciences, Riphah 
   <link href="<?= dds_asset('assets/css/style.css') ?>" rel="stylesheet" />
   <?php if (!empty($preload_images) && is_array($preload_images)): ?>
     <?php foreach ($preload_images as $preload_href): ?>
-  <link rel="preload" as="image" href="<?= htmlspecialchars($preload_href) ?>" type="image/webp" fetchpriority="high" />
+      <?php
+        $preload_ext = strtolower(pathinfo($preload_href, PATHINFO_EXTENSION));
+        $preload_type = $preload_ext === 'webp' ? 'image/webp' : ($preload_ext === 'png' ? 'image/png' : 'image/jpeg');
+      ?>
+  <link rel="preload" as="image" href="<?= htmlspecialchars($preload_href) ?>" type="<?= $preload_type ?>" fetchpriority="high" />
     <?php endforeach; ?>
   <?php endif; ?>
 </head>

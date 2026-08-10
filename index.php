@@ -1,152 +1,58 @@
-<?php include('includes/header.php'); ?>
+<?php
+$preload_images = ['assets/images/pdc-building/pdc9.jpeg'];
+include('includes/header.php');
+?>
 
 <!-- ═══ HERO SLIDER ═══ -->
-<div id="heroSlider">
+<div id="heroSlider" aria-roledescription="carousel" aria-label="Department of Dental Sciences highlights">
 
-  <!-- SLIDE 3 — Education & Research -->
-  <div class="hero-slide active slide-bg-3">
+  <!-- SLIDE 1 — BDS / Peshawar Dental College -->
+  <div class="hero-slide active" role="group" aria-roledescription="slide" aria-label="1 of 2">
+    <div class="slide-media slide-bg-3"></div>
     <div class="slide-overlay"></div>
-    <div class="slide-grid"></div>
-    <div class="slide-circle-1"></div>
-    <div class="slide-circle-2"></div>
     <div class="container slide-inner">
-      <div class="row align-items-center g-5">
-        <div class="col-lg-6">
-          <div class="slide-eyebrow"><i class="bi bi-emoji-smile-fill"></i> Department of Dental Sciences</div>
-          <h1 class="slide-title">Educating<br /><span class="hl-teal">Ethical</span><br />Dental Professionals</h1>
-          <p class="slide-body">Peshawar Dental College — BDS education with clinical training, research, and ethical practice at Riphah International University – Peshawar Campus.</p>
-          <div class="slide-actions">
-            <a href="Dental-education.php" class="btn-pmc btn-pmc-primary"><i class="bi bi-book-fill"></i> Dental
-              Education</a>
-            <a href="faculty-research.php" class="btn-pmc btn-pmc-outline-white"><i class="bi bi-file-earmark-text"></i>
-              Faculty Research</a>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="slide-card">
-            <div class="sc-title"><i class="bi bi-lightbulb-fill"></i> Academic Highlights</div>
-            <div class="sc-row">
-              <div class="sc-icon"><i class="bi bi-book"></i></div>
-              <div>
-                <div class="sc-lbl">Curriculum</div>
-                <div class="sc-val">Outcome-based, PM&DC aligned curriculum</div>
-              </div>
-            </div>
-            <div class="sc-row">
-              <div class="sc-icon"><i class="bi bi-activity"></i></div>
-              <div>
-                <div class="sc-lbl">Clinical Skill Labs</div>
-                <div class="sc-val">Simulation-based hands-on training facilities</div>
-              </div>
-            </div>
-            <div class="sc-row">
-              <div class="sc-icon"><i class="bi bi-search"></i></div>
-              <div>
-                <div class="sc-lbl">Research</div>
-                <div class="sc-val">UMR Society — students publish & present papers</div>
-              </div>
-            </div>
-            <div class="sc-row">
-              <div class="sc-icon"><i class="bi bi-airplane"></i></div>
-              <div>
-                <div class="sc-lbl">Exchange Programs</div>
-                <div class="sc-val">International electives & student exchange</div>
-              </div>
-            </div>
-          </div>
+      <div class="slide-content">
+        <p class="slide-brand">Department of Dental Sciences</p>
+        <h1 class="slide-title">Your <span class="hl-teal">BDS</span> Journey Starts Here</h1>
+        <p class="slide-body">Peshawar Dental College offers PM&amp;DC-aligned BDS education — rigorous preclinical science, early clinical exposure, and mentors who teach dentistry with integrity.</p>
+        <p class="slide-body slide-body-sub">Study at Riphah International University – Peshawar Campus and build the competence to serve communities across KP and beyond.</p>
+        <div class="slide-actions">
+          <a href="admissions.php" class="btn-pmc btn-pmc-primary"><i class="bi bi-mortarboard"></i> Admissions 2025–26</a>
+          <a href="pdc.php" class="btn-pmc btn-pmc-outline-white">About PDC</a>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- SLIDE 4 — Campus Life -->
-  <div class="hero-slide slide-bg-4">
+  <!-- SLIDE 2 — Clinical training & campus -->
+  <div class="hero-slide" role="group" aria-roledescription="slide" aria-label="2 of 2" data-lazy-bg>
+    <div class="slide-media slide-bg-4"></div>
     <div class="slide-overlay"></div>
-    <div class="slide-grid"></div>
-    <div class="slide-circle-1"></div>
-    <div class="slide-circle-2"></div>
     <div class="container slide-inner">
-      <div class="row align-items-center g-5">
+      <div class="row align-items-center g-4 g-xl-5">
         <div class="col-lg-6">
-          <div class="slide-eyebrow"><i class="bi bi-buildings-fill"></i> Campus Life · Peshawar</div>
-          <h1 class="slide-title">A Vibrant<br /><span class="hl">25-Kanal</span><br />Campus</h1>
-          <p class="slide-body">Situated on Warsak Road with lush green surroundings, Department of Dental Sciences
-            offers a full campus
-            experience — library, hostel, masjid, cafeteria, gym, sports, day care, counseling, first aid, and much
-            more.</p>
-          <div class="slide-actions">
-            <a href="about.php#campus" class="btn-pmc btn-pmc-gold"><i class="bi bi-images"></i> Explore Campus</a>
-            <a href="contact.php" class="btn-pmc btn-pmc-outline-white"><i class="bi bi-map"></i> Get Directions</a>
+          <div class="slide-content">
+            <p class="slide-brand">Clinical Training</p>
+            <h1 class="slide-title">Learn Where <span class="hl">Care</span> Happens</h1>
+            <p class="slide-body">From skill labs to specialty clinics — train at Peshawar Dental Hospital and affiliated teaching hospitals with real patients, supervised practice, and research-minded mentors.</p>
+            <div class="slide-actions">
+              <a href="departments.php" class="btn-pmc btn-pmc-primary">Academic Departments</a>
+              <a href="pdc.php#hospital" class="btn-pmc btn-pmc-outline-white"><i class="bi bi-hospital"></i> Teaching Hospitals</a>
+            </div>
           </div>
         </div>
-        <div class="col-lg-6">
-          <div class="slide-card">
-            <div class="sc-title"><i class="bi bi-building-fill"></i> Campus Facilities</div>
-            <div class="row g-2">
-              <div class="col-6">
-                <div class="sc-row">
-                  <div class="sc-icon"><i class="bi bi-book-half"></i></div>
-                  <div>
-                    <div class="sc-val">Library & LRC</div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-6">
-                <div class="sc-row">
-                  <div class="sc-icon"><i class="bi bi-house-heart"></i></div>
-                  <div>
-                    <div class="sc-val">Girls Hostel</div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-6">
-                <div class="sc-row">
-                  <div class="sc-icon"><i class="bi bi-trophy"></i></div>
-                  <div>
-                    <div class="sc-val">Sports & Gym</div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-6">
-                <div class="sc-row">
-                  <div class="sc-icon"><i class="bi bi-moon-stars"></i></div>
-                  <div>
-                    <div class="sc-val">Masjid</div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-6">
-                <div class="sc-row">
-                  <div class="sc-icon"><i class="bi bi-cup-hot"></i></div>
-                  <div>
-                    <div class="sc-val">Cafeteria</div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-6">
-                <div class="sc-row">
-                  <div class="sc-icon"><i class="bi bi-bus-front"></i></div>
-                  <div>
-                    <div class="sc-val">Transportation</div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-6">
-                <div class="sc-row">
-                  <div class="sc-icon"><i class="bi bi-balloon-heart"></i></div>
-                  <div>
-                    <div class="sc-val">Day Care Center</div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-6">
-                <div class="sc-row">
-                  <div class="sc-icon"><i class="bi bi-heart-pulse"></i></div>
-                  <div>
-                    <div class="sc-val">Counseling & Aid</div>
-                  </div>
-                </div>
-              </div>
+        <div class="col-lg-6 d-none d-lg-block">
+          <div class="slide-facilities" aria-label="Clinical training strengths">
+            <div class="sf-title">Where You Train</div>
+            <div class="sf-grid">
+              <div class="sf-item"><i class="bi bi-hospital"></i><span>Peshawar Dental Hospital</span></div>
+              <div class="sf-item"><i class="bi bi-heart-pulse"></i><span>Mercy Teaching Hospital</span></div>
+              <div class="sf-item"><i class="bi bi-building"></i><span>Prime Teaching Hospital</span></div>
+              <div class="sf-item"><i class="bi bi-diagram-3"></i><span>Academic Departments</span></div>
+              <div class="sf-item"><i class="bi bi-activity"></i><span>Clinical Skill Labs</span></div>
+              <div class="sf-item"><i class="bi bi-people"></i><span>Expert Faculty</span></div>
+              <div class="sf-item"><i class="bi bi-search"></i><span>Research Culture</span></div>
+              <div class="sf-item"><i class="bi bi-airplane"></i><span>Student Exchange</span></div>
             </div>
           </div>
         </div>
@@ -155,15 +61,20 @@
   </div>
 
   <!-- Controls -->
-  <button class="slider-prev" aria-label="Previous"><i class="bi bi-chevron-left"></i></button>
-  <button class="slider-next" aria-label="Next"><i class="bi bi-chevron-right"></i></button>
-  <div class="slider-dots">
-    <button class="slider-dot active" data-slide="0"></button>
-    <button class="slider-dot" data-slide="1"></button>
-    <!--<button class="slider-dot" data-slide="2"></button>-->
-    <!--<button class="slider-dot" data-slide="3"></button>-->
+  <div class="slider-chrome">
+    <button class="slider-prev" type="button" aria-label="Previous slide"><i class="bi bi-chevron-left"></i></button>
+    <div class="slider-indicators" role="tablist" aria-label="Slides">
+      <button class="slider-dot active" type="button" data-slide="0" role="tab" aria-label="Peshawar Dental College" aria-selected="true">
+        <span class="slider-dot-track"><span class="slider-dot-bar"></span></span>
+        <span class="slider-dot-label">BDS</span>
+      </button>
+      <button class="slider-dot" type="button" data-slide="1" role="tab" aria-label="Clinical Training" aria-selected="false">
+        <span class="slider-dot-track"><span class="slider-dot-bar"></span></span>
+        <span class="slider-dot-label">Clinical</span>
+      </button>
+    </div>
+    <button class="slider-next" type="button" aria-label="Next slide"><i class="bi bi-chevron-right"></i></button>
   </div>
-  <div class="slide-progress"></div>
 </div>
 
 <!-- ═══ STATS BAR ═══ -->
