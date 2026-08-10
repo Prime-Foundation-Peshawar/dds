@@ -129,7 +129,7 @@ include('includes/header.php');
           <div class="mt-3 mb-4">
               <span class="pmc-tag prog-tag">Coming Soon</span>
               </div>
-          <a href="pg-coming-soon.php" class="btn-pmc btn-pmc-outline"
+          <a href="#" class="btn-pmc btn-pmc-outline"
             style="font-size:.8rem;padding:9px 18px;">Details <i class="bi bi-arrow-right"></i></a>
         </div>
       </div>
