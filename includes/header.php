@@ -75,13 +75,13 @@ $page_description = $page_description ?? 'Department of Dental Sciences, Riphah 
   <nav class="pmc-nav navbar navbar-expand-lg" id="mainNav">
     <div class="container">
       <a class="pmc-brand" href="index.php">
-        <div class="pmc-brand-logo">
+        <div class="">
           <img src="assets/images/logo/riphah-psh.png"
-            alt="Department of Dental Sciences (DDS) — Riphah Peshawar Campus" width="168" height="auto" />
+            alt="Department of Dental Sciences (DDS) — Riphah Peshawar Campus" width="200px;" />
         </div>
-        <div class="pmc-brand-text d-none d-xl-block">
-          <div class="pmc-brand-name">Department of Dental Sciences</div>
-          <div class="pmc-brand-sub">Peshawar Dental College · Riphah Peshawar Campus</div>
+        <div class="pmc-brand-text d-none d-md-block" style="margin-left:10px;line-height:1.25;">
+          <div style="font-size:.88rem;font-weight:700;color:var(--navy);">Department of Dental Sciences</div>
+          <div style="font-size:.72rem;color:var(--teal);">Peshawar Dental College · Riphah Peshawar Campus</div>
         </div>
       </a>
 

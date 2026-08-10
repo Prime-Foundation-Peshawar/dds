@@ -137,39 +137,9 @@ p, li, span, td, th, label, input, textarea, select, .font-body {
 .pmc-brand {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 13px;
   padding: 12px 0;
   text-decoration: none;
-  min-width: 0;
-  max-width: min(100%, 520px);
-}
-.pmc-brand-logo {
-  flex-shrink: 0;
-}
-.pmc-brand-logo img {
-  width: 168px;
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-.pmc-brand-text {
-  min-width: 0;
-  line-height: 1.25;
-}
-.pmc-brand-name {
-  font-family: var(--font-head);
-  font-size: .84rem;
-  font-weight: 700;
-  color: var(--navy);
-  white-space: nowrap;
-}
-.pmc-brand-sub {
-  font-family: var(--font-body);
-  font-size: .68rem;
-  font-weight: 600;
-  color: var(--teal);
-  margin-top: 2px;
-  white-space: nowrap;
 }
 .pmc-brand-icon {
   width: 50px; height: 50px; flex-shrink: 0;

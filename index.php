@@ -13,16 +13,16 @@
       <div class="row align-items-center g-5">
         <div class="col-lg-6">
           <div class="slide-eyebrow"><i class="bi bi-emoji-smile-fill"></i> Department of Dental Sciences</div>
-          <h1 class="slide-title">Educating <span class="hl-teal">Ethical</span> Dental Professionals</h1>
+          <h1 class="slide-title">Educating<br /><span class="hl-teal">Ethical</span><br />Dental Professionals</h1>
           <p class="slide-body">Peshawar Dental College — BDS education with clinical training, research, and ethical practice at Riphah International University – Peshawar Campus.</p>
           <div class="slide-actions">
-            <a href="dental-education.php" class="btn-pmc btn-pmc-primary"><i class="bi bi-book-fill"></i> Dental
+            <a href="Dental-education.php" class="btn-pmc btn-pmc-primary"><i class="bi bi-book-fill"></i> Dental
               Education</a>
             <a href="faculty-research.php" class="btn-pmc btn-pmc-outline-white"><i class="bi bi-file-earmark-text"></i>
               Faculty Research</a>
           </div>
         </div>
-        <div class="col-lg-6 d-none d-lg-block">
+        <div class="col-lg-6">
           <div class="slide-card">
             <div class="sc-title"><i class="bi bi-lightbulb-fill"></i> Academic Highlights</div>
             <div class="sc-row">
@@ -69,7 +69,7 @@
       <div class="row align-items-center g-5">
         <div class="col-lg-6">
           <div class="slide-eyebrow"><i class="bi bi-buildings-fill"></i> Campus Life · Peshawar</div>
-          <h1 class="slide-title">A Vibrant <span class="hl">25-Kanal</span> Campus</h1>
+          <h1 class="slide-title">A Vibrant<br /><span class="hl">25-Kanal</span><br />Campus</h1>
           <p class="slide-body">Situated on Warsak Road with lush green surroundings, Department of Dental Sciences
             offers a full campus
             experience — library, hostel, masjid, cafeteria, gym, sports, day care, counseling, first aid, and much
@@ -79,7 +79,7 @@
             <a href="contact.php" class="btn-pmc btn-pmc-outline-white"><i class="bi bi-map"></i> Get Directions</a>
           </div>
         </div>
-        <div class="col-lg-6 d-none d-lg-block">
+        <div class="col-lg-6">
           <div class="slide-card">
             <div class="sc-title"><i class="bi bi-building-fill"></i> Campus Facilities</div>
             <div class="row g-2">
@@ -154,14 +154,14 @@
     </div>
   </div>
 
-  <!-- Controls — bottom chrome so arrows never cover headline -->
-  <div class="slider-chrome">
-    <button class="slider-prev" type="button" aria-label="Previous"><i class="bi bi-chevron-left"></i></button>
-    <div class="slider-dots">
-      <button class="slider-dot active" type="button" data-slide="0" aria-label="Slide 1"></button>
-      <button class="slider-dot" type="button" data-slide="1" aria-label="Slide 2"></button>
-    </div>
-    <button class="slider-next" type="button" aria-label="Next"><i class="bi bi-chevron-right"></i></button>
+  <!-- Controls -->
+  <button class="slider-prev" aria-label="Previous"><i class="bi bi-chevron-left"></i></button>
+  <button class="slider-next" aria-label="Next"><i class="bi bi-chevron-right"></i></button>
+  <div class="slider-dots">
+    <button class="slider-dot active" data-slide="0"></button>
+    <button class="slider-dot" data-slide="1"></button>
+    <!--<button class="slider-dot" data-slide="2"></button>-->
+    <!--<button class="slider-dot" data-slide="3"></button>-->
   </div>
   <div class="slide-progress"></div>
 </div>
