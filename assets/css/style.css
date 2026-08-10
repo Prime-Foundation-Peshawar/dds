@@ -41,9 +41,7 @@
     #heroSlider .hl-teal { color: var(--teal-light); }
     .slide-overlay {
       position: absolute; inset: 0;
-      background:
-        linear-gradient(105deg, rgba(10,22,40,.82) 0%, rgba(10,22,40,.58) 42%, rgba(10,22,40,.45) 100%),
-        rgba(0, 0, 0, 0.28);
+      background: rgba(0, 0, 0, 0.48);
       z-index: 1;
     }
     .slide-grid {
