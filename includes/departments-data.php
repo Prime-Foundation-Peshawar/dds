@@ -7,7 +7,7 @@ $academic_departments = [
   'oral-pathology' => [
     'name' => 'Oral Pathology',
     'icon' => 'bi-virus',
-    'group' => 'Basic Dental Sciences',
+    'group' => 'Basic',
     'intro' => [
       'The Department of Oral Pathology at Peshawar Dental College supports BDS education through structured teaching in oral pathology and diagnostic sciences for BDS students.',
       'Faculty combine classroom teaching, laboratory or clinical exposure, and assessment aligned with PM&DC requirements and community oral health needs.',
@@ -44,7 +44,7 @@ $academic_departments = [
   'sciences-of-dental-material' => [
     'name' => 'Sciences of Dental Materials',
     'icon' => 'bi-droplet',
-    'group' => 'Basic Dental Sciences',
+    'group' => 'Basic',
     'intro' => [
       'The Department of Sciences of Dental Materials at Peshawar Dental College supports BDS education through structured teaching in properties and clinical use of dental materials.',
       'Faculty combine classroom teaching, laboratory or clinical exposure, and assessment aligned with PM&DC requirements and community oral health needs.',
@@ -76,7 +76,7 @@ $academic_departments = [
   'oral-biology' => [
     'name' => 'Oral Biology',
     'icon' => 'bi-eyedropper',
-    'group' => 'Basic Dental Sciences',
+    'group' => 'Basic',
     'intro' => [
       'The Department of Oral Biology at Peshawar Dental College supports BDS education through structured teaching in oral anatomy, histology, and developmental biology.',
       'Faculty combine classroom teaching, laboratory or clinical exposure, and assessment aligned with PM&DC requirements and community oral health needs.',
@@ -108,7 +108,7 @@ $academic_departments = [
   'community-preventive-dentistry' => [
     'name' => 'Community & Preventive Dentistry',
     'icon' => 'bi-people-fill',
-    'group' => 'Basic Dental Sciences',
+    'group' => 'Basic',
     'intro' => [
       'The Department of Community & Preventive Dentistry at Peshawar Dental College supports BDS education through structured teaching in community oral health and preventive dentistry.',
       'Faculty combine classroom teaching, laboratory or clinical exposure, and assessment aligned with PM&DC requirements and community oral health needs.',
@@ -140,7 +140,7 @@ $academic_departments = [
   'dental-education' => [
     'name' => 'Dental Education',
     'icon' => 'bi-mortarboard-fill',
-    'group' => 'Basic Dental Sciences',
+    'group' => 'Basic',
     'intro' => [
       'The Department of Dental Education at Peshawar Dental College supports BDS education through structured teaching in health professions education and faculty development.',
       'Faculty combine classroom teaching, laboratory or clinical exposure, and assessment aligned with PM&DC requirements and community oral health needs.',
@@ -177,7 +177,7 @@ $academic_departments = [
   'anatomy' => [
     'name' => 'Anatomy',
     'icon' => 'bi-body-text',
-    'group' => 'Basic Dental Sciences',
+    'group' => 'Basic',
     'intro' => [
       'The Department of Anatomy at Peshawar Dental College supports BDS education through structured teaching in human anatomy foundational to dental practice.',
       'Faculty combine classroom teaching, laboratory or clinical exposure, and assessment aligned with PM&DC requirements and community oral health needs.',
@@ -199,7 +199,7 @@ $academic_departments = [
   'physiology' => [
     'name' => 'Physiology',
     'icon' => 'bi-activity',
-    'group' => 'Basic Dental Sciences',
+    'group' => 'Basic',
     'intro' => [
       'The Department of Physiology at Peshawar Dental College supports BDS education through structured teaching in human physiology relevant to oral and systemic health.',
       'Faculty combine classroom teaching, laboratory or clinical exposure, and assessment aligned with PM&DC requirements and community oral health needs.',
@@ -221,7 +221,7 @@ $academic_departments = [
   'biochemistry' => [
     'name' => 'Biochemistry',
     'icon' => 'bi-moisture',
-    'group' => 'Basic Dental Sciences',
+    'group' => 'Basic',
     'intro' => [
       'The Department of Biochemistry at Peshawar Dental College supports BDS education through structured teaching in biochemical principles underpinning oral and systemic disease.',
       'Faculty combine classroom teaching, laboratory or clinical exposure, and assessment aligned with PM&DC requirements and community oral health needs.',
@@ -243,7 +243,7 @@ $academic_departments = [
   'pathology' => [
     'name' => 'Pathology',
     'icon' => 'bi-eyedropper',
-    'group' => 'Basic Dental Sciences',
+    'group' => 'Basic',
     'intro' => [
       'The Department of Pathology at Peshawar Dental College supports BDS education through structured teaching in general pathology for dental undergraduates.',
       'Faculty combine classroom teaching, laboratory or clinical exposure, and assessment aligned with PM&DC requirements and community oral health needs.',
@@ -265,7 +265,7 @@ $academic_departments = [
   'pharmacology' => [
     'name' => 'Pharmacology',
     'icon' => 'bi-capsule-pill',
-    'group' => 'Basic Dental Sciences',
+    'group' => 'Basic',
     'intro' => [
       'The Department of Pharmacology at Peshawar Dental College supports BDS education through structured teaching in pharmacology and therapeutics for dental practice.',
       'Faculty combine classroom teaching, laboratory or clinical exposure, and assessment aligned with PM&DC requirements and community oral health needs.',
@@ -287,7 +287,7 @@ $academic_departments = [
   'periodontology' => [
     'name' => 'Periodontology',
     'icon' => 'bi-heart-pulse',
-    'group' => 'Clinical Dental Sciences',
+    'group' => 'Clinical',
     'intro' => [
       'The Department of Periodontology at Peshawar Dental College supports BDS education through structured teaching in prevention and treatment of periodontal diseases.',
       'Faculty combine classroom teaching, laboratory or clinical exposure, and assessment aligned with PM&DC requirements and community oral health needs.',
@@ -319,7 +319,7 @@ $academic_departments = [
   'orthodontics' => [
     'name' => 'Orthodontics',
     'icon' => 'bi-intersect',
-    'group' => 'Clinical Dental Sciences',
+    'group' => 'Clinical',
     'intro' => [
       'The Department of Orthodontics at Peshawar Dental College supports BDS education through structured teaching in diagnosis and management of malocclusion.',
       'Faculty combine classroom teaching, laboratory or clinical exposure, and assessment aligned with PM&DC requirements and community oral health needs.',
@@ -351,7 +351,7 @@ $academic_departments = [
   'prosthodontics' => [
     'name' => 'Prosthodontics',
     'icon' => 'bi-gem',
-    'group' => 'Clinical Dental Sciences',
+    'group' => 'Clinical',
     'intro' => [
       'The Department of Prosthodontics at Peshawar Dental College supports BDS education through structured teaching in replacement of missing teeth and oral structures.',
       'Faculty combine classroom teaching, laboratory or clinical exposure, and assessment aligned with PM&DC requirements and community oral health needs.',
@@ -388,7 +388,7 @@ $academic_departments = [
   'operative-dentistry' => [
     'name' => 'Operative Dentistry',
     'icon' => 'bi-tools',
-    'group' => 'Clinical Dental Sciences',
+    'group' => 'Clinical',
     'intro' => [
       'The Department of Operative Dentistry at Peshawar Dental College supports BDS education through structured teaching in restorative dentistry and endodontics.',
       'Faculty combine classroom teaching, laboratory or clinical exposure, and assessment aligned with PM&DC requirements and community oral health needs.',
@@ -420,7 +420,7 @@ $academic_departments = [
   'oral-maxillofacial-surgery' => [
     'name' => 'Oral & Maxillofacial Surgery',
     'icon' => 'bi-scissors',
-    'group' => 'Clinical Dental Sciences',
+    'group' => 'Clinical',
     'intro' => [
       'The Department of Oral & Maxillofacial Surgery at Peshawar Dental College supports BDS education through structured teaching in surgical management of oral and maxillofacial conditions.',
       'Faculty combine classroom teaching, laboratory or clinical exposure, and assessment aligned with PM&DC requirements and community oral health needs.',
@@ -457,7 +457,7 @@ $academic_departments = [
   'paediatric-dentistry' => [
     'name' => 'Paediatric Dentistry',
     'icon' => 'bi-emoji-smile',
-    'group' => 'Clinical Dental Sciences',
+    'group' => 'Clinical',
     'intro' => [
       'The Department of Paediatric Dentistry at Peshawar Dental College supports BDS education through structured teaching in oral health care for children and adolescents.',
       'Faculty combine classroom teaching, laboratory or clinical exposure, and assessment aligned with PM&DC requirements and community oral health needs.',
@@ -484,7 +484,7 @@ $academic_departments = [
   'oral-medicine' => [
     'name' => 'Oral Medicine',
     'icon' => 'bi-clipboard2-pulse',
-    'group' => 'Clinical Dental Sciences',
+    'group' => 'Clinical',
     'intro' => [
       'The Department of Oral Medicine at Peshawar Dental College supports BDS education through structured teaching in diagnosis and non-surgical management of oral disease.',
       'Faculty combine classroom teaching, laboratory or clinical exposure, and assessment aligned with PM&DC requirements and community oral health needs.',
@@ -511,7 +511,7 @@ $academic_departments = [
   'medicine' => [
     'name' => 'Medicine',
     'icon' => 'bi-heart-pulse-fill',
-    'group' => 'Clinical Dental Sciences',
+    'group' => 'Clinical',
     'intro' => [
       'The Department of Medicine at Peshawar Dental College supports BDS education through structured teaching in general medicine relevant to dental patients.',
       'Faculty combine classroom teaching, laboratory or clinical exposure, and assessment aligned with PM&DC requirements and community oral health needs.',
@@ -533,7 +533,7 @@ $academic_departments = [
   'surgery' => [
     'name' => 'Surgery',
     'icon' => 'bi-bandaid',
-    'group' => 'Clinical Dental Sciences',
+    'group' => 'Clinical',
     'intro' => [
       'The Department of Surgery at Peshawar Dental College supports BDS education through structured teaching in general surgery principles for BDS training.',
       'Faculty combine classroom teaching, laboratory or clinical exposure, and assessment aligned with PM&DC requirements and community oral health needs.',
