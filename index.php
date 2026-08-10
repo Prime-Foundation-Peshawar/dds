@@ -301,84 +301,67 @@ include('includes/header.php');
 </section>
 
 <!-- ═══ NEWS & EVENTS ═══ -->
-<section class="pmc-section" id="news">
+<section class="pmc-section bg-off" id="news">
   <div class="container">
     <div class="row align-items-end mb-5">
       <div class="col-lg-7 fu">
-        <span class="sec-eyebrow">News & Events</span>
-        <h2 class="sec-title">Latest from Department of Dental Sciences</h2>
+        <span class="sec-eyebrow">News &amp; Updates</span>
+        <h2 class="sec-title">Latest from DDS</h2>
+        <p class="sec-desc mb-0">Events, admissions, and campus notices — current items only.</p>
       </div>
-      <!-- <div class="col-lg-5 text-lg-end fu fu-delay-2">
-        <a href="https://prime.edu.pk/pf/news-letter.php" class="btn-pmc btn-pmc-primary" target="_blank">
-          <i class="bi bi-newspaper"></i>
-          All News</a>
-      </div> -->
+      <div class="col-lg-5 text-lg-end fu fu-delay-2 mt-3 mt-lg-0">
+        <a href="all-news.php" class="btn-pmc btn-pmc-outline"><i class="bi bi-newspaper"></i> All News</a>
+      </div>
     </div>
     <div class="row g-4">
       <div class="col-lg-4 col-md-6 fu fu-delay-1">
-        <div class="news-card">
-          <div class="nc-img nc-img-1" style="background-image:url('assets/images/news/ad-seerat-ul-nabi.jpeg')">
-          </div>
+        <article class="news-card news-card-text news-card--event">
           <div class="nc-body">
             <div class="nc-meta">
-              <span class="nc-cat">News</span>
-              <i class="bi bi-dot"></i>
-              July 2026
+              <span class="nc-cat nc-cat-news">Event</span>
+              <span class="nc-date"><i class="bi bi-calendar3"></i> Published: July 2026</span>
             </div>
-            <div class="nc-title">Participate in Seert-un-Nabi Week</div>
-            <div class="nc-excerpt">Last date: 8th August 2026</div>
-            <a target="_blank" href="assets/images/news/ad-seerat-ul-nabi.jpeg" class="nc-link">
-              Read more
-              <i class="bi bi-arrow-right"></i>
-            </a>
-            </a>
-            </a>
+            <h3 class="nc-title">Participate in Seert-un-Nabi Week</h3>
+            <p class="nc-deadline"><i class="bi bi-clock"></i> Apply by <strong>8 Aug 2026</strong></p>
+            <div class="nc-actions">
+              <a target="_blank" href="assets/images/news/ad-seerat-ul-nabi.jpeg" class="nc-btn nc-btn-primary">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
           </div>
-        </div>
+        </article>
       </div>
-
       <div class="col-lg-4 col-md-6 fu fu-delay-2">
-        <div class="news-card">
-          <div class="nc-img nc-img-2" style="background-image:url('assets/images/news/ad-medical.jpeg')">
-          </div>
+        <article class="news-card news-card-text news-card--admissions">
           <div class="nc-body">
-            <div class="nc-meta"><span class="nc-cat">Admissions</span><i class="bi bi-dot"></i>Apr 2026</div>
-            <br>
-            <div class="nc-title">MPhil Basic Medical Sciences</div>
-            <div class="nc-excerpt">Last date: 20th Aug 2026</div>
-            <a target="_blank" href="assets/images/news/ad-medical.jpeg" class="nc-link">
-              Advertisement
-              <i class="bi bi-arrow-right"></i>
-            </a>
-            <a target="_blank" href="assets/images/news/PG-Admission-Form-Medical-Sciences.pdf" class="nc-link">
-              Form
-              <i class="bi bi-arrow-right"></i>
-            </a>
+            <div class="nc-meta">
+              <span class="nc-cat nc-cat-admissions">Admissions</span>
+              <span class="nc-date"><i class="bi bi-calendar3"></i> Published: Apr 2026</span>
+            </div>
+            <h3 class="nc-title">MPhil Basic Medical Sciences</h3>
+            <p class="nc-deadline"><i class="bi bi-clock"></i> Apply by <strong>20 Aug 2026</strong></p>
+            <div class="nc-actions nc-actions-split">
+              <a target="_blank" href="assets/images/news/ad-medical.jpeg" class="nc-btn nc-btn-primary">Read more <i class="bi bi-arrow-right"></i></a>
+              <a target="_blank" href="assets/images/news/PG-Admission-Form-Medical-Sciences.pdf" class="nc-btn nc-btn-form"><i class="bi bi-download"></i> Form</a>
+            </div>
           </div>
-        </div>
+        </article>
       </div>
-
-      <div class="col-lg-4 col-md-6 fu fu-delay-2">
-        <div class="news-card">
-          <div class="nc-img nc-img-2" style="background-image:url('assets/images/news/ad-islamiyat.jpeg')">
-          </div>
+      <div class="col-lg-4 col-md-6 fu fu-delay-3">
+        <article class="news-card news-card-text news-card--admissions">
           <div class="nc-body">
-            <div class="nc-meta"><span class="nc-cat">Admissions</span><i class="bi bi-dot"></i>Apr 2026</div>
-            <div class="nc-title">BS, MPhil & PhD Islamiyat</div>
-            <div class="nc-excerpt">Last date: 20th Aug 2026</div>
-            <a target="_blank" href="assets/images/news/ad-islamiyat.jpeg" class="nc-link">
-              Advertisement
-              <i class="bi bi-arrow-right"></i>
-            </a>
-            <a target="_blank" href="assets/images/news/PG-Admission-Form-Islamiyat.pdf" class="nc-link">
-              Form
-              <i class="bi bi-arrow-right"></i>
-            </a>
+            <div class="nc-meta">
+              <span class="nc-cat nc-cat-admissions">Admissions</span>
+              <span class="nc-date"><i class="bi bi-calendar3"></i> Published: Apr 2026</span>
+            </div>
+            <h3 class="nc-title">BS, MPhil &amp; PhD Islamiyat</h3>
+            <p class="nc-deadline"><i class="bi bi-clock"></i> Apply by <strong>20 Aug 2026</strong></p>
+            <div class="nc-actions nc-actions-split">
+              <a target="_blank" href="assets/images/news/ad-islamiyat.jpeg" class="nc-btn nc-btn-primary">Read more <i class="bi bi-arrow-right"></i></a>
+              <a target="_blank" href="assets/images/news/PG-Admission-Form-Islamiyat.pdf" class="nc-btn nc-btn-form"><i class="bi bi-download"></i> Form</a>
+            </div>
           </div>
-        </div>
+        </article>
       </div>
     </div>
-  </div>
   </div>
 </section>
 

@@ -451,45 +451,144 @@
     .ct-lbl { font-family: 'Montserrat', sans-serif; font-size: .76rem; font-weight: 700; color: rgba(255,255,255,.8); text-align: center; }
     .campus-tile.big .ct-lbl { font-size: 1.05rem; }
 
-    /* ── NEWS ── */
+    /* ── NEWS (DMS-aligned) ── */
     .news-card {
       background: white;
       border: 1px solid var(--border);
       border-radius: var(--r-lg);
       overflow: hidden;
       height: 100%;
-      display: flex; flex-direction: column;
-      transition: transform var(--ease), box-shadow var(--ease);
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      transition: transform var(--ease), box-shadow var(--ease), border-color var(--ease);
     }
-    .news-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); }
-    .nc-img {
-      height: 175px;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 2.5rem; color: rgba(255,255,255,.75);
-      flex-shrink: 0;
+    .news-card::before {
+      content: '';
+      position: absolute;
+      left: 0; top: 0; bottom: 0;
+      width: 4px;
+      background: var(--teal);
     }
-    .nc-img-1 {
-      background-image: url('../images/news/islamiyat.jpg');
-      background-size: cover;
-      background-position: center;
+    .news-card--event::before { background: var(--gold); }
+    .news-card--admissions::before { background: var(--teal); }
+    .news-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-md, 0 12px 32px rgba(10,22,40,.08));
+      border-color: rgba(194,65,12,.3);
     }
-    .nc-img-2 {
-        background-image: url('../images/pdc-building/pdc13.jpeg');
-        background-size: cover;
-        background-position: center;
+    .nc-cat {
+      font-family: var(--font-head);
+      font-size: .65rem;
+      font-weight: 800;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      padding: 5px 10px;
+      border-radius: 6px;
+      background: var(--teal);
+      color: #fff;
     }
-    .nc-img-3 {
-        background-image: url('../images/news/news3.jpg');
-        background-size: cover;
-        background-position: center;
+    .nc-cat-admissions {
+      background: var(--teal-pale);
+      color: var(--teal);
+      border: 1px solid rgba(194,65,12,.25);
     }
-    .nc-body { padding: 22px; flex: 1; display: flex; flex-direction: column; }
-    .nc-meta { display: flex; align-items: center; gap: 7px; font-family: 'Quicksand', sans-serif; font-size: .7rem; font-weight: 700; color: var(--gray-mid); margin-bottom: 10px; }
-    .nc-cat { background: var(--teal-pale); color: var(--teal); padding: 2px 8px; border-radius: 4px; font-weight: 700; }
-    .nc-title { font-family: 'Montserrat', sans-serif; font-size: .92rem; font-weight: 700; color: var(--navy); line-height: 1.45; margin-bottom: 9px; }
-    .nc-excerpt { font-family: 'Quicksand', sans-serif; font-size: .82rem; color: var(--gray-mid); line-height: 1.65; font-weight: 500; flex: 1; }
-    .nc-link { font-family: 'Montserrat', sans-serif; font-size: .78rem; font-weight: 700; color: var(--teal); display: inline-flex; align-items: center; gap: 5px; margin-top: 14px; transition: gap var(--ease), color var(--ease); }
-    .nc-link:hover { gap: 9px; color: var(--navy); }
+    .nc-cat-news {
+      background: var(--gold-pale, #f7efd4);
+      color: #8a6d1f;
+      border: 1px solid rgba(201,168,76,.35);
+    }
+    .nc-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+    .nc-body {
+      padding: 26px 24px 22px 28px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .nc-date {
+      font-family: var(--font-body);
+      font-size: .72rem;
+      font-weight: 700;
+      color: var(--gray-mid);
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      white-space: nowrap;
+    }
+    .nc-title {
+      font-family: var(--font-head);
+      font-size: 1.08rem;
+      font-weight: 700;
+      color: var(--navy);
+      line-height: 1.35;
+      margin: 0 0 14px;
+      min-height: 2.7em;
+    }
+    .nc-deadline {
+      font-family: var(--font-body);
+      font-size: .84rem;
+      font-weight: 600;
+      color: var(--gray-dark);
+      background: var(--off-white, #f5f7fa);
+      border-radius: 8px;
+      padding: 10px 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin: 0 0 18px;
+    }
+    .nc-deadline i { color: var(--gold); font-size: .95rem; }
+    .nc-deadline strong { color: var(--navy); font-weight: 700; }
+    .nc-actions {
+      margin-top: auto;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      gap: 10px;
+    }
+    .nc-actions-split { display: grid; grid-template-columns: 1fr 1fr; }
+    .nc-btn {
+      font-family: var(--font-head);
+      font-size: .76rem;
+      font-weight: 700;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      padding: 11px 14px;
+      border-radius: 8px;
+      transition: background var(--ease), color var(--ease), border-color var(--ease);
+      white-space: nowrap;
+    }
+    .nc-btn-primary {
+      background: var(--navy);
+      color: #fff;
+      border: 1px solid var(--navy);
+      flex: 1;
+    }
+    .nc-btn-primary:hover {
+      background: var(--teal);
+      border-color: var(--teal);
+      color: #fff;
+    }
+    .nc-btn-form {
+      background: #fff;
+      color: var(--navy);
+      border: 1px solid var(--border);
+    }
+    .nc-btn-form i { color: var(--teal); }
+    .nc-btn-form:hover {
+      border-color: var(--teal);
+      background: var(--teal-pale);
+      color: var(--navy);
+    }
 
     /* ── HOSPITALS ── */
     .hosp-card {
