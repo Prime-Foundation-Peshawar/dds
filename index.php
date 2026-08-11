@@ -172,7 +172,7 @@ include('includes/header.php');
     <div class="row g-4">
       <div class="col-lg-4 col-md-6 fu fu-delay-1">
         <a class="hosp-card" href="pdc.php#hospital">
-          <span class="hosp-code">01 · PDH</span>
+          <span class="hosp-code">PDH</span>
           <h3 class="hosp-name">Peshawar Dental Hospital</h3>
           <p class="hosp-desc">Tertiary care dental teaching hospital providing patient care and clinical training for BDS students.</p>
           <span class="hosp-link">Learn more <i class="bi bi-arrow-right"></i></span>
@@ -180,7 +180,7 @@ include('includes/header.php');
       </div>
       <div class="col-lg-4 col-md-6 fu fu-delay-2">
         <a class="hosp-card" href="https://mth.prime.edu.pk/" target="_blank" rel="noopener">
-          <span class="hosp-code">02 · MTH</span>
+          <span class="hosp-code">MTH</span>
           <h3 class="hosp-name">Mercy Teaching Hospital</h3>
           <p class="hosp-desc">Focused on community healthcare with high patient volume — ideal for comprehensive, broad clinical experience.</p>
           <span class="hosp-link">Visit hospital <i class="bi bi-arrow-right"></i></span>
@@ -188,7 +188,7 @@ include('includes/header.php');
       </div>
       <div class="col-lg-4 col-md-6 fu fu-delay-3">
         <a class="hosp-card" href="https://pth.prime.edu.pk/" target="_blank" rel="noopener">
-          <span class="hosp-code">03 · PTH</span>
+          <span class="hosp-code">PTH</span>
           <h3 class="hosp-name">Prime Teaching Hospital</h3>
           <p class="hosp-desc">Equipped with modern diagnostic and surgical facilities for intensive clinical and surgical training rotations.</p>
           <span class="hosp-link">Visit hospital <i class="bi bi-arrow-right"></i></span>
