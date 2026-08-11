@@ -62,7 +62,7 @@ $page_description = $page_description ?? 'Department of Dental Sciences, Riphah 
           <i class="bi bi-geo-alt-fill me-1"></i> Warsak Road, Peshawar, KP 25160, Pakistan
           <span class="sep">|</span>
           <i class="bi bi-telephone-fill me-1"></i>
-          <a href="tel:+92915200663">+92-91-5200663-4</a>
+          <a href="tel:+92915201848">+92-91-5201848 / +92-91-5202264</a>
           <span class="sep">|</span>
           <i class="bi bi-envelope-fill me-1"></i>
           <a href="mailto:info@riphahpsh.edu.pk">info@riphahpsh.edu.pk</a>
@@ -131,7 +131,7 @@ $page_description = $page_description ?? 'Department of Dental Sciences, Riphah 
           <li class="nav-item"><a class="nav-link" href="departments.php">Departments</a></li>
 
           <li class="nav-item mega-menu-wrapper">
-            <a class="nav-link dropdown-toggle" href="#programs">Programs</a>
+            <a class="nav-link dropdown-toggle" href="index.php#programs">Programs</a>
             <div class="dropdown-menu plain-dd" style="min-width:260px;">
               <a class="dropdown-item" href="pdc.php"><i class="bi bi-mortarboard"></i>Undergraduate Dental Education (PDC)</a>
               <a class="dropdown-item" href="pg-coming-soon.php"><i class="bi bi-hourglass-split"></i>Postgraduate Dental Education <span class="text-muted" style="font-size:.72rem;">(Coming Soon)</span></a>
@@ -206,6 +206,7 @@ $page_description = $page_description ?? 'Department of Dental Sciences, Riphah 
             </div>
           </li>
 
+          <li class="nav-item"><a class="nav-link" href="gallery.php">Gallery</a></li>
           <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
         </ul>
       </div>

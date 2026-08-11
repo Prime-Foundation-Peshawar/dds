@@ -94,7 +94,8 @@ include('includes/header.php');
             class="stat-lbl">Dentists Graduated</span></div>
       </div>
       <div class="col-6 col-md-3">
-        <div class="stat-cell"><span class="stat-num">#1</span><span class="stat-lbl">Choice of Students</span></div>
+        <div class="stat-cell"><span class="stat-num" data-count="4" data-suffix="">4</span><span
+            class="stat-lbl">Year BDS Programme</span></div>
       </div>
     </div>
   </div>
@@ -284,53 +285,51 @@ include('includes/header.php');
         <p class="sec-desc mb-0">Events, admissions, and campus notices — current items only.</p>
       </div>
       <div class="col-lg-5 text-lg-end fu fu-delay-2 mt-3 mt-lg-0">
-        <a href="all-news.php" class="btn-pmc btn-pmc-outline"><i class="bi bi-newspaper"></i> All News</a>
+        <a href="events.php" class="btn-pmc btn-pmc-outline"><i class="bi bi-calendar-event"></i> View All</a>
       </div>
     </div>
     <div class="row g-4">
       <div class="col-lg-4 col-md-6 fu fu-delay-1">
-        <article class="news-card news-card-text news-card--event">
+        <article class="news-card news-card-text news-card--admissions">
           <div class="nc-body">
             <div class="nc-meta">
-              <span class="nc-cat nc-cat-news">Event</span>
-              <span class="nc-date"><i class="bi bi-calendar3"></i> Published: July 2026</span>
+              <span class="nc-cat nc-cat-admissions">Admissions</span>
+              <span class="nc-date"><i class="bi bi-calendar3"></i> Session 2025–26</span>
             </div>
-            <h3 class="nc-title">Participate in Seert-un-Nabi Week</h3>
-            <p class="nc-deadline"><i class="bi bi-clock"></i> Apply by <strong>8 Aug 2026</strong></p>
+            <h3 class="nc-title">BDS Admissions — Applications Closed</h3>
+            <p class="nc-deadline"><i class="bi bi-info-circle"></i> Review eligibility and next-cycle guidance</p>
             <div class="nc-actions">
-              <a target="_blank" href="assets/images/news/ad-seerat-ul-nabi.jpeg" class="nc-btn nc-btn-primary">Read more <i class="bi bi-arrow-right"></i></a>
+              <a href="admissions.php" class="nc-btn nc-btn-primary">Admissions info <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
         </article>
       </div>
       <div class="col-lg-4 col-md-6 fu fu-delay-2">
-        <article class="news-card news-card-text news-card--admissions">
+        <article class="news-card news-card-text news-card--news">
           <div class="nc-body">
             <div class="nc-meta">
-              <span class="nc-cat nc-cat-admissions">Admissions</span>
-              <span class="nc-date"><i class="bi bi-calendar3"></i> Published: Apr 2026</span>
+              <span class="nc-cat nc-cat-news">College</span>
+              <span class="nc-date"><i class="bi bi-calendar3"></i> Established 2010</span>
             </div>
-            <h3 class="nc-title">MPhil Basic Medical Sciences</h3>
-            <p class="nc-deadline"><i class="bi bi-clock"></i> Apply by <strong>20 Aug 2026</strong></p>
-            <div class="nc-actions nc-actions-split">
-              <a target="_blank" href="assets/images/news/ad-medical.jpeg" class="nc-btn nc-btn-primary">Read more <i class="bi bi-arrow-right"></i></a>
-              <a target="_blank" href="assets/images/news/PG-Admission-Form-Medical-Sciences.pdf" class="nc-btn nc-btn-form"><i class="bi bi-download"></i> Form</a>
+            <h3 class="nc-title">Peshawar Dental College — BDS for Female Students</h3>
+            <p class="nc-deadline"><i class="bi bi-award"></i> PM&amp;DC-recognized four-year programme</p>
+            <div class="nc-actions">
+              <a href="pdc.php" class="nc-btn nc-btn-primary">About PDC <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
         </article>
       </div>
       <div class="col-lg-4 col-md-6 fu fu-delay-3">
-        <article class="news-card news-card-text news-card--admissions">
+        <article class="news-card news-card-text news-card--news">
           <div class="nc-body">
             <div class="nc-meta">
-              <span class="nc-cat nc-cat-admissions">Admissions</span>
-              <span class="nc-date"><i class="bi bi-calendar3"></i> Published: Apr 2026</span>
+              <span class="nc-cat nc-cat-news">Campus</span>
+              <span class="nc-date"><i class="bi bi-calendar3"></i> Clinical training</span>
             </div>
-            <h3 class="nc-title">BS, MPhil &amp; PhD Islamiyat</h3>
-            <p class="nc-deadline"><i class="bi bi-clock"></i> Apply by <strong>20 Aug 2026</strong></p>
-            <div class="nc-actions nc-actions-split">
-              <a target="_blank" href="assets/images/news/ad-islamiyat.jpeg" class="nc-btn nc-btn-primary">Read more <i class="bi bi-arrow-right"></i></a>
-              <a target="_blank" href="assets/images/news/PG-Admission-Form-Islamiyat.pdf" class="nc-btn nc-btn-form"><i class="bi bi-download"></i> Form</a>
+            <h3 class="nc-title">Clinical Training at Peshawar Dental Hospital</h3>
+            <p class="nc-deadline"><i class="bi bi-hospital"></i> Plus Mercy &amp; Prime Teaching Hospitals</p>
+            <div class="nc-actions">
+              <a href="#hospitals" class="nc-btn nc-btn-primary">View hospitals <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
         </article>

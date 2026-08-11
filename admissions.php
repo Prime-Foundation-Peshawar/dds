@@ -56,7 +56,7 @@
           <div class="pmc-card mb-4" style="border-radius:12px;background:#fff;border:1px solid var(--border-color);">
             <div class="row g-3">
               <div class="col-6 col-md-3 text-center" style="padding:16px;border-right:1px solid var(--border-color);">
-                <div style="font-family:var(--font-head);font-size:1.6rem;font-weight:900;color:var(--navy);">MBBS</div>
+                <div style="font-family:var(--font-head);font-size:1.6rem;font-weight:900;color:var(--navy);">BDS</div>
                 <div
                   style="font-family:var(--font-body);font-size:.72rem;color:var(--gray-mid);text-transform:uppercase;letter-spacing:.06em;margin-top:4px;">
                   Program</div>
@@ -96,8 +96,7 @@
             <li
               style="display:flex;align-items:flex-start;gap:10px;margin-bottom:12px;font-family:var(--font-body);font-size:.92rem;color:var(--gray-dark);line-height:1.7;">
               <i class="bi bi-check-circle-fill" style="color:var(--teal);flex-shrink:0;margin-top:3px;"></i>
-              <span>Candidates who have passed <strong>MDCAT-2023, 2024 or MDCAT-2025</strong> with minimum <strong>55%
-                  marks for MBBS</strong> and <strong>50% marks for BDS</strong>.</span>
+              <span>Candidates who have passed <strong>MDCAT-2023, 2024 or MDCAT-2025</strong> with minimum <strong>50% marks for BDS</strong>.</span>
             </li>
             <li
               style="display:flex;align-items:flex-start;gap:10px;margin-bottom:12px;font-family:var(--font-body);font-size:.92rem;color:var(--gray-dark);line-height:1.7;">

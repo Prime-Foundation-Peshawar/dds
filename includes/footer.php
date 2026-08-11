@@ -12,12 +12,8 @@
             Department of Dental Sciences, Riphah International University – Peshawar Campus — comprising Peshawar Dental College.
           </p>
           <div class="foot-socials">
-            <a href="https://www.facebook.com/share/17Mw2CuEkD/" class="soc-btn" target="_blank"
+            <a href="https://www.facebook.com/share/17Mw2CuEkD/" class="soc-btn" target="_blank" rel="noopener"
               aria-label="Facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="soc-btn" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="soc-btn" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-            <a href="#" class="soc-btn" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
-            <a href="#" class="soc-btn" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
           </div>
         </div>
         <div class="col-6 col-lg-2">
