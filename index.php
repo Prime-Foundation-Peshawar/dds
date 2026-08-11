@@ -162,37 +162,37 @@ include('includes/header.php');
 
 
 <!-- ═══ TEACHING HOSPITALS ═══ -->
-<section class="pmc-section bg-navy" id="hospitals">
+<section class="pmc-section bg-navy home-hospitals" id="hospitals">
   <div class="container">
-    <div class="text-center mb-5 fu">
-      <span class="sec-eyebrow" style="color:var(--gold-light);">Affiliated Teaching Hospitals</span>
-      <h2 class="sec-title" style="color:white;">Clinical Training at Its Finest</h2>
-      <p class="sec-desc mx-auto" style="max-width:570px;color:rgba(255,255,255,.75);">Students of the Department of Dental Sciences train at Peshawar Dental Hospital and affiliated teaching hospitals for comprehensive clinical exposure.</p>
+    <div class="home-sec-head text-center fu">
+      <span class="sec-eyebrow">Affiliated Teaching Hospitals</span>
+      <h2 class="sec-title">Clinical Training at Its Finest</h2>
+      <p class="sec-desc">Students of the Department of Dental Sciences train at Peshawar Dental Hospital and affiliated teaching hospitals for comprehensive clinical exposure.</p>
     </div>
     <div class="row g-4">
       <div class="col-lg-4 col-md-6 fu fu-delay-1">
-        <div class="hosp-card">
-          <div class="hosp-ico"><i class="bi bi-emoji-smile-fill"></i></div>
-          <div class="hosp-name">Peshawar Dental Hospital</div>
+        <a class="hosp-card" href="pdc.php#hospital">
+          <span class="hosp-code">01 · PDH</span>
+          <h3 class="hosp-name">Peshawar Dental Hospital</h3>
           <p class="hosp-desc">Tertiary care dental teaching hospital providing patient care and clinical training for BDS students.</p>
-          <a href="pdc.php#hospital" class="hosp-link">Learn More <i class="bi bi-arrow-right"></i></a>
-        </div>
+          <span class="hosp-link">Learn more <i class="bi bi-arrow-right"></i></span>
+        </a>
       </div>
       <div class="col-lg-4 col-md-6 fu fu-delay-2">
-        <div class="hosp-card">
-          <div class="hosp-ico"><i class="bi bi-heart-pulse-fill"></i></div>
-          <div class="hosp-name">Mercy Teaching Hospital</div>
+        <a class="hosp-card" href="https://mth.prime.edu.pk/" target="_blank" rel="noopener">
+          <span class="hosp-code">02 · MTH</span>
+          <h3 class="hosp-name">Mercy Teaching Hospital</h3>
           <p class="hosp-desc">Focused on community healthcare with high patient volume — ideal for comprehensive, broad clinical experience.</p>
-          <a href="https://mth.prime.edu.pk/" class="hosp-link" target="_blank" rel="noopener">Learn More <i class="bi bi-arrow-right"></i></a>
-        </div>
+          <span class="hosp-link">Visit hospital <i class="bi bi-arrow-right"></i></span>
+        </a>
       </div>
       <div class="col-lg-4 col-md-6 fu fu-delay-3">
-        <div class="hosp-card">
-          <div class="hosp-ico"><i class="bi bi-building-fill"></i></div>
-          <div class="hosp-name">Prime Teaching Hospital</div>
+        <a class="hosp-card" href="https://pth.prime.edu.pk/" target="_blank" rel="noopener">
+          <span class="hosp-code">03 · PTH</span>
+          <h3 class="hosp-name">Prime Teaching Hospital</h3>
           <p class="hosp-desc">Equipped with modern diagnostic and surgical facilities for intensive clinical and surgical training rotations.</p>
-          <a href="https://pth.prime.edu.pk/" class="hosp-link" target="_blank" rel="noopener">Learn More <i class="bi bi-arrow-right"></i></a>
-        </div>
+          <span class="hosp-link">Visit hospital <i class="bi bi-arrow-right"></i></span>
+        </a>
       </div>
     </div>
   </div>
