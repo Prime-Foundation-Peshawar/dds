@@ -676,7 +676,7 @@
             <ol style="font-family:var(--font-body);font-size:.9rem;color:var(--gray-dark);line-height:1.8;padding-left:0;list-style:none;margin:0;">
               <li style="padding-left:22px;position:relative;margin-bottom:10px;">
                 <span style="position:absolute;left:0;color:var(--gold);font-weight:900;font-family:var(--font-head);">1st</span>
-                <strong>Best Paper — Clinical Sciences:</strong> "Outcomes of Early Mobilisation Post-Orthopaedic Surgery at Prime Teaching Hospital" — 4th Year Student Team
+                <strong>Best Paper — Clinical Sciences:</strong> "Outcomes of Early Mobilisation After Oral Surgery at Peshawar Dental Hospital" — 4th Year Student Team
               </li>
               <li style="padding-left:22px;position:relative;margin-bottom:10px;">
                 <span style="position:absolute;left:0;color:var(--gray-mid);font-weight:900;font-family:var(--font-head);">2nd</span>

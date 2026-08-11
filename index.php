@@ -37,7 +37,7 @@ include('includes/header.php');
             <p class="slide-body">From skill labs to specialty clinics — train at Peshawar Dental Hospital and affiliated teaching hospitals with real patients, supervised practice, and research-minded mentors.</p>
             <div class="slide-actions">
               <a href="departments.php" class="btn-pmc btn-pmc-primary">Academic Departments</a>
-              <a href="pdc.php#hospital" class="btn-pmc btn-pmc-outline-white"><i class="bi bi-hospital"></i> Teaching Hospitals</a>
+              <a href="#hospitals" class="btn-pmc btn-pmc-outline-white"><i class="bi bi-hospital"></i> Teaching Hospitals</a>
             </div>
           </div>
         </div>
@@ -86,12 +86,12 @@ include('includes/header.php');
             class="stat-lbl">Year Established</span></div>
       </div>
       <div class="col-6 col-md-3">
-        <div class="stat-cell"><span class="stat-num" data-count="20" data-suffix="+">15+</span><span
+        <div class="stat-cell"><span class="stat-num" data-count="15" data-suffix="+">15+</span><span
             class="stat-lbl">Years of Excellence</span></div>
       </div>
       <div class="col-6 col-md-3">
-        <div class="stat-cell"><span class="stat-num" data-count="2" data-suffix="">2</span><span
-            class="stat-lbl">Teaching Hospitals</span></div>
+        <div class="stat-cell"><span class="stat-num" data-count="450" data-suffix="+">450+</span><span
+            class="stat-lbl">Dentists Graduated</span></div>
       </div>
       <div class="col-6 col-md-3">
         <div class="stat-cell"><span class="stat-num">#1</span><span class="stat-lbl">Choice of Students</span></div>
@@ -111,37 +111,22 @@ include('includes/header.php');
         research ability, ethical values, and community leadership.</p>
     </div>
     <div class="row g-4">
-      <div class="col-lg-6 col-md-6 fu fu-delay-2">
-        <div class="pmc-card">
-          <div class="pmc-card-icon"><i class="bi bi-clipboard-pulse"></i></div>
+      <div class="col-lg-6 fu fu-delay-1">
+        <div class="pmc-card home-prog-card">
+          <span class="home-prog-code">Undergraduate</span>
           <h4>Peshawar Dental College</h4>
-          <p>Established in 2010; a PM&amp;DC-recognized BDS programme for female students, affiliated with Riphah International University.</p>
-          <div class="mt-3 mb-4"><span class="pmc-tag prog-tag">BDS</span><span class="pmc-tag prog-tag">PM&amp;DC</span><span class="pmc-tag prog-tag">Female</span></div>
-          <a href="pdc.php" class="btn-pmc btn-pmc-outline" style="font-size:.8rem;padding:9px 18px;">Learn
-            More <i class="bi bi-arrow-right"></i></a>
+          <p>Established in 2010; a PM&amp;DC-recognized BDS programme for female students, with clinical training at Peshawar Dental Hospital and affiliated teaching hospitals.</p>
+          <a href="pdc.php" class="btn-pmc btn-pmc-outline home-prog-btn">Learn More <i class="bi bi-arrow-right"></i></a>
         </div>
       </div>
-      <div class="col-lg-6 col-md-6 fu fu-delay-2">
-        <div class="pmc-card">
-          <div class="pmc-card-icon"><i class="bi bi-hourglass-split"></i></div>
+      <div class="col-lg-6 fu fu-delay-2">
+        <div class="pmc-card home-prog-card home-prog-card--soon">
+          <span class="home-prog-code">Postgraduate · Coming Soon</span>
           <h4>Postgraduate Dental Education</h4>
           <p>Postgraduate dental programmes in the Department of Dental Sciences are forthcoming, including FCPS/MCPS and university postgraduate pathways.</p>
-          <div class="mt-3 mb-4">
-              <span class="pmc-tag prog-tag">Coming Soon</span>
-              </div>
-          <a href="#" class="btn-pmc btn-pmc-outline"
-            style="font-size:.8rem;padding:9px 18px;">Details <i class="bi bi-arrow-right"></i></a>
+          <span class="home-prog-soon">Coming Soon</span>
         </div>
       </div>
-      <!-- <div class="col-lg-4 col-md-6 fu fu-delay-3">
-        <div class="pmc-card">
-          <div class="pmc-card-icon"><i class="bi bi-display"></i></div>
-          <h4>Virtual Museum & E-Learning</h4>
-          <p>Digital anatomy and pathology resources, a virtual museum, and e-learning tools that complement traditional teaching to enrich the learning experience.</p>
-          <div class="mt-3 mb-4"><span class="pmc-tag prog-tag">Digital Resources</span><span class="pmc-tag prog-tag">Online Access</span></div>
-          <a href="virtual-museum.php" class="btn-pmc btn-pmc-outline" style="font-size:.8rem;padding:9px 18px;">Access <i class="bi bi-arrow-right"></i></a>
-        </div>
-      </div> -->
     </div>
   </div>
 </section>
@@ -197,30 +182,19 @@ include('includes/header.php');
         <div class="hosp-card">
           <div class="hosp-ico"><i class="bi bi-heart-pulse-fill"></i></div>
           <div class="hosp-name">Mercy Teaching Hospital</div>
-          <p class="hosp-desc">Focused on community healthcare with high patient volume — ideal for comprehensive, broad
-            clinical experience.</p><a href="https://mth.prime.edu.pk/" class="hosp-link" target="_blank">Learn More <i
-              class="bi bi-arrow-right"></i></a>
+          <p class="hosp-desc">Focused on community healthcare with high patient volume — ideal for comprehensive, broad clinical experience.</p>
+          <a href="https://mth.prime.edu.pk/" class="hosp-link" target="_blank" rel="noopener">Learn More <i class="bi bi-arrow-right"></i></a>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 fu fu-delay-3">
         <div class="hosp-card">
-          <div class="hosp-ico"><i class="bi bi-capsule-pill"></i></div>
+          <div class="hosp-ico"><i class="bi bi-building-fill"></i></div>
           <div class="hosp-name">Prime Teaching Hospital</div>
-          <p class="hosp-desc">Equipped with modern diagnostic and surgical facilities for intensive clinical and
-            surgical training rotations.</p><a href="https://pth.prime.edu.pk/" class="hosp-link" target="_blank">Learn
-            More <i class="bi bi-arrow-right"></i></a>
+          <p class="hosp-desc">Equipped with modern diagnostic and surgical facilities for intensive clinical and surgical training rotations.</p>
+          <a href="https://pth.prime.edu.pk/" class="hosp-link" target="_blank" rel="noopener">Learn More <i class="bi bi-arrow-right"></i></a>
         </div>
       </div>
-      <!-- <div class="col-lg-3 col-md-6 fu fu-delay-4">
-        <div class="hosp-card">
-          <div class="hosp-ico"><i class="bi bi-people-fill"></i></div>
-          <div class="hosp-name">Community Development</div>
-          <p class="hosp-desc">Bridging academic excellence with community healthcare through comprehensive development
-            initiatives and services.</p><a href="https://prime.edu.pk/pf/community-development.php" class="hosp-link"
-            target="_blank">Learn More <i class="bi bi-arrow-right"></i></a>
-        </div> -->
     </div>
-  </div>
   </div>
 </section>
 

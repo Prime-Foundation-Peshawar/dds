@@ -410,6 +410,70 @@
 
     /* ── PROGRAMS ── */
     .prog-tag { margin-right: 5px; margin-bottom: 5px; }
+    .home-prog-card {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      padding: 30px 26px 28px;
+      border-radius: var(--r-lg);
+      background:
+        linear-gradient(180deg, rgba(194, 65, 12, .05) 0%, transparent 42%),
+        #fff;
+    }
+    .home-prog-card::before { opacity: 1; }
+    .home-prog-code {
+      display: inline-block;
+      font-family: var(--font-head);
+      font-size: .68rem;
+      font-weight: 800;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: 12px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid rgba(194, 65, 12, .28);
+      align-self: flex-start;
+    }
+    .home-prog-card h4 {
+      font-size: 1.22rem;
+      line-height: 1.28;
+      letter-spacing: -.01em;
+      margin-bottom: 14px;
+    }
+    .home-prog-card p {
+      flex: 1;
+      margin-bottom: 22px;
+      font-size: .9rem;
+      line-height: 1.75;
+    }
+    .home-prog-btn {
+      font-size: .8rem;
+      padding: 10px 18px;
+      align-self: flex-start;
+      margin-top: auto;
+    }
+    .home-prog-soon {
+      display: inline-block;
+      margin-top: auto;
+      align-self: flex-start;
+      font-family: var(--font-head);
+      font-size: .78rem;
+      font-weight: 800;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--teal);
+      background: var(--teal-pale);
+      border: 1px solid rgba(194, 65, 12, .22);
+      padding: 10px 16px;
+      border-radius: var(--r-sm, 6px);
+    }
+    .home-prog-card:hover {
+      border-color: rgba(194, 65, 12, .35);
+    }
+    .home-prog-card--soon:hover {
+      transform: none;
+      box-shadow: none;
+    }
 
     /* ── CAMPUS MOSAIC ── */
     .campus-mosaic {

@@ -52,7 +52,7 @@ include('includes/header.php');
             <li>Be able to be effective community leaders.</li>
           </ul>
           <p style="font-family:var(--font-body);font-size:.95rem;color:var(--gray-dark);line-height:1.85;">
-            The Department has three Teaching hospitals i.e., Kuwait Teaching Hospital, Mercy Teaching Hospital and Prime Teaching Hospital where teaching &amp; training programme for postgraduates residents in department of surgery is already in progress. The training programme in General Surgery at Kuwait teaching hospitals was initiated in 2010 after fulfilling the requirements of the College of Physicians and Surgeons (CPSP), Pakistan. Later on mercy teaching hospital was also approved by CPSP for teaching and training programme.
+            Clinical training for postgraduate residents is undertaken at approved teaching sites. The training programme in General Surgery at Kuwait Teaching Hospital was initiated in 2010 after fulfilling the requirements of the College of Physicians and Surgeons (CPSP), Pakistan.
           </p>
           <p style="font-family:var(--font-body);font-size:.95rem;color:var(--gray-dark);line-height:1.85;">
             <strong>Eligibility criteria for the training programme in surgery:</strong><br>

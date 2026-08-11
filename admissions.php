@@ -62,7 +62,7 @@
                   Program</div>
               </div>
               <div class="col-6 col-md-3 text-center" style="padding:16px;border-right:1px solid var(--border-color);">
-                <div style="font-family:var(--font-head);font-size:1.6rem;font-weight:900;color:var(--navy);">5 Years
+                <div style="font-family:var(--font-head);font-size:1.6rem;font-weight:900;color:var(--navy);">4 Years
                 </div>
                 <div
                   style="font-family:var(--font-body);font-size:.72rem;color:var(--gray-mid);text-transform:uppercase;letter-spacing:.06em;margin-top:4px;">
