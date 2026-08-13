@@ -1,32 +1,14 @@
 <?php
-$preload_images = ['assets/images/pdc-building/pdc-slide-1.webp'];
+$preload_images = ['assets/images/pdc-building/pdc-slide-2.webp'];
 include('includes/header.php');
 ?>
 
 <!-- ═══ HERO SLIDER ═══ -->
 <div id="heroSlider" aria-roledescription="carousel" aria-label="Department of Dental Sciences highlights">
 
-  <!-- SLIDE 1 — BDS / Peshawar Dental College -->
+  <!-- SLIDE 1 — Clinical training & campus -->
   <div class="hero-slide active" role="group" aria-roledescription="slide" aria-label="1 of 2">
     <div class="slide-media slide-bg-3"></div>
-    <div class="slide-overlay"></div>
-    <div class="container slide-inner">
-      <div class="slide-content">
-        <p class="slide-brand">Department of Dental Sciences</p>
-        <h1 class="slide-title">Your <span class="hl-teal">BDS</span> Journey Starts Here</h1>
-        <p class="slide-body">Peshawar Dental College offers PM&amp;DC-aligned BDS education — rigorous preclinical science, early clinical exposure, and mentors who teach dentistry with integrity.</p>
-        <p class="slide-body slide-body-sub">Study at Riphah International University – Peshawar Campus and build the competence to serve communities across KP and beyond.</p>
-        <div class="slide-actions">
-          <a href="admissions.php" class="btn-pmc btn-pmc-primary"><i class="bi bi-mortarboard"></i> Admissions 2025–26</a>
-          <a href="pdc.php" class="btn-pmc btn-pmc-outline-white">About PDC</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- SLIDE 2 — Clinical training & campus -->
-  <div class="hero-slide" role="group" aria-roledescription="slide" aria-label="2 of 2" data-lazy-bg>
-    <div class="slide-media slide-bg-4"></div>
     <div class="slide-overlay"></div>
     <div class="container slide-inner">
       <div class="row align-items-center g-4 g-xl-5">
@@ -60,17 +42,35 @@ include('includes/header.php');
     </div>
   </div>
 
+  <!-- SLIDE 2 — BDS / Peshawar Dental College -->
+  <div class="hero-slide" role="group" aria-roledescription="slide" aria-label="2 of 2" data-lazy-bg>
+    <div class="slide-media slide-bg-4"></div>
+    <div class="slide-overlay"></div>
+    <div class="container slide-inner">
+      <div class="slide-content">
+        <p class="slide-brand">Department of Dental Sciences</p>
+        <h1 class="slide-title">Your <span class="hl-teal">BDS</span> Journey Starts Here</h1>
+        <p class="slide-body">Peshawar Dental College offers PM&amp;DC-aligned BDS education — rigorous preclinical science, early clinical exposure, and mentors who teach dentistry with integrity.</p>
+        <p class="slide-body slide-body-sub">Study at Riphah International University – Peshawar Campus and build the competence to serve communities across KP and beyond.</p>
+        <div class="slide-actions">
+          <a href="admissions.php" class="btn-pmc btn-pmc-primary"><i class="bi bi-mortarboard"></i> Admissions 2025–26</a>
+          <a href="pdc.php" class="btn-pmc btn-pmc-outline-white">About PDC</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Controls -->
   <div class="slider-chrome">
     <button class="slider-prev" type="button" aria-label="Previous slide"><i class="bi bi-chevron-left"></i></button>
     <div class="slider-indicators" role="tablist" aria-label="Slides">
-      <button class="slider-dot active" type="button" data-slide="0" role="tab" aria-label="Peshawar Dental College" aria-selected="true">
-        <span class="slider-dot-track"><span class="slider-dot-bar"></span></span>
-        <span class="slider-dot-label">BDS</span>
-      </button>
-      <button class="slider-dot" type="button" data-slide="1" role="tab" aria-label="Clinical Training" aria-selected="false">
+      <button class="slider-dot active" type="button" data-slide="0" role="tab" aria-label="Clinical Training" aria-selected="true">
         <span class="slider-dot-track"><span class="slider-dot-bar"></span></span>
         <span class="slider-dot-label">Clinical</span>
+      </button>
+      <button class="slider-dot" type="button" data-slide="1" role="tab" aria-label="Peshawar Dental College" aria-selected="false">
+        <span class="slider-dot-track"><span class="slider-dot-bar"></span></span>
+        <span class="slider-dot-label">BDS</span>
       </button>
     </div>
     <button class="slider-next" type="button" aria-label="Next slide"><i class="bi bi-chevron-right"></i></button>

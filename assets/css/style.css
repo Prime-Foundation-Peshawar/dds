@@ -100,21 +100,21 @@
     .slide-bg-1 { background-image: url('../images/pdc-building/pdc10.jpeg'); }
     .slide-bg-2 { background-image: url('../images/pdc-building/pdc13.jpeg'); }
     .slide-bg-3 {
-      background-image: url('../images/pdc-building/pdc-slide-1.jpg');
-      background-image:
-        image-set(
-          url('../images/pdc-building/pdc-slide-1.webp') type('image/webp'),
-          url('../images/pdc-building/pdc-slide-1.jpg') type('image/jpeg')
-        );
-      background-position: center center;
-    }
-    .slide-bg-4 { background-color: #0B1F33; }
-    .slide-bg-4.bg-ready {
       background-image: url('../images/pdc-building/pdc-slide-2.jpg');
       background-image:
         image-set(
           url('../images/pdc-building/pdc-slide-2.webp') type('image/webp'),
           url('../images/pdc-building/pdc-slide-2.jpg') type('image/jpeg')
+        );
+      background-position: center center;
+    }
+    .slide-bg-4 { background-color: #0B1F33; }
+    .slide-bg-4.bg-ready {
+      background-image: url('../images/pdc-building/pdc-slide-1.jpg');
+      background-image:
+        image-set(
+          url('../images/pdc-building/pdc-slide-1.webp') type('image/webp'),
+          url('../images/pdc-building/pdc-slide-1.jpg') type('image/jpeg')
         );
       background-position: center center;
     }
