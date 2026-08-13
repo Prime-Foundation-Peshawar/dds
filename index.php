@@ -281,7 +281,7 @@ include('includes/header.php');
     <div class="row align-items-end mb-5">
       <div class="col-lg-7 fu">
         <span class="sec-eyebrow">News &amp; Updates</span>
-        <h2 class="sec-title">Latest from DDS</h2>
+        <h2 class="sec-title">Latest from Department of Dental Sciences</h2>
         <p class="sec-desc mb-0">Events, admissions, and campus notices — current items only.</p>
       </div>
       <div class="col-lg-5 text-lg-end fu fu-delay-2 mt-3 mt-lg-0">

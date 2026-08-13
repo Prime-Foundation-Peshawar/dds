@@ -6,7 +6,7 @@
         <div class="col-lg-3">
           <div class="foot-brand">
             <img src="assets/images/logo/riphah-psh-white.png"
-              alt="Department of Dental Sciences (DDS) — Riphah Peshawar Campus" width="250px" />
+              alt="Department of Dental Sciences (PDC) — Riphah Peshawar Campus" width="250px" />
           </div>
           <p class="foot-desc">
             Department of Dental Sciences, Riphah International University – Peshawar Campus — comprising Peshawar Dental College.

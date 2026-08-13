@@ -81,7 +81,7 @@ $page_description = $page_description ?? 'Department of Dental Sciences, Riphah 
       <a class="pmc-brand" href="index.php">
         <div class="">
           <img src="assets/images/logo/riphah-psh.png"
-            alt="Department of Dental Sciences (DDS) — Riphah Peshawar Campus" width="200px;" />
+            alt="Department of Dental Sciences (PDC) — Riphah Peshawar Campus" width="200px;" />
         </div>
         <div class="pmc-brand-text d-none d-md-block" style="margin-left:10px;line-height:1.25;">
           <div style="font-size:.88rem;font-weight:700;color:var(--navy);">Department of Dental Sciences</div>
@@ -105,7 +105,7 @@ $page_description = $page_description ?? 'Department of Dental Sciences, Riphah 
                 <div class="row g-4">
                   <div class="col-lg-4">
                     <div class="mega-col-head"><i class="bi bi-info-circle-fill"></i> About Us</div>
-                    <a class="mega-link" href="about.php"><i class="bi bi-building"></i>About DDS</a>
+                    <a class="mega-link" href="about.php"><i class="bi bi-building"></i>Introduction</a>
                     <a class="mega-link" href="vision-mission.php"><i class="bi bi-eye"></i>Vision &amp; Mission</a>
                     <a class="mega-link" href="faculty.php"><i class="bi bi-people"></i>Faculty</a>
                     <a class="mega-link" href="https://pdc.prime.edu.pk/upload/organogram/Organogram%20March%2013,%202023-PDC.pdf" target="_blank"><i class="bi bi-diagram-3"></i>Organogram</a>

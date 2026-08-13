@@ -1,6 +1,6 @@
 <?php
 /**
- * Academic departments under DDS / PDC.
+ * Academic departments under PDC.
  * Faculty sourced from faculty.php; intros/activities can be refined by each department.
  */
 $academic_departments = [
