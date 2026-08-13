@@ -1,5 +1,5 @@
 <?php
-$preload_images = ['assets/images/pdc-building/pdc9.jpeg'];
+$preload_images = ['assets/images/pdc-building/pdc-slide-1.webp'];
 include('includes/header.php');
 ?>
 

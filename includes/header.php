@@ -134,7 +134,7 @@ $page_description = $page_description ?? 'Department of Dental Sciences, Riphah 
             <a class="nav-link dropdown-toggle" href="index.php#programs">Programs</a>
             <div class="dropdown-menu plain-dd" style="min-width:260px;">
               <a class="dropdown-item" href="pdc.php"><i class="bi bi-mortarboard"></i>Undergraduate Dental Education (PDC)</a>
-              <a class="dropdown-item" href="pg-coming-soon.php"><i class="bi bi-hourglass-split"></i>Postgraduate Dental Education <span class="text-muted" style="font-size:.72rem;">(Coming Soon)</span></a>
+              <a class="dropdown-item" href="#"><i class="bi bi-hourglass-split"></i>Postgraduate Dental Education <span class="text-muted" style="font-size:.72rem;">(Coming Soon)</span></a>
               <a class="dropdown-item" href="dental-education.php"><i class="bi bi-book"></i>Dental Education Overview</a>
             </div>
           </li>
@@ -185,7 +185,7 @@ $page_description = $page_description ?? 'Department of Dental Sciences, Riphah 
                   <div class="col-lg-4">
                     <div class="mega-col-head"><i class="bi bi-book-fill"></i> Education</div>
                     <a class="mega-link" href="dental-education.php"><i class="bi bi-journal-medical"></i>Dental Education</a>
-                    <a class="mega-link" href="pg-coming-soon.php"><i class="bi bi-journal-medical"></i>Postgraduate Dental Education (Coming Soon)</a>
+                    <a class="mega-link" href="#"><i class="bi bi-journal-medical"></i>Postgraduate Dental Education (Coming Soon)</a>
                     <a class="mega-link" href="curriculum.php"><i class="bi bi-journal-text"></i>Curriculum (Undergraduate)</a>
                     <a class="mega-link" href="pg-curriculum.php"><i class="bi bi-journal-text"></i>Curriculum (Postgraduate)</a>
                     <a class="mega-link" href="examinations.php"><i class="bi bi-clipboard-pulse"></i>Examinations &amp; Assessments</a>
