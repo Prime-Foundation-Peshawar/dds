@@ -114,6 +114,9 @@ include('includes/header.php');
     <div class="row g-4">
       <div class="col-lg-6 fu fu-delay-1">
         <div class="pmc-card home-prog-card">
+          <div class="home-prog-logo">
+            <img src="assets/images/logo/pdc-crest.png" alt="Peshawar Dental College logo" width="72" height="72" loading="lazy" />
+          </div>
           <span class="home-prog-code">Undergraduate</span>
           <h4>Peshawar Dental College</h4>
           <p>Established in 2010; a PM&amp;DC-recognized BDS programme for female students, with clinical training at Peshawar Dental Hospital and affiliated teaching hospitals.</p>
@@ -122,6 +125,9 @@ include('includes/header.php');
       </div>
       <div class="col-lg-6 fu fu-delay-2">
         <div class="pmc-card home-prog-card home-prog-card--soon">
+          <div class="home-prog-logo">
+            <img src="assets/images/logo/pdc-crest.png" alt="Peshawar Dental College logo" width="72" height="72" loading="lazy" />
+          </div>
           <span class="home-prog-code">Postgraduate · Coming Soon</span>
           <h4>Postgraduate Dental Education</h4>
           <p>Postgraduate dental programmes in the Department of Dental Sciences are forthcoming, including FCPS/MCPS and university postgraduate pathways.</p>

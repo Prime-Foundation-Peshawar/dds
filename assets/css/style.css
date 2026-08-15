@@ -437,6 +437,18 @@
         #fff;
     }
     .home-prog-card::before { opacity: 1; }
+    .home-prog-logo {
+      width: 72px;
+      height: 72px;
+      margin-bottom: 16px;
+      flex-shrink: 0;
+    }
+    .home-prog-logo img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+    }
     .home-prog-code {
       display: inline-block;
       font-family: var(--font-head);
