@@ -32,6 +32,9 @@ Desktop.ini
 .vscode/
 *.code-workspace
 
+# Production archive of previous site
+/old/
+
 # Backups and local copies
 *.bak
 *.old
