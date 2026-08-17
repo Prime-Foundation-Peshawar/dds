@@ -1,32 +1,14 @@
 <?php
-$preload_images = ['assets/images/pdc-building/pdc9.jpeg'];
+$preload_images = ['assets/images/pdc-building/pdc-slide-2.webp'];
 include('includes/header.php');
 ?>
 
 <!-- ═══ HERO SLIDER ═══ -->
 <div id="heroSlider" aria-roledescription="carousel" aria-label="Department of Dental Sciences highlights">
 
-  <!-- SLIDE 1 — BDS / Peshawar Dental College -->
+  <!-- SLIDE 1 — Clinical training & campus -->
   <div class="hero-slide active" role="group" aria-roledescription="slide" aria-label="1 of 2">
     <div class="slide-media slide-bg-3"></div>
-    <div class="slide-overlay"></div>
-    <div class="container slide-inner">
-      <div class="slide-content">
-        <p class="slide-brand">Department of Dental Sciences</p>
-        <h1 class="slide-title">Your <span class="hl-teal">BDS</span> Journey Starts Here</h1>
-        <p class="slide-body">Peshawar Dental College offers PM&amp;DC-aligned BDS education — rigorous preclinical science, early clinical exposure, and mentors who teach dentistry with integrity.</p>
-        <p class="slide-body slide-body-sub">Study at Riphah International University – Peshawar Campus and build the competence to serve communities across KP and beyond.</p>
-        <div class="slide-actions">
-          <a href="admissions.php" class="btn-pmc btn-pmc-primary"><i class="bi bi-mortarboard"></i> Admissions 2025–26</a>
-          <a href="pdc.php" class="btn-pmc btn-pmc-outline-white">About PDC</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- SLIDE 2 — Clinical training & campus -->
-  <div class="hero-slide" role="group" aria-roledescription="slide" aria-label="2 of 2" data-lazy-bg>
-    <div class="slide-media slide-bg-4"></div>
     <div class="slide-overlay"></div>
     <div class="container slide-inner">
       <div class="row align-items-center g-4 g-xl-5">
@@ -37,7 +19,7 @@ include('includes/header.php');
             <p class="slide-body">From skill labs to specialty clinics — train at Peshawar Dental Hospital and affiliated teaching hospitals with real patients, supervised practice, and research-minded mentors.</p>
             <div class="slide-actions">
               <a href="departments.php" class="btn-pmc btn-pmc-primary">Academic Departments</a>
-              <a href="pdc.php#hospital" class="btn-pmc btn-pmc-outline-white"><i class="bi bi-hospital"></i> Teaching Hospitals</a>
+              <a href="#hospitals" class="btn-pmc btn-pmc-outline-white"><i class="bi bi-hospital"></i> Teaching Hospitals</a>
             </div>
           </div>
         </div>
@@ -60,17 +42,35 @@ include('includes/header.php');
     </div>
   </div>
 
+  <!-- SLIDE 2 — BDS / Peshawar Dental College -->
+  <div class="hero-slide" role="group" aria-roledescription="slide" aria-label="2 of 2" data-lazy-bg>
+    <div class="slide-media slide-bg-4"></div>
+    <div class="slide-overlay"></div>
+    <div class="container slide-inner">
+      <div class="slide-content">
+        <p class="slide-brand">Department of Dental Sciences</p>
+        <h1 class="slide-title">Your <span class="hl-teal">BDS</span> Journey Starts Here</h1>
+        <p class="slide-body">Peshawar Dental College offers PM&amp;DC-aligned BDS education — rigorous preclinical science, early clinical exposure, and mentors who teach dentistry with integrity.</p>
+        <p class="slide-body slide-body-sub">Study at Riphah International University – Peshawar Campus and build the competence to serve communities across KP and beyond.</p>
+        <div class="slide-actions">
+          <a href="admissions.php" class="btn-pmc btn-pmc-primary"><i class="bi bi-mortarboard"></i> Admissions 2025–26</a>
+          <a href="pdc.php" class="btn-pmc btn-pmc-outline-white">About PDC</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Controls -->
   <div class="slider-chrome">
     <button class="slider-prev" type="button" aria-label="Previous slide"><i class="bi bi-chevron-left"></i></button>
     <div class="slider-indicators" role="tablist" aria-label="Slides">
-      <button class="slider-dot active" type="button" data-slide="0" role="tab" aria-label="Peshawar Dental College" aria-selected="true">
-        <span class="slider-dot-track"><span class="slider-dot-bar"></span></span>
-        <span class="slider-dot-label">BDS</span>
-      </button>
-      <button class="slider-dot" type="button" data-slide="1" role="tab" aria-label="Clinical Training" aria-selected="false">
+      <button class="slider-dot active" type="button" data-slide="0" role="tab" aria-label="Clinical Training" aria-selected="true">
         <span class="slider-dot-track"><span class="slider-dot-bar"></span></span>
         <span class="slider-dot-label">Clinical</span>
+      </button>
+      <button class="slider-dot" type="button" data-slide="1" role="tab" aria-label="Peshawar Dental College" aria-selected="false">
+        <span class="slider-dot-track"><span class="slider-dot-bar"></span></span>
+        <span class="slider-dot-label">BDS</span>
       </button>
     </div>
     <button class="slider-next" type="button" aria-label="Next slide"><i class="bi bi-chevron-right"></i></button>
@@ -86,15 +86,16 @@ include('includes/header.php');
             class="stat-lbl">Year Established</span></div>
       </div>
       <div class="col-6 col-md-3">
-        <div class="stat-cell"><span class="stat-num" data-count="20" data-suffix="+">15+</span><span
+        <div class="stat-cell"><span class="stat-num" data-count="15" data-suffix="+">15+</span><span
             class="stat-lbl">Years of Excellence</span></div>
       </div>
       <div class="col-6 col-md-3">
-        <div class="stat-cell"><span class="stat-num" data-count="2" data-suffix="">2</span><span
-            class="stat-lbl">Teaching Hospitals</span></div>
+        <div class="stat-cell"><span class="stat-num" data-count="450" data-suffix="+">450+</span><span
+            class="stat-lbl">Dentists Graduated</span></div>
       </div>
       <div class="col-6 col-md-3">
-        <div class="stat-cell"><span class="stat-num">#1</span><span class="stat-lbl">Choice of Students</span></div>
+        <div class="stat-cell"><span class="stat-num" data-count="4" data-suffix="">4</span><span
+            class="stat-lbl">Year BDS Programme</span></div>
       </div>
     </div>
   </div>
@@ -111,37 +112,28 @@ include('includes/header.php');
         research ability, ethical values, and community leadership.</p>
     </div>
     <div class="row g-4">
-      <div class="col-lg-6 col-md-6 fu fu-delay-2">
-        <div class="pmc-card">
-          <div class="pmc-card-icon"><i class="bi bi-clipboard-pulse"></i></div>
+      <div class="col-lg-6 fu fu-delay-1">
+        <div class="pmc-card home-prog-card">
+          <div class="home-prog-logo">
+            <img src="assets/images/logo/pdc-crest.png" alt="Peshawar Dental College logo" width="72" height="72" loading="lazy" />
+          </div>
+          <span class="home-prog-code">Undergraduate</span>
           <h4>Peshawar Dental College</h4>
-          <p>Established in 2010; a PM&amp;DC-recognized BDS programme for female students, affiliated with Riphah International University.</p>
-          <div class="mt-3 mb-4"><span class="pmc-tag prog-tag">BDS</span><span class="pmc-tag prog-tag">PM&amp;DC</span><span class="pmc-tag prog-tag">Female</span></div>
-          <a href="pdc.php" class="btn-pmc btn-pmc-outline" style="font-size:.8rem;padding:9px 18px;">Learn
-            More <i class="bi bi-arrow-right"></i></a>
+          <p>Established in 2010; a PM&amp;DC-recognized BDS programme for female students, with clinical training at Peshawar Dental Hospital and affiliated teaching hospitals.</p>
+          <a href="pdc.php" class="btn-pmc btn-pmc-outline home-prog-btn">Learn More <i class="bi bi-arrow-right"></i></a>
         </div>
       </div>
-      <div class="col-lg-6 col-md-6 fu fu-delay-2">
-        <div class="pmc-card">
-          <div class="pmc-card-icon"><i class="bi bi-hourglass-split"></i></div>
+      <div class="col-lg-6 fu fu-delay-2">
+        <div class="pmc-card home-prog-card home-prog-card--soon">
+          <div class="home-prog-logo">
+            <img src="assets/images/logo/pdc-crest.png" alt="Peshawar Dental College logo" width="72" height="72" loading="lazy" />
+          </div>
+          <span class="home-prog-code">Postgraduate · Coming Soon</span>
           <h4>Postgraduate Dental Education</h4>
           <p>Postgraduate dental programmes in the Department of Dental Sciences are forthcoming, including FCPS/MCPS and university postgraduate pathways.</p>
-          <div class="mt-3 mb-4">
-              <span class="pmc-tag prog-tag">Coming Soon</span>
-              </div>
-          <a href="#" class="btn-pmc btn-pmc-outline"
-            style="font-size:.8rem;padding:9px 18px;">Details <i class="bi bi-arrow-right"></i></a>
+          <span class="home-prog-soon">Coming Soon</span>
         </div>
       </div>
-      <!-- <div class="col-lg-4 col-md-6 fu fu-delay-3">
-        <div class="pmc-card">
-          <div class="pmc-card-icon"><i class="bi bi-display"></i></div>
-          <h4>Virtual Museum & E-Learning</h4>
-          <p>Digital anatomy and pathology resources, a virtual museum, and e-learning tools that complement traditional teaching to enrich the learning experience.</p>
-          <div class="mt-3 mb-4"><span class="pmc-tag prog-tag">Digital Resources</span><span class="pmc-tag prog-tag">Online Access</span></div>
-          <a href="virtual-museum.php" class="btn-pmc btn-pmc-outline" style="font-size:.8rem;padding:9px 18px;">Access <i class="bi bi-arrow-right"></i></a>
-        </div>
-      </div> -->
     </div>
   </div>
 </section>
@@ -152,10 +144,6 @@ include('includes/header.php');
     <div class="row g-5 align-items-start">
       <div class="col-lg-5 fu">
         <div class="about-visual" style="position:relative;">
-          <div class="about-badge">
-            <span class="about-badge-num">2010</span>
-            <span class="about-badge-lbl">Established</span>
-          </div>
         </div>
       </div>
       <div class="col-lg-7 fu fu-delay-2">
@@ -177,50 +165,39 @@ include('includes/header.php');
 
 
 <!-- ═══ TEACHING HOSPITALS ═══ -->
-<section class="pmc-section bg-navy" id="hospitals">
+<section class="pmc-section bg-navy home-hospitals" id="hospitals">
   <div class="container">
-    <div class="text-center mb-5 fu">
-      <span class="sec-eyebrow" style="color:var(--gold-light);">Affiliated Teaching Hospitals</span>
-      <h2 class="sec-title" style="color:white;">Clinical Training at Its Finest</h2>
-      <p class="sec-desc mx-auto" style="max-width:570px;color:rgba(255,255,255,.75);">Students of the Department of Dental Sciences train at Peshawar Dental Hospital and affiliated teaching hospitals for comprehensive clinical exposure.</p>
+    <div class="home-sec-head text-center fu">
+      <span class="sec-eyebrow">Affiliated Teaching Hospitals</span>
+      <h2 class="sec-title">Clinical Training at Its Finest</h2>
+      <p class="sec-desc">Students of the Department of Dental Sciences train at Peshawar Dental Hospital and affiliated teaching hospitals for comprehensive clinical exposure.</p>
     </div>
     <div class="row g-4">
       <div class="col-lg-4 col-md-6 fu fu-delay-1">
-        <div class="hosp-card">
-          <div class="hosp-ico"><i class="bi bi-emoji-smile-fill"></i></div>
-          <div class="hosp-name">Peshawar Dental Hospital</div>
+        <a class="hosp-card" href="pdc.php#hospital">
+          <span class="hosp-code">PDH</span>
+          <h3 class="hosp-name">Peshawar Dental Hospital</h3>
           <p class="hosp-desc">Tertiary care dental teaching hospital providing patient care and clinical training for BDS students.</p>
-          <a href="pdc.php#hospital" class="hosp-link">Learn More <i class="bi bi-arrow-right"></i></a>
-        </div>
+          <span class="hosp-link">Learn more <i class="bi bi-arrow-right"></i></span>
+        </a>
       </div>
       <div class="col-lg-4 col-md-6 fu fu-delay-2">
-        <div class="hosp-card">
-          <div class="hosp-ico"><i class="bi bi-heart-pulse-fill"></i></div>
-          <div class="hosp-name">Mercy Teaching Hospital</div>
-          <p class="hosp-desc">Focused on community healthcare with high patient volume — ideal for comprehensive, broad
-            clinical experience.</p><a href="https://mth.prime.edu.pk/" class="hosp-link" target="_blank">Learn More <i
-              class="bi bi-arrow-right"></i></a>
-        </div>
+        <a class="hosp-card" href="https://mth.prime.edu.pk/" target="_blank" rel="noopener">
+          <span class="hosp-code">MTH</span>
+          <h3 class="hosp-name">Mercy Teaching Hospital</h3>
+          <p class="hosp-desc">Focused on community healthcare with high patient volume — ideal for comprehensive, broad clinical experience.</p>
+          <span class="hosp-link">Visit hospital <i class="bi bi-arrow-right"></i></span>
+        </a>
       </div>
       <div class="col-lg-4 col-md-6 fu fu-delay-3">
-        <div class="hosp-card">
-          <div class="hosp-ico"><i class="bi bi-capsule-pill"></i></div>
-          <div class="hosp-name">Prime Teaching Hospital</div>
-          <p class="hosp-desc">Equipped with modern diagnostic and surgical facilities for intensive clinical and
-            surgical training rotations.</p><a href="https://pth.prime.edu.pk/" class="hosp-link" target="_blank">Learn
-            More <i class="bi bi-arrow-right"></i></a>
-        </div>
+        <a class="hosp-card" href="https://pth.prime.edu.pk/" target="_blank" rel="noopener">
+          <span class="hosp-code">PTH</span>
+          <h3 class="hosp-name">Prime Teaching Hospital</h3>
+          <p class="hosp-desc">Equipped with modern diagnostic and surgical facilities for intensive clinical and surgical training rotations.</p>
+          <span class="hosp-link">Visit hospital <i class="bi bi-arrow-right"></i></span>
+        </a>
       </div>
-      <!-- <div class="col-lg-3 col-md-6 fu fu-delay-4">
-        <div class="hosp-card">
-          <div class="hosp-ico"><i class="bi bi-people-fill"></i></div>
-          <div class="hosp-name">Community Development</div>
-          <p class="hosp-desc">Bridging academic excellence with community healthcare through comprehensive development
-            initiatives and services.</p><a href="https://prime.edu.pk/pf/community-development.php" class="hosp-link"
-            target="_blank">Learn More <i class="bi bi-arrow-right"></i></a>
-        </div> -->
     </div>
-  </div>
   </div>
 </section>
 
@@ -300,63 +277,156 @@ include('includes/header.php');
   </div>
 </section>
 
-<!-- ═══ NEWS & EVENTS ═══ -->
+<!-- ═══ ADMISSIONS UPDATED ═══ -->
+<section class="pmc-section bg-off" id="admissions-updates">
+  <div class="container">
+    <div class="row align-items-end mb-4 mb-lg-5">
+      <div class="col-lg-8 fu">
+        <span class="sec-eyebrow">Admissions</span>
+        <h2 class="sec-title">Admission Updates</h2>
+        <p class="sec-desc mb-0">Current programme openings and application guidance for Peshawar Dental College.</p>
+      </div>
+      <div class="col-lg-4 text-lg-end fu fu-delay-1 mt-3 mt-lg-0">
+        <a href="admissions.php" class="btn-pmc btn-pmc-outline"><i class="bi bi-mortarboard"></i> Admissions Info</a>
+      </div>
+    </div>
+    <div class="row g-4">
+      <div class="col-lg-6 col-md-6 fu fu-delay-1">
+        <article class="news-card news-card-text news-card--admissions">
+          <div class="nc-body">
+            <div class="nc-meta">
+              <span class="nc-cat nc-cat-admissions">Admissions</span>
+              <span class="nc-date"><i class="bi bi-calendar3"></i> Session 2025–26</span>
+            </div>
+            <h3 class="nc-title">BDS Admissions — Applications Closed</h3>
+            <p class="nc-deadline"><i class="bi bi-info-circle"></i> Review eligibility and next-cycle guidance</p>
+            <div class="nc-actions">
+              <a href="admissions.php" class="nc-btn nc-btn-primary">Admissions info <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-6 col-md-6 fu fu-delay-2">
+        <article class="news-card news-card-text news-card--admissions">
+          <div class="nc-body">
+            <div class="nc-meta">
+              <span class="nc-cat nc-cat-admissions">Admissions</span>
+              <span class="nc-date"><i class="bi bi-calendar3"></i> Undergraduate</span>
+            </div>
+            <h3 class="nc-title">BDS Programme — Eligibility &amp; Guidance</h3>
+            <p class="nc-deadline"><i class="bi bi-mortarboard"></i> Four-year PM&amp;DC-recognized programme for female students</p>
+            <div class="nc-actions">
+              <a href="admissions.php" class="nc-btn nc-btn-primary">View admissions <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ WE ARE HIRING ═══ -->
+<section class="pmc-section" id="careers">
+  <div class="container">
+    <div class="row align-items-end mb-4 mb-lg-5">
+      <div class="col-lg-8 fu">
+        <span class="sec-eyebrow">Careers</span>
+        <h2 class="sec-title">We Are Hiring</h2>
+        <p class="sec-desc mb-0">Faculty and staff opportunities at Riphah International University – Peshawar Campus.</p>
+      </div>
+      <div class="col-lg-4 text-lg-end fu fu-delay-1 mt-3 mt-lg-0">
+        <a href="http://careers.prime.edu.pk" target="_blank" rel="noopener" class="btn-pmc btn-pmc-outline"><i class="bi bi-briefcase"></i> Career Portal</a>
+      </div>
+    </div>
+    <div class="row g-4">
+      <div class="col-lg-6 col-md-6 fu fu-delay-1">
+        <article class="news-card news-card-text news-card--career">
+          <div class="nc-body">
+            <div class="nc-meta">
+              <span class="nc-cat nc-cat-career">Career</span>
+              <span class="nc-date"><i class="bi bi-calendar3"></i> Published: Aug 2026</span>
+            </div>
+            <h3 class="nc-title">Positions Vacant</h3>
+            <p class="nc-deadline"><i class="bi bi-clock"></i> Apply by <strong>17 Aug 2026</strong></p>
+            <div class="nc-actions">
+              <a target="_blank" href="assets/images/news/career-ad.jpg" class="nc-btn nc-btn-primary">View advertisement <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-6 col-md-6 fu fu-delay-2">
+        <article class="news-card news-card-text news-card--career hub-career-portal-card">
+          <div class="nc-body">
+            <div class="nc-meta">
+              <span class="nc-cat nc-cat-career">Career Portal</span>
+            </div>
+            <h3 class="nc-title">Explore Open Roles Online</h3>
+            <p class="nc-excerpt">Browse current vacancies and submit applications through the official Career Portal.</p>
+            <div class="nc-actions">
+              <a href="http://careers.prime.edu.pk" target="_blank" rel="noopener" class="nc-btn nc-btn-primary">Visit Career Portal <i class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ LATEST FROM CAMPUS ═══ -->
 <section class="pmc-section bg-off" id="news">
   <div class="container">
-    <div class="row align-items-end mb-5">
-      <div class="col-lg-7 fu">
-        <span class="sec-eyebrow">News &amp; Updates</span>
-        <h2 class="sec-title">Latest from DDS</h2>
-        <p class="sec-desc mb-0">Events, admissions, and campus notices — current items only.</p>
+    <div class="row align-items-end mb-4 mb-lg-5">
+      <div class="col-lg-8 fu">
+        <span class="sec-eyebrow">News &amp; Events</span>
+        <h2 class="sec-title">Latest from Campus</h2>
+        <p class="sec-desc mb-0">Campus notices, college updates, and student life highlights.</p>
       </div>
-      <div class="col-lg-5 text-lg-end fu fu-delay-2 mt-3 mt-lg-0">
-        <a href="all-news.php" class="btn-pmc btn-pmc-outline"><i class="bi bi-newspaper"></i> All News</a>
+      <div class="col-lg-4 text-lg-end fu fu-delay-1 mt-3 mt-lg-0">
+        <a href="events.php" class="btn-pmc btn-pmc-outline"><i class="bi bi-calendar-event"></i> View All</a>
       </div>
     </div>
     <div class="row g-4">
       <div class="col-lg-4 col-md-6 fu fu-delay-1">
-        <article class="news-card news-card-text news-card--event">
+        <article class="news-card news-card-text news-card--campus">
           <div class="nc-body">
             <div class="nc-meta">
-              <span class="nc-cat nc-cat-news">Event</span>
-              <span class="nc-date"><i class="bi bi-calendar3"></i> Published: July 2026</span>
+              <span class="nc-cat nc-cat-news">College</span>
+              <span class="nc-date"><i class="bi bi-calendar3"></i> Established 2010</span>
             </div>
-            <h3 class="nc-title">Participate in Seert-un-Nabi Week</h3>
-            <p class="nc-deadline"><i class="bi bi-clock"></i> Apply by <strong>8 Aug 2026</strong></p>
+            <h3 class="nc-title">Peshawar Dental College — BDS for Female Students</h3>
+            <p class="nc-excerpt">A PM&amp;DC-recognized four-year BDS programme preparing professionally competent female dentists.</p>
             <div class="nc-actions">
-              <a target="_blank" href="assets/images/news/ad-seerat-ul-nabi.jpeg" class="nc-btn nc-btn-primary">Read more <i class="bi bi-arrow-right"></i></a>
+              <a href="pdc.php" class="nc-btn nc-btn-primary">About PDC <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
         </article>
       </div>
       <div class="col-lg-4 col-md-6 fu fu-delay-2">
-        <article class="news-card news-card-text news-card--admissions">
+        <article class="news-card news-card-text news-card--campus">
           <div class="nc-body">
             <div class="nc-meta">
-              <span class="nc-cat nc-cat-admissions">Admissions</span>
-              <span class="nc-date"><i class="bi bi-calendar3"></i> Published: Apr 2026</span>
+              <span class="nc-cat nc-cat-news">Campus</span>
+              <span class="nc-date"><i class="bi bi-calendar3"></i> Clinical training</span>
             </div>
-            <h3 class="nc-title">MPhil Basic Medical Sciences</h3>
-            <p class="nc-deadline"><i class="bi bi-clock"></i> Apply by <strong>20 Aug 2026</strong></p>
-            <div class="nc-actions nc-actions-split">
-              <a target="_blank" href="assets/images/news/ad-medical.jpeg" class="nc-btn nc-btn-primary">Read more <i class="bi bi-arrow-right"></i></a>
-              <a target="_blank" href="assets/images/news/PG-Admission-Form-Medical-Sciences.pdf" class="nc-btn nc-btn-form"><i class="bi bi-download"></i> Form</a>
+            <h3 class="nc-title">Clinical Training at Peshawar Dental Hospital</h3>
+            <p class="nc-excerpt">Hands-on clinical exposure at Peshawar Dental Hospital, with affiliated teaching hospital rotations.</p>
+            <div class="nc-actions">
+              <a href="#hospitals" class="nc-btn nc-btn-primary">View hospitals <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
         </article>
       </div>
       <div class="col-lg-4 col-md-6 fu fu-delay-3">
-        <article class="news-card news-card-text news-card--admissions">
+        <article class="news-card news-card-text news-card--campus">
           <div class="nc-body">
             <div class="nc-meta">
-              <span class="nc-cat nc-cat-admissions">Admissions</span>
-              <span class="nc-date"><i class="bi bi-calendar3"></i> Published: Apr 2026</span>
+              <span class="nc-cat nc-cat-news">Campus Life</span>
+              <span class="nc-date"><i class="bi bi-calendar3"></i> 2026</span>
             </div>
-            <h3 class="nc-title">BS, MPhil &amp; PhD Islamiyat</h3>
-            <p class="nc-deadline"><i class="bi bi-clock"></i> Apply by <strong>20 Aug 2026</strong></p>
-            <div class="nc-actions nc-actions-split">
-              <a target="_blank" href="assets/images/news/ad-islamiyat.jpeg" class="nc-btn nc-btn-primary">Read more <i class="bi bi-arrow-right"></i></a>
-              <a target="_blank" href="assets/images/news/PG-Admission-Form-Islamiyat.pdf" class="nc-btn nc-btn-form"><i class="bi bi-download"></i> Form</a>
+            <h3 class="nc-title">Student Societies &amp; Campus Activities</h3>
+            <p class="nc-excerpt">Societies, sports, literature, and community service initiatives on Warsak Road campus.</p>
+            <div class="nc-actions">
+              <a href="events.php" class="nc-btn nc-btn-primary">View notices <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
         </article>

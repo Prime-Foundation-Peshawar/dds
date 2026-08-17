@@ -26,7 +26,7 @@ include('includes/header.php');
       <div class="dept-hero-ico" aria-hidden="true"><i class="bi <?= htmlspecialchars($dept['icon']) ?>"></i></div>
       <div>
         <h1><?= htmlspecialchars($dept['name']) ?></h1>
-        <p class="dept-hero-sub">Department of Medical Sciences Â· Peshawar Medical College</p>
+        <p class="dept-hero-sub">Department of Dental Sciences &middot; Peshawar Dental College</p>
       </div>
     </div>
     <div class="breadcrumb-pmc mt-3">

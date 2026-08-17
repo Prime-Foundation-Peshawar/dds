@@ -46,7 +46,7 @@
               More than <strong>450 graduates</strong> have qualified from the College. The principal focus is undergraduate education, with facilities also supporting postgraduate learners of university and CPSP programmes. An integrated modular BDS system has been in place since session <strong>2019–2020</strong>, with Undergraduate Medical Research (UMR) as a regular component.
             </p>
             <p>
-              For department overview and campus location, see <a href="about.php"><strong>About DDS</strong></a>. Values are on <a href="vision-mission.php"><strong>Vision &amp; Mission</strong></a>.
+              For department overview and campus location, see <a href="about.php"><strong>Introduction</strong></a>. Values are on <a href="vision-mission.php"><strong>Vision &amp; Mission</strong></a>.
             </p>
           </div>
 

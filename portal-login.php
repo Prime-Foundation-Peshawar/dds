@@ -161,10 +161,9 @@
         <div class="sidebar-widget">
           <div class="sw-head"><i class="bi bi-hospital-fill"></i> Teaching Hospitals</div>
           <div class="sw-body">
-            <a class="sw-link" href="https://prime.edu.pk/pf/idx_kth.php" target="_blank"><i class="bi bi-hospital"></i>Kuwait Teaching Hospital</a>
-            <a class="sw-link" href="https://prime.edu.pk/pf/idx_mth.php" target="_blank"><i class="bi bi-heart-pulse"></i>Mercy Teaching Hospital</a>
-            <a class="sw-link" href="https://prime.edu.pk/pf/idx_pth.php" target="_blank"><i class="bi bi-capsule-pill"></i>Prime Teaching Hospital</a>
-            <a class="sw-link" href="https://prime.edu.pk/pf/community-development.php" target="_blank"><i class="bi bi-people-fill"></i>Community Dev. Center</a>
+            <a class="sw-link" href="pdc.php#hospital"><i class="bi bi-hospital"></i>Peshawar Dental Hospital</a>
+            <a class="sw-link" href="https://mth.prime.edu.pk/" target="_blank"><i class="bi bi-heart-pulse"></i>Mercy Teaching Hospital</a>
+            <a class="sw-link" href="https://pth.prime.edu.pk/" target="_blank"><i class="bi bi-capsule-pill"></i>Prime Teaching Hospital</a>
           </div>
         </div>
         <div class="sidebar-widget">

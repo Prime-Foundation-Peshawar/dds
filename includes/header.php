@@ -62,7 +62,7 @@ $page_description = $page_description ?? 'Department of Dental Sciences, Riphah 
           <i class="bi bi-geo-alt-fill me-1"></i> Warsak Road, Peshawar, KP 25160, Pakistan
           <span class="sep">|</span>
           <i class="bi bi-telephone-fill me-1"></i>
-          <a href="tel:+92915200663">+92-91-5200663-4</a>
+          <a href="tel:+92915201848">+92-91-5201848 / +92-91-5202264</a>
           <span class="sep">|</span>
           <i class="bi bi-envelope-fill me-1"></i>
           <a href="mailto:info@riphahpsh.edu.pk">info@riphahpsh.edu.pk</a>
@@ -81,7 +81,7 @@ $page_description = $page_description ?? 'Department of Dental Sciences, Riphah 
       <a class="pmc-brand" href="index.php">
         <div class="">
           <img src="assets/images/logo/riphah-psh.png"
-            alt="Department of Dental Sciences (DDS) — Riphah Peshawar Campus" width="200px;" />
+            alt="Department of Dental Sciences (PDC) — Riphah Peshawar Campus" width="200px;" />
         </div>
         <div class="pmc-brand-text d-none d-md-block" style="margin-left:10px;line-height:1.25;">
           <div style="font-size:.88rem;font-weight:700;color:var(--navy);">Department of Dental Sciences</div>
@@ -105,7 +105,7 @@ $page_description = $page_description ?? 'Department of Dental Sciences, Riphah 
                 <div class="row g-4">
                   <div class="col-lg-4">
                     <div class="mega-col-head"><i class="bi bi-info-circle-fill"></i> About Us</div>
-                    <a class="mega-link" href="about.php"><i class="bi bi-building"></i>About DDS</a>
+                    <a class="mega-link" href="about.php"><i class="bi bi-building"></i>Introduction</a>
                     <a class="mega-link" href="vision-mission.php"><i class="bi bi-eye"></i>Vision &amp; Mission</a>
                     <a class="mega-link" href="faculty.php"><i class="bi bi-people"></i>Faculty</a>
                     <a class="mega-link" href="https://pdc.prime.edu.pk/upload/organogram/Organogram%20March%2013,%202023-PDC.pdf" target="_blank"><i class="bi bi-diagram-3"></i>Organogram</a>
@@ -131,10 +131,10 @@ $page_description = $page_description ?? 'Department of Dental Sciences, Riphah 
           <li class="nav-item"><a class="nav-link" href="departments.php">Departments</a></li>
 
           <li class="nav-item mega-menu-wrapper">
-            <a class="nav-link dropdown-toggle" href="#programs">Programs</a>
+            <a class="nav-link dropdown-toggle" href="index.php#programs">Programs</a>
             <div class="dropdown-menu plain-dd" style="min-width:260px;">
               <a class="dropdown-item" href="pdc.php"><i class="bi bi-mortarboard"></i>Undergraduate Dental Education (PDC)</a>
-              <a class="dropdown-item" href="#"><i class="bi bi-hourglass-split"></i>Postgraduate Dental Education</a>
+              <a class="dropdown-item" href="#"><i class="bi bi-hourglass-split"></i>Postgraduate Dental Education <span class="text-muted" style="font-size:.72rem;">(Coming Soon)</span></a>
               <a class="dropdown-item" href="dental-education.php"><i class="bi bi-book"></i>Dental Education Overview</a>
             </div>
           </li>
@@ -185,7 +185,7 @@ $page_description = $page_description ?? 'Department of Dental Sciences, Riphah 
                   <div class="col-lg-4">
                     <div class="mega-col-head"><i class="bi bi-book-fill"></i> Education</div>
                     <a class="mega-link" href="dental-education.php"><i class="bi bi-journal-medical"></i>Dental Education</a>
-                    <a class="mega-link" href="#"><i class="bi bi-journal-medical"></i>Postgraduate Dental Education</a>
+                    <a class="mega-link" href="#"><i class="bi bi-journal-medical"></i>Postgraduate Dental Education (Coming Soon)</a>
                     <a class="mega-link" href="curriculum.php"><i class="bi bi-journal-text"></i>Curriculum (Undergraduate)</a>
                     <a class="mega-link" href="pg-curriculum.php"><i class="bi bi-journal-text"></i>Curriculum (Postgraduate)</a>
                     <a class="mega-link" href="examinations.php"><i class="bi bi-clipboard-pulse"></i>Examinations &amp; Assessments</a>
@@ -206,6 +206,7 @@ $page_description = $page_description ?? 'Department of Dental Sciences, Riphah 
             </div>
           </li>
 
+          <li class="nav-item"><a class="nav-link" href="gallery.php">Gallery</a></li>
           <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
         </ul>
       </div>

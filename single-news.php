@@ -729,8 +729,7 @@
             <ol>
               <li><strong>Faculty-to-Student Ratio</strong> — Among the best maintained ratios in private sector medical
                 colleges in KP</li>
-              <li><strong>Three Affiliated Teaching Hospitals</strong> — Kuwait, Mercy, and Prime Teaching Hospitals
-                provide exceptional clinical diversity</li>
+              <li><strong>Peshawar Dental Hospital</strong> — Dedicated tertiary care dental teaching hospital for clinical training</li>
               <li><strong>Research Culture</strong> — Active undergraduate research program with verified student
                 publications</li>
               <li><strong>Modern Clinical Skills Laboratory</strong> — Simulation-based training facility recognised for
