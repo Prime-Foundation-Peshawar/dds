@@ -1,5 +1,57 @@
 {
-  "source": "Dental departmental CVs will be added as received.",
-  "profiles": {},
-  "index": {}
+  "source": "Physiology departmental Word CV (Munaza Khattak). Other dental CVs will be added as received.",
+  "profiles": {
+    "munaza-khattak": {
+      "slug": "munaza-khattak",
+      "aliases": [
+        "munaza-khattak"
+      ],
+      "name": "Munaza Khattak",
+      "department": "Physiology",
+      "designation": "Professor",
+      "hod": true,
+      "photo": "",
+      "qualifications": [
+        "BDS, Khyber College of Dentistry, Peshawar (1988-1992)",
+        "Master of Public Health, University of Peshawar (2008-2010)",
+        "M.Phil Physiology, Khyber Medical University (2012-2014)",
+        "PhD (Physiology), Khyber Medical University (2026)"
+      ],
+      "experience": [
+        "Dental Surgeon, Health Department KPK, Peshawar and Karak (1992-1995)",
+        "Lecturer, Physiology Department, Jinnah Medical College, Warsak Road, Peshawar (2011-2012)",
+        "Senior Lecturer, Physiology Department, Frontier Medical College, Abbottabad (June 2013 – November 2013)",
+        "Lecturer, Physiology Department, Kohat Institute of Medical Sciences (March 2014 – August 2014)",
+        "Assistant Professor, Physiology Department, Peshawar Medical College (2014-2020)",
+        "Associate Professor, Physiology Department, Peshawar Medical College (2020-2024)",
+        "Professor, Physiology Department, Peshawar Medical College (2024 – Till date)"
+      ],
+      "skills": [],
+      "publications": [
+        "Usman R, Khan F, Khattak M, ul Abideen Z. Correlation of vitamin D with hypertension in patients with cardiometabolic syndrome. Journal of Postgraduate Medical Institute. 2017 Aug 10;31(3).",
+        "Javaid A, Zafar S, Khattak M, Khan F, Wadud S. Effects of administration of Taraxacum officinale extract on renal parameters in cisplatin induced nephrotoxicity in albino mice. Khyber Medical University Journal. 2019 Sep 30;11(3):156-9.",
+        "Orakzai SA, Khattak M, Muhammad P, Khan A, et al. Comparative sero-analysis between copper levels and the risk of acute myocardial infarction in District Nowshera. Pakistan Journal of Health Sciences. 2024.",
+        "Mariyum S, Iqbal A, Obaid S, Khattak M, Mariyum K, et al. Glycated hemoglobin level and clinical parameters of periodontal disease in type 2 diabetes mellitus. Advances in Basic Medical Sciences. 2021.",
+        "Shahid T, Mariyum S, Khattak M, Wadud S, Khan F, et al. Evaluation of altered oral changes in COVID-19 PCR positive cases: a cross sectional study. Journal of Saidu Medical College. 2024.",
+        "Khalid M, Khattak M, Tariq M, Haq M, Mufti MZ, Malik SN. Osteoporosis in adult thalassemia major patients presenting at a tertiary care hospital. Journal of Rehman Medical Institute. 2024 Oct 7;10(3):16-20.",
+        "Wazir NU, Hussain S, Salman F, Haq M, Khattak M, Wadud S. Vitamin E shields against alcoholic toxicity by safeguarding hepatic parenchymal morphology and lowering blood ALT levels. Journal of Ayub Medical College Abbottabad. 2024 Jun 30;36(2):331-5.",
+        "Khan M, Orakzai SA, Khan A, Khattak M, Khan Y, et al. Blood trace element (zinc) estimation in patients of viral hepatitis C, liver cirrhosis and hepatocellular carcinoma in tertiary care hospitals of Peshawar. Journal of Peoples University of Medical & Health Sciences. 2024;14(1):70-76. https://doi.org/10.46536/jpumhs/2024/14.01.497",
+        "Sadiq N, Ara C, Wadud S, Khattak M, et al. A longitudinal study of biochemical variables in women at risk of pre-eclampsia and role of serotonin. Journal of Population Therapeutics and Clinical Pharmacology. 31(6):2123-2129.",
+        "Khattak M, Farooq M, Kazmi SKS, Saeed M, Sheikh MU, Shuaib M. Correlation between chest radiographic findings, sputum bacterial load, and treatment outcomes in extensively drug-resistant tuberculosis patients. Pakistan Journal of Chest Medicine. 28(3):371-377.",
+        "Haq I, Obaid S, Yasmin RS, Khattak M, Javaid A, et al. Pharmaceutical and medicinal applications of Panax ginseng and ginsenosides and their therapeutic role in different disease. 2022.",
+        "Mariyum S, Saleem N, Iqbal A, Iqbal S, Khattak M, Obaid S. A comparison between type-2 diabetics and non-diabetics in terms of papillary bleeding index (PBI). Journal of Gandhara Medical and Dental Science. 2022;9(1):28-32. https://doi.org/10.37762/jgmds.9-1.198",
+        "Muhammad A, Haq M, Khattak M, Khan BB, Ahmed A, Haq M, Haq H, et al. Association of SARS-CoV-2 and ABO blood types: a systematic review. Annals of RSCB. 26(1):444-463.",
+        "Zabihullah SA, Khan A, Khattak M, Zabihullah SAO, Ahmed S. Frequency of H. pylori in liver cirrhosis patients with overt hepatic encephalopathy: a cross-sectional study. Pakistan Journal of Medical & Health Sciences. 16(11):745-745.",
+        "Rehman F, Gul H, Khattak M, Arif S, Idrees U, Khan SJ. Impact of asthma on perinatal outcomes: risks and management strategies in pregnant women. Pakistan Journal of Chest Medicine. 27(3):203-208.",
+        "Khan A, Khattak M, Saleem K, Khan SA, Khan MA. Prevalence of different diseases based on histopathological features in biopsies from diseased patients in Malakand division, Khyber Pakhtunkhwa. Journal of Medical Sciences. 2021;29(01).",
+        "Usman R, Khattak M, Haq M, Khattak M, Parveen T, Basharat T. Correlation of Vitamin D with obesity parameters in patients of cardiometabolic syndrome. Advances in Basic Medical Sciences. 2020 Jul 24;4(1).",
+        "Haq NU, Haq M, Salman F, Haq M, Khattak M, Usman R, Khan AMK. Prevalence of Vitamin D deficiency in patients of chronic hepatitis C. The Professional Medical Journal. 2020;27(01):35-39.",
+        "Khan SA, Shah W, Khan MA, Khan MJ, Ali Shah. Significance of endoscopy/colonoscopy versus microscopy in patients with chronic diarrhea. Journal of Medical Sciences. 2014;22(3):132-136.",
+        "Khattak M, Habib SH, Irfan M. Effect of a non-energy restricted ketogenic diet on cognition in sedentary healthy young adults. Physiology International. 2026 Jan 20:2060-25."
+      ]
+    }
+  },
+  "index": {
+    "munaza-khattak": "munaza-khattak"
+  }
 }

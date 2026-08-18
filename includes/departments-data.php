@@ -208,7 +208,7 @@ $academic_departments = [
     'faculty' => [
       [
         'name' => 'Professor Dr. Munaza Khattak',
-        'qualification' => 'BDS, M.Phil',
+        'qualification' => 'BDS, MPH, M.Phil, PhD',
         'reg' => '2394-D',
       ],
     ],
