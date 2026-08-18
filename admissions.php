@@ -20,8 +20,13 @@
             The <strong>Department of Dental Sciences</strong> at Riphah International University – Peshawar Campus, through <strong>Peshawar Dental College</strong>, offers merit-based admissions to the Bachelor of Dental Surgery (BDS) programme for female students. The transparent admission process aims to produce dentists who are professionally competent, ethically grounded, and committed to community oral health.
           </p>
           <p style="font-size:.9rem;margin-bottom:1.25rem;">
-            <a href="https://riphahpsh.edu.pk/admissions.php" target="_blank">Campus admissions hub</a> ·
-            Prospectus and fee PDFs remain available via the links below (hosted on legacy download servers). <a href="pg-dental-education.php">Postgraduate dental programmes</a> are open for Fall 2026.
+            <a href="https://riphahpsh.edu.pk/admissions.php" target="_blank" rel="noopener">Campus admissions hub</a> ·
+            Prospectus and fee PDFs remain available via the links below (hosted on legacy download servers).
+            <a href="pg-dental-education.php">Postgraduate dental programmes</a> are open for Fall 2026
+            (apply by <strong>03 Sep 2026</strong>).
+            <a href="<?= hub_base ?>assets/images/news/PG-Admission-Form-Dental-Sciences.pdf" target="_blank" rel="noopener">Admission form</a>
+            ·
+            <a href="<?= hub_base ?>assets/images/news/pg-medical-dental-ad-fall-2026.png" target="_blank" rel="noopener">Advertisement</a>.
           </p>
 
           <!-- KMU & Quota Note -->

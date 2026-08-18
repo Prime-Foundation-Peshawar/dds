@@ -284,7 +284,7 @@ include('includes/header.php');
       <div class="col-lg-8 fu">
         <span class="sec-eyebrow">Admissions</span>
         <h2 class="sec-title">Admission Updates</h2>
-        <p class="sec-desc mb-0">Current programme openings and application guidance for Peshawar Dental College.</p>
+        <p class="sec-desc mb-0">Current programme openings and application guidance for Peshawar Dental College and postgraduate dental programmes.</p>
       </div>
       <div class="col-lg-4 text-lg-end fu fu-delay-1 mt-3 mt-lg-0">
         <a href="admissions.php" class="btn-pmc btn-pmc-outline"><i class="bi bi-mortarboard"></i> Admissions Info</a>
@@ -296,12 +296,14 @@ include('includes/header.php');
           <div class="nc-body">
             <div class="nc-meta">
               <span class="nc-cat nc-cat-admissions">Admissions</span>
-              <span class="nc-date"><i class="bi bi-calendar3"></i> Session 2025–26</span>
+              <span class="nc-date"><i class="bi bi-calendar3"></i> Published: Aug 2026</span>
             </div>
-            <h3 class="nc-title">BDS Admissions — Applications Closed</h3>
-            <p class="nc-deadline"><i class="bi bi-info-circle"></i> Review eligibility and next-cycle guidance</p>
-            <div class="nc-actions">
-              <a href="admissions.php" class="nc-btn nc-btn-primary">Admissions info <i class="bi bi-arrow-right"></i></a>
+            <h3 class="nc-title">MPhil Basic Dental Sciences</h3>
+            <p class="nc-deadline"><i class="bi bi-clock"></i> Apply by <strong>03 Sep 2026</strong></p>
+            <p class="nc-excerpt">Oral Pathology, Oral Biology, and Dental Materials. Test <strong>04 Sep</strong>, interview <strong>05 Sep</strong>.</p>
+            <div class="nc-actions nc-actions-split">
+              <a target="_blank" rel="noopener" href="<?= hub_base ?>assets/images/news/pg-medical-dental-ad-fall-2026.png" class="nc-btn nc-btn-primary">Read more <i class="bi bi-arrow-right"></i></a>
+              <a target="_blank" rel="noopener" href="<?= hub_base ?>assets/images/news/PG-Admission-Form-Dental-Sciences.pdf" class="nc-btn nc-btn-form"><i class="bi bi-download"></i> Form</a>
             </div>
           </div>
         </article>
@@ -311,12 +313,12 @@ include('includes/header.php');
           <div class="nc-body">
             <div class="nc-meta">
               <span class="nc-cat nc-cat-admissions">Admissions</span>
-              <span class="nc-date"><i class="bi bi-calendar3"></i> Undergraduate</span>
+              <span class="nc-date"><i class="bi bi-calendar3"></i> Session 2025–26</span>
             </div>
-            <h3 class="nc-title">BDS Programme — Eligibility &amp; Guidance</h3>
-            <p class="nc-deadline"><i class="bi bi-mortarboard"></i> Four-year PM&amp;DC-recognized programme for female students</p>
+            <h3 class="nc-title">BDS Admissions — Applications Closed</h3>
+            <p class="nc-deadline"><i class="bi bi-info-circle"></i> Review eligibility and next-cycle guidance</p>
             <div class="nc-actions">
-              <a href="admissions.php" class="nc-btn nc-btn-primary">View admissions <i class="bi bi-arrow-right"></i></a>
+              <a href="admissions.php" class="nc-btn nc-btn-primary">Admissions info <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
         </article>
