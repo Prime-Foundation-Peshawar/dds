@@ -599,3 +599,36 @@ function department_updated_label(array $dept): string {
   $ts = strtotime($raw);
   return $ts ? date('j M Y', $ts) : (string) $raw;
 }
+
+/** ORIC department IDs from https://oric.prime.edu.pk/publications.php */
+function department_oric_id(string $slug): ?int {
+  $map = [
+    'oral-pathology' => 5024,
+    'sciences-of-dental-material' => 5028,
+    'oral-biology' => 5037,
+    'community-preventive-dentistry' => 5033,
+    'dental-education' => 5029,
+    'anatomy' => 4,
+    'physiology' => 5,
+    'biochemistry' => 3,
+    'pathology' => 8,
+    'pharmacology' => 5010,
+    'periodontology' => 5012,
+    'orthodontics' => 5022,
+    'prosthodontics' => 5014,
+    'operative-dentistry' => 5039,
+    'oral-maxillofacial-surgery' => 5040,
+    'oral-medicine' => 5041,
+    'medicine' => 1,
+    'surgery' => 5001,
+  ];
+  return $map[$slug] ?? null;
+}
+
+function department_oric_publications_url(string $slug): string {
+  $id = department_oric_id($slug);
+  if ($id === null) {
+    return 'https://oric.prime.edu.pk/publications.php';
+  }
+  return 'https://oric.prime.edu.pk/dep_research.php?id=' . $id;
+}

@@ -1025,6 +1025,14 @@
       border-color: rgba(27,122,158,.3);
       box-shadow: 0 6px 18px rgba(10,22,40,.05);
     }
+    .dept-faculty-link {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      width: 100%;
+      text-decoration: none;
+      color: inherit;
+    }
     .dept-faculty-card.is-hod {
       border-color: rgba(27,122,158,.4);
       background: linear-gradient(135deg, rgba(27,122,158,.07), rgba(255,255,255,.9));
@@ -1318,6 +1326,11 @@
     }
     .dept-aside-links {
       padding: 8px 16px 18px;
+    }
+    .dept-pubs-copy {
+      margin: 0 0 16px;
+      color: var(--gray-mid, #64748b);
+      line-height: 1.6;
     }
     @media (max-width: 991.98px) {
       .dept-stats { grid-template-columns: 1fr 1fr; }

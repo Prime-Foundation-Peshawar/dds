@@ -25,7 +25,7 @@
       <div class="col-6 col-md-3">
         <div class="fac-stat-cell">
           <span class="fac-stat-num" id="statTotal">—</span>
-          <span class="fac-stat-lbl">Total Faculty</span>
+          <span class="fac-stat-lbl">Teachers</span>
         </div>
       </div>
       <div class="col-6 col-md-3">
@@ -56,9 +56,9 @@
 
     <div class="row mb-4 align-items-end fu">
       <div class="col-lg-8">
-        <span class="sec-eyebrow">Faculty Directory</span>
-        <h2 class="sec-title">Expert Dentists &amp; Academic Professionals</h2>
-        <p class="sec-desc mb-0">A PM&amp;DC-registered team of professors, associate professors, assistant professors, senior lecturers, and lecturers across every department of the BDS curriculum.</p>
+        <span class="sec-eyebrow">Meet the faculty</span>
+        <h2 class="sec-title">Teachers and dentists</h2>
+        <p class="sec-desc mb-0">PM&amp;DC-registered professors, lecturers, and clinicians who teach the BDS programme.</p>
       </div>
       <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
         <a href="departments.php" class="btn-pmc btn-pmc-outline"><i class="bi bi-diagram-3"></i> Academic Departments</a>
@@ -81,15 +81,15 @@
           </select>
         </div>
         <div class="col-lg-2 col-md-6">
-          <label class="filter-label" for="desigFilter">Designation</label>
+          <label class="filter-label" for="desigFilter">Post</label>
           <select id="desigFilter" class="filter-select">
-            <option value="">All Designations</option>
+            <option value="">All posts</option>
           </select>
         </div>
         <div class="col-lg-3 col-md-6">
-          <label class="filter-label" for="qualFilter">Qualification</label>
+          <label class="filter-label" for="qualFilter">Degree</label>
           <select id="qualFilter" class="filter-select">
-            <option value="">All Qualifications</option>
+            <option value="">All degrees</option>
           </select>
         </div>
         <div class="col-lg-2 col-md-6">
@@ -99,20 +99,20 @@
         </div>
       </div>
       <div class="filter-meta">
-        <span class="results-info">Showing <span id="resultCount">—</span> of <span id="totalCount">—</span> faculty members</span>
+        <span class="results-info">Showing <span id="resultCount">—</span> of <span id="totalCount">—</span> teachers</span>
       </div>
     </div>
 
     <div id="loadingState">
       <div class="spinner-pmc"></div>
-      <p>Loading faculty data…</p>
+      <p>Loading faculty…</p>
     </div>
 
     <div id="emptyState">
       <div class="empty-icon"><i class="bi bi-search"></i></div>
-      <h5>No Results Found</h5>
-      <p>Try adjusting your search or filter criteria.</p>
-      <button type="button" onclick="clearAllFilters()" class="btn-pmc btn-pmc-outline"><i class="bi bi-x-circle"></i> Clear All Filters</button>
+      <h5>No matching teachers</h5>
+      <p>Try another name, post, or degree.</p>
+      <button type="button" onclick="clearAllFilters()" class="btn-pmc btn-pmc-outline"><i class="bi bi-x-circle"></i> Clear filters</button>
     </div>
 
     <div id="facultyContent"></div>
@@ -321,7 +321,50 @@ function getQualification(m) {
   return m.qualifications || m.qualification || m.degree || m.education || m.qual || m.qualification_name || '';
 }
 
+let extraPack = { profiles: {}, index: {} };
+
+function facultySlug(name) {
+  let n = String(name || '').trim();
+  const titles = /^(associate professor|assistant professor|professor|prof\.?|dr\.?)\s+/i;
+  while (titles.test(n)) n = n.replace(titles, '');
+  return n.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+}
+
+function slugsMatch(a, b) {
+  if (!a || !b) return false;
+  if (a === b) return true;
+  const ta = a.split('-').filter(Boolean);
+  const tb = b.split('-').filter(Boolean);
+  if (!ta.length || !tb.length) return false;
+  const fa = ta[0], fb = tb[0], la = ta[ta.length - 1], lb = tb[tb.length - 1];
+  const firstOk = fa === fb || (fa.length >= 4 && fb.length >= 4 && (fa.startsWith(fb.slice(0, 4)) || fb.startsWith(fa.slice(0, 4))));
+  const lastOk = la === lb || la.startsWith(lb) || lb.startsWith(la) || (la.length >= 4 && lb.length >= 4 && la.slice(0, 4) === lb.slice(0, 4));
+  return firstOk && lastOk;
+}
+
+function extraFor(name) {
+  const s = facultySlug(name);
+  const canon = (extraPack.index && extraPack.index[s]) || s;
+  if (extraPack.profiles && extraPack.profiles[canon]) return extraPack.profiles[canon];
+  const rows = extraPack.profiles ? Object.values(extraPack.profiles) : [];
+  for (const rec of rows) {
+    const keys = [rec.slug, ...(rec.aliases || [])];
+    if (keys.some(k => slugsMatch(s, k))) return rec;
+  }
+  return null;
+}
+
+function hasWordProfile(extra) {
+  if (!extra) return false;
+  if (extra.photo) return true;
+  return ['qualifications', 'experience', 'publications', 'skills']
+    .some(key => Array.isArray(extra[key]) && extra[key].length > 0);
+}
+
 function renderMemberRow(m) {
+  const extra = extraFor(m.empName);
+  const linked = hasWordProfile(extra);
+  const slug = (extra && extra.slug) || facultySlug(m.empName);
   const name = escapeHtml(getDisplayName(m));
   const desig = escapeHtml(m.desTitle || 'Faculty');
   const qual = escapeHtml(getQualification(m) || '—');
@@ -329,20 +372,26 @@ function renderMemberRow(m) {
   const facReg = escapeHtml(m.facFacRegNo || '—');
   const initials = escapeHtml(getInitials(m));
   const avatarClass = getAvatarClass(m.desTitle);
-
-  return `
-    <article class="fac-list-row">
-      <div class="fac-list-avatar ${avatarClass}">${initials}</div>
+  const avatar = extra && extra.photo
+    ? `<img src="${escapeHtml(extra.photo)}" alt="">`
+    : initials;
+  const inner = `
+      <div class="fac-list-avatar ${avatarClass}">${avatar}</div>
       <div class="fac-list-main">
         <div class="fac-list-name">${name}</div>
         <div class="fac-list-desig">${desig}</div>
         <div class="fac-list-qual">${qual}</div>
         <div class="fac-list-regs">
-          <span class="reg-chip"><i class="bi bi-shield-check"></i> PM&amp;DC ${pmdc}</span>
-          <span class="reg-chip"><i class="bi bi-card-text"></i> Faculty ${facReg}</span>
+          <span class="reg-chip"><i class="bi bi-shield-check"></i> PM&amp;DC No. ${pmdc}</span>
+          <span class="reg-chip"><i class="bi bi-card-text"></i> Faculty No. ${facReg}</span>
         </div>
       </div>
-    </article>`;
+      ${linked ? '<i class="bi bi-chevron-right fac-list-go" aria-hidden="true"></i>' : ''}`;
+
+  if (linked) {
+    return `<a class="fac-list-row" href="faculty-profile?n=${encodeURIComponent(slug)}">${inner}</a>`;
+  }
+  return `<article class="fac-list-row is-static">${inner}</article>`;
 }
 
 function renderFaculty(faculty) {
@@ -417,14 +466,18 @@ function clearAllFilters() {
   loading.style.display = 'block';
 
   const data = await fetchFaculty();
+  try {
+    const extraRes = await fetch('assets/data/faculty-profiles.json');
+    if (extraRes.ok) extraPack = await extraRes.json();
+  } catch (e) { /* directory still works without extra CVs */ }
   loading.style.display = 'none';
 
   if (!data) {
     document.getElementById('facultyContent').innerHTML = `
       <div class="fac-error">
         <div class="fac-error-icon"><i class="bi bi-wifi-off"></i></div>
-        <h5>Unable to Load Faculty Data</h5>
-        <p>Please check your connection or try refreshing the page.</p>
+        <h5>Could not load the faculty list</h5>
+        <p>Check your connection, then try again.</p>
         <button type="button" onclick="location.reload()" class="btn-pmc btn-pmc-primary">
           <i class="bi bi-arrow-clockwise"></i> Retry
         </button>
