@@ -5,7 +5,7 @@
     <div class="sw-body">
       <a class="sw-link" href="about.php"><i class="bi bi-building"></i>Introduction</a>
       <a class="sw-link" href="pdc.php"><i class="bi bi-award"></i>Peshawar Dental College</a>
-      <a class="sw-link" href="#"><i class="bi bi-hourglass-split"></i>Postgraduate Dental Education (Coming Soon)</a>
+      <a class="sw-link" href="pg-dental-education.php"><i class="bi bi-journal-medical"></i>Postgraduate Dental Education</a>
       <a class="sw-link" href="vision-mission.php"><i class="bi bi-eye"></i>Vision &amp; Mission</a>
       <a class="sw-link" href="faculty.php"><i class="bi bi-people"></i>Faculty</a>
       <a class="sw-link" href="admissions.php"><i class="bi bi-mortarboard"></i>Admissions</a>

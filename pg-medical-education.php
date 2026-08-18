@@ -1,3 +1,3 @@
 <?php
-header('Location: pg-coming-soon.php', true, 301);
+header('Location: pg-dental-education.php', true, 301);
 exit;

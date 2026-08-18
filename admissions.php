@@ -21,7 +21,7 @@
           </p>
           <p style="font-size:.9rem;margin-bottom:1.25rem;">
             <a href="https://riphahpsh.edu.pk/admissions.php" target="_blank">Campus admissions hub</a> ·
-            Prospectus and fee PDFs remain available via the links below (hosted on legacy download servers). Postgraduate dental programs are coming soon.
+            Prospectus and fee PDFs remain available via the links below (hosted on legacy download servers). <a href="pg-dental-education.php">Postgraduate dental programmes</a> are open for Fall 2026.
           </p>
 
           <!-- KMU & Quota Note -->

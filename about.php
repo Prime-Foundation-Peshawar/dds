@@ -26,7 +26,7 @@
           
           <p>The Department of Dental Sciences is a constituent department of Riphah International University – Peshawar Campus and comprises <strong>Peshawar Dental College</strong>. Established in 2010, it is recognized by the Federal Ministry of Health, PM&amp;DC, and HEC. The College is for female students only, with a student-centred aim of producing dentists who are professionally competent, ethically grounded, research-minded, and community-aware.</p>
           
-          <p>Peshawar Dental College has graduated more than 450 dentists and continues to serve students and communities in KP through academic, social, and research activities. Postgraduate dental programmes are planned (coming soon).</p>
+          <p>Peshawar Dental College has graduated more than 450 dentists and continues to serve students and communities in KP through academic, social, and research activities. Postgraduate M.Phil programmes in basic dental sciences are now open.</p>
           
           <p>The College conducts a four-year BDS programme with an integrated modular system from session 2019–2020. The programme emphasizes professional knowledge, skill development, and ethical values. Undergraduate research (UMR) is a regular component. Faculty, departments, library, and laboratories support teaching and learning.</p>
           

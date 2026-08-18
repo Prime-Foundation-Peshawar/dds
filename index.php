@@ -124,14 +124,14 @@ include('includes/header.php');
         </div>
       </div>
       <div class="col-lg-6 fu fu-delay-2">
-        <div class="pmc-card home-prog-card home-prog-card--soon">
+        <div class="pmc-card home-prog-card">
           <div class="home-prog-logo">
             <img src="assets/images/logo/pdc-crest.png" alt="Peshawar Dental College logo" width="72" height="72" loading="lazy" />
           </div>
-          <span class="home-prog-code">Postgraduate · Coming Soon</span>
+          <span class="home-prog-code">Postgraduate</span>
           <h4>Postgraduate Dental Education</h4>
-          <p>Postgraduate dental programmes in the Department of Dental Sciences are forthcoming, including FCPS/MCPS and university postgraduate pathways.</p>
-          <span class="home-prog-soon">Coming Soon</span>
+          <p>M.Phil programmes in Oral Pathology, Oral Biology, and Dental Materials, with clinical postgraduate training at Peshawar Dental Hospital.</p>
+          <a href="pg-dental-education.php" class="btn-pmc btn-pmc-outline home-prog-btn">Explore <i class="bi bi-arrow-right"></i></a>
         </div>
       </div>
     </div>
