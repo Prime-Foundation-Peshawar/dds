@@ -57,9 +57,9 @@
           <div class="foot-contact"><i class="bi bi-envelope-fill"></i><span><a
                 href="mailto:info@riphahpsh.edu.pk">info@riphahpsh.edu.pk</a></span></div>
           <div class="mt-3">
-            <a href="https://pdc.prime.edu.pk/" target="_blank" rel="noopener" class="btn-pmc btn-pmc-teal"
+            <a href="https://pmc.prime.edu.pk/portal_login.php" target="_blank" rel="noopener" class="btn-pmc btn-pmc-teal"
               style="background:var(--teal);color:white;font-size:.82rem;padding:10px 20px;">
-              <i class="bi bi-person-circle"></i> Student Portal
+              <i class="bi bi-person-circle"></i> Portal
             </a>
           </div>
         </div>
