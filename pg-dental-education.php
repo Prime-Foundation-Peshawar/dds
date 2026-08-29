@@ -95,12 +95,26 @@
             <p>
               Clinical postgraduate pathways sit alongside the M.Phil basic sciences programmes. Specialty-specific training is organised with clinical placements at <strong>Peshawar Dental Hospital</strong>. Further programmes will be listed as they are notified.
             </p>
+            <div class="row g-4">
+              <div class="col-md-7">
+                <div class="pg-panel">
+                  <span class="pg-panel-label">FCPS</span>
+                  <div class="pg-chips">
+                    <span class="pg-chip">Orthodontics</span>
+                    <span class="pg-chip">Maxillofacial Surgery</span>
+                    <span class="pg-chip">Operative Dentistry</span>
+                    <span class="pg-chip">Prosthodontics</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div class="about-block fu" id="faculty">
             <div class="about-block-head">
               <h3>Faculty</h3>
-              <p>Teaching staff of Basic Dental Sciences, under Prof. Dr. Mohsina Haq.</p>
+              <p>HEC recognised teaching faculty for basic dental sciences.<br/>
+              Director postgraduate medical and dental sciences prof Dr Mohsina Haq</p>
             </div>
             <div class="pg-staff-grid">
               <div class="pg-staff-card">
