@@ -21,7 +21,7 @@
 
           <!-- space for image -->
           <div style="margin: 20px 0; padding: 30px; background: #f4f7f9; border: 1px dashed var(--border-color); border-radius: 12px; text-align: center; font-family: var(--font-body); color: var(--gray-mid);">
-            <img src="assets/images/medical-education/Curriculum_Map-PDC-2023.jpg"/>
+            <img src="assets/images/medical-education/calendar-map.jpeg"/>
           </div>
 
           <div class="pmc-card mb-4"

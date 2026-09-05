@@ -509,11 +509,11 @@ $academic_departments = [
     ],
   ],
   'medicine' => [
-    'name' => 'Medicine',
+    'name' => 'General Medicine',
     'icon' => 'bi-heart-pulse-fill',
     'group' => 'Clinical',
     'intro' => [
-      'The Department of Medicine at Peshawar Dental College supports BDS education through structured teaching in general medicine relevant to dental patients.',
+      'The Department of General Medicine at Peshawar Dental College supports BDS education through structured teaching in general medicine relevant to dental patients.',
       'Faculty combine classroom teaching, laboratory or clinical exposure, and assessment aligned with PM&DC requirements and community oral health needs.',
     ],
     'hod' => 'Associate Professor Dr. Muhammad Abbas',
@@ -531,11 +531,11 @@ $academic_departments = [
     ],
   ],
   'surgery' => [
-    'name' => 'Surgery',
+    'name' => 'General Surgery',
     'icon' => 'bi-bandaid',
     'group' => 'Clinical',
     'intro' => [
-      'The Department of Surgery at Peshawar Dental College supports BDS education through structured teaching in general surgery principles for BDS training.',
+      'The Department of General Surgery at Peshawar Dental College supports BDS education through structured teaching in general surgery principles for BDS training.',
       'Faculty combine classroom teaching, laboratory or clinical exposure, and assessment aligned with PM&DC requirements and community oral health needs.',
     ],
     'hod' => 'Assistant Professor Dr. Nasir Bakhtiar',

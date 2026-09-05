@@ -27,14 +27,30 @@ include('includes/header.php');
           <div class="slide-facilities" aria-label="Clinical training strengths">
             <div class="sf-title">Where You Train</div>
             <div class="sf-grid">
-              <div class="sf-item"><i class="bi bi-hospital"></i><span>Peshawar Dental Hospital</span></div>
-              <div class="sf-item"><i class="bi bi-heart-pulse"></i><span>Mercy Teaching Hospital</span></div>
-              <div class="sf-item"><i class="bi bi-building"></i><span>Prime Teaching Hospital</span></div>
-              <div class="sf-item"><i class="bi bi-diagram-3"></i><span>Academic Departments</span></div>
-              <div class="sf-item"><i class="bi bi-activity"></i><span>Clinical Skill Labs</span></div>
-              <div class="sf-item"><i class="bi bi-people"></i><span>Expert Faculty</span></div>
-              <div class="sf-item"><i class="bi bi-search"></i><span>Research Culture</span></div>
-              <div class="sf-item"><i class="bi bi-airplane"></i><span>Student Exchange</span></div>
+              <a href="pdc.php#hospital">
+                <div class="sf-item"><i class="bi bi-hospital"></i><span>Peshawar Dental Hospital</span></div>
+              </a>
+              <a href="https://mth.prime.edu.pk/" target="_blank">
+                <div class="sf-item"><i class="bi bi-heart-pulse"></i><span>Mercy Teaching Hospital</span></div>
+              </a>
+              <a href="https://pth.prime.edu.pk/" target="_blank">
+                <div class="sf-item"><i class="bi bi-building"></i><span>Prime Teaching Hospital</span></div>
+              </a>
+              <a href="departments.php">
+                <div class="sf-item"><i class="bi bi-diagram-3"></i><span>Academic Departments</span></div>
+              </a>
+              <a href="pdc.php#hospital">
+                <div class="sf-item"><i class="bi bi-activity"></i><span>Clinical Skill Labs</span></div>
+              </a>
+              <a href="faculty.php">
+                <div class="sf-item"><i class="bi bi-people"></i><span>Expert Faculty</span></div>
+              </a>
+              <a href="faculty-research.php">
+                <div class="sf-item"><i class="bi bi-search"></i><span>Research Culture</span></div>
+              </a>
+              <a href="https://riphahpsh.edu.pk/pubedu" target="_blank">
+                <div class="sf-item"><i class="bi bi-airplane"></i><span>Educational Literature</span></div>
+              </a>
             </div>
           </div>
         </div>
@@ -90,7 +106,7 @@ include('includes/header.php');
             class="stat-lbl">Years of Excellence</span></div>
       </div>
       <div class="col-6 col-md-3">
-        <div class="stat-cell"><span class="stat-num" data-count="450" data-suffix="+">450+</span><span
+        <div class="stat-cell"><span class="stat-num" data-count="450" data-suffix="+">500+</span><span
             class="stat-lbl">Dentists Graduated</span></div>
       </div>
       <div class="col-6 col-md-3">
@@ -114,9 +130,9 @@ include('includes/header.php');
     <div class="row g-4">
       <div class="col-lg-6 fu fu-delay-1">
         <div class="pmc-card home-prog-card">
-          <div class="home-prog-logo">
+          <!-- <div class="home-prog-logo">
             <img src="assets/images/logo/pdc-crest.png" alt="Peshawar Dental College logo" width="72" height="72" loading="lazy" />
-          </div>
+          </div> -->
           <span class="home-prog-code">Undergraduate</span>
           <h4>Peshawar Dental College</h4>
           <p>Established in 2010; a PM&amp;DC-recognized BDS programme for female students, with clinical training at Peshawar Dental Hospital and affiliated teaching hospitals.</p>
@@ -125,9 +141,9 @@ include('includes/header.php');
       </div>
       <div class="col-lg-6 fu fu-delay-2">
         <div class="pmc-card home-prog-card">
-          <div class="home-prog-logo">
+          <!-- <div class="home-prog-logo">
             <img src="assets/images/logo/pdc-crest.png" alt="Peshawar Dental College logo" width="72" height="72" loading="lazy" />
-          </div>
+          </div> -->
           <span class="home-prog-code">Postgraduate</span>
           <h4>Postgraduate Dental Education</h4>
           <p>M.Phil programmes in Oral Pathology, Oral Biology, and Dental Materials, with clinical postgraduate training at Peshawar Dental Hospital.</p>
