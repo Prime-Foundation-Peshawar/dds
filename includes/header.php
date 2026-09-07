@@ -112,12 +112,12 @@ $page_description = $page_description ?? 'Department of Dental Sciences, Riphah 
                     <a class="mega-link" href="about.php"><i class="bi bi-building"></i>Introduction</a>
                     <a class="mega-link" href="vision-mission.php"><i class="bi bi-eye"></i>Vision &amp; Mission</a>
                     <a class="mega-link" href="faculty.php"><i class="bi bi-people"></i>Faculty</a>
-                    <a class="mega-link" href="https://pdc.prime.edu.pk/upload/organogram/Organogram%20March%2013,%202023-PDC.pdf" target="_blank"><i class="bi bi-diagram-3"></i>Organogram</a>
+                    <a class="mega-link" href="assets/images/organogram/PDC-Organogram-2026.pdf" target="_blank"><i class="bi bi-diagram-3"></i>Organogram</a>
                   </div>
                   <div class="col-lg-4">
                     <div class="mega-col-head"><i class="bi bi-hospital-fill"></i> College &amp; Hospitals</div>
                     <a class="mega-link" href="pdc.php"><i class="bi bi-award"></i>Peshawar Dental College</a>
-                    <a class="mega-link" href="pdc.php#hospital"><i class="bi bi-hospital"></i>Peshawar Dental Hospital</a>
+                    <!-- <a class="mega-link" href="pdc.php#hospital"><i class="bi bi-hospital"></i>Peshawar Dental Hospital</a> -->
                     <a class="mega-link" href="https://mth.prime.edu.pk/" target="_blank"><i class="bi bi-heart-pulse"></i>Mercy Teaching Hospital</a>
                     <a class="mega-link" href="https://pth.prime.edu.pk/" target="_blank"><i class="bi bi-building"></i>Prime Teaching Hospital</a>
                   </div>
@@ -139,7 +139,7 @@ $page_description = $page_description ?? 'Department of Dental Sciences, Riphah 
             <div class="dropdown-menu plain-dd" style="min-width:260px;">
               <a class="dropdown-item" href="pdc.php"><i class="bi bi-mortarboard"></i>Undergraduate Dental Education (PDC)</a>
               <a class="dropdown-item" href="pg-dental-education.php"><i class="bi bi-journal-medical"></i>Postgraduate Dental Education</a>
-              <a class="dropdown-item" href="dental-education.php"><i class="bi bi-book"></i>Dental Education Overview</a>
+              <!-- <a class="dropdown-item" href="dental-education.php"><i class="bi bi-book"></i>Dental Education Overview</a> -->
             </div>
           </li>
 
@@ -165,7 +165,7 @@ $page_description = $page_description ?? 'Department of Dental Sciences, Riphah 
                     <a class="mega-link"
                       href="https://pdc.prime.edu.pk/downloads/BDS_Fee_Session%202024-25-Final%20dated%2023.07.htm"
                       target="_blank"><i class="bi bi-receipt"></i>Fee Structure 2024–25</a>
-                    <a class="mega-link" href="https://pdc.prime.edu.pk/downloads/Scholarship%20Policy.pdf"
+                    <a class="mega-link" href="assets/uploads/policies/Scholarship-Policy.pdf"
                       target="_blank"><i class="bi bi-award"></i>Scholarship Policy</a>
                     <a class="mega-link" href="https://pdc.prime.edu.pk/downloads/Scholarship_Application_Form.pdf"
                       target="_blank"><i class="bi bi-file-earmark-text"></i>Scholarship Application</a>
@@ -174,7 +174,7 @@ $page_description = $page_description ?? 'Department of Dental Sciences, Riphah 
                     <div class="mega-col-head"><i class="bi bi-info-circle"></i> Key Information</div>
                     <a class="mega-link" href="https://pdc.prime.edu.pk/downloads/Admission_Policy_Session_2023-24.pdf" target="_blank"><i class="bi bi-check-circle"></i>Admissions Policy (Undergraduate)</a>
                     <a class="mega-link" href="https://pdc.prime.edu.pk/downloads/pgmi-admission-policy-pg.pdf" target="_blank"><i class="bi bi-list-ol"></i>Admissions Policy (Postgraduate)</a>
-                    <a class="mega-link" href="https://pdc.prime.edu.pk/" target="_blank"><i class="bi bi-person-circle"></i>Student Portal</a>
+                    <a class="mega-link" href="https://pmc.prime.edu.pk/portal_login.php" target="_blank"><i class="bi bi-person-circle"></i>Portal</a>
                   </div>
                 </div>
               </div>

@@ -8,6 +8,13 @@
           class="bi bi-chevron-right"></i></span><span class="current">Dental Education</span></div>
   </div>
 </div>
+
+<style>
+  .pmc-quick-dropdown .dropdown-menu.show {
+    display: block !important;
+  }
+</style>
+
 <section class="pmc-section">
   <div class="container">
     <div class="row g-5">
@@ -17,13 +24,31 @@
           <!-- Quick Resource Links -->
           <div class="row g-3 mb-4">
             <div class="col-md-4">
-              <a href="https://pdc.prime.edu.pk/upload/Academic_calender/2023-24/ACADEMIC_Calendar_PDC_2023-24.pdf" class="pmc-card d-flex align-items-center gap-3 text-decoration-none"
-                style="border-radius:12px;padding:14px 16px;background:#fff;border:1px solid var(--border-color);">
-                <i class="bi bi-calendar3" style="font-size:1.5rem;color:var(--teal);flex-shrink:0;"></i>
-                <div style="font-family:var(--font-head);font-size:.85rem;font-weight:700;color:var(--navy);">Academic
-                  Calendar</div>
-              </a>
+              <div class="dropdown pmc-quick-dropdown">
+                <button type="button"
+                  class="pmc-card d-flex align-items-center gap-3 dropdown-toggle"
+                  style="border-radius:12px;padding:14px 16px;background:#fff;border:1px solid var(--border-color);width:100%;text-align:left;"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="bi bi-calendar3" style="font-size:1.5rem;color:var(--teal);flex-shrink:0;"></i>
+                  <div style="font-family:var(--font-head);font-size:.85rem;font-weight:700;color:var(--navy);">Academic Calendar</div>
+                </button>
+                <ul class="dropdown-menu w-100" style="border-radius:10px;">
+                  <li><a class="dropdown-item" style="font-family:var(--font-body);font-size:.88rem;"
+                      href="assets/uploads/academic-calendar/BDS-1st-Year-Academic-Calander-12-6-2026.pdf"
+                      target="_blank" rel="noopener">Academic Calendar of BDS 1st Year</a></li>
+                  <li><a class="dropdown-item" style="font-family:var(--font-body);font-size:.88rem;"
+                      href="assets/uploads/academic-calendar/BDS-2nd-Year-Academic-Calendar-12-6-2026.pdf"
+                      target="_blank" rel="noopener">Academic Calendar of BDS 2nd Year</a></li>
+                  <li><a class="dropdown-item" style="font-family:var(--font-body);font-size:.88rem;"
+                      href="assets/uploads/academic-calendar/BDS-3rd-Year-Accademic-Calendar.pdf"
+                      target="_blank" rel="noopener">Academic Calendar of BDS 3rd Year</a></li>
+                  <li><a class="dropdown-item" style="font-family:var(--font-body);font-size:.88rem;"
+                      href="assets/uploads/academic-calendar/BDS-4th-Year-Academic-Calendar-year-2026-27-18-5-26.pdf"
+                      target="_blank" rel="noopener">Academic Calendar of BDS 4th Year</a></li>
+                </ul>
+              </div>
             </div>
+
             <div class="col-md-4">
               <a href="student-guide.php" class="pmc-card d-flex align-items-center gap-3 text-decoration-none"
                 style="border-radius:12px;padding:14px 16px;background:#fff;border:1px solid var(--border-color);">
@@ -35,8 +60,7 @@
               <a href="curriculum.php" class="pmc-card d-flex align-items-center gap-3 text-decoration-none"
                 style="border-radius:12px;padding:14px 16px;background:#fff;border:1px solid var(--border-color);">
                 <i class="bi bi-journal-text" style="font-size:1.5rem;color:var(--teal);flex-shrink:0;"></i>
-                <div style="font-family:var(--font-head);font-size:.85rem;font-weight:700;color:var(--navy);">Curriculum
-                </div>
+                <div style="font-family:var(--font-head);font-size:.85rem;font-weight:700;color:var(--navy);">Curriculum</div>
               </a>
             </div>
           </div>

@@ -76,7 +76,7 @@
             <div class="about-fact">
               <i class="bi bi-people-fill"></i>
               <div>
-                <strong>450+ Graduates</strong>
+                <strong>500+ Graduates</strong>
                 <span>Serving KP &amp; beyond</span>
               </div>
             </div>
@@ -98,6 +98,53 @@
             </div>
           </div>
 
+          <!-- Quick Academic Links -->
+          <div style="margin:30px 0 40px 0;">
+            <h3 style="font-family:var(--font-head);font-size:1.3rem;color:var(--navy);margin-bottom:16px;">Academic Resources</h3>
+            <p style="font-family:var(--font-body);font-size:.92rem;color:var(--gray-dark);margin-bottom:16px;">Quick access to important documents and guides.</p>
+            <div class="row g-3">
+              <div class="col-md-4">
+                <div class="dropdown pmc-quick-dropdown">
+                  <button type="button"
+                    class="pmc-card d-flex align-items-center gap-3 dropdown-toggle"
+                    style="border-radius:12px;padding:14px 16px;background:#fff;border:1px solid var(--border-color);width:100%;text-align:left;"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-calendar3" style="font-size:1.5rem;color:var(--teal);flex-shrink:0;"></i>
+                    <div style="font-family:var(--font-head);font-size:.85rem;font-weight:700;color:var(--navy);">Academic Calendar</div>
+                  </button>
+                  <ul class="dropdown-menu w-100" style="border-radius:10px;">
+                    <li><a class="dropdown-item" style="font-family:var(--font-body);font-size:.88rem;"
+                        href="assets/uploads/academic-calendar/BDS-1st-Year-Academic-Calander-12-6-2026.pdf"
+                        target="_blank" rel="noopener">Academic Calendar of BDS 1st Year</a></li>
+                    <li><a class="dropdown-item" style="font-family:var(--font-body);font-size:.88rem;"
+                        href="assets/uploads/academic-calendar/BDS-2nd-Year-Academic-Calendar-12-6-2026.pdf"
+                        target="_blank" rel="noopener">Academic Calendar of BDS 2nd Year</a></li>
+                    <li><a class="dropdown-item" style="font-family:var(--font-body);font-size:.88rem;"
+                        href="assets/uploads/academic-calendar/BDS-3rd-Year-Accademic-Calendar.pdf"
+                        target="_blank" rel="noopener">Academic Calendar of BDS 3rd Year</a></li>
+                    <li><a class="dropdown-item" style="font-family:var(--font-body);font-size:.88rem;"
+                        href="assets/uploads/academic-calendar/BDS-4th-Year-Academic-Calendar-year-2026-27-18-5-26.pdf"
+                        target="_blank" rel="noopener">Academic Calendar of BDS 4th Year</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <a href="student-guide.php" class="pmc-card d-flex align-items-center gap-3 text-decoration-none"
+                  style="border-radius:12px;padding:14px 16px;background:#fff;border:1px solid var(--border-color);">
+                  <i class="bi bi-book-fill" style="font-size:1.5rem;color:var(--teal);flex-shrink:0;"></i>
+                  <div style="font-family:var(--font-head);font-size:.85rem;font-weight:700;color:var(--navy);">Guideline for Student</div>
+                </a>
+              </div>
+              <div class="col-md-4">
+                <a href="curriculum.php" class="pmc-card d-flex align-items-center gap-3 text-decoration-none"
+                  style="border-radius:12px;padding:14px 16px;background:#fff;border:1px solid var(--border-color);">
+                  <i class="bi bi-journal-text" style="font-size:1.5rem;color:var(--teal);flex-shrink:0;"></i>
+                  <div style="font-family:var(--font-head);font-size:.85rem;font-weight:700;color:var(--navy);">Curriculum</div>
+                </a>
+              </div>
+            </div>
+          </div>
+
           <!-- Dental hospital -->
           <div class="about-block fu" id="hospital">
             <div class="about-block-head">
@@ -108,21 +155,44 @@
               The hospital provides continuous clinical exposure for undergraduate and postgraduate students of Riphah International University and CPSP. The Operation Theater runs regularly for oral and maxillofacial surgery. Preclinical skill development takes place in surgical skill and phantom laboratories; clinical skills are developed in small groups under faculty supervision.
             </p>
             <div class="pmc-hosp-grid mt-3">
-              <div class="pmc-hosp-card" style="cursor:default;">
+              <!-- Card 1: Tertiary Dental Care -->
+              <button type="button" class="pmc-hosp-card"
+                data-images='[
+      {"src":"assets/images/campus/pdc10.jpeg","title":"Tertiary Dental Care 1"},
+      {"src":"assets/images/campus/pdc7.jpeg","title":"Tertiary Dental Care 2"}
+    ]'
+                data-img="assets/images/campus/pdc10.jpeg"
+                data-title="Tertiary Dental Care"
+                onclick="openPmcSingleLightbox(this)">
                 <i class="bi bi-hospital"></i>
                 <strong>Tertiary Dental Care</strong>
                 <span>Patient care &amp; teaching hospital</span>
-              </div>
-              <div class="pmc-hosp-card" style="cursor:default;">
+              </button>
+
+              <!-- Card 2: Oral & Maxillofacial OT -->
+              <button type="button" class="pmc-hosp-card"
+                data-images='[]'
+                data-img=""
+                data-title="Oral & Maxillofacial OT"
+                onclick="openPmcSingleLightbox(this)">
                 <i class="bi bi-scissors"></i>
                 <strong>Oral &amp; Maxillofacial OT</strong>
                 <span>Regular operative lists</span>
-              </div>
-              <div class="pmc-hosp-card" style="cursor:default;">
+              </button>
+
+              <!-- Card 3: Skill Laboratories -->
+              <button type="button" class="pmc-hosp-card"
+                data-images='[
+      {"src":"assets/images/campus/pdc.jpeg","title":"Skill Laboratories 1"},
+      {"src":"assets/images/campus/pdc5.jpeg","title":"Skill Laboratories 2"}
+    ]'
+                data-img="assets/images/campus/pdc.jpeg"
+                data-title="Skill Laboratories"
+                onclick="openPmcSingleLightbox(this)">
                 <i class="bi bi-clipboard2-pulse"></i>
                 <strong>Skill Laboratories</strong>
                 <span>Phantom &amp; surgical skills labs</span>
-              </div>
+              </button>
             </div>
           </div>
 
@@ -165,21 +235,21 @@
                 ['src' => 'assets/images/campus/pdc1.jpeg', 'alt' => 'PDC campus view'],
                 ['src' => 'assets/images/campus/pdc5.jpeg', 'alt' => 'PDC academic block'],
                 ['src' => 'assets/images/campus/pdc7.jpeg', 'alt' => 'PDC campus grounds'],
-                ['src' => 'assets/images/campus/pdc10.jpeg','alt' => 'PDC facilities'],
+                ['src' => 'assets/images/campus/pdc10.jpeg', 'alt' => 'PDC facilities'],
               ];
               foreach ($pdc_gallery as $i => $img):
               ?>
-              <button type="button"
-                      class="pmc-gallery-item<?= $i === 0 ? ' pmc-gallery-item--wide' : '' ?>"
-                      data-img="<?= htmlspecialchars($img['src']) ?>"
-                      data-title="<?= htmlspecialchars($img['alt']) ?>"
-                      onclick="openPmcLightbox(this)"
-                      aria-label="Open <?= htmlspecialchars($img['alt']) ?>">
-                <img src="<?= htmlspecialchars($img['src']) ?>"
-                     alt="<?= htmlspecialchars($img['alt']) ?>"
-                     loading="lazy" decoding="async" />
-                <span class="pmc-gallery-zoom"><i class="bi bi-zoom-in"></i></span>
-              </button>
+                <button type="button"
+                  class="pmc-gallery-item<?= $i === 0 ? ' pmc-gallery-item--wide' : '' ?>"
+                  data-img="<?= htmlspecialchars($img['src']) ?>"
+                  data-title="<?= htmlspecialchars($img['alt']) ?>"
+                  onclick="openPmcLightbox(this)"
+                  aria-label="Open <?= htmlspecialchars($img['alt']) ?>">
+                  <img src="<?= htmlspecialchars($img['src']) ?>"
+                    alt="<?= htmlspecialchars($img['alt']) ?>"
+                    loading="lazy" decoding="async" />
+                  <span class="pmc-gallery-zoom"><i class="bi bi-zoom-in"></i></span>
+                </button>
               <?php endforeach; ?>
             </div>
             <div class="about-cta-row">
@@ -209,50 +279,85 @@
 </div>
 
 <script>
-let pmcLbItems = [];
-let pmcLbCurrent = 0;
+  let pmcLbItems = [];
+  let pmcLbCurrent = 0;
 
-function openPmcLightbox(el) {
-  pmcLbItems = [...document.querySelectorAll('.pmc-gallery-item[data-img]')];
-  pmcLbCurrent = Math.max(0, pmcLbItems.indexOf(el));
-  renderPmcLightbox();
-  document.getElementById('pmcPageLightbox').classList.add('open');
-  document.body.style.overflow = 'hidden';
-}
+  // For gallery items (elements with data-img)
+  function openPmcLightbox(el) {
+    pmcLbItems = [...document.querySelectorAll('.pmc-gallery-item[data-img]')];
+    pmcLbCurrent = Math.max(0, pmcLbItems.indexOf(el));
+    renderPmcLightbox();
+    document.getElementById('pmcPageLightbox').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
 
-function closePmcLightbox() {
-  document.getElementById('pmcPageLightbox').classList.remove('open');
-  document.body.style.overflow = '';
-}
+  // For hospital cards (single or multiple images via data-images)
+  function openPmcSingleLightbox(el) {
+    let items = [];
+    // Try to parse data-images JSON array
+    if (el.dataset.images) {
+      try {
+        items = JSON.parse(el.dataset.images);
+        // Ensure each item has src and title
+        items = items.map(item => ({
+          src: item.src,
+          title: item.title || ''
+        }));
+      } catch (e) {
+        console.error('Invalid data-images JSON', e);
+        items = [];
+      }
+    }
+    // Fallback to single data-img / data-title if no valid data-images
+    if (items.length === 0 && el.dataset.img) {
+      items = [{ src: el.dataset.img, title: el.dataset.title || '' }];
+    }
+    // If still no images, do nothing (card is non-clickable)
+    if (items.length === 0) return;
 
-function closePmcLightboxBackdrop(e) {
-  if (e.target === document.getElementById('pmcPageLightbox')) closePmcLightbox();
-}
+    pmcLbItems = items;
+    pmcLbCurrent = 0;
+    renderPmcLightbox();
+    document.getElementById('pmcPageLightbox').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
 
-function pmcLbNav(dir) {
-  if (!pmcLbItems.length) return;
-  pmcLbCurrent = (pmcLbCurrent + dir + pmcLbItems.length) % pmcLbItems.length;
-  renderPmcLightbox();
-}
+  function closePmcLightbox() {
+    document.getElementById('pmcPageLightbox').classList.remove('open');
+    document.body.style.overflow = '';
+  }
 
-function renderPmcLightbox() {
-  const el = pmcLbItems[pmcLbCurrent];
-  if (!el) return;
-  const img = el.dataset.img || '';
-  const title = el.dataset.title || '';
-  document.getElementById('pmcLbImgWrap').innerHTML =
-    `<img src="${img}" class="lb-img" alt="${title}" />`;
-  document.getElementById('pmcLbCaption').textContent = title;
-  document.getElementById('pmcLbCounter').textContent = `${pmcLbCurrent + 1} / ${pmcLbItems.length}`;
-}
+  function closePmcLightboxBackdrop(e) {
+    if (e.target === document.getElementById('pmcPageLightbox')) closePmcLightbox();
+  }
 
-document.addEventListener('keydown', (e) => {
-  const box = document.getElementById('pmcPageLightbox');
-  if (!box || !box.classList.contains('open')) return;
-  if (e.key === 'Escape') closePmcLightbox();
-  if (e.key === 'ArrowLeft') pmcLbNav(-1);
-  if (e.key === 'ArrowRight') pmcLbNav(1);
-});
+  function pmcLbNav(dir) {
+    if (!pmcLbItems.length) return;
+    pmcLbCurrent = (pmcLbCurrent + dir + pmcLbItems.length) % pmcLbItems.length;
+    renderPmcLightbox();
+  }
+
+  function renderPmcLightbox() {
+    const item = pmcLbItems[pmcLbCurrent];
+    if (!item) return;
+
+    // Support both DOM elements (gallery) and plain objects (hospital)
+    const img = item.src || item.dataset?.img || '';
+    const title = item.title || item.dataset?.title || '';
+
+    document.getElementById('pmcLbImgWrap').innerHTML =
+      `<img src="${img}" class="lb-img" alt="${title}" />`;
+    document.getElementById('pmcLbCaption').textContent = title;
+    document.getElementById('pmcLbCounter').textContent =
+      `${pmcLbCurrent + 1} / ${pmcLbItems.length}`;
+  }
+
+  document.addEventListener('keydown', (e) => {
+    const box = document.getElementById('pmcPageLightbox');
+    if (!box || !box.classList.contains('open')) return;
+    if (e.key === 'Escape') closePmcLightbox();
+    if (e.key === 'ArrowLeft') pmcLbNav(-1);
+    if (e.key === 'ArrowRight') pmcLbNav(1);
+  });
 </script>
-
 <?php include('includes/footer.php'); ?>

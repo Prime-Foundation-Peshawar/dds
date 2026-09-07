@@ -27,7 +27,7 @@
   <div class="sidebar-widget">
     <div class="sw-head"><i class="bi bi-people-fill"></i> Student Societies</div>
     <div class="sw-body">
-      <a class="sw-link" href="https://riphahpsh.edu.pk/umr.php" target="_blank"><i class="bi bi-mortarboard"></i>UMR Society</a>
+      <a class="sw-link" href="https://riphahpsh.edu.pk/umr.php" target="_blank"><i class="bi bi-mortarboard"></i>UMR</a>
       <a class="sw-link" href="https://riphahpsh.edu.pk/social-welfare.php" target="_blank"><i class="bi bi-heart"></i>Social Welfare</a>
       <a class="sw-link" href="https://riphahpsh.edu.pk/literary-society.php"><i class="bi bi-pen"></i>Literature &amp; Arts Society</a>
       <a class="sw-link" href="https://riphahpsh.edu.pk/sports-society.php"><i class="bi bi-trophy"></i>Sports Society</a>

@@ -25,7 +25,7 @@
       <div class="col-6 col-md-3">
         <div class="fac-stat-cell">
           <span class="fac-stat-num" id="statTotal">—</span>
-          <span class="fac-stat-lbl">Teachers</span>
+          <span class="fac-stat-lbl">Faculty</span>
         </div>
       </div>
       <div class="col-6 col-md-3">
@@ -57,7 +57,7 @@
     <div class="row mb-4 align-items-end fu">
       <div class="col-lg-8">
         <span class="sec-eyebrow">Meet the faculty</span>
-        <h2 class="sec-title">Teachers and dentists</h2>
+        <h2 class="sec-title">Our Faculty</h2>
         <p class="sec-desc mb-0">PM&amp;DC-registered professors, lecturers, and clinicians who teach the BDS programme.</p>
       </div>
       <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
