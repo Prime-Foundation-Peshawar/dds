@@ -63,4 +63,4 @@ cgi-bin/
 .claude/
 agent-transcripts/
 todo.zip
-.DS_Store
+*.DS_Store
