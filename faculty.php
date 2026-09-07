@@ -337,7 +337,7 @@ function slugsMatch(a, b) {
   const tb = b.split('-').filter(Boolean);
   if (!ta.length || !tb.length) return false;
   const fa = ta[0], fb = tb[0], la = ta[ta.length - 1], lb = tb[tb.length - 1];
-  const firstOk = fa === fb || (fa.length >= 4 && fb.length >= 4 && (fa.startsWith(fb.slice(0, 4)) || fb.startsWith(fa.slice(0, 4))));
+  const firstOk = fa === fb || (fa.length >= 4 && fb.length >= 4 && (fa.startsWith(fb) || fb.startsWith(fa)));
   const lastOk = la === lb || la.startsWith(lb) || lb.startsWith(la) || (la.length >= 4 && lb.length >= 4 && la.slice(0, 4) === lb.slice(0, 4));
   return firstOk && lastOk;
 }

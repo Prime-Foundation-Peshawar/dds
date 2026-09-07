@@ -30,19 +30,11 @@ if (!empty($extra['photo'])) {
 $desig = faculty_normalize_designation((string) ($extra['designation'] ?? ''));
 $dept = (string) ($extra['department'] ?? '');
 $is_hod = !empty($extra['hod']);
-$quals = faculty_normalize_qualifications($extra['qualifications'] ?? []);
-$experience = faculty_normalize_experience($extra['experience'] ?? [], $desig);
-$skills = faculty_normalize_skills($extra['skills'] ?? []);
-$pubs = faculty_explode_publications($extra['publications'] ?? []);
-if ($desig === '') {
-  foreach ($experience as $row) {
-    if (($row['kind'] ?? '') === 'role' && !empty($row['title'])) {
-      $desig = trim((string) preg_replace('/,.*/', '', $row['title']));
-      break;
-    }
-  }
-}
-$expRoles = count(array_filter($experience, fn($row) => ($row['kind'] ?? '') === 'role'));
+$quals = faculty_list_as_written($extra['qualifications'] ?? []);
+$experience = faculty_experience_as_written($extra['experience'] ?? []);
+$skills = faculty_list_as_written($extra['skills'] ?? []);
+$pubs = faculty_publications_as_written($extra['publications'] ?? []);
+$expRoles = count($experience);
 $initials = 'F';
 if ($display_name !== '') {
   $parts = preg_split('/\s+/', $display_name);
