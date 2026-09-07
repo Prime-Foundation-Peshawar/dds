@@ -57,7 +57,7 @@ function faculty_slugs_match(string $a, string $b): bool {
   $la = $ta[count($ta) - 1];
   $lb = $tb[count($tb) - 1];
   $firstOk = $fa === $fb
-    || (strlen($fa) >= 4 && strlen($fb) >= 4 && (str_starts_with($fa, substr($fb, 0, 4)) || str_starts_with($fb, substr($fa, 0, 4))));
+    || (strlen($fa) >= 4 && strlen($fb) >= 4 && (str_starts_with($fa, $fb) || str_starts_with($fb, $fa)));
   $lastOk = $la === $lb
     || str_starts_with($la, $lb)
     || str_starts_with($lb, $la)
@@ -275,24 +275,32 @@ function faculty_normalize_qualifications(array $items): array {
     '/\bMBBS\b(?:\s*\([^)]{0,40}\))?/i',
     '/\bBDS\b(?:\s*\([^)]{0,40}\))?/i',
     '/\bMD\b(?:\s*\([^)]{0,40}\))?/i',
-    '/\bFCPS(?:-I|-l)?(?:\s*\([^)]{0,50}\)|\s+(?:Histopathology|Hematology|Haematology|Pathology|Psychiatry|Pediatrics|Paediatrics|Surgery and Allied))?/i',
+    '/\bFCPS(?:-I|-l)?(?:\s*\([^)]{0,80}\)|\s+(?:Histopathology|Hematology|Haematology|Pathology|Psychiatry|Pediatrics|Paediatrics|Surgery and Allied|Oral(?:\s*&\s*Maxillofacial)?\s*Surgery|Prosthodontics|Orthodontics|Operative Dentistry|Periodontology))?/i',
     '/\bMCPS(?:\s*\([^)]{0,50}\))?/i',
     '/\bMS(?:\s*[-–]\s*Mental Health Policy(?:\s+&\s+Services)?)?\b/i',
     '/\bIMM(?:\s*\([^)]{0,50}\))?/i',
     '/\bMRCS\b/i',
-    '/\bM\.?\s*Phil\.?(?:\s*\([^)]{0,50}\)|\s+(?:Histopathology|Chemical Pathology|Hematology|Microbiology|Physiology|Oral Pathology)(?:\s+Scholar)?)?/i',
-    '/\bPhD(?:\s*\([^)]{0,80}\))?(?:\s*[—–-]\s*[^·|]{8,90})?(?:\s+(?:Physiology|Microbiology))?/i',
+    '/\bM\.?\s*Phil\.?(?:\s*\([^)]{0,50}\)|\s+(?:Histopathology|Chemical Pathology|Hematology|Microbiology|Physiology|Oral Pathology|Oral Biology|Periodontology|Community Dentistry)(?:\s+Scholar)?)?/i',
+    '/\bPhD(?:\s*\([^)]{0,80}\))?(?:\s*[—–-]\s*[^·|]{8,90})?(?:\s+(?:Physiology|Microbiology|Oral Pathology))?/i',
     '/\b(?:MPH|Master of Public Health)\b/i',
+    '/\bMSc(?:\s*\([^)]{0,50}\))?/i',
+    '/\bDCD(?:\s*\([^)]{0,50}\))?/i',
+    '/\bMFD(?:S)?(?:\s*RC(?:SI|S|PS(?:\s*G(?:lasg)?)?)?)?\b/i',
+    '/\bF\.?\s*Perio(?:\s*RCSEd)?\b/i',
+    '/\bFDSRCS(?:Ed)?\b/i',
+    '/\bFDSRCPS\b/i',
+    '/\bFICS\b/i',
+    '/\bMOMSRCS(?:\s*Ed)?\b/i',
     '/\bCHPE\b/i',
     '/\bCHR\b/i',
     '/\bMHPE\b/i',
-    '/\bPGD(?:\s+in\s+[^,.(]{8,60})?/i',
+    '/\bPGD(?:\s+(?:in\s+)?[^,.(]{3,60})?/i',
     '/\bPGT(?:\s+Pharmacy)?\b/i',
     '/\bDCP\b/i',
     '/\bDCH\b/i',
     '/\bDOMS\b/i',
     '/\bDiploma in Gynae and Obs\b/i',
-    '/\bDip(?:loma)?(?:\s+in)?\s+CBT\b/i',
+    '/\bDip(?:loma)?(?:\s+(?:in\s+)?)?(?:Implant|CBT)\b/i',
   ];
   foreach ($patterns as $re) {
     if (preg_match_all($re, $text, $ms)) {
@@ -339,11 +347,11 @@ function faculty_normalize_skills(array $items): array {
 }
 
 function faculty_exp_role_pattern(): string {
-  return '(?:Head of Department|Head of Lab|Associate Professor|Assistant Professor|Assistant Dental Surgeon|Senior Consultant|Senior Lecturer|Senior Registrar|Senior Medical Officer|Theme Facilitator|House Job Officer|House Officer|House job|House Surgeon|Medical Superintendent|Medical Officer|Junior Registrar|District Pathologist|District Specialist|Post Graduate Trainee|Postgraduate Trainee|Postgraduate Resident|Trainee Medical Officer|Consultant Histopathologist|Consultant Pathologist|Consultant Psychiatrist|Dental Surgeon|Dental Assistant|M\.?\s*Phil\.? Trainee|In charge|Professor|Consultant|Supervisor|Examiner|Instructor|Resident|Demonstrator|Lecturer|Director|Registrar|Pathologist|Obstetrician|Internship|Section Head|Chair|Deputation)';
+  return '(?:Head of Department|Head of Lab|Associate Professor|Assistant Professor|Assistant Dental Surgeon|Senior Consultant|Senior Lecturer|Senior Registrar|Senior Medical Officer|Theme Facilitator|House Job Officer|House Officer|House job|House Surgeon|Medical Superintendent|Medical Officer|Junior Registrar|District Pathologist|District Specialist|Post Graduate Trainee|Postgraduate Trainee|Postgraduate Resident|Trainee Medical Officer|Trainee Registrar|MDS Resident|Consultant Histopathologist|Consultant Pathologist|Consultant Psychiatrist|Consultant Oral Surgeon|Vice-?Principal|Dental Surgeon|Dental Assistant|M\.?\s*Phil\.? Trainee|In charge|Professor|Consultant|Supervisor|Examiner|Instructor|Resident|Demonstrator|Lecturer|Director|Registrar|Pathologist|Obstetrician|Internship|Section Head|Chair|Deputation|Family Dentistry)';
 }
 
 function faculty_exp_role_break_pattern(): string {
-  return 'Head of Department|Associate Professor|Assistant Professor|Assistant Dental Surgeon|Senior Consultant|Senior Lecturer|Senior Registrar|Senior Medical Officer|Theme Facilitator|House Job Officer|House Officer|House Surgeon|District Pathologist|Post Graduate Trainee|Postgraduate Trainee|Postgraduate Resident|Trainee Medical Officer|Junior Registrar|Medical Superintendent|Medical Officer|Consultant Histopathologist|Consultant Pathologist|Consultant Psychiatrist|Dental Surgeon|Dental Assistant|M\.?\s*Phil\.? Trainee|Lecturer|Demonstrator|Professor of|Obstetrician|Section Head';
+  return 'Head of Department|Associate Professor|Assistant Professor|Assistant Dental Surgeon|Senior Consultant|Senior Lecturer|Senior Registrar|Senior Medical Officer|Theme Facilitator|House Job Officer|House Officer|House Surgeon|District Pathologist|Post Graduate Trainee|Postgraduate Trainee|Postgraduate Resident|Trainee Medical Officer|Trainee Registrar|MDS Resident|Junior Registrar|Medical Superintendent|Medical Officer|Consultant Histopathologist|Consultant Pathologist|Consultant Psychiatrist|Consultant Oral Surgeon|Vice-?Principal|Dental Surgeon|Dental Assistant|M\.?\s*Phil\.? Trainee|Lecturer|Demonstrator|Professor of|Obstetrician|Section Head|Family Dentistry';
 }
 
 function faculty_split_exp_line(string $text): array {
@@ -541,7 +549,7 @@ function faculty_exp_parse_role(string $text, string $fallbackTitle = ''): array
   }
 
   $role = faculty_exp_role_pattern();
-  $spec = 'Histopathology|Chemical Pathology|Pathology|Microbiology|Hematology|Haematology|Physiology|Psychiatry|Behavioural Sciences|Behavioral Sciences|Public Health|Anatomy|Medicine|Surgery|Radiology|Gynaecology|Gynecology|Obstetrics|Pediatrics|Paediatrics|Endocrinology|Orthopaedics|Orthopedic Surgery|General Surgery|Plastic Surgery|Community [Mm]edicine|Medical Education';
+  $spec = 'Histopathology|Chemical Pathology|Pathology|Microbiology|Hematology|Haematology|Physiology|Psychiatry|Behavioural Sciences|Behavioral Sciences|Public Health|Anatomy|Medicine|Surgery|Radiology|Gynaecology|Gynecology|Obstetrics|Pediatrics|Paediatrics|Endocrinology|Orthopaedics|Orthopedic Surgery|General Surgery|Plastic Surgery|Community [Mm]edicine|Medical Education|Oral Pathology|Oral Biology|Oral Medicine|Periodontology|Prosthodontics|Orthodontics|Paediatric Dentistry|Community Dentistry|Dental Materials|Dental Education|Oral(?:\s*&\s*Maxillofacial)?\s*Surgery|Family Dentistry';
   $title = '';
   $detail = $core;
   if (preg_match('/^(Head(?:,?\s+Department of [A-Za-z &]+))/i', $core, $hm)) {
@@ -608,7 +616,7 @@ function faculty_exp_parse_role(string $text, string $fallbackTitle = ''): array
   }
 
   $title = trim(preg_replace('/\s+/', ' ', $title) ?? $title);
-  $title = preg_replace_callback('/\b(associate professor|assistant professor|senior lecturer|senior registrar|senior consultant|assistant dental surgeon|house officer|house job|medical officer|professor|lecturer|demonstrator|consultant|resident|director|supervisor|examiner|pathologist)\b/i', static function ($m) {
+  $title = preg_replace_callback('/\b(associate professor|assistant professor|senior lecturer|senior registrar|senior consultant|assistant dental surgeon|house officer|house job|medical officer|professor|lecturer|demonstrator|consultant|resident|director|supervisor|examiner|pathologist|vice-?principal|trainee registrar|mds resident|dental surgeon)\b/i', static function ($m) {
     return ucwords(strtolower($m[0]));
   }, $title) ?? $title;
   $title = preg_replace('/\b(from|to)\b/i', '', $title) ?? $title;
@@ -709,6 +717,63 @@ function faculty_sort_experience(array $rows): array {
     foreach ($group['roles'] as $role) {
       $out[] = $role;
     }
+  }
+  return $out;
+}
+
+function faculty_list_as_written(array $items): array {
+  $out = [];
+  $seen = [];
+  foreach ($items as $raw) {
+    $text = trim(preg_replace('/\s+/', ' ', (string) $raw) ?? '');
+    if ($text === '') {
+      continue;
+    }
+    $key = strtolower($text);
+    if (isset($seen[$key])) {
+      continue;
+    }
+    $seen[$key] = true;
+    $out[] = $text;
+  }
+  return $out;
+}
+
+function faculty_experience_as_written(array $items): array {
+  $out = [];
+  foreach ($items as $item) {
+    if (is_array($item) && isset($item['kind'])) {
+      $out[] = $item;
+      continue;
+    }
+    $text = trim(preg_replace('/\s+/', ' ', (string) $item) ?? '');
+    if ($text === '') {
+      continue;
+    }
+    $out[] = [
+      'kind' => 'role',
+      'title' => $text,
+      'dates' => '',
+      'detail' => '',
+    ];
+  }
+  return $out;
+}
+
+function faculty_publications_as_written(array $pubs): array {
+  $out = [];
+  $seen = [];
+  foreach ($pubs as $raw) {
+    $p = trim(preg_replace('/\s+/', ' ', (string) $raw) ?? '');
+    if ($p === '') {
+      continue;
+    }
+    $key = strtolower(substr(preg_replace('/\W+/', '', $p) ?? '', 0, 90));
+    if ($key !== '' && isset($seen[$key])) {
+      continue;
+    }
+    $seen[$key] = true;
+    $out[] = $p;
   }
   return $out;
 }

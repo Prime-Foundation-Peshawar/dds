@@ -1,0 +1,1989 @@
+
+##########################################################################################
+ORAL PATHOLOGY MASTER
+d:\\projects\\php\\www\\dds\\faculty profile\master File _ Oral Pathology-PDC-Faculty.docx
+tables 1 body_paras 60
+-- table 0 rows=7 --
+  r0 HEADER ['#', 'Name', 'Designation', 'Profile with Photograph*', 'Qualification', 'Professional Experience', 'Any Specific Skill to be displayed on web', 'List of Publications']
+  r1 NAME='Abbas Saleem Khan' cols=8
+    QUAL n=1
+     | BDS, MPhil, PhD, CHPE, PGD
+    EXP n=1
+     | 12 Years
+    SKILL n=1
+     | -
+    PUB n=2
+     | 41 Articles in National and International peer reviewed Journals
+     | List Attached in Annexure-1
+  r2 NAME='Nasiha Bashir' cols=8
+    QUAL n=1
+     | BDS, MPhil, PhD, CHPE
+    EXP n=1
+     | 30 years (24 years teaching +6 years private clinical practice)
+    SKILL n=0
+    PUB n=1
+     | 19 Articles in National and International peer reviewed Journals. List attached in Annexure-2
+  r3 NAME='Fatima Iqbal' cols=8
+    QUAL n=1
+     | BDS, MPhil, PhD
+    EXP n=1
+     | 14 Years
+    SKILL n=1
+     | -
+    PUB n=2
+     | 22 Articles in National and International peer reviewed Journals
+     | List Attached in Annexure-3
+  r4 NAME='Tehmina Nausheen' cols=8
+    QUAL n=1
+     | BDS, MPhil, CHPE, PGD
+    EXP n=6
+     | 29 years
+     | 1996-2009
+     | 13 years (Alkhidmat Hospital Peshawar)
+     | 2011-2026
+     | 16years
+     | (Peshawar Dental College and Hospital
+    SKILL n=0
+    PUB n=2
+     | 24 Articles in National and International peer reviewed Journals
+     | List attached in Annexure 4
+  r5 NAME='Anoshia Zahid' cols=8
+    QUAL n=1
+     | BDS, MPhil, CHPE
+    EXP n=1
+     | 20 months
+    SKILL n=4
+     | Gold medalist in Mphil (Oral Pathology)
+     | Principal author of the Book (published)
+     | Title “Diseases of Salivary Glands”
+     | ISBN 978-627-94976-0-4
+    PUB n=1
+     | 2 Articles in National peer reviewed Journals. List of articles attached in Annexure-6
+  r6 NAME='Karishma Ali' cols=8
+    QUAL n=1
+     | BDS, MPhil, MHPE,CHR
+    EXP n=1
+     | 5 years
+    SKILL n=0
+    PUB n=2
+     | 10 Articles in National and International peer reviewed Journals.
+     | List of articles attached in Annexure-5
+  BODY PARAS (non-table, first 80 nonempty already listed via cells; extra file paras:)
+  P1. #
+  P2. Name
+  P3. Designation
+  P4. Profile with Photograph*
+  P5. Qualification
+  P6. Professional Experience
+  P7. Any Specific Skill to be displayed on web
+  P8. List of Publications
+  P9. 1.
+  P10. Abbas Saleem Khan
+  P11. Professor
+  P12. BDS, MPhil, PhD, CHPE, PGD
+  P13. 12 Years
+  P14. -
+  P15. 41 Articles in National and International peer reviewed Journals
+  P16. List Attached in Annexure-1
+  P17. 2.
+  P18. Nasiha Bashir
+  P19. Professor
+  P20. BDS, MPhil, PhD, CHPE
+  P21. 30 years (24 years teaching +6 years private clinical practice)
+  P22. 19 Articles in National and International peer reviewed Journals. List attached in Annexure-2
+  P23. 3.
+  P24. Fatima Iqbal
+  P25. Associate Professor
+  P26. BDS, MPhil, PhD
+  P27. 14 Years
+  P28. -
+  P29. 22 Articles in National and International peer reviewed Journals
+  P30. List Attached in Annexure-3
+  P31. 4.
+  P32. Tehmina Nausheen
+  P33. Associate Professor
+  P34. BDS, MPhil, CHPE, PGD
+  P35. 29 years
+  P36. 1996-2009
+  P37. 13 years (Alkhidmat Hospital Peshawar)
+  P38. 2011-2026
+  P39. 16years
+  P40. (Peshawar Dental College and Hospital
+  P41. 24 Articles in National and International peer reviewed Journals
+  P42. List attached in Annexure 4
+  P43. 5.
+  P44. Anoshia Zahid
+  P45. Senior Lecturer
+  P46. BDS, MPhil, CHPE
+  P47. 20 months
+  P48. Gold medalist in Mphil (Oral Pathology)
+  P49. Principal author of the Book (published)
+  P50. Title “Diseases of Salivary Glands”
+  P51. ISBN 978-627-94976-0-4
+  P52. 2 Articles in National peer reviewed Journals. List of articles attached in Annexure-6
+  P53. 6.
+  P54. Karishma Ali
+  P55. Senior Lecturer
+  P56. BDS, MPhil, MHPE,CHR
+  P57. 5 years
+  P58. 10 Articles in National and International peer reviewed Journals.
+  P59. List of articles attached in Annexure-5
+  P60. *. Not mandatory for female faculty
+
+##########################################################################################
+Annexure-1-Abbas Saleem Khan Research Articles list.docx
+d:\\projects\\php\\www\\dds\\faculty profile\Annexure-1-Abbas Saleem Khan Research Articles list.docx
+tables 0 body_paras 47
+  P1. Annexure-1
+  P2. Abbas Saleem Khan
+  P3. Department of Oral pathology
+  P4. Peshawar Dental College
+  P5. Riphah International University, Peshawar Campus, Pakistan
+  P6. Research Articles List:
+  P7. 1. Association Between Tobacco Use And Histopathological Severity Of Oral Leukoplakia: A Cross-Sectional Study. Abdus Saboor, Sadaf Shakoor, Ilyas Rahman, Abbas Saleem Khan, Abdul Wali Khan, Mehwish Waris, Maria Ilyas, & Shahzad Ahmad. (2026). International Journal of Pharmacy Research & Technology ( IJPRT), 16(1), 4491–4497.
+  P8. 2. Immunohistochemical expression of CD133 in oral squamous cell carcinoma, oral potentially malignant disorders, and normal oral mucosa. CME Journal Geriatric Medicine.Imad Ali IA, Abdus Saboor AS, Maria Ilyas MI, Mehwish Waris MW, Sadaf Faheem SF, Abbas Saleem Khan ASK, Ilyas Rahman IR, Shahzad Ahmad SA. 2026 Jun;18(6):390-403.
+  P9. 3. Determination of the role of serum alpha 1 anti-trypsin protein levelsin oral squamous cell carcinoma Patients and in healthy snuff users and non-users. Faizan Tariq, Fatima Iqbal, Tehmina Nausheen, Hayatullah Khan, Ambreen Gul, Abbas Saleem Khan6.International Journal of Pathology (Int J Pathol) OctDec2025, Vol. 23. No. 4.p-263-70.
+  P10. 4. Clinicopathological features of oral potentially malignant disorders among tobacco users and non users. Khan, Abbas Saleem 1; Ahmad, Shahzad; Khan, Zafar Ali; Nisar, Muhammad; Shafiq, Fiza; Naushin, Tehmina; Iqbal, Fatima; Bashir, Nasiha; Issrani, Rakhi; Prabhu, Namdeo. National Journal of Maxillofacial Surgery. 16(3): 568-575, Sep-Dec 2025.
+  P11. 5. Immunoreactivity of MMP-9 in tissue samples of oral potentially malignant disorders and normal oral mucosa. Shafiq, F., Aneela Bashir, Alamgir, Mehreen Malik, Gillani, S. M. ., Asfand Khan, & Khan, A. S 7. Journal of Khyber College of Dentistry, 2025.15(02), 32–39.
+  P12. 6. Comparative Study on Histochemical Expression of CD34 in Different Variants of Ameloblastoma. Nasiha Bashir , Maria Obaid , Fatima Iqbal , Hoor Maryam , Tehmina Naushin and Abbas Saleem Khan 6. Pakistan Journal of Health Sciences (PJHS). 2025; 6(01):80-86.
+  P13. 7. Oral Leukoplakia: An Overview of Histopathological Spectrum Focusing On WHO Grading System and Binary System of Oral Epithelial Dysplasia. Tehmina Naushin , Zafar Iqbal , Abbas Saleem Khan 3 , Uzma Mehmood , Tanveer Khan , Sidra Mahmood , Mahmood Ul Hassan , Momina Mahmood and Tayyab Ul Hassan. Pakistan Journal of Health Sciences (PJHS). 2025;6(01):348-352.
+  P14. 8. Immunohistochemical Expression of GLUT-4 in Oral Squamous Cell Carcinoma, Oral Potentially Malignant Disorders and Normal Oral Mucosa . Aamna Javed, Abbas Saleem Khan 2, Sara Ziaullah, Nasiha Bashir, Tehmina Nausheen, Laiba Fayyaz. African Journal of Biological Sciences. 2024,6(16);708-24. (Corresponding authorship)
+  P15. 9. Expression of CD34 in Ameloblastoma and Odontogenic keratocyst. Maria Hanif, Nasiha Bashir, Tehmina Noushin, Mehreen Malik, Aysha Khitab, Abbas Saleem Khan. Journal of Khyber College of Dentistry (JKCD). 2024, Vol. 14, No. 3;51-55.
+  P16. 10. The predictive power between il28b gene variants (rs12979860 and rs8099917) and the response of hepatitis C virus in patients on sofosbuvir and daclatasvir. Mohsina Haq, Jawad Ahmed, Ihsan Ullah, Hala Rajab, Sami Siraj, Najeeb ul Haq, Abbas Saleem Khan 7. Journal of Population Therapeutics & Clinical Pharmacology. 2024, Vol.31 No. 06 ; 3519-3528.
+  P17. 11. Association of IL28B rs12979860 and rs8099917 Gene Polymorphisms with Response to Combination Therapy of Sofosbuvir and Daclatasvir in HCV-Infected Patients from the Khyber Pakhtunkhwa Population. Mohsina Haq, Jawad Ahmed, Ihsan Ullah, Najeeb ul Haq, Arbab Muhammad Kashif Khan5, Abbas Saleem Khan Kurdish Studies . June 2024 , Volume: 12, No: 3:416 – 420.
+  P18. 12. Association of Podoplanin expression to histopathological grades of oral epithelial dysplasia and oral squamous cell carcinoma. Journal of Pakistan Medical Association (JPMA) .Hina shabir, Sofia Durrani, Fatima Tariq, Samreena Mohammad, Abbas Saleem Khan 5. 2024 ;74:852-856.
+  P19. 13. Serum vitamin D levels of Oral squamous cell carcinoma patients of KPK. Sana Ahmad, Abbas Saleem Khan 2, Syed Muhammad Awais, Muhammad Raza , Syed Omer Farooq. Advances in Basic Medical Science (ABMS).2023;7(2)56-59.
+  P20. 14. Clinicopathological Features of Oral Leukoplakia Among Snuff Users and Non-Users: An Analytical Study. Tehmina Naushin, Abbas Saleem Khan 2, Sadaf Alam, Nasiha Motahir, Fatima Iqbal, Hoor Maryam Younas, Sidra Mahmood and Uzma Mahmood. Pakistan Journal of health sciences.2023 , Vol. 4 Issue. 6;182-186.
+  P21. 15. Serum E-Cadherin levels in various clinical variants of Oral potentially pre-malignant disorders. Abdus saboor, Muhammad Mumtaz Khan, Badshah Afsar, Abbas Saleem Khan 4. Khyber Medical University Journal. 2023, 15(3); 167-70.
+  P22. 16.Histopathological assessment of Oral leukoplakia among snuff users and non- users. Naushin T, Khan AS ,Ishfaq M, Bashir N, Iqbal F, Hassan M. Journal of Medical Sciences .2023,31(1), 72–75.
+  P23. 17. Description of clinicopathological characteristics of oral potentially malignant disorders with special focus on two histopathologic grading systems and subepithelial inflammatory infiltrate. Journal of Cancer Research and Therapeutics.Khan, Abbas Saleem1,Khan, Zafar Ali, Nisar Muhammad , Saeed, Saleha, Maryam, Hoor, Haq, Mohsina, Naushin, Tehmina, Issrani, Rakhi. 2023 19:S724-30.(Corresponding authorship).
+  P24. 18. Comparison of PDL-1 in Oral squamous cell carcinoma and premalignant lesions of Oral cavity. Saleha Saeed , Fozia Rauf, Fatima Iqbal , Abbas Saleem Khan 4, Amara Hayat Khan , Rabia Alamgeer. Asian Pacific Journal of Cancer Prevention. 2022 Dec; 23 (12): 4039–4045.
+  P25. 19. Incidence of Dengue fever, serotypes, clinical features, and laboratory markers: a case study of 2019 outbreak at district Shangla, KP, Pakistan.Rehman AU, Anwar F, Tayyab M, Haq I, Haq M, Ahmed A, Haq H, Khan AS 8. African Health Sciences. 2022 Mar; 22 (1):521-531.
+  P26. 20. Clinical Features and Associated Comorbidities In 200 Cases Of COVID-19 In Peshawar, Pakistan. Ihteshamul Haq , Mohsina Haq , Momina Haq , Seher Obaid , Susan Kakakhel , Mohammad Abbas , Abbas Saleem Khan 6 , Naumana Rhman , Ghazala Zarin Afridi , Fazli Zahir , Fatima Syed , Naveed Iqbal , Shahzad Shoukat , Faheem Anwar. Natural Volatiles & Essential. Oils Journal. 2022; 9( 1): 766-775.
+  P27. 21. A Expression of Survivin in oral malignancy and premalignancy: expression of Survivin in oral malignancy and premalignancy. Maryam, H., Nasir, S. ., Khan, M. M., Saleem , A 4., Bashir, N. ., Iqbal, F., & Nausheen, T. Journal of Medical Sciences. 2022, 30( 1), 14–17.
+  P28. 22. Immunohistochemical Expression of E-Cadherin in Normal Oral Mucosa, Precancerous Lesions and Oral Squamous Cell Carcinoma. Aneela Bashir, Abbas Saleem Khan 2, Sajjad Ahmed, Fiza Shafiq, Hoor Maryam Younas. International journal of pathology. 2021 Vol.19,No.3,135-142.
+  P29. 23. Molecular Identification and Seroprevalence of SARS-CoV2 IgG antibody among Health Care Workers in Peshawar Pakistan. Mohsina Haq, Ihteshamul Haq, Fazli zahir, Abbas Saleem Khan 4, Shabir Ahmad, Tanveer Tara, Muhammad Naveed Akhtar, Kamran Shah,Hina Ali, Bahar Ali, Seema zubair, Zeeshan Ahmad, Said Munir, Abdul Samad. Annals of Romanian Society for Cell Biology. 2021, Vol. 25, Issue 7; 1846 – 1855.
+  P30. 24. Serum p53 antibodies detection in oral squamous cell carcinoma, oral potentially malignant disorders and healthy individuals – a multicentre study. Abbas Saleem Khan1 , Sajjad Ahmad, Zahoor Ullah, Mohsina Haq, Muhammad Umar Farooq, Muslim Khan. Journal Pakistan Medical Association (JPMA). 2021, Vol.71, No.10, 2364-2368. (Corresponding authorship)
+  P31. 25. Predictive value of p53 protein expression and serum p53 antibodies in oral potentially malignant disorders: Relative to Oral squamous cell carcinoma. Abbas S. Khan 1, Sajjad Ahmad, Zahoor Ullah, Naveed Sadiq, Mohsina Haq, Ahmareen K. Sheikh. Journal of Taibah University Medical Science.2021 17(3) 415-423.(Corresponding authorship)
+  P32. 26. Immunohistochemical expression of p53 in oral squamous cell carcinoma, oral epithelial precursor lesions and normal oral mucosa. Khan, A. S 1, Ahmad, S, Iqbal, F, Saboor, A, Nisar, M, Naushin, T, Khalid Sheikh, A, Haq, M, Ahmad, T,& Rehman, B. Journal of Medical Sciences. 2021 October ;29(4):255-260. (Corresponding authorship)
+  P33. 27. Association of Serum Soluble E-Cadherin Levels with Oral Potentially Malignant Disorders in Tobacco Users and Non-Users. Saboor A, Muhammad K, Rehman I, Khan AS 4, Khan MM. Journal of Saidu Medical College, Swat. 2021;11(3):156-61.
+  P34. 28. Immunoexpression of Matrix Metalloproteinase-9 in Histopathological tissue samples of oral Squamous Cell Carcinoma.Shafiq F, Khan AS 2, Ahmad S, Khan MA, Bajwa SJ, Hussain TA. Pakistan Journal of Medical and Health Sciences. 2021, Vol. 15, No.10; 2666-69.
+  P35. 29. Clinical Utility of MMP-9 Expression in Oral Malignant and Premalignant Lesions. Shafiq F, Khan AS 2, Bashir A, Tariq F, Maryum H, Ahmad S. International Journal of Pathology. 2021, 19(2):64-70.
+  P36. 30. Predictive value of serum p53 antibodies in oral squamous cell carcinoma. Khan AS 1, Ahmad S, Ullah Z, Haq M, Usman MK, ur Rehman A. International Journal of Pathology. 2021,19(1):32-7. (Corresponding authorship).
+  P37. 31. Epidemiological characteristics and genetic diversity of clinically isolated dengue vector in Khyber Pakhtunkhwa, Pakistan. Zahir, Fazli, Ihteshamul Haq, Mohsina Haq, Abbas Saleem Khan 5, Wasifa Naushad, Hala Rajab, Muhammad Fahim, Sohail Ahmad, and Iqbal Munir. Clinical Epidemiology and Global Health. 12 (2021) 100863.
+  P38. 32. Estimation of Serum vitamin C levels in Oral Squamous cell carcinoma patients. Journal Khyber College of Dentistry (JKCD). Nisar M, Younas M, Ahmad S, Khan AS 4, Khan MM. 2020 ,10(04):13-17.
+  P39. 33. Determination of Ki-67 expression in oral leukoplakia in snuff users and non-users in Khyber Pakhtunkhwa province of Pakistan. The Professional Medical Journal. Naushin T, Khan MM, Ahmed S, Iqbal F, Bashir N, Khan AS 7. 2020 Apr 10;27(04):682-7.
+  P40. 34. Cytomorphological spectrum of pleomorphic adenoma in association with clinical parameters. Iqbal F, Bashir N, Saleem A 3, Khan MM, Naushin T, Alam S. The Professional Medical Journal. 2019, 10;26(10):1630-4.
+  P41. 35. Comparison of GLUT-1 expression in oral squamous cell carcinoma with normal mucosa. Usman K, Alam S, Salman F, Khan MM, Khattak M, Saleem A 6, Khan ZA. Pakistan Journal of Pathology. 2019 Aug 23;30(2):52-56.
+  P42. 36. Clinico-pathological features of oral squamous cell carcinoma among tobacco users and non-tobacco users. Ahmad S, Khan AS 2, Nisar M, Farooq SU, Awais SM, Ahmad M, Ahmad S, Farooq MU, Khattak MR, Ansari SR. Journal of Khyber College of Dentistry (JKCD). Dec 2018 ,8(4):8-14. (Corresponding authorship).
+  P43. 37. Association Between Oral Squamous Cell Carcinoma and Serum Vitamin E in Snuff Users and Non Snuff Users in Khyber Pakhtunkhwa Province of Pakistan. Khan AS 1, Ahmad S, Khattak MR, Khan MM. Journal of Khyber College of Dentisrty (JKCD). Dec 2017 ,7(3):9-15. (Corresponding authorship).
+  P44. 38. Infection control in dentistry - Knowledge and practices regarding barrier techniques ,post exposure management and prophylaxis. Abbas Saleem K 1, Rahim AU, Tanweer Hussain B, Muhammad Ali C, Zafar M. Pakistan Oral and Dental Journal ( PODJ). December 2009, Vol 29 No.2 ;235-240. (Corresponding authorship)
+  P45. 39. A study of tooth loss pattern and treatment in partially dentate patients. Shah SN, Bangash TH, Saleem A 3. Pakistan Oral & Dental Journal (PODJ). Dec 2007, 27(2);267- 270.
+  P46. 40. Vaccination status against Hepatitis B in doctors and final year clinical students working in Khyber college of dentistry and Sardar Begum Dental College Peshawar. Abbas Saleem K 1, Muhammad Ali C, Shahzad Ali S, Umar K, Muhammad Khalid U, Haq NU. Pakistan Oral and Dental Journal (PODJ). 2006, Vol 26 No.22; 255-260. (Corresponding authorship).
+  P47. 41. Hepatitis in dental practice- a study conducted on 1498 patients. Umar, Khitab; Abbas Saleem, Khan 2; Shahzad Ali, Shah; Najeeb, Ul Haq. Pakistan Oral and Dental Journal (PODJ). 2005, Vol 25 No.1;25-28. (Corresponding authorship) 42. Causes of dental extractions among 2000 patients- a study conducted at oral and maxillofacial surgical unit, Khyber college of dentistry ,Peshawar Pakistan. Shazad Ali Shah, Umar Khitab, Muhammad Ali Chughtai, AIi, Abbas Saleem Khan 4. Pakistan Oral & Dental Journal (PODJ). 2004,Vol 24 No.2; 209-212.
+
+##########################################################################################
+Annexure-2-Nasiha Motahir Published Research Articles list.docx
+d:\\projects\\php\\www\\dds\\faculty profile\Annexure-2-Nasiha Motahir Published Research Articles list.docx
+tables 0 body_paras 25
+  P1. Annexure-2
+  P2. Nasiha Motahir
+  P3. Department of Oral pathology
+  P4. Peshawar Dental College
+  P5. Riphah International University, Peshawar Campus, Pakistan
+  P6. Published Research Articles List:
+  P7. 1.Naushin T, Ahmed S, Saleem A, Bashir N, Khan T, Mahmood U, Mahmood S, Mahmood M. INVESTIGATING THE STATUS OF SINGLE NUCLEOTIDE POLYMORPHISM RS 2235373 IN IRF 6 GENE IN NON SYNDROMIC CLEFT LIP AND PALATE. Genetics and Molecular Research. 2026 Jul 15.
+  P8. 2. Iqbal F, Bashir N, Maryam H, Ahmad S. Histopathological spectrum of oral squamous cell carcinoma in Naswar users: correlation with duration, age and site. J Pak Med Assoc. 2026;76(3):387-391. doi:10.51253/jpma.12430.
+  P9. 3.Bashir N, Ahmad S, Iqbal F, Fayyaz L, Naushin T. Stage-specific analysis of targeted microRNAs in oral squamous cell carcinoma and their association with the use of naswar. Journal of Oral Science. 2026;68(2):59–65. doi:10.2334/josnusd.25-0294.
+  P10. 4.Khan AS, Ahmad S, Khan ZA, Nisar M, Shafiq F, Naushin T, Iqbal F, Bashir N, Issrani R, Prabhu N. Clinicopathological features of oral potentially malignant disorders among tobacco users and nonusers. National Journal of Maxillofacial Surgery. 2025;16(3):568–575. doi:10.4103/njms.njms_204_23.
+  P11. 5.Bashir N, Obaid M, Iqbal F, Maryam H, Naushin T, Khan AS. Comparative Study on Histochemical Expression of CD34 in Different Variants of Ameloblastoma: CD34 Expression in Ameloblastoma Variants. Pakistan Journal of Health Sciences. 2025 Jan 31:80-6.
+  P12. 6. Khan AS, Ahmad S, Khan ZA, Nisar M, Shafiq F, Naushin T, Iqbal F, Bashir N, Issrani R, Prabhu N. Clinic opathological features of oral potentially malignant disorders among tobacco users and nonusers. National Journal of Maxillofacial Surgery. 2025 Dec 25;16(3):568.
+  P13. 7.Naushin T, Khan AS, Alam S, Motahir N, Iqbal F, Maryam HY, Mahmood S, Mahmood U. Clinicopathological features of oral leukoplakia among snuff users and non-users: an analytical study. Pakistan Journal of Health Sciences. doi:10.54393/pjhs. v4i06.845.
+  P14. 8. Hanif M, Bashir N, Noushin T, Malik M, Khitab A, Khan AS. EXPRESSION OF CD34 IN AMELOBLASTOMA AND ODONTOGENIC KERATOCYST. JOURNAL OF KHYBER COLLEGE OF DENTISTRY. 2024 Sep 30;14(03):51-5.
+  P15. 9. J Aamna, Khan As, Ziaullah S, Bashir N, Naushin T, Fayyaz L. Immunohistochemical Expression of GLUT-4 in Oral Squamous Cell Carcinoma, Oral Potentially Malignant Disorders and Normal Oral Mucosa . Journal of biological Sciences. 2024,6(16);708-24.
+  P16. 10.Naushin T, Khan AS, Ishfaq M, Bashir N, Iqbal F, Hassan M. Histopathological assessment of oral leukoplakia among snuff users and non-users. Journal of Medical Sciences Peshawar. 2023;31(1):14. doi:10.52764/jms.23.31.1.14.
+  P17. 11.Maryam H, Nasir S, Khan MM, Saleem A, Bashir N, Iqbal F, Nausheen T. Expression of survivin in oral malignancy and premalignancy. Journal of Medical Sciences. 2022;30(1):3. doi:10.52764/jms.22.30.1.3.
+  P18. 12.Awan MI, Khurshid A, Akhtar O, Nasir S, Ziaullah S, Bashir N. SOX10 EXPRESSION IN SELECTIVE MALIGNANT SALIVARY GLAND TUMORS OF INTERCALATED AND EXCRETORY DUCTAL ORIGIN. Pakistan Journal of Pathology. 2022 Jun 30;33(2):48-52.
+  P19. 13.Iqbal F, Saeed S, Bashir N, Khattak SM, Naushin T, Sulaiman M. Histopathological typing and topographic distribution of head and neck lesions: an eight-year retrospective study. Journal of Rawalpindi Medical College. 2021;25(3):339–344. doi:10.37939/jrmc. v25i3.1546.
+  P20. 14.Naushin T, Khan MM, Ahmed S, Hassan M, Iqbal F, Bashir N, Khan AS. Determination of Ki-67 expression in oral leukoplakia in snuff users and non-users in Khyber Pakhtunkhwa province of Pakistan. The Professional Medical Journal. 2020;27(4). doi:10.29309/TPMJ/2020.27.04.3124.
+  P21. 15.Bashir N, Iqbal F, Ahmad S, Motahir ST, Mohammad S, Naushin T. Estrogen receptor alpha signaling in salivary gland tumors: lessons learned from breast carcinoma. International Journal of Pathology. 2020;18(3).
+  P22. 16.Iqbal F, Bashir N, Saleem A, Khan MM, Naushin T, Alam S. Cytomorphological spectrum of pleomorphic adenoma in association with clinical parameters. The Professional Medical Journal. 2019;26(10). doi:10.29309/TPMJ/2019.26.10.2786.
+  P23. 17. Mohammad S, Khan M, Salahuddin S, Bashir N, Shakeel S. A SPECTRUM OF ORAL MUCOCELES: HISTOPATHOLOGY AND MANAGEMENT. Pakistan Oral & Dental Journal Vol 39, No. 2 (April-June 2019)
+  P24. 18.Iqbal F, Bashir N, Khan MM, Ahmad S, Sharif N. CD10 expression in ameloblastoma variants. Pakistan Oral & Dental Journal. 2018;38(2).
+  P25. 19.Bashir N, Iqbal F, Khan MM, Sharif N. Estrogen receptor alpha expression in salivary gland tumors. Pakistan Oral & Dental Journal. 2018;38(2).
+
+##########################################################################################
+Annexure-3-Fatima Iqbal Published Research Articles list.docx
+d:\\projects\\php\\www\\dds\\faculty profile\Annexure-3-Fatima Iqbal Published Research Articles list.docx
+tables 0 body_paras 28
+  P1. Annexure-3
+  P2. Fatima Iqbal
+  P3. Department of Oral pathology
+  P4. Peshawar Dental College
+  P5. Riphah International University, Peshawar Campus, Pakistan
+  P6. Published Research Articles List:
+  P7. 1.Iqbal F, Bashir N, Maryam H, Ahmad S. Histopathological spectrum of oral squamous cell carcinoma in Naswar users: correlation with duration, age and site. J Pak Med Assoc. 2026;76(3):387-391. doi:10.51253/jpma.12430.
+  P8. 2.Bashir N, Ahmad S, Iqbal F, Fayyaz L, Naushin T. Stage-specific analysis of targeted microRNAs in oral squamous cell carcinoma and their association with the use of naswar. Journal of Oral Science. 2026;68(2):59–65. doi:10.2334/josnusd.25-0294.
+  P9. 3.Iqbal F, Ahmad S, Maryam H, Amin H. Evidence of mutations in tumour suppressor genes among oral cancer in Naswar, smokeless tobacco users. Acta Odontologica Scandinavica. 2025;84:43778. doi:10.2340/aos.v84.43778.
+  P10. 4.Khan AS, Ahmad S, Khan ZA, Nisar M, Shafiq F, Naushin T, Iqbal F, Bashir N, Issrani R, Prabhu N. Clinicopathological features of oral potentially malignant disorders among tobacco users and nonusers. National Journal of Maxillofacial Surgery. 2025;16(3):568–575. doi:10.4103/njms.njms_204_23.
+  P11. 5.Tariq F, Iqbal F, Nausheen T, Khan H, Gul A, Khan AS. Determination of the role of serum alpha 1 anti-trypsin protein levels in oral squamous cell carcinoma patients and in healthy snuff users and non-users. International Journal of Pathology. 2025;23(4):1028. doi:10.59736/IJP.23.04.1028.
+  P12. 6.Khan HU, Iqbal F, Masood B, Ullah A. Epidemiological analysis of benign and malignant salivary gland tumors in Peshawar: a retrospective study from tertiary care hospitals (2020–2024). International Journal of Pathology. 2025;23(2):950. doi:10.59736/IJP.23.02.950.
+  P13. 7.Bashir N, Obaid M, Iqbal F, Maryam H, Naushin T, Khan AS. Comparative study on histochemical expression of CD34 in different variants of ameloblastoma. Pakistan Journal of Health Sciences. 2025;6(1):2246. doi:10.54393/pjhs.v6i1.2246.
+  P14. 8.Iqbal F, Bashir N. An insight into the histopathology of oral potentially malignant disorders and malignant neoplasms of head and neck. Journal of the Pakistan Medical Association. doi:10.47391/JPMA.20155.
+  P15. 9.Aamir R, Rauf F, Iqbal F, Yousuf S, Rehman A, Sheikh AK, Muhammad S. Immunohistochemical expression of epidermal growth factor receptor (EGFR) in oral squamous cell carcinoma and oral potentially malignant disorders. Applied Immunohistochemistry & Molecular Morphology. 2024;32(3):157–162. doi:10.1097/PAI.0000000000001185.
+  P16. 10.Naushin T, Khan AS, Alam S, Motahir N, Iqbal F, Maryam HY, Mahmood S, Mahmood U. Clinicopathological features of oral leukoplakia among snuff users and non-users: an analytical study. Pakistan Journal of Health Sciences. doi:10.54393/pjhs. v4i06.845.
+  P17. 11.Naushin T, Khan AS, Ishfaq M, Bashir N, Iqbal F, Hassan M. Histopathological assessment of oral leukoplakia among snuff users and non-users. Journal of Medical Sciences Peshawar. 2023;31(1):14. doi:10.52764/jms.23.31.1.14.
+  P18. 12.Saeed S, Rauf F, Iqbal F, Khan AS, Khan AH, Alamgeer R. Comparison of PD-L1 expression in oral squamous cell carcinoma and premalignant lesions of oral cavity. Asian Pacific Journal of Cancer Prevention. 2022;23(12):4039–4045. doi:10.31557/APJCP.2022.23.12.4039.
+  P19. 13.Maryam H, Nasir S, Khan MM, Saleem A, Bashir N, Iqbal F, Nausheen T. Expression of survivin in oral malignancy and premalignancy. Journal of Medical Sciences. 2022;30(1):3. doi:10.52764/jms.22.30.1.3.
+  P20. 14.Khan AS, Ahmad S, Iqbal F, Saboor A, Nisar M, Naushin T, Sheikh AK, Haq M, Ahmad T, Rehman B. Immunohistochemical expression of p53 in oral squamous cell carcinoma, oral epithelial precursor lesions, and normal oral mucosa. Journal of Medical Sciences. 2021;29(4):9. doi:10.52764/jms.21.29.4.9.
+  P21. 15.Maryam H, Nasir S, Basheer A, Iqbal F, Shafiq F, Awan AH. Role of survivin as a diagnostic tool for oral squamous cell carcinoma. International Journal of Pathology. 2021;19(3).
+  P22. 16.Ghani S, Rauf F, Rehman A, Irfan M, Iqbal F, Jamal Y. Detection of Epstein-Barr virus antigen in oral squamous cell carcinoma by immunohistochemistry in patients from Khyber Pakhtunkhwa province of Pakistan. The Professional Medical Journal. 2021;28(12). doi:10.29309/TPMJ/2021.28.12.6379.
+  P23. 17.Iqbal F, Saeed S, Bashir N, Khattak SM, Naushin T, Sulaiman M. Histopathological typing and topographic distribution of head and neck lesions: an eight-year retrospective study. Journal of Rawalpindi Medical College. 2021;25(3):339–344. doi:10.37939/jrmc. v25i3.1546.
+  P24. 18.Naushin T, Khan MM, Ahmed S, Hassan M, Iqbal F, Bashir N, Khan AS. Determination of Ki-67 expression in oral leukoplakia in snuff users and non-users in Khyber Pakhtunkhwa province of Pakistan. The Professional Medical Journal. 2020;27(4). doi:10.29309/TPMJ/2020.27.04.3124.
+  P25. 19.Bashir N, Iqbal F, Ahmad S, Motahir ST, Mohammad S, Naushin T. Estrogen receptor alpha signaling in salivary gland tumors: lessons learned from breast carcinoma. International Journal of Pathology. 2020;18(3).
+  P26. 20.Iqbal F, Bashir N, Saleem A, Khan MM, Naushin T, Alam S. Cytomorphological spectrum of pleomorphic adenoma in association with clinical parameters. The Professional Medical Journal. 2019;26(10). doi:10.29309/TPMJ/2019.26.10.2786.
+  P27. 21.Iqbal F, Bashir N, Khan MM, Ahmad S, Sharif N. CD10 expression in ameloblastoma variants. Pakistan Oral & Dental Journal. 2018;38(2).
+  P28. 22.Bashir N, Iqbal F, Khan MM, Sharif N. Estrogen receptor alpha expression in salivary gland tumors. Pakistan Oral & Dental Journal. 2018;38(2).
+
+##########################################################################################
+Annexure-4-Tehmina Naushin Published Research Articles list -.docx
+d:\\projects\\php\\www\\dds\\faculty profile\Annexure-4-Tehmina Naushin Published Research Articles list -.docx
+tables 0 body_paras 29
+  P1. Annexure-4
+  P2. Tehmina Naushin
+  P3. Department of Oral pathology
+  P4. Peshawar Dental College
+  P5. Riphah International University, Peshawar Campus, Pakistan
+  P6. Published Research Articles List:
+  P7. Naushin T, Ahmed S, Khan SA, Bashir N, Khan T, Mahmood U, Mahmood S, Mahmood M. (2026). INVESTIGATING THE STATUS OF SINGLE NUCLEOTIDE POLYMORPHISM RS 2235373 IN IRF 6 GENE IN NON SYNDROMIC CLEFT LIP AND PALATE. .Genetics and Molecular Research DOI: https://doi.org/10.4238/b88ekk86
+  P8. Naushin T, Ahmed S, Mahmood S, Khan T, MahmoodU. (2024). ASSOCIATION OF VARIANT IN INTERFERON REGULATORY FACTOR 6 IN CLEFT LIP AND PALATE CASES AND MATERNAL BLOOD GROUPS. Journal of Population Therapeutics and Clinical Pharmacology, 31(6), 3822-3826. https://doi.org/10.69980/e1krv821
+  P9. Bashir N, Ahmad S, Iqbal F, Fayyaz L, Naushin T. Stage-specific analysis of targeted microRNAs in oral squamous cell carcinoma and their association with the use of naswar. Journal of Oral Science. 2026;68(2):59–65. doi:10.2334/josnusd.25-0294.
+  P10. Khan AS, Ahmad S, Khan ZA, Nisar M, Shafiq F, Naushin T, Iqbal F, Bashir N, Issrani R, Prabhu N. Clinicopathological features of oral potentially malignant disorders among tobacco users and nonusers. National Journal of Maxillofacial Surgery. 2025;16(3):568–575. doi:10.4103/njms.njms_204_23.
+  P11. Tariq F, Iqbal F, Nausheen T, Khan H, Gul A, Khan AS. Determination of the role of serum alpha 1 anti-trypsin protein levels in oral squamous cell carcinoma patients and in healthy snuff users and non-users. International Journal of Pathology. 2025;23(4):1028. doi:10.59736/IJP.23.04.1028.
+  P12. Dr. Syeda Munazza Gillani, Dr. Saif Ullah, Dr. Muhammad Arsalan Raffat, Dr. Tehmina Naushin, Dr. Zainab Akbar, & Dr. Akif Mahmud. (2025). PREVALENCE AND CLINICAL PRESENTATION OF ORAL POTENTIALLY MALIGNANT DISORDERS (OPMDS) IN PATIENTS REFERRED FOR SURGICAL BIOPSY. Journal of Population Therapeutics and Clinical Pharmacology, 32(5), 1587-1592. https://doi.org/10.53555/a324xw91
+  P13. Bashir N, Obaid M, Iqbal F, Maryam H, Naushin T, Khan AS. Comparative study on histochemical expression of CD34 in different variants of ameloblastoma. Pakistan Journal of Health Sciences. 2025;6(1):2246. doi:10.54393/pjhs. v6i1.2246.
+  P14. Naushin, T, Khan, A. S, Alam. S, Motahir, N., Fatima Iqbal, Younas, H. M.., Mahmood, S, & Mahmood, U. (2023). Clinicopathological Features of Oral Leukoplakia Among Snuff Users and Non-Users: An Analytical Study: Clinicopathological Features of Oral Leukoplakia. Pakistan Journal of Health Sciences, 4(06), 182–186. https://doi.org/10.54393/pjhs.v4i06.845
+  P15. Alamgir, MS Azhar, Javed A, Naushin T, Ikram S, Raffat MA. (2025) Prevalence of Stress-Related Oral Lesions and Their Association with Academic Stress Among Dental Students: A Multi-Stage Study. Journal of Rehman College of Dentistry.
+  P16. Hanif M., Nasiha Bashir, Noushin, T, Malik, M, Khitab, A., & Saleem Khan, A. (2024). EXPRESSION OF CD34 IN AMELOBLASTOMA AND ODONTOGENIC KERATOCYST. JOURNAL OF KHYBER COLLEGE OF DENTISTRY, 14(03), 51–55. https://doi.org/10.33279/jkcd.v14i03.71 DOI: https://doi.org/10.52442/jrcd.v7i1
+  P17. Zaman R , Nazish, Saif Ullah Nasir Z Mahmud A, Naushin T . (2025). ADMINISTRATION OF PREOPERATIVE SUBMUCOSAL DEXAMETHASONE IN THIRD MOLAR SURGERY: A PROGRESSION TOWARDS ENHANCING QUALITY OF LIFE. Journal of Population Therapeutics and Clinical Pharmacology, 32(7), 2037-2042. https://doi.org/10.53555/ybhm6f47
+  P18. Khan AS, Khan ZA, Nisar M, Saeed S, Maryam H, Haq M, et al. Description of clinicopathological characteristics of oral potentially malignant disorders with special focus on two histopathologic grading systems and subepithelial inflammatory infiltrate. J Can Res Ther 2023;19: S724-30.
+  P19. Khan, A. S., Ahmad, S., Iqbal, F., Saboor, A, Nisar, M., Naushin, T., … Rehman, B. (2022). A IMMUNOHISTOCHEMICAL EXPRESSION OF P53 IN ORAL SQUAMOUS CELL CARCINOMA, ORAL EPITHELIAL PRECURSOR LESIONS, AND NORMAL ORAL MUCOSA. Journal of Medical Sciences, 29(04), 255~260. https://doi.org/10.52764/jms.21.29.4.9
+  P20. Khan B, Kulsoom J, Sharif A, Shafiq F, Raffat MA, Naushin T. (2025). ASSOCIATION BETWEEN SALIVARY CYTOKINES AND HISTOPATHOLOGICAL GRADES OF ORAL EPITHELIAL DYSPLASIA. Journal of Population Therapeutics and Clinical Pharmacology, 32(7), 2083-2087. https://doi.org/10.53555/rsnzy008
+  P21. Naushin, T., Khan, A. S., Ishfaq, M., Bashir, N., Iqbal, F., & Hassan, M. ul. (2023). HISTOPATHOLOGICAL ASSESSMENT OF ORAL LEUKOPLAKIA AMONG SNUFF USERS AND NON-USERS. Journal of Medical Sciences, 31(01), 72–75. https://doi.org/10.52764/jms.23.31.1.14
+  P22. Naushin, T., Iqbal, Z., Khan, A. S., Mehmood, U., Khan, T., Mahmood, S., Hassan, M. U., Mahmood, M., & Hassan, T. U. (2025). Oral Leukoplakia: An Overview of Histopathological Spectrum Focusing On WHO Grading System and Binary System of Oral Epithelial Dysplasia: Oral Leukoplakia: Histopathological Spectrum Focusing On Oral Epithelial Dysplasia. Pakistan Journal of Health Sciences, 6(1), 356–360. https://doi.org/10.54393/pjhs.v6i1.2438
+  P23. Naushin T, Khan MM, Ahmed S, Mahmood-ul-Hassan, Iqbal F, Bashir N, Khan AS. Determination of Ki-67 expression in oral leukoplakia in snuff users and non-users in Khyber Pakhtunkhwa province of Pakistan. Professional Med J 2020; 27(4):682-687. DOI: 10.29309/TPMJ/2020.27.04.3124
+  P24. Iqbal F, Saeed S, Bashir N, Khattak SM, Naushin T, Sulaiman M. Histopathological typing and topographic distribution of head and neck lesions: an eight-year retrospective study. Journal of Rawalpindi Medical College. 2021;25(3):339–344. doi:10.37939/jrmc. v25i3.1546.
+  P25. Iqbal F, Bashir N, Saleem A, Khan MM, Naushin T, Alam S. Cytomorphological spectrum of pleomorphic adenoma in association with clinical parameters. The Professional Medical Journal. 2019;26(10). doi:10.29309/TPMJ/2019.26.10.2786.
+  P26. Bashir N, Iqbal F, Ahmad S, Motahir ST, Mohammad S, Naushin T. Estrogen receptor alpha signaling in salivary gland tumors: lessons learned from breast carcinoma. International Journal of Pathology. 2020;18(3).
+  P27. Malik M. Salivary Gland Tumors-10 years’ experience at Peshawar Medical College. Int J Pathol [Internet]. 2023 Jul. 31 [cited 2026 Aug. 25];:75. Available from: https://jpathology.com/index.php/OJS/article/view/837
+  P28. Sarfaraz Khan, Z, Muhammad, A, Ataullah, M, Saba Shah, S. G., Naushin, T, Mir, H., Naeem, N, Ahmad, Z., Abbas Bangash, S., & Ullah, I. (2022). Anatomical Sites OF Superficial Basal Cell Cancers Demonstrate Higher Rates of Mixed Histology: Anatomical Sites of Superficial Basal Cell Cancers. Pakistan BioMedical Journal, 5(5), 44–48. https://doi.org/10.54393/pbmj.v5i5.451
+  P29. Maryam, H., Nasir, S, Khan, M. M., Saleem, A., Bashir, N.., Iqbal, F., & Nausheen, T. . (2022). EXPRESSION OF SURVIVIN IN ORAL MALIGNANCY AND PREMALIGNANCY. Journal of Medical Sciences, 30(01), 14–17. https://doi.org/10.52764/jms.22.30.1.3
+
+##########################################################################################
+Annexure-5-Karishma Ali Articles List.docx
+d:\\projects\\php\\www\\dds\\faculty profile\Annexure-5-Karishma Ali Articles List.docx
+tables 0 body_paras 27
+  P1. Annexure-5
+  P2. Dr Karishma Ali
+  P3. Department of Oral pathology
+  P4. Peshawar Dental College
+  P5. Riphah International University, Peshawar Campus, Pakistan
+  P6. Articles List
+  P7. Topic: Immunohistochemical (IHC) Expression of p16 in Various Grades of Oral Squamous Cell Carcinoma (OSCC) with Snuff Use in Tertiary Care Hospitals of Peshawar
+  P8. Journal name: Pakistan Journal of Health Sciences (1stposition).Year of publication: 2022. Approved by Pakistan Medical and Dental Council and HEC.
+  P9. Topic: Salivary MicrobiomeDysbiosis is associated with Non-Smoking Male Lung Cancer and correlated with Immunocytochemistry Markers
+  P10. Journal name:Pakistan Journal of Chest Medicine(6th position).Year of publication: 2022. Approved by Pakistan Medical and Dental Council and HEC.
+  P11. Topic: Expression of P16 in Various Grades of Oral Squamous Cell Carcinoma of Tertiary Care Hospitals of Peshawar
+  P12. Journal name: Pakistan Journal of Medical and Health Sciences (1st position).Year of publication: 2022. Approved by Pakistan Medical Council and HEC.
+  P13. Topic:Expression of CD3 Levels of Tumor Infiltrating Lymphocytes (TILs) in Various Grades of Oral Squamous Cell Carcinoma of Tertiary Care Hospitals of Peshawar.
+  P14. Journal name: Pakistan Journal of Medical and Health Sciences Correspondence Author).Year of publication: 2022. Approved by Pakistan Medical Council and HEC.
+  P15. Topic:Immuno-histochemical Expression of Cyclin D1 in Oral Squamous Cell Carcinoma, Oral Potentially Malignant Disorders, and Normal Oral Mucosa (6th position).
+  P16. Journal name: Pakistan Biomedical Journal Year of publication: 7th July 2022. Approved by Pakistan Medical Council and HEC.
+  P17. Topic:FREQUENCY AND RISK FACTORS OF MULTI-DRUG RESISTANT TUBERCULOSIS IN KHYBER PAKHTUNKHWA, PAKISTAN: A RETROSPECTIVE STUDY.
+  P18. Journal NameRehman Journal of Health Sciences (5th position).Year of publication: 2022. Approved by Pakistan Medical Council and HEC.
+  P19. Topic:The situation of Coronavirus in Pakistan Regarding Diagnosis, Lab Facilities, Medical Equipment, and Isolation Wards in Hospitals
+  P20. Journal NamePakistan Biomedical Journal (6th position). Year of publication: 2022. Approved by Pakistan Medical Council and HEC.
+  P21. Topic:Comparing the Frequency of Cardiovascular Autonomic Neuropathy in Diabetic Cirrhotic with Non-Diabetic Cirrhotic Patients
+  P22. Journal Name Pakistan Biomedical Journal (6th position). Year of publication: 2022. Approved by Pakistan Medical Council and HEC.
+  P23. Topic:Diagnosis, Prevention, and Plasma Therapy as a Treatment of COVID-19 and Comparison with Pakistan
+  P24. Journal NameAmerican Journal of Clinical Microbiology and Antimicrobials (3rd position). Year of publication: 2021. Approved by Pakistan Medical Council and HEC.
+  P25. Topic:Third Molar Surgery: Risk Factors and Complications after Removal of Third Molars.
+  P26. Journal Name Pakistan Journal of Medical and Health Sciences (6th position). Year of publication: 2021. Approved by Pakistan Medical Council and HEC.
+  P27. Topic: Perceptions of Artificial Intelligence in Medical Education: A Cross-Sectional Study Among Students and Faculty at HBS Medical and Dental College, IslamabadPakistan Journal NameJournal of Health Sciences (4th position). Year of publication: 2025. Approved by Pakistan Medical and Dental Council
+
+##########################################################################################
+Annexure-6- Anoshia Zahid Research Articles list.docx
+d:\\projects\\php\\www\\dds\\faculty profile\Annexure-6- Anoshia Zahid Research Articles list.docx
+tables 0 body_paras 10
+  P1. Annexure-6
+  P2. Anoshia Zahid
+  P3. Department of Oral pathology
+  P4. Peshawar Dental College
+  P5. Riphah International University, Peshawar Campus, Pakistan
+  P6. Research Articles List:
+  P7. Association of Calcium and Vitamin D Supplementation with Dental Fluorosis among Adults in Peshawar, Pakistan
+  P8. Zahid A, Maryam B, Zahid R, Syed AA, Khan M, Khan MS. Association of Calcium and Vitamin D Supplementation with Dental Fluorosis among Adults in Peshawar, Pakistan. J Islamabad Med Dental Coll. 2025; 14(3): 279-283. DOI: https://doi.org/10.35787/jimdc.v14i3.1410
+  P9. Comparison of Antibiotic Susceptibility test on Nutrient Agar and Mueller Hinton’s agar
+  P10. Zahid, A. ., Aleem , B. ., & Khan, M. (2025). Comparison of Antibiotic Susceptibility test on Nutrient Agar and Mueller Hinton’s agar. BMC Journal of Medical Sciences, 6(2), 53–57. https://doi.org/10.70905/bmcj.06.02.053
+
+##########################################################################################
+Community & Preventive Dentistry\Community Dentistry Departmental Data for Website.docx
+d:\\projects\\php\\www\\dds\\faculty profile\_extract_facilities\Facilities required to be uploaded on website\Community & Preventive Dentistry\Community Dentistry Departmental Data for Website.docx
+tables 1 body_paras 117
+-- table 0 rows=5 --
+  r0 HEADER ['#', 'Name', 'Designation', 'Profile with Photograph*', 'Qualification', 'Professional Experience', 'Any Specific Skill to be displayed on web', 'List of Publications']
+  r1 NAME='Prof. Dr. Farzeen Khan' cols=8
+    QUAL n=2
+     | MSc Community Dentistry; MPH; BDS; CHPE; PGD Diet &
+     | Nutrition
+    EXP n=5
+     | Professor, Peshawar Dental College: 30-10-2024 to date;
+     | Associate Professor: 13-06-2024 to 29-10-2024;
+     | Assistant Professor: 01-06-2014 to 12-06-2024;
+     | Senior Lecturer: 15-10-2013 to 31-05-2014;
+     | Lecturer: 13-10-2011 to 14-10-2013.
+    SKILL n=5
+     | Community and preventive dentistry;
+     | public health;
+     | Health professions education; Research supervision;
+     | SPSS (Basics);
+     | Dental public health outreach; Diet and Nutrition.
+    PUB n=1
+     | 21 publications listed in Annex A.
+  r2 NAME='Associate Professor Dr. Aamir Hameed' cols=8
+    QUAL n=1
+     | CHPE, MHR, MPH ,BDS
+    EXP n=5
+     | Associate Professor: Sep 2025 to till date Assistant Professor: Oct 2015 to Sep 2025 Senior Lecturer: Nov 2012 to Sep 2015 Lecturer: Oct 2008 – Sept 2011.
+     | Visiting Faculty at Institute of Management & Sciences Hayatabad, Peshawar, KPK Pakistan: Jan 2014-2016
+     | Community Dentist,
+     | Consumer Director,
+     | Health & Hygiene program P&G: June 2004- Dec 2004
+    SKILL n=5
+     | Community and preventive dentistry;
+     | public health;
+     | Health professions education; Research supervision;
+     | SPSS (Basics);
+     | Dental public health outreach, Communication skills
+    PUB n=1
+     | 16 Publications listed in Annex B
+  r3 NAME='Dr. Farah Shah' cols=8
+    QUAL n=1
+     | MSc Community Dentistry, BDS, CHP
+    EXP n=1
+     | Senior Lecturer:30-09-2023 till date
+    SKILL n=3
+     | Community and preventive dentistry, Health professions education; Research supervision;
+     | SPSS (Basics);
+     | Dental public health outreach Communication skills
+    PUB n=1
+     | 6 Publications listed in Annex C
+  r4 NAME='Dr. Areeba Faheem' cols=8
+    QUAL n=1
+     | MPhil Community Dentistry (in progress) , BDS
+    EXP n=2
+     | Lecturer, Oral and Maxillofacial Surgery: 1-1-2018
+     | Lecturer, Community and Preventive Dentistry: 1-04-2026 till date
+    SKILL n=3
+     | Minor Oral Surgery,
+     | Dental public health outreach, SPSS (Basics).
+     | Scientific Writing, Public Health
+    PUB n=1
+     | 1 Publication listed in Annex D
+  BODY PARAS (non-table, first 80 nonempty already listed via cells; extra file paras:)
+  P1. Data Required for Website
+  P2. Department Name: Community & Preventive DentistryName of HOD / Unit: Prof. Dr. Farzeen Khan
+  P3. Facilities required to be uploaded on website
+  P4. (Summary to be provided by HOD / Unit as per below format and each faculty to be attached as required)
+  P5. #
+  P6. Name
+  P7. Designation
+  P8. Profile with Photograph*
+  P9. Qualification
+  P10. Professional Experience
+  P11. Any Specific Skill to be displayed on web
+  P12. List of Publications
+  P13. 1
+  P14. Prof. Dr. Farzeen Khan
+  P15. Professor / HOD, Community & Preventive Dentistry
+  P16. MSc Community Dentistry; MPH; BDS; CHPE; PGD Diet &
+  P17. Nutrition
+  P18. Professor, Peshawar Dental College: 30-10-2024 to date;
+  P19. Associate Professor: 13-06-2024 to 29-10-2024;
+  P20. Assistant Professor: 01-06-2014 to 12-06-2024;
+  P21. Senior Lecturer: 15-10-2013 to 31-05-2014;
+  P22. Lecturer: 13-10-2011 to 14-10-2013.
+  P23. Community and preventive dentistry;
+  P24. public health;
+  P25. Health professions education; Research supervision;
+  P26. SPSS (Basics);
+  P27. Dental public health outreach; Diet and Nutrition.
+  P28. 21 publications listed in Annex A.
+  P29. 2
+  P30. Associate Professor Dr. Aamir Hameed
+  P31. Associate Professor Community & Preventive Dentistry
+  P32. CHPE, MHR, MPH ,BDS
+  P33. Associate Professor: Sep 2025 to till date Assistant Professor: Oct 2015 to Sep 2025 Senior Lecturer: Nov 2012 to Sep 2015 Lecturer: Oct 2008 – Sept 2011.
+  P34. Visiting Faculty at Institute of Management & Sciences Hayatabad, Peshawar, KPK Pakistan: Jan 2014-2016
+  P35. Community Dentist,
+  P36. Consumer Director,
+  P37. Health & Hygiene program P&G: June 2004- Dec 2004
+  P38. Community and preventive dentistry;
+  P39. public health;
+  P40. Health professions education; Research supervision;
+  P41. SPSS (Basics);
+  P42. Dental public health outreach, Communication skills
+  P43. 16 Publications listed in Annex B
+  P44. 3
+  P45. Dr. Farah Shah
+  P46. Senior Lecturer, Community & Preventive Dentistry
+  P47. MSc Community Dentistry, BDS, CHP
+  P48. Senior Lecturer:30-09-2023 till date
+  P49. Community and preventive dentistry, Health professions education; Research supervision;
+  P50. SPSS (Basics);
+  P51. Dental public health outreach Communication skills
+  P52. 6 Publications listed in Annex C
+  P53. 4
+  P54. Dr. Areeba Faheem
+  P55. Lecturer Community and Preventive Dentistry
+  P56. MPhil Community Dentistry (in progress) , BDS
+  P57. Lecturer, Oral and Maxillofacial Surgery: 1-1-2018
+  P58. Lecturer, Community and Preventive Dentistry: 1-04-2026 till date
+  P59. Minor Oral Surgery,
+  P60. Dental public health outreach, SPSS (Basics).
+
+##########################################################################################
+DDE\DDE .docx
+d:\\projects\\php\\www\\dds\\faculty profile\_extract_facilities\Facilities required to be uploaded on website\DDE\DDE .docx
+tables 1 body_paras 29
+-- table 0 rows=5 --
+  r0 HEADER ['#', 'Name', 'Designation', 'Profile with Photograph*', 'Qualification', 'Professional Experience', 'Any Specific Skill to be displayed on web', 'List of Publications']
+  r1 NAME='Dr Mushyyada Durrani' cols=8
+    QUAL n=1
+     | BDS, CHPE, MHPE
+    EXP n=1
+     | 8 years
+    SKILL n=2
+     |  Curriculum Design & Development
+     |  Assessment & Evaluation in Medical Education
+    PUB n=1
+     | Annex – A
+  BODY PARAS (non-table, first 80 nonempty already listed via cells; extra file paras:)
+  P1. #
+  P2. Name
+  P3. Designation
+  P4. Profile with Photograph*
+  P5. Qualification
+  P6. Professional Experience
+  P7. Any Specific Skill to be displayed on web
+  P8. List of Publications
+  P9. Dr Mushyyada Durrani
+  P10. Assistant Professor
+  P11. BDS, CHPE, MHPE
+  P12. 8 years
+  P13.  Curriculum Design & Development
+  P14.  Assessment & Evaluation in Medical Education
+  P15. Annex – A
+  P16. *. Not mandatory for female faculty
+  P17. DR MUSHYYADA DURRANI LIST OF PUBLICATIONS
+  P18. Durrani M, Khan IA, Alam A, Akbar Z, Gul K, Durrani M. Scoping review of the impacts of covid-19 on assessment format in medical and dental institutes. Journal of Medical Sciences. 2022 Apr 1;30(01):47-52.
+  P19. Khan IA, Alam A, Durrani M, Iqbal N, Akhtar A, Gul R. Perceptions of postgraduate students about patient safety as part of the curriculum at undergraduate and postgraduate level. Journal of Medical Sciences. 2022 Jun 29;30(02):145-50.
+  P20. Durrani M, Abubakar M, Khan F, Durrani M, Shafiq M. Comparison of growth indices in breast-fed and formula-fed infants and their correlation with zinc status. Journal of Rehman Medical Institute. 2020 Jul 10;6(2):12-6.
+  P21. Akbar, Z., Gul, K., Nasir, F., Hameed, W., Durrani, M., & Ullah, H. (2023). Evaluation of Students’ Perception of E-Learning Education Atmosphere (EEAM) in a Private Dental College in Pakistan. Pakistan Armed Forces Medical Journal, 73(6), 1648–1653. https://doi.org/10.51253/pafmj.v73i6.8173
+  P22. Mahmood A, Durrani M, Khan NA, Naqvi SSQ, Saiqa Saleem, Khan AJ. UNDERSTANDING THE ROLE OF CERTIFICATION IN MEDICAL EDUCATION: PERSPECTIVES OF EDUCATORS. J Khyber Coll Dent [Internet]. 2023 Dec. 31 [cited 2024 Apr. 3];13(04):31-5. Available from: https://journalofkcd.com/kcd/article/view/461 3
+  P23. Khan NA, Raza L, Sawal SH, Khan AJ, Durrani M, Mahmood A. ASSESSING THE PRESCRIPTION PRACTICES: A FOCUS FOR MEDICAL EDUCATION AND PATIENT SAFETY ENHANCEMENT. KJMS. 2024 Jan;17(1):35.
+  P24. Dr Marina Khan, Dr Khurram Naushad, Dr Maidha Jadoon, Dr Uzma Siddique, Dr Fatima Aman, Dr Mushyyada Durrani. AN OBSERVER TOOL TO ENHANCE LEARNING OF MEDICAL STUDENTS DURING SIMULATION TRAINING OF CARDIOPULMONARY RESUSCITATION: A RANDOMIZED CONTROLLED TRIAL. J Popl Ther Clin Pharmacol [Internet]. 2024 Jun. 29 [cited 2024 Jul. 16];31(6):2552-8. Available from: https://www.jptcp.com/index.php/jptcp/article/view/6974
+  P25. Naushad K, Azam A, Siddique U, Durrani M, Shoaib M, Haris S. Core Components Framework for Assessing the Implementation of Competency-Based Medical Education. doi: 10.48047/AFJBS.6.14.2024.8517-8521
+  P26. Dr Uzma Siddique, Dr Zara Jameel, Dr Fazeelat Hajra Karim, Dr Shazia Zeb, Dr Zainab Abdullah, Dr Mushyyada Durrani. Educational Strategies in Curriculum Development: The Spices Model https://doi.org/10.48047/AFJBS.6.14.2024.1305413060
+  P27. Fahimuddin, Khan NA, Khan MM, Kayani H, Shah SA, Durrani M, et al. INSIGHTS AND PERSPECTIVES: EXPLORING THE TRAINEE EXPERIENCES IN MAXILLOFACIAL POSTGRADUATE TRAINING. KJMS
+  P28. Fahimuddin, Khan NA, Khan M, Kayani H, Durrani M, Zakariya M. EXPLORING THE RESEARCH JOURNEY: BARRIERS AND FACILITATORS FOR POSTGRADUATE MAXILLOFACIAL TRAINEES. Khyber Journal of Medical Sciences. 2025;17(4):338-43. https://doi.org/10.70520/kjms.v17i4.622
+  P29. Jadoon M, Naushad K, Aman F, Khan Y, Durrani M, Ali S. Virtual Patients for Communication Skills Training: A Mixed Methods Evaluation. Cureus. 2025 Aug 26;17(8).
+
+##########################################################################################
+Oral & Maxillofacial Surgery\Data-Prof Amjad Shah-OMFS (2).docx
+d:\\projects\\php\\www\\dds\\faculty profile\_extract_facilities\Facilities required to be uploaded on website\Oral & Maxillofacial Surgery\Data-Prof Amjad Shah-OMFS (2).docx
+tables 3 body_paras 87
+-- table 0 rows=2 --
+  r0 HEADER ['#', 'Name', 'Designation', 'Profile with Photograph*', 'Qualification', 'Professional Experience', 'Any Specific Skill to be displayed on web', 'List of Publications']
+  r1 NAME='Prof. Dr. Amjad Shah' cols=8
+    QUAL n=1
+     | BDS, FCPS, MFDSRCPS, CHPE, FICS, FDSRCPS, FDSRCS
+    EXP n=1
+     | Over 32 years in dentistry; Professor, Vice-Principal & HoD from 2016 to June 2025; Professor & HoD since July 2025; CPSP supervisor since 2013; undergraduate/postgraduate examiner since 2011.
+    SKILL n=1
+     | Oral & maxillofacial surgery; facial trauma; odontogenic and maxillofacial infections; trigeminal neuralgia; impacted third-molar surgery; postgraduate teaching, assessment and research supervision.
+    PUB n=1
+     | More than 20 peer-reviewed publications: 5 international and more than 15 national. Complete list attached as Annexure B. +Google Scholar
+-- table 1 rows=1 --
+  r0 HEADER ['[Insert recentprofessionalphotograph]', 'Name: Prof. Dr. Syed Amjad ShahDesignation: Professor & Head, Department of Oral & Maxillofacial SurgeryInstitution: Peshawar Dental College, Peshawar, Khyber Pakhtunkhwa, PakistanSpecialty: Oral & Maxillofacial SurgeryQualifications: BDS, FCPS, MFDSRCPS, CHPE, FICS, FDSRCPS, FDSRCS']
+-- table 2 rows=6 --
+  r0 NAME='Dental Surgeon in rural health service and at PGMI / Government Lady Reading Hospital, Peshawar' cols=2
+    c0 n=1 text='1993-2001'
+     | 1993-2001
+    c1 n=1 text='Dental Surgeon in rural health service and at PGMI / Government Lady Reading Hospital, Peshawar'
+     | Dental Surgeon in rural health service and at PGMI / Government Lady Reading Hospital, Peshawar
+  r1 NAME='Consultant Oral Surgeon and Assistant Professor, PGMI / Government Lady Reading Hospital, Peshawar' cols=2
+    c0 n=1 text='2004-2009'
+     | 2004-2009
+    c1 n=1 text='Consultant Oral Surgeon and Assistant Professor, PGMI / Government Lady Reading Hospital, Peshawar'
+     | Consultant Oral Surgeon and Assistant Professor, PGMI / Government Lady Reading Hospital, Peshawar
+  r2 NAME='Assistant Professor & Head, Department of Oral & Maxillofacial Surgery, KUST Institute of Medical Sciences' cols=2
+    c0 n=1 text='2009-2010'
+     | 2009-2010
+    c1 n=1 text='Assistant Professor & Head, Department of Oral & Maxillofacial Surgery, KUST Institute of Medical Sciences'
+     | Assistant Professor & Head, Department of Oral & Maxillofacial Surgery, KUST Institute of Medical Sciences
+  r3 NAME='Assistant/Associate Professor, Vice Principal & Head, Peshawar Dental College' cols=2
+    c0 n=1 text='2010-2015'
+     | 2010-2015
+    c1 n=1 text='Assistant/Associate Professor, Vice Principal & Head, Peshawar Dental College'
+     | Assistant/Associate Professor, Vice Principal & Head, Peshawar Dental College
+  r4 NAME='Professor, Vice-Principal & Head, Peshawar Dental College' cols=2
+    c0 n=1 text='January 2016-June 2025'
+     | January 2016-June 2025
+    c1 n=1 text='Professor, Vice-Principal & Head, Peshawar Dental College'
+     | Professor, Vice-Principal & Head, Peshawar Dental College
+  r5 NAME='Professor & Head, Peshawar Dental College' cols=2
+    c0 n=1 text='July 2025-present'
+     | July 2025-present
+    c1 n=1 text='Professor & Head, Peshawar Dental College'
+     | Professor & Head, Peshawar Dental College
+  BODY PARAS (non-table, first 80 nonempty already listed via cells; extra file paras:)
+  P1. Data Required for Website
+  P2. (Summary to be provided by HoD / Unit as per below format and each faculty to be attached as required)
+  P3. Department Name: Oral & Maxillofacial Surgery Name of HoD / Unit: Prof. Dr. Amjad Shah
+  P4. Facilities required to be uploaded on website: Faculty profile, qualifications, professional experience, specialist skills, and publication record.
+  P5. Faculty details:
+  P6. #
+  P7. Name
+  P8. Designation
+  P9. Profile with Photograph*
+  P10. Qualification
+  P11. Professional Experience
+  P12. Any Specific Skill to be displayed on web
+  P13. List of Publications
+  P14. 1
+  P15. Prof. Dr. Amjad Shah
+  P16. Professor & Head
+  P17. Department of Oral & Maxillofacial Surgery
+  P18. Senior academic oral and maxillofacial surgeon, consultant, CPSP supervisor/trainer and examiner.
+  P19. Photograph: to be inserted before website upload.
+  P20. BDS, FCPS, MFDSRCPS, CHPE, FICS, FDSRCPS, FDSRCS
+  P21. Over 32 years in dentistry; Professor, Vice-Principal & HoD from 2016 to June 2025; Professor & HoD since July 2025; CPSP supervisor since 2013; undergraduate/postgraduate examiner since 2011.
+  P22. Oral & maxillofacial surgery; facial trauma; odontogenic and maxillofacial infections; trigeminal neuralgia; impacted third-molar surgery; postgraduate teaching, assessment and research supervision.
+  P23. More than 20 peer-reviewed publications: 5 international and more than 15 national. Complete list attached as Annexure B. +Google Scholar
+  P24. Google Scholar: https://scholar.google.com.pk/citations?user=27z5Uf8AAAAJ&hl=en
+  P25. Publons/Web of Science Researcher ID (O-8212-2017): https://publons.com/researcher/1564584/amjad-shah-syed/
+  P26. ORCID ID: 0000-0002-5291-853X
+  P27. Research Gate: https://www.researchgate.net/profile/Syed_Amjad_Shah
+  P28. Skype: amjadshahsyed
+  P29. Lectures on YouTube: https://www.youtube.com/channel/UCn5SEuDTiABf_W6FLf1nVRQ
+  P30. Lectures on Facebook Page: https://www.facebook.com/Oral-Maxillofacial-Surgery-Lectures-101361709285626/
+  P31. *. Not mandatory for female faculty
+  P32. ANNEXURE A
+  P33. Faculty Profile for Website
+  P34. [Insert recent
+  P35. professional
+  P36. photograph]
+  P37. Name: Prof. Dr. Syed Amjad Shah
+  P38. Designation: Professor & Head, Department of Oral & Maxillofacial Surgery
+  P39. Institution: Peshawar Dental College, Peshawar, Khyber Pakhtunkhwa, Pakistan
+  P40. Specialty: Oral & Maxillofacial Surgery
+  P41. Qualifications: BDS, FCPS, MFDSRCPS, CHPE, FICS, FDSRCPS, FDSRCS
+  P42. Professional Profile
+  P43. Prof. Dr. Amjad Shah is an academic oral and maxillofacial surgeon with more than three decades of professional experience in clinical dentistry, teaching, postgraduate supervision, assessment and research. He served as Professor, Vice-Principal and Head of the Department of Oral & Maxillofacial Surgery at Peshawar Dental College from January 2016 to June 2025 and has served as Professor and Head since July 2025. He has been associated with the College in senior academic and administrative roles since 2010.
+  P44. Current Academic and Clinical Roles
+  P45. • Professor & Head, Department of Oral & Maxillofacial Surgery, Peshawar Dental College (July 2025-present).
+  P46. • Consultant Oral & Maxillofacial Surgeon, Prime Teaching Hospital.
+  P47. • CPSP-approved supervisor/trainer for FCPS in Oral & Maxillofacial Surgery (since 2013/2014).
+  P48. • Undergraduate and postgraduate teacher, examiner, paper setter and research supervisor.
+  P49. Areas of Expertise
+  P50. Oral and maxillofacial surgery; dentoalveolar surgery and impacted third-molar surgery; maxillofacial trauma; odontogenic and maxillofacial space infections; trigeminal neuralgia; perioperative patient management; postgraduate clinical training; assessment; curriculum development; and research supervision.
+  P51. Professional and Academic Experience
+  P52. 1993-2001
+  P53. Dental Surgeon in rural health service and at PGMI / Government Lady Reading Hospital, Peshawar
+  P54. 2004-2009
+  P55. Consultant Oral Surgeon and Assistant Professor, PGMI / Government Lady Reading Hospital, Peshawar
+  P56. 2009-2010
+  P57. Assistant Professor & Head, Department of Oral & Maxillofacial Surgery, KUST Institute of Medical Sciences
+  P58. 2010-2015
+  P59. Assistant/Associate Professor, Vice Principal & Head, Peshawar Dental College
+  P60. January 2016-June 2025
+
+##########################################################################################
+Oral Biology\Oral Biology Departmental Data.docx
+d:\\projects\\php\\www\\dds\\faculty profile\_extract_facilities\Facilities required to be uploaded on website\Oral Biology\Oral Biology Departmental Data.docx
+tables 1 body_paras 58
+-- table 0 rows=9 --
+  r0 HEADER ['#', 'Name', 'Designation', 'Profile with Photograph*', 'Qualification', 'Professional Experience', 'Any Specific Skill to be displayed on web', 'List of Publications']
+  r1 NAME='DR. DILA BAZ KHAN' cols=8
+    QUAL n=1
+     | BDS, MCPS (FAMILY DENTISTRY), M.PHIL (ORAL BIOLOGY)
+    EXP n=1
+     | 36 YEARS
+    SKILL n=1
+     | https://scholar.google.com/citations?user=wf2Jfn8AAAAJ&hl=en&oi=ao
+    PUB n=13
+     | Frequency of bicuspid and tricuspid form of mandibular second premolar at Khyber college of dentistry Peshawar. J.Med.Sci 2013;21(3):118-20.
+     | An evaluation of malocclusion in rural and urban school children of district Peshawar. JKCD 2014;4(2):10-13.
+     | Pattern and etiology of maxillofacial injury at teaching hospital at Kohat. KJMS 2013;6(1):149-51.
+     | Effects of seat belts use on severity of maxillofacial injuries in Khyber Pakhtunkhwa sample. PODJ 2013;33(3):439-41.
+     | Prevalence of cusp of Carabelli in permanent teeth in a group from Khyber Pakhtunkhwa, Pakistan. PODJ 2011;31(2):409-11.
+     | Pattern of traumatic dentoalveolar injuries. J.Med.Sci 2011,19(1):21-3.
+     | Prevalence pattern of dental caries in permanent teeth among school children of Peshawar city. KJMS 2011;3(2):53-5.
+     | Dental ailments among low and high socioeconomic status school children aged 11-12 years. PODJ 2011;31(2):388-91.
+     | Age, gender distribution and etiology of dentoalveolar fractures. PODJ. 2010;30(2):303-6.
+     | Variation of cusps and roots of upper wisdom tooth in patients visiting khyber college of dentistry. J KCD. 2021 Sep 30;11(03):37-40.
+     | Morphological characteristics of cusps and occlusal features of maxillary second molars; cross-sectional study in khyber college of dentistry, Peshawar. J KCD. 2019 Sep 30;9(03):69-73.
+     | Age prediction model from third molar teeth development in the Peshawar population. A cross-sectional study. Journal of Khyber College of Dentistry. 2020 Mar 31;10(01):7-11.
+     | Prevalence of maxillary peg-shaped lateral incisors and its association with dental anomalies in medical and dental students of Mardan, Pakistan. Journal of Khyber College of Dentistry. 2018 Jun 30;8(02):28-31.
+  r2 NAME='DR. MUNAWAR AZIZ KHATTAK' cols=8
+    QUAL n=1
+     | BDS, M.PHIL (ORAL BIOLOGY), PGD, CHPE
+    EXP n=1
+     | 15
+    SKILL n=1
+     | https://scholar.google.com/citations?user=qJQB1j0AAAAJ&hl=en
+    PUB n=19
+     | 1. Humayun A, Khattak MA, Khan AM, Ara N, Khan F, Wazir NU. Estimation of the frequency of second mesiobuccal root canal in maxillary first permanent molar teeth in subjects visiting teaching dental hospitals of Peshawar. Prof Med J. 2020 Oct 10;27(10):2203-9.
+     | 2. Jamil Y, ur Rehman AZ, Alam S, Salam S, Irshad M, Khattak MA. Assessment of variations in the location of mental foramen by means of cone beam compute d tomography. Isra Med J. 2020 Oct 1;12(4).
+     | 3. Ijaz F, Khattak MA, Ahmad N, Arbab S, Shah SA, Abbas I. Frequency of Developmentally Malformed Permanent Maxillary Lateral Incisors in Patients Visiting the Three Teaching Dental Hospitals Of Peshawar. J Ayub Med Coll Abbottabad. 2021 Apr 1;33(2).
+     | 4. Arbab S, Khattak MA, Shah SA. Frequency of cusp of Carabelli in maxillary permanent first molars and its association with dental caries in patients visiting Peshawar Dental Hospital, Peshawar. Prof Med J. 2021 Aug 10;28(08):1101-6.
+     | 5. Khattak MA, Arbab S, Shah SA. Frequency of number of roots and root canals of maxillary first premolar teeth. Prof Med J. 2021 Sep 30;28(10):1513-8.
+     | 6. Younas M, Irshad M, Nisar M, Khattak MA, Rashid M, Akhter QJ. Frequency of oral lichen planus in Hepatitis-C virus patients visiting Peshawar Dental College. J Khyber Coll Dent. 2020 Dec 31;10(04):18-23.
+     | 7. Younas M, Khattak MA, Khan IA, Rehman AZ, Alam MS, Masood G, Irshad M. Association of low vitamin B12 in trigeminal neuralgia patients visiting Peshawar Dental College. J Rehman Coll Dent. 2021 Jul 9;2(1).
+     | 8. Khattak I, Khattak MA, Khattak YJ, Arbab S, Rashid M, Shah SA. Use of tooth clearing technique to determine root and canal morphology of permanent mandibular third molars in population of Peshawar: An in vitro cross-sectional study. Khyber Med Univ J. 2021 Dec 31;13(4):216-21.
+     | 9. Rashid M, Safdar S, Khattak MA, Arbab S, Shah SA, Khattak I. Gender as a Variable Influencing the Mesiodistal width of Permanent Maxillary Anterior Teeth: An Analysis using AutoCAD Software. J Pak Dent Assoc. 2022 Apr 1;31(2):70-5.
+     | 10. Arbab S, Khattak MA, Khattak I, Rashid M. The Frequency of Unilateral and Bilateral Distribution of Cusp of Carabelli in Maxillary Permanent First Molars in Patients Visiting Peshawar Dental Hospital, Peshawar. Med Forum. 2022;33(2):165-8.
+     | 11. Khattak MA, Ijaz F, Ahmad N, Arbab S, Khattak I, Khattak YJ. Root canal configuration of maxillary first premolar teeth in a subpopulation of Peshawar using tooth cross-sectioning method; An in vitro study. J Ayub Med Coll Abbottabad. 2022 Jun 24;34(3 Suppl 1):627-31.
+     | 12. Younas M, Khattak YJ, Arbab S, Khattak MA, Khattak I, Rashid M. Frequency and grading of supernumerary cusps in permanent human teeth of patients visiting the teaching hospitals of Peshawar Dental College and Khyber College of Dentistry, Peshawar. J Khyber Coll Dent. 2022 Sep 30;12(03):59-65.
+     | 13. Arbab S, Khattak MA, Khattak I, Jamil Y, Ijaz F, Hamayun A. Evaluation of the Occlusal Contact between the Opposing Teeth and the Cusp of Carabelli in Maxillary Permanent First Molars in Patients Visiting Peshawar Dental College. J Islamabad Med Dent Coll. 2023 Apr 19;12(1):17-22.
+     | 14. Sattar A, Imran N, Ishfaq M, Arbab S, Khattak MA, Khattak I. Anatomical Variation in the Location of Mandibular Foramen with Age Using Cone Beam Computed Tomography. Med Forum. 2024 Jan 30;35(1):18-22.
+     | 15. Imran N, Sattar A, Khattak I, Arbab S, Aziz M, Shah SA. Assessment of the Labial Alveolar Bone Thickness Overlying Maxillary Anterior Teeth in Different Age Groups, Genders, and Sides of the Arch: A Cone Beam Computed Tomographic Study. Med Forum. 2024 Jan 30;35(1):42-6.
+     | 16. Manan H, Sattar A, Khattak MA, Hassan D, Khan B, Rashid M. The Effect of Gender on the Linear and Volumetric Changes of Maxillary Permanent Canine Teeth on the Cone Beam Computed Tomography. Med Forum. 2024 Oct;35(10):102-5.
+     | 17. Khattak I, Khattak YJ, Sattar A, Shaheryar A, Arbab S, Khattak MA. Use of tooth clearing technique to determine root and canal morphology of permanent maxillary third molars in a population of Peshawar: An in vitro cross-sectional study. Med Forum. 2024 Dec;35(12):128-32.
+     | 18. Sattar A, Ishfaq M, Khattak I, Shaheryar A, Khattak MA, Arbab S. Anatomical Variation in the Position of Mandibular Foramen with Side of the Arch using Cone Beam Computed Tomography. Med Forum. 2024 Dec;35(12):50-3.
+     | 19. Khan B, Khattak MA, Arbab S, Khattak I. Examining the root and root trunk's vertical dimensions in extracted permanent maxillary first molar in patients visiting Peshawar Dental Hospital, Peshawar. Khyber Med Univ J. 2025 Dec 31;17(4):472-77.
+  BODY PARAS (non-table, first 80 nonempty already listed via cells; extra file paras:)
+  P1. Data Required for Website
+  P2. (Summary to be provided by HoD / Unit as per below format and each faculty to be attached as required)
+  P3. Department Name:ORAL BIOLOGYName of HoD / Unit: DR. DILA BAZ KHAN
+  P4. Facilities required to be uploaded on website:
+  P5. Faculty details:
+  P6. #
+  P7. Name
+  P8. Designation
+  P9. Profile with Photograph*
+  P10. Qualification
+  P11. Professional Experience
+  P12. Any Specific Skill to be displayed on web
+  P13. List of Publications
+  P14. 1
+  P15. DR. DILA BAZ KHAN
+  P16. PROFESSOR
+  P17. BDS, MCPS (FAMILY DENTISTRY), M.PHIL (ORAL BIOLOGY)
+  P18. 36 YEARS
+  P19. https://scholar.google.com/citations?user=wf2Jfn8AAAAJ&hl=en&oi=ao
+  P20. Frequency of bicuspid and tricuspid form of mandibular second premolar at Khyber college of dentistry Peshawar. J.Med.Sci 2013;21(3):118-20.
+  P21. An evaluation of malocclusion in rural and urban school children of district Peshawar. JKCD 2014;4(2):10-13.
+  P22. Pattern and etiology of maxillofacial injury at teaching hospital at Kohat. KJMS 2013;6(1):149-51.
+  P23. Effects of seat belts use on severity of maxillofacial injuries in Khyber Pakhtunkhwa sample. PODJ 2013;33(3):439-41.
+  P24. Prevalence of cusp of Carabelli in permanent teeth in a group from Khyber Pakhtunkhwa, Pakistan. PODJ 2011;31(2):409-11.
+  P25. Pattern of traumatic dentoalveolar injuries. J.Med.Sci 2011,19(1):21-3.
+  P26. Prevalence pattern of dental caries in permanent teeth among school children of Peshawar city. KJMS 2011;3(2):53-5.
+  P27. Dental ailments among low and high socioeconomic status school children aged 11-12 years. PODJ 2011;31(2):388-91.
+  P28. Age, gender distribution and etiology of dentoalveolar fractures. PODJ. 2010;30(2):303-6.
+  P29. Variation of cusps and roots of upper wisdom tooth in patients visiting khyber college of dentistry. J KCD. 2021 Sep 30;11(03):37-40.
+  P30. Morphological characteristics of cusps and occlusal features of maxillary second molars; cross-sectional study in khyber college of dentistry, Peshawar. J KCD. 2019 Sep 30;9(03):69-73.
+  P31. Age prediction model from third molar teeth development in the Peshawar population. A cross-sectional study. Journal of Khyber College of Dentistry. 2020 Mar 31;10(01):7-11.
+  P32. Prevalence of maxillary peg-shaped lateral incisors and its association with dental anomalies in medical and dental students of Mardan, Pakistan. Journal of Khyber College of Dentistry. 2018 Jun 30;8(02):28-31.
+  P33. 2
+  P34. DR. MUNAWAR AZIZ KHATTAK
+  P35. PROFESSOR
+  P36. BDS, M.PHIL (ORAL BIOLOGY), PGD, CHPE
+  P37. 15
+  P38. https://scholar.google.com/citations?user=qJQB1j0AAAAJ&hl=en
+  P39. 1. Humayun A, Khattak MA, Khan AM, Ara N, Khan F, Wazir NU. Estimation of the frequency of second mesiobuccal root canal in maxillary first permanent molar teeth in subjects visiting teaching dental hospitals of Peshawar. Prof Med J. 2020 Oct 10;27(10):2203-9.
+  P40. 2. Jamil Y, ur Rehman AZ, Alam S, Salam S, Irshad M, Khattak MA. Assessment of variations in the location of mental foramen by means of cone beam compute d tomography. Isra Med J. 2020 Oct 1;12(4).
+  P41. 3. Ijaz F, Khattak MA, Ahmad N, Arbab S, Shah SA, Abbas I. Frequency of Developmentally Malformed Permanent Maxillary Lateral Incisors in Patients Visiting the Three Teaching Dental Hospitals Of Peshawar. J Ayub Med Coll Abbottabad. 2021 Apr 1;33(2).
+  P42. 4. Arbab S, Khattak MA, Shah SA. Frequency of cusp of Carabelli in maxillary permanent first molars and its association with dental caries in patients visiting Peshawar Dental Hospital, Peshawar. Prof Med J. 2021 Aug 10;28(08):1101-6.
+  P43. 5. Khattak MA, Arbab S, Shah SA. Frequency of number of roots and root canals of maxillary first premolar teeth. Prof Med J. 2021 Sep 30;28(10):1513-8.
+  P44. 6. Younas M, Irshad M, Nisar M, Khattak MA, Rashid M, Akhter QJ. Frequency of oral lichen planus in Hepatitis-C virus patients visiting Peshawar Dental College. J Khyber Coll Dent. 2020 Dec 31;10(04):18-23.
+  P45. 7. Younas M, Khattak MA, Khan IA, Rehman AZ, Alam MS, Masood G, Irshad M. Association of low vitamin B12 in trigeminal neuralgia patients visiting Peshawar Dental College. J Rehman Coll Dent. 2021 Jul 9;2(1).
+  P46. 8. Khattak I, Khattak MA, Khattak YJ, Arbab S, Rashid M, Shah SA. Use of tooth clearing technique to determine root and canal morphology of permanent mandibular third molars in population of Peshawar: An in vitro cross-sectional study. Khyber Med Univ J. 2021 Dec 31;13(4):216-21.
+  P47. 9. Rashid M, Safdar S, Khattak MA, Arbab S, Shah SA, Khattak I. Gender as a Variable Influencing the Mesiodistal width of Permanent Maxillary Anterior Teeth: An Analysis using AutoCAD Software. J Pak Dent Assoc. 2022 Apr 1;31(2):70-5.
+  P48. 10. Arbab S, Khattak MA, Khattak I, Rashid M. The Frequency of Unilateral and Bilateral Distribution of Cusp of Carabelli in Maxillary Permanent First Molars in Patients Visiting Peshawar Dental Hospital, Peshawar. Med Forum. 2022;33(2):165-8.
+  P49. 11. Khattak MA, Ijaz F, Ahmad N, Arbab S, Khattak I, Khattak YJ. Root canal configuration of maxillary first premolar teeth in a subpopulation of Peshawar using tooth cross-sectioning method; An in vitro study. J Ayub Med Coll Abbottabad. 2022 Jun 24;34(3 Suppl 1):627-31.
+  P50. 12. Younas M, Khattak YJ, Arbab S, Khattak MA, Khattak I, Rashid M. Frequency and grading of supernumerary cusps in permanent human teeth of patients visiting the teaching hospitals of Peshawar Dental College and Khyber College of Dentistry, Peshawar. J Khyber Coll Dent. 2022 Sep 30;12(03):59-65.
+  P51. 13. Arbab S, Khattak MA, Khattak I, Jamil Y, Ijaz F, Hamayun A. Evaluation of the Occlusal Contact between the Opposing Teeth and the Cusp of Carabelli in Maxillary Permanent First Molars in Patients Visiting Peshawar Dental College. J Islamabad Med Dent Coll. 2023 Apr 19;12(1):17-22.
+  P52. 14. Sattar A, Imran N, Ishfaq M, Arbab S, Khattak MA, Khattak I. Anatomical Variation in the Location of Mandibular Foramen with Age Using Cone Beam Computed Tomography. Med Forum. 2024 Jan 30;35(1):18-22.
+  P53. 15. Imran N, Sattar A, Khattak I, Arbab S, Aziz M, Shah SA. Assessment of the Labial Alveolar Bone Thickness Overlying Maxillary Anterior Teeth in Different Age Groups, Genders, and Sides of the Arch: A Cone Beam Computed Tomographic Study. Med Forum. 2024 Jan 30;35(1):42-6.
+  P54. 16. Manan H, Sattar A, Khattak MA, Hassan D, Khan B, Rashid M. The Effect of Gender on the Linear and Volumetric Changes of Maxillary Permanent Canine Teeth on the Cone Beam Computed Tomography. Med Forum. 2024 Oct;35(10):102-5.
+  P55. 17. Khattak I, Khattak YJ, Sattar A, Shaheryar A, Arbab S, Khattak MA. Use of tooth clearing technique to determine root and canal morphology of permanent maxillary third molars in a population of Peshawar: An in vitro cross-sectional study. Med Forum. 2024 Dec;35(12):128-32.
+  P56. 18. Sattar A, Ishfaq M, Khattak I, Shaheryar A, Khattak MA, Arbab S. Anatomical Variation in the Position of Mandibular Foramen with Side of the Arch using Cone Beam Computed Tomography. Med Forum. 2024 Dec;35(12):50-3.
+  P57. 19. Khan B, Khattak MA, Arbab S, Khattak I. Examining the root and root trunk's vertical dimensions in extracted permanent maxillary first molar in patients visiting Peshawar Dental Hospital, Peshawar. Khyber Med Univ J. 2025 Dec 31;17(4):472-77.
+  P58. *. Not mandatory for female faculty
+
+##########################################################################################
+Oral Medicine\ORALMEDICINE DEPARTMENT.docx
+d:\\projects\\php\\www\\dds\\faculty profile\_extract_facilities\Facilities required to be uploaded on website\Oral Medicine\ORALMEDICINE DEPARTMENT.docx
+tables 2 body_paras 50
+-- table 0 rows=5 --
+  r0 HEADER ['#', 'Name', 'Designation', 'Profile with Photograph*', 'Qualification', 'Professional Experience', 'Any Specific Skill to be displayed on web', 'List of Publications']
+  r1 NAME='MUHAMMAD YOUNAS' cols=8
+    QUAL n=1
+     | BDS, FCPS, CHPE, PGD, D,IMPLANT
+    EXP n=1
+     | 13 YEARS
+    SKILL n=1
+     | MASTER IN ARTROCENTESIS, BOTOX ALCOHO INJECTION ,BASAL BONE IMPLANT,
+    PUB n=1
+     | Annex – A
+  r2 NAME='SOBIA KANWAL' cols=8
+    QUAL n=1
+     | BDS, FCPS, MOMSRCS Ed, CHPE, CHR
+    EXP n=1
+     | ONE YEAR
+    SKILL n=1
+     | NON SURGICAL MANAGEMENT OF ORAL DISEASE
+    PUB n=0
+  r3 NAME='SHAGUFATA NAZ' cols=8
+    QUAL n=1
+     | BDS
+    EXP n=1
+     | ONE YEAR
+    SKILL n=0
+    PUB n=0
+  r4 NAME='MANZAR QBAL' cols=8
+    QUAL n=1
+     | BDS-MPH
+    EXP n=1
+     | ONE YEAR
+    SKILL n=0
+    PUB n=0
+-- table 1 rows=3 --
+  r0 NAME='List of Publications' cols=1
+    c0 n=1 text='List of Publications'
+     | List of Publications
+  r1 NAME='Annex – A' cols=1
+    c0 n=1 text='Annex – A'
+     | Annex – A
+  r2 NAME='Frequency of dental attrition and common oriental factor to it. JKCD December 2019 Vol 9 no 4. 1stauthorDetermination of minimum inhibitory and fungicidal concentration of potash alum against clinical isolates of Candida Albicans. Journal of Pakistan dental association Vol 29 No 4 Oct 2020. 2ndauthorPredisposing factor for the infection of mandibular third molar. PODJ volumeno 33, no 2 2013. 2ndauthorSerious post extraction complaint. PODJ. Volume number 34.no 3. 2014. 4thauthorPattern of oral maxillofacial trauma, and its management. Journal of dentistry, oral disorder and therapy 4(2). 2016 .4thauthorIn vitro antifungal activity against Candida Albicans on acrylic resin. Journal of Pakistan armed forces. Vol 75 issue 5 2020. Comparison of the Mean Reduction in Trismus Postoperatively After Use of 4mg and 8mg Intravenous Dexamethasone Pre Operatively, Following Impacted Mandibular Third Molar Surgery. (Sent for publication in process) 2ndAuthor .JKCD.Frequency of oral lichen planus in HCV patients. author. Vol 10 (4) .2020, JKCD.1st Author Estimation Vit C in Squamous cell carcinoma patient. Vol 10(4).2020.JKCD.2nauthor A Study of low VIT-B 12 in trigeminal neuralgia patients visiting Peshawar Dental College. JRCD. vol1(1).2021.1st authorAssessment of knowledge attitude and practice of postgraduate trainee and general dental practioner regarding temporomandibular joint disorder. .JRCD. Vol 1(1).2021. 1st authorComparison of the mean reduction in trismus postoperatively after use of 4mg and 8mg intravenous dexamethasone preoperatively. Following Impacted Third Molar Surgery. JKCD, Sep 2021.Vol.11.No 3. 2nd AuthorAn Association between Type 2 Diabetes Mellitus and Clinical Periodontal Parameter Pocket Depth. J KCD. Vol. 12 Issue-2, 2022. 6th authorFrequency of cleft lip and palate in individuals born to consanguineous parents. jrcdEarly detection of PMD through vital staining in tobacco user. VOL. 38 NO. 2 | Journal of Postgraduate Medical InstituteFrequency and grading of supernumerary cusps in permanent human teeth of patients visiting the teaching hospitals of Peshawar Dental College and Khyber College of Dentistry, Peshawar. JKCD. Vol 12. Issue 3,2022.5th authorPattern of Temporomandibular Disorders (TMD) among patient visiting Peshawar dental college. JRCD Volume 3, 2022. First authorFrequency of Paediatric Oral and Maxillofacial tumours; A retrospective study. JRCD. Volume 3, 2022. Fourth authorComparison of carbamazepine alone and in combination with baclofen in trigeminal neuralgia. International Journal of Health Sciences, 6(S7), 49113–121. Pattern of Temporomandibular Disorders (TMD) among patient visiting Peshawar dental college. JRCD Volume 3, 2022. F' cols=1
+    c0 n=20 text='Frequency of dental attrition and common oriental factor to it. JKCD December 2019 Vol 9 no 4. 1stauthorDetermination of'
+     | Frequency of dental attrition and common oriental factor to it. JKCD December 2019 Vol 9 no 4. 1stauthor
+     | Determination of minimum inhibitory and fungicidal concentration of potash alum against clinical isolates of Candida Albicans. Journal of Pakistan dental association Vol 29 No 4 Oct 2020. 2ndauthor
+     | Predisposing factor for the infection of mandibular third molar. PODJ volumeno 33, no 2 2013. 2ndauthor
+     | Serious post extraction complaint. PODJ. Volume number 34.no 3. 2014. 4thauthor
+     | Pattern of oral maxillofacial trauma, and its management. Journal of dentistry, oral disorder and therapy 4(2). 2016 .4thauthor
+     | In vitro antifungal activity against Candida Albicans on acrylic resin. Journal of Pakistan armed forces. Vol 75 issue 5 2020.
+     | Comparison of the Mean Reduction in Trismus Postoperatively After Use of 4mg and 8mg Intravenous Dexamethasone Pre Operatively, Following Impacted Mandibular Third Molar Surgery. (Sent for publication in process) 2ndAuthor .JKCD.
+     | Frequency of oral lichen planus in HCV patients. author. Vol 10 (4) .2020, JKCD.1st Author
+     | Estimation Vit C in Squamous cell carcinoma patient. Vol 10(4).2020.JKCD.2nauthor
+     | A Study of low VIT-B 12 in trigeminal neuralgia patients visiting Peshawar Dental College. JRCD. vol1(1).2021.1st author
+     | Assessment of knowledge attitude and practice of postgraduate trainee and general dental practioner regarding temporomandibular joint disorder. .JRCD. Vol 1(1).2021. 1st author
+     | Comparison of the mean reduction in trismus postoperatively after use of 4mg and 8mg intravenous dexamethasone preoperatively. Following Impacted Third Molar Surgery. JKCD, Sep 2021.Vol.11.No 3. 2nd Author
+     | An Association between Type 2 Diabetes Mellitus and Clinical Periodontal Parameter Pocket Depth. J KCD. Vol. 12 Issue-2, 2022. 6th author
+     | Frequency of cleft lip and palate in individuals born to consanguineous parents. jrcd
+     | Early detection of PMD through vital staining in tobacco user. VOL. 38 NO. 2 | Journal of Postgraduate Medical Institute
+     | Frequency and grading of supernumerary cusps in permanent human teeth of patients visiting the teaching hospitals of Peshawar Dental College and Khyber College of Dentistry, Peshawar. JKCD. Vol 12. Issue 3,2022.5th author
+     | Pattern of Temporomandibular Disorders (TMD) among patient visiting Peshawar dental college. JRCD Volume 3, 2022. First author
+     | Frequency of Paediatric Oral and Maxillofacial tumours; A retrospective study. JRCD. Volume 3, 2022. Fourth author
+     | Comparison of carbamazepine alone and in combination with baclofen in trigeminal neuralgia. International Journal of Health Sciences, 6(S7), 49113–121.
+     | Pattern of Temporomandibular Disorders (TMD) among patient visiting Peshawar dental college. JRCD Volume 3, 2022. F
+  BODY PARAS (non-table, first 80 nonempty already listed via cells; extra file paras:)
+  P1. #
+  P2. Name
+  P3. Designation
+  P4. Profile with Photograph*
+  P5. Qualification
+  P6. Professional Experience
+  P7. Any Specific Skill to be displayed on web
+  P8. List of Publications
+  P9. MUHAMMAD YOUNAS
+  P10. PROFESSOR
+  P11. BDS, FCPS, CHPE, PGD, D,IMPLANT
+  P12. 13 YEARS
+  P13. MASTER IN ARTROCENTESIS, BOTOX ALCOHO INJECTION ,BASAL BONE IMPLANT,
+  P14. Annex – A
+  P15. SOBIA KANWAL
+  P16. ASSISTANT PROFESSOR
+  P17. BDS, FCPS, MOMSRCS Ed, CHPE, CHR
+  P18. ONE YEAR
+  P19. NON SURGICAL MANAGEMENT OF ORAL DISEASE
+  P20. SHAGUFATA NAZ
+  P21. LECTURER
+  P22. BDS
+  P23. ONE YEAR
+  P24. MANZAR QBAL
+  P25. LECTURER
+  P26. BDS-MPH
+  P27. ONE YEAR
+  P28. *. Not mandatory for female faculty
+  P29. List of Publications
+  P30. Annex – A
+  P31. Frequency of dental attrition and common oriental factor to it. JKCD December 2019 Vol 9 no 4. 1stauthor
+  P32. Determination of minimum inhibitory and fungicidal concentration of potash alum against clinical isolates of Candida Albicans. Journal of Pakistan dental association Vol 29 No 4 Oct 2020. 2ndauthor
+  P33. Predisposing factor for the infection of mandibular third molar. PODJ volumeno 33, no 2 2013. 2ndauthor
+  P34. Serious post extraction complaint. PODJ. Volume number 34.no 3. 2014. 4thauthor
+  P35. Pattern of oral maxillofacial trauma, and its management. Journal of dentistry, oral disorder and therapy 4(2). 2016 .4thauthor
+  P36. In vitro antifungal activity against Candida Albicans on acrylic resin. Journal of Pakistan armed forces. Vol 75 issue 5 2020.
+  P37. Comparison of the Mean Reduction in Trismus Postoperatively After Use of 4mg and 8mg Intravenous Dexamethasone Pre Operatively, Following Impacted Mandibular Third Molar Surgery. (Sent for publication in process) 2ndAuthor .JKCD.
+  P38. Frequency of oral lichen planus in HCV patients. author. Vol 10 (4) .2020, JKCD.1st Author
+  P39. Estimation Vit C in Squamous cell carcinoma patient. Vol 10(4).2020.JKCD.2nauthor
+  P40. A Study of low VIT-B 12 in trigeminal neuralgia patients visiting Peshawar Dental College. JRCD. vol1(1).2021.1st author
+  P41. Assessment of knowledge attitude and practice of postgraduate trainee and general dental practioner regarding temporomandibular joint disorder. .JRCD. Vol 1(1).2021. 1st author
+  P42. Comparison of the mean reduction in trismus postoperatively after use of 4mg and 8mg intravenous dexamethasone preoperatively. Following Impacted Third Molar Surgery. JKCD, Sep 2021.Vol.11.No 3. 2nd Author
+  P43. An Association between Type 2 Diabetes Mellitus and Clinical Periodontal Parameter Pocket Depth. J KCD. Vol. 12 Issue-2, 2022. 6th author
+  P44. Frequency of cleft lip and palate in individuals born to consanguineous parents. jrcd
+  P45. Early detection of PMD through vital staining in tobacco user. VOL. 38 NO. 2 | Journal of Postgraduate Medical Institute
+  P46. Frequency and grading of supernumerary cusps in permanent human teeth of patients visiting the teaching hospitals of Peshawar Dental College and Khyber College of Dentistry, Peshawar. JKCD. Vol 12. Issue 3,2022.5th author
+  P47. Pattern of Temporomandibular Disorders (TMD) among patient visiting Peshawar dental college. JRCD Volume 3, 2022. First author
+  P48. Frequency of Paediatric Oral and Maxillofacial tumours; A retrospective study. JRCD. Volume 3, 2022. Fourth author
+  P49. Comparison of carbamazepine alone and in combination with baclofen in trigeminal neuralgia. International Journal of Health Sciences, 6(S7), 49113–121.
+  P50. Pattern of Temporomandibular Disorders (TMD) among patient visiting Peshawar dental college. JRCD Volume 3, 2022. F
+
+##########################################################################################
+Paediatric Dentistry\Paediatric Dentistry Data for Website.docx
+d:\\projects\\php\\www\\dds\\faculty profile\_extract_facilities\Facilities required to be uploaded on website\Paediatric Dentistry\Paediatric Dentistry Data for Website.docx
+tables 1 body_paras 49
+-- table 0 rows=5 --
+  r0 HEADER ['#', 'Name', 'Designation', 'Profile with Photograph*', 'Qualification', 'Professional Experience', 'Any Specific Skill to be displayed on web', 'List of Publications']
+  r1 NAME='Dr. Hasham Khan' cols=8
+    QUAL n=3
+     | BDS (Pesh)
+     | M.Sc(London)
+     | MHPE (KMU)
+    EXP n=1
+     | 38 Years
+    SKILL n=1
+     | Special interest in dealing with medically compromised children & traumatic injuries to the teeth
+    PUB n=1
+     | 20 Original Research Articles (CV attached)
+  r2 NAME='Dr. Humaira Hayat' cols=8
+    QUAL n=3
+     | BDS (Pesh)
+     | DCD (KMU)
+     | MHPE (KMU)
+    EXP n=1
+     | 15 Years
+    SKILL n=1
+     | -
+    PUB n=1
+     | -
+  r3 NAME='Dr. Zarghuna Niaz' cols=8
+    QUAL n=1
+     | BDS
+    EXP n=1
+     | 04 Years
+    SKILL n=1
+     | -
+    PUB n=1
+     | -
+  r4 NAME='Dr. Maryam Rashid' cols=8
+    QUAL n=1
+     | BDS
+    EXP n=1
+     | 01 Year
+    SKILL n=1
+     | -
+    PUB n=1
+     | -
+  BODY PARAS (non-table, first 80 nonempty already listed via cells; extra file paras:)
+  P1. Data Required for Website
+  P2. (Summary to be provided by HoD / Unit as per below format and each faculty to be attached as required)
+  P3. Department Name: Paediatric DentistryName of HoD / Unit: Prf. Dr. Hasham Khan
+  P4. Facilities required to be uploaded on website:
+  P5. Faculty details:
+  P6. #
+  P7. Name
+  P8. Designation
+  P9. Profile with Photograph*
+  P10. Qualification
+  P11. Professional Experience
+  P12. Any Specific Skill to be displayed on web
+  P13. List of Publications
+  P14. 1
+  P15. Dr. Hasham Khan
+  P16. Professor
+  P17. Curriculum Vitae Attached
+  P18. BDS (Pesh)
+  P19. M.Sc(London)
+  P20. MHPE (KMU)
+  P21. 38 Years
+  P22. Special interest in dealing with medically compromised children & traumatic injuries to the teeth
+  P23. 20 Original Research Articles (CV attached)
+  P24. 2
+  P25. Dr. Humaira Hayat
+  P26. Assistant Professor
+  P27. BDS (Pesh)
+  P28. DCD (KMU)
+  P29. MHPE (KMU)
+  P30. 15 Years
+  P31. -
+  P32. -
+  P33. 3
+  P34. Dr. Zarghuna Niaz
+  P35. Lecturer
+  P36. Curriculum Vitae Attached
+  P37. BDS
+  P38. 04 Years
+  P39. -
+  P40. -
+  P41. 4
+  P42. Dr. Maryam Rashid
+  P43. Lecturer
+  P44. Curriculum Vitae Attached
+  P45. BDS
+  P46. 01 Year
+  P47. -
+  P48. -
+  P49. *. Not mandatory for female faculty
+
+##########################################################################################
+Periodontology\Department of Periodontology.docx
+d:\\projects\\php\\www\\dds\\faculty profile\_extract_facilities\Facilities required to be uploaded on website\Periodontology\Department of Periodontology.docx
+tables 7 body_paras 156
+-- table 0 rows=2 --
+  r0 HEADER ['#', 'Name', 'Designation', 'Profile with Photograph*', 'Qualification', 'Professional Experience', 'Any Specific Skill to be displayed on web', 'List of Publications']
+  r1 NAME='Professor Dr. Kawish Syed' cols=8
+    QUAL n=4
+     | BDS, MCPS (Periodontology)
+     | MFD RCSI
+     | F Perio RCSEd
+     | CHPE KMU
+    EXP n=13
+     | Professor/Head Department Of Periodontology
+     | Peshawar Dental College, Riphah International University, Peshawar Campus,
+     | Pakistan.
+     | July 9, 2026 – Till date.
+     | Professor Department of Periodontology
+     | Peshawar Dental College, Riphah International University, Peshawar Campus,
+     | Pakistan.
+     | Feb 2026- July 8 2026
+     | Associate Professor & Head Department Of Periodontology Gandhara University, Peshawar, Pakistan
+     | Feb 2022 – July 2025
+     | Assistant Professor& Head Department Of Periodontology
+     | Gandhara University, Peshawar, Pakistan
+     | Dec 2014 – Feb 2022
+    SKILL n=10
+     | Special Interest In Health Care Research; 21 Publications In National And International Journals with a cumulative Impact Factor Of 14.4; h- index5, i10- index , 122 Citations
+     | Supervisor for M.sc Periodontology programme Sardar Begum Dental college Gandhara University, Peshawar 2015-2025.
+     | Member of IRB Sardar Begum Dental College, Gandhara University Peshawar.
+     | 2016-2025
+     | Member of infection prevention and control committee, Sardar Begum Dental College Gandhara University, Peshawar
+     | 2018-2020
+     | Reviewer for journals PODJ, JKCD
+     | Attended workshops on Education Planning And Evaluation, Research Methodology And Biomedical Writing, Assessment Of Competence And Supervisory Skills mediated by Who Collaborating Center For Research In Health Professional Education CPSP
+     | Conducted Career Counselling session July 14 2026
+     | at Peshawar Dental College
+    PUB n=1
+     | Annex - A
+-- table 1 rows=1 --
+  r0 NAME='Dr. Mahirah Iqbal' cols=8
+    QUAL n=8
+     | BDS
+     | DCD Periodontology
+     | CHPE
+     | C- Periodontal
+     | Aesthetic
+     | Surgery
+     | C-Implant
+     | C-Orthodontics
+    EXP n=1
+     | Years
+    SKILL n=0
+    PUB n=1
+     | Annex – B
+-- table 2 rows=1 --
+  r0 NAME='Dr. Zeeshan Danish' cols=8
+    QUAL n=2
+     | B.D.S
+     | M.C.P.S
+    EXP n=2
+     | Jan 2017 Till date
+     | (9 years, 6 months)
+    SKILL n=1
+     | Skillful in performing Non-Surgical periodontal therapy as well as Implant placement surgeries, Guided Bone Regenerations and Soft Tissue surgeries
+    PUB n=1
+     | Annex - C
+-- table 3 rows=1 --
+  r0 NAME='Dr. Abira Hamid' cols=8
+    QUAL n=2
+     | BDS
+     | MCPS [Periodontology
+    EXP n=5
+     | House Job - Sardar Begum Dental College – 2011
+     | Family Dentistry - Khyber College of Dentistry – August 2012 to December 2012
+     | Periodontology - Khyber College of Dentistry – January 2013 to December 2014
+     | Oral Medicine - Peshawar Dental College - September 2022 to August 14, 2023
+     | Periodontology - Peshawar Dental College - August 16, 2023 till date
+    SKILL n=3
+     | Workshop on Masterclass In Implantology by institute of continuing education at Rehman College of Dentistry by Prof. Dr. Tariq Ali Khan on January 28th, 2023.
+     | Workshop on Soft Tissue Management Around Implant at Rehman College of Dentistry on February 17th, 2024.
+     | Workshop on CBCT Interpretation & Dental Implant Treatment Planning (Hands On) at Rehman College of Dentistry on January 11th, 2025.
+    PUB n=1
+     | Annex - D
+-- table 4 rows=1 --
+  r0 NAME='DR.MUBAH SAFDAR' cols=8
+    QUAL n=1
+     | BDS
+    EXP n=11
+     | Employer: Peshawar Dental College.
+     | Designation: Lecturer Periodontology (18th August 2025 till date)
+     | Employer: Lady Reading Hospital, MTI, Peshawar.
+     | Designation: Trainee Registrar Oral & maxillofacial surgery ( 16th August 2017 to 15th August 2019)
+     | Employer: Sardar Begum Dental Hospital
+     | Designation: MDS Resident Oral & maxillofacial surgery ( June 2012 to May 2016)
+     | ROTATIONAL TMO ENT Unit LRH 01.07.2015 to 31.08.2015
+     | ROTATIONAL TMO Surgical “D” Unit LRH
+     | 01.09.2015 to 31.10.2015
+     | ROTATIONAL TMO Anaesthesia Unit LRH
+     | 01.11.2015 to 31.12.2015
+    SKILL n=0
+    PUB n=1
+     | Annex - E
+-- table 5 rows=1 --
+  r0 NAME='Dr. Hina Tariq' cols=8
+    QUAL n=1
+     | BDS
+    EXP n=1
+     | 6 years
+    SKILL n=0
+    PUB n=0
+-- table 6 rows=11 --
+  r0 NAME='List of Publications' cols=1
+    c0 n=1 text='List of Publications'
+     | List of Publications
+  r1 NAME='Annex - A' cols=1
+    c0 n=1 text='Annex - A'
+     | Annex - A
+  r2 NAME='Comparison of gingival phenotype among adult male naswar users, cigarette smokers and non-tobacco users: a cross-sectional study, Scientific Reports, 2026Exploring the relationship between climate-related exposures and oral health outcomes in Pakistan: A community-based cross-sectional study, Plos Global Public Health, 2026Artificial intelligence-powered dentistry: Probing the potential, challenges, and ethicality of artificial intelligence in dentistry, Digital health, 2024Maintenance of Dental Hygiene in Various Brushing Practices Among Orthodontic Patients with Multi-Bracket Fixed Appliances, FUJD, 2024Comparative Efficacy Of Chlorhexidine And Sodium Bicarbonate Dentifrices In Plaque And Gingival Inflammation Reduction: A Randomized Controlled Trial, JKCD, 2023.Frequency of White Spot Lesions after Fixed Appliance Therapy in A Tertiary Care Hospital Of Peshawar, HMDJ, 2023.Use of personal protective equipment (PPES) by dental health care workers during covid-19 pandemic in khyber pakhtunkhwa. Podj, 2023.Comparison of plaque removal efficacy of modified bass technique and charter’s technique in orthodontic patients. PJMHS, 2023Comparison of severity of periodontal clinical parameters among naswar/snuff users: Cross sectional study. PLoS ONE, 2022. Prevelance of SARS-COV-2 Antibodies in dental health care providers. PJMHS, 2022. Determination of most frequent emergencies in patients with fixed and removable orthodontic appliances at tertiary care dental hospital. JGMDS, 2022.Plaque removal efficacy of dental floss compare to water jet following single use. PJMHS, 2021.Correlation of mandibular incisors proclination and gingival recession in orthodontic patients. POJ, 2021.Assessing relationship between lip prints, finger prints and different blood groups within the population of Karachi. PJMHS, 2021.Comparison of posterior tooth angulation in patients with normal bite and deep bite malocclusion. POJ, 2021.Radiographic assessment of the prevalence of maxillary canine impaction according to sector method- A cross sectional study. POJ, 2021.Stress level Assessment in Orthodontic Patient Receiving Treatment from three months: A Qausi experimental study. PJMHS, 2019.Root Resorption 4 months after initiation of fixed orthodontic appliance therapy. PODJ, 2018.Comparison of Inter Premolar, Molar Widths and Arch Depth among different Malocclusions. PODJ, 2016.Comparison of the gonial angle measurements on Lateral Cephalogram and both hemispheres of Orthopantomogram. POJ, 2015.Dental Phobia among Orthodontic Patients of Peshawar. PODJ, 2015.' cols=1
+    c0 n=21 text='Comparison of gingival phenotype among adult male naswar users, cigarette smokers and non-tobacco users: a cross-section'
+     | Comparison of gingival phenotype among adult male naswar users, cigarette smokers and non-tobacco users: a cross-sectional study, Scientific Reports, 2026
+     | Exploring the relationship between climate-related exposures and oral health outcomes in Pakistan: A community-based cross-sectional study, Plos Global Public Health, 2026
+     | Artificial intelligence-powered dentistry: Probing the potential, challenges, and ethicality of artificial intelligence in dentistry, Digital health, 2024
+     | Maintenance of Dental Hygiene in Various Brushing Practices Among Orthodontic Patients with Multi-Bracket Fixed Appliances, FUJD, 2024
+     | Comparative Efficacy Of Chlorhexidine And Sodium Bicarbonate Dentifrices In Plaque And Gingival Inflammation Reduction: A Randomized Controlled Trial, JKCD, 2023.
+     | Frequency of White Spot Lesions after Fixed Appliance Therapy in A Tertiary Care Hospital Of Peshawar, HMDJ, 2023.
+     | Use of personal protective equipment (PPES) by dental health care workers during covid-19 pandemic in khyber pakhtunkhwa. Podj, 2023.
+     | Comparison of plaque removal efficacy of modified bass technique and charter’s technique in orthodontic patients. PJMHS, 2023
+     | Comparison of severity of periodontal clinical parameters among naswar/snuff users: Cross sectional study. PLoS ONE, 2022.
+     | Prevelance of SARS-COV-2 Antibodies in dental health care providers. PJMHS, 2022.
+     | Determination of most frequent emergencies in patients with fixed and removable orthodontic appliances at tertiary care dental hospital. JGMDS, 2022.
+     | Plaque removal efficacy of dental floss compare to water jet following single use. PJMHS, 2021.
+     | Correlation of mandibular incisors proclination and gingival recession in orthodontic patients. POJ, 2021.
+     | Assessing relationship between lip prints, finger prints and different blood groups within the population of Karachi. PJMHS, 2021.
+     | Comparison of posterior tooth angulation in patients with normal bite and deep bite malocclusion. POJ, 2021.
+     | Radiographic assessment of the prevalence of maxillary canine impaction according to sector method- A cross sectional study. POJ, 2021.
+     | Stress level Assessment in Orthodontic Patient Receiving Treatment from three months: A Qausi experimental study. PJMHS, 2019.
+     | Root Resorption 4 months after initiation of fixed orthodontic appliance therapy. PODJ, 2018.
+     | Comparison of Inter Premolar, Molar Widths and Arch Depth among different Malocclusions. PODJ, 2016.
+     | Comparison of the gonial angle measurements on Lateral Cephalogram and both hemispheres of Orthopantomogram. POJ, 2015.
+     | Dental Phobia among Orthodontic Patients of Peshawar. PODJ, 2015.
+  r3 NAME='Annex - B' cols=1
+    c0 n=1 text='Annex - B'
+     | Annex - B
+  r4 NAME='EFFECTS OF NON-SURGICAL PERIODONTAL THERAPY ON GLYCEMIC LEVEL IN TYPE-2 DIABETIC PATIENTS Journal of Khyber College of Dentistry, Dec2017, Vol.7, No.3PERIODONTAL HEALTH AWARENESS AMONG PREGNANT WOMEN REGARDING BIDIRECTIONAL RELATIONSHIP BETWEEN GINGIVAL INFLAMMATION AND ADVERSE PREGNANCY OUTCOME. Journal of Khyber College of Dentistry, March 2020, Vol.10, No.1PRESENCE OF RISK FACTORS FOR TEMPOROMANDIBULAR DISORDER, SYMPTOMS, IN PRIVATE CLINIC PATIENTS AT PESHAWAR. Journal of Khyber College of Dentistry, December 2020, Vol. 10, No.4FACTORS AFFECTING DENTAL IMPLANT FAILURE IN PATIENTS REPORTING TO PERIODONTOLOGY DEPARTMENT OF KHYBER COLLEGE OF DENTISTRY PESHAWAR PAKISTAN. International Archives of BioMedical and Clinical Research, Oct-Dec 2021, Vol. 4, Issue 4.RATE AND FACTORS ASSOCIATED WITH DENTINE HYPERSENSITIVITY AMONG PAKISTANI PATIENTS: A CROSS SECTIONAL STUDY. Pakistan Biomedical Journal, June 2022, Vol.5, Issue. 6.INADEQUATE FIXED PROSTHESIS DESIGN AFFECTING THE PERIODONTAL HEALTH. Pakistan Journal of Health Sciences, Dec 2022, Vol.3, Issue.7.PRACTITIONERS’ PERSPECTIVE TOWARDS ASSOCIATION BETWEEN PERIODONTAL DISEASE AND SYSTEMIC ILNESS. Medical Forum. Dec 2022, Vol.33, No.12.KNOWLEDGE AND PERCEPTION OF DENTAL PRACTITIONERS TOWARDS DENTAL IMPLANT TREATMENT IN ROUTINE DENTAL PRACTICE. Medical Forum Jan 2023, Vol.34, No.1.KNOWLEDGE, ATTITUDE & PRACTICE OF GENERAL DENTIST, REGARDING PERIODONTAL DISEASE DIAGNOSIS, TREATMENT PROTOCOL & PERIODONTAL SPECIALIST REFERRAL. Medical Forum Jan 2023, Vol.34, No.1.COMPARATIVE EVALUATION OF PERIODONTAL PARAMETERS AND MICROBIOLOGICAL PROFILE IN SMOKERS AND NON-SMOKERS. J Gandhara Med Dent Sci. 2025;12(1):20-23.doi: 10.37762/jgmds. 12-1.622EVALUATE THE EFFECTIVENESS OF SCALING AND ROOT PLANNING WITH AND WITHOUT ADJUNCTIVE ANTIBIOTICS IN PESHAWAR. Journal of Population Therapeutics. & Clinical Pharmacology Vol. 31 No. 11 (2024). THE EFFECTIVENESS OF PERIODONTAL TREATMENT IN REDUCING TOOTH LOSS: A COHORT STUDY. J Gandhara Med Dent Sci. 2025;13(1):95-100.ASSESSMENT OF KNOWLEDGE AND CLINICAL PRACTICES REGARDING PERIODONTAL HEALTH IN CHILDREN AMONG UNDERGRADUATE DENTAL STUDENTS. Journal of Population Therapeutics & Clinical Pharmacology Vol. 32 No.06 (2025)PREVALENCE AND CONTRIBUTING FACTORS OF GINGIVAL HYPERPLASIA IN ORTHODONTIC PATIENTS. J Gandhara Med Dent Sci. 2025;12(2):73-77.SALIVARY BIOMARKERS AND PERIODONTAL DISEASE: SOCIOECONOMIC DISPARITIES IN ORAL HEALTH STATUS IN ABBOTTABAD. Journal of Shifa Tameer-e-Milat Uni Vol8.Iss2.COMPAATIVE CLINICAL EFFECTIVENESS OF 0.2% CHLORHEXIDINE, OCIMUM SANCTUM & EUCALYPOL MOUTHWASHES IN THE MANAGEMENT OF GINGIVITIS. accepted for publication by J Khyber Coll Dent Sep 2026COMPARISON OF CORONALLY ADVANCED FLAP WITH AND WITHOUT CONNECTIVE TISSUE GRAFT IN MILLER CLASS 1 GINGIVAL RECESSION. Asian J. Med. Res. Health Sci., June 2026 – 4 (2)ASSOCIATION BETWEEN GLYCEMIC STATUS & SEVERITY OF CHRONIC PERIODONTITIS AMONG ADULTS (In Process)AI-ENHANCED CBCT BASED ANATOMICAL MAPPING FOR PRECISION BIOMATERIAL SELECTION IN DENTAL IMPLANT SUCCESS. CME J Ger Med., Vol. 18, Issue 6, June 2026' cols=1
+    c0 n=19 text='EFFECTS OF NON-SURGICAL PERIODONTAL THERAPY ON GLYCEMIC LEVEL IN TYPE-2 DIABETIC PATIENTS Journal of Khyber College of D'
+     | EFFECTS OF NON-SURGICAL PERIODONTAL THERAPY ON GLYCEMIC LEVEL IN TYPE-2 DIABETIC PATIENTS Journal of Khyber College of Dentistry, Dec2017, Vol.7, No.3
+     | PERIODONTAL HEALTH AWARENESS AMONG PREGNANT WOMEN REGARDING BIDIRECTIONAL RELATIONSHIP BETWEEN GINGIVAL INFLAMMATION AND ADVERSE PREGNANCY OUTCOME. Journal of Khyber College of Dentistry, March 2020, Vol.10, No.1
+     | PRESENCE OF RISK FACTORS FOR TEMPOROMANDIBULAR DISORDER, SYMPTOMS, IN PRIVATE CLINIC PATIENTS AT PESHAWAR. Journal of Khyber College of Dentistry, December 2020, Vol. 10, No.4
+     | FACTORS AFFECTING DENTAL IMPLANT FAILURE IN PATIENTS REPORTING TO PERIODONTOLOGY DEPARTMENT OF KHYBER COLLEGE OF DENTISTRY PESHAWAR PAKISTAN. International Archives of BioMedical and Clinical Research, Oct-Dec 2021, Vol. 4, Issue 4.
+     | RATE AND FACTORS ASSOCIATED WITH DENTINE HYPERSENSITIVITY AMONG PAKISTANI PATIENTS: A CROSS SECTIONAL STUDY. Pakistan Biomedical Journal, June 2022, Vol.5, Issue. 6.
+     | INADEQUATE FIXED PROSTHESIS DESIGN AFFECTING THE PERIODONTAL HEALTH. Pakistan Journal of Health Sciences, Dec 2022, Vol.3, Issue.7.
+     | PRACTITIONERS’ PERSPECTIVE TOWARDS ASSOCIATION BETWEEN PERIODONTAL DISEASE AND SYSTEMIC ILNESS. Medical Forum. Dec 2022, Vol.33, No.12.
+     | KNOWLEDGE AND PERCEPTION OF DENTAL PRACTITIONERS TOWARDS DENTAL IMPLANT TREATMENT IN ROUTINE DENTAL PRACTICE. Medical Forum Jan 2023, Vol.34, No.1.
+     | KNOWLEDGE, ATTITUDE & PRACTICE OF GENERAL DENTIST, REGARDING PERIODONTAL DISEASE DIAGNOSIS, TREATMENT PROTOCOL & PERIODONTAL SPECIALIST REFERRAL. Medical Forum Jan 2023, Vol.34, No.1.
+     | COMPARATIVE EVALUATION OF PERIODONTAL PARAMETERS AND MICROBIOLOGICAL PROFILE IN SMOKERS AND NON-SMOKERS. J Gandhara Med Dent Sci. 2025;12(1):20-23.doi: 10.37762/jgmds. 12-1.622
+     | EVALUATE THE EFFECTIVENESS OF SCALING AND ROOT PLANNING WITH AND WITHOUT ADJUNCTIVE ANTIBIOTICS IN PESHAWAR. Journal of Population Therapeutics. & Clinical Pharmacology Vol. 31 No. 11 (2024).
+     | THE EFFECTIVENESS OF PERIODONTAL TREATMENT IN REDUCING TOOTH LOSS: A COHORT STUDY. J Gandhara Med Dent Sci. 2025;13(1):95-100.
+     | ASSESSMENT OF KNOWLEDGE AND CLINICAL PRACTICES REGARDING PERIODONTAL HEALTH IN CHILDREN AMONG UNDERGRADUATE DENTAL STUDENTS. Journal of Population Therapeutics & Clinical Pharmacology Vol. 32 No.06 (2025)
+     | PREVALENCE AND CONTRIBUTING FACTORS OF GINGIVAL HYPERPLASIA IN ORTHODONTIC PATIENTS. J Gandhara Med Dent Sci. 2025;12(2):73-77.
+     | SALIVARY BIOMARKERS AND PERIODONTAL DISEASE: SOCIOECONOMIC DISPARITIES IN ORAL HEALTH STATUS IN ABBOTTABAD. Journal of Shifa Tameer-e-Milat Uni Vol8.Iss2.
+     | COMPAATIVE CLINICAL EFFECTIVENESS OF 0.2% CHLORHEXIDINE, OCIMUM SANCTUM & EUCALYPOL MOUTHWASHES IN THE MANAGEMENT OF GINGIVITIS. accepted for publication by J Khyber Coll Dent Sep 2026
+     | COMPARISON OF CORONALLY ADVANCED FLAP WITH AND WITHOUT CONNECTIVE TISSUE GRAFT IN MILLER CLASS 1 GINGIVAL RECESSION. Asian J. Med. Res. Health Sci., June 2026 – 4 (2)
+     | ASSOCIATION BETWEEN GLYCEMIC STATUS & SEVERITY OF CHRONIC PERIODONTITIS AMONG ADULTS (In Process)
+     | AI-ENHANCED CBCT BASED ANATOMICAL MAPPING FOR PRECISION BIOMATERIAL SELECTION IN DENTAL IMPLANT SUCCESS. CME J Ger Med., Vol. 18, Issue 6, June 2026
+  r5 NAME='Annex - C' cols=1
+    c0 n=1 text='Annex - C'
+     | Annex - C
+  r6 NAME='EFFECT OF NON-SURGICAL PERIODONTAL THERAPY ON GLYCEMIC LEVEL IN TYPE 2 DIABETICS PATIENTS.MOTIVATION AND SOCIOECONOMIC STATUS AS A FACTOR FOR NOT RESTORING EXISTING EDENTULOUS SPACES IN PARTIALLY DENTATE PATIENTS REPORTING FOR DENTAL EXTRACTION.FREQUENCY OF GINGIVAL RECESSION AND ITS SEVERITY: A CROSS SECTIONAL STUDY AMONG PATIENTS VISITING PERIODONTICS DEPARTMENT, KHYBER COLLEGE OF DENTISTRY, PESHAWAR.CHRONIC PERIODONTITIS AND ADVERSE PREGNANCY OUTCOMES: A QUESTIONNAIRE SURVEY REGARDING GYNECOLOGISTS KNOWLEDGE ATTITUDE AND PRACTICE BEHAVIOUR IN TERTIARY CARE HOPSITALS OF PESHAWAR.POST-ORTHODONTIC PERIODONTAL SURGERY IN THE MANAGEMENT OF EXCESSIVE GINGIVAL DISPLAY. A REVIEW AND CASE REPORTS.FREQUENCY OF GINGIVITIS AMONG PATIENTS VISITING SARDAR BEGUM DENTAL COLLEGE (SBDC) AND HOSPITAL PESHAWAR.Validity and Reliability of Periodontal Parameters Measurements.Practitioners Perspective towards Association Between Periodontal Disease and Systemic Illness.Knowledge and Perception of Dental Practitioners towards Dental Implant Treatment in Routine Dental Practice.Comparative Evaluation of Periodontal Parameters and Microbiological Profile in Smokers and Non-Smokers.PREVALENCE AND CONTRIBUTING FACTORS OF GINGIVAL HYPERPLASIA IN ORTHODONTIC PATIENTS.Effectiveness of Periodontal Treatment in preventing Periodontal Loss, A cohort study.' cols=1
+    c0 n=12 text='EFFECT OF NON-SURGICAL PERIODONTAL THERAPY ON GLYCEMIC LEVEL IN TYPE 2 DIABETICS PATIENTS.MOTIVATION AND SOCIOECONOMIC S'
+     | EFFECT OF NON-SURGICAL PERIODONTAL THERAPY ON GLYCEMIC LEVEL IN TYPE 2 DIABETICS PATIENTS.
+     | MOTIVATION AND SOCIOECONOMIC STATUS AS A FACTOR FOR NOT RESTORING EXISTING EDENTULOUS SPACES IN PARTIALLY DENTATE PATIENTS REPORTING FOR DENTAL EXTRACTION.
+     | FREQUENCY OF GINGIVAL RECESSION AND ITS SEVERITY: A CROSS SECTIONAL STUDY AMONG PATIENTS VISITING PERIODONTICS DEPARTMENT, KHYBER COLLEGE OF DENTISTRY, PESHAWAR.
+     | CHRONIC PERIODONTITIS AND ADVERSE PREGNANCY OUTCOMES: A QUESTIONNAIRE SURVEY REGARDING GYNECOLOGISTS KNOWLEDGE ATTITUDE AND PRACTICE BEHAVIOUR IN TERTIARY CARE HOPSITALS OF PESHAWAR.
+     | POST-ORTHODONTIC PERIODONTAL SURGERY IN THE MANAGEMENT OF EXCESSIVE GINGIVAL DISPLAY. A REVIEW AND CASE REPORTS.
+     | FREQUENCY OF GINGIVITIS AMONG PATIENTS VISITING SARDAR BEGUM DENTAL COLLEGE (SBDC) AND HOSPITAL PESHAWAR.
+     | Validity and Reliability of Periodontal Parameters Measurements.
+     | Practitioners Perspective towards Association Between Periodontal Disease and Systemic Illness.
+     | Knowledge and Perception of Dental Practitioners towards Dental Implant Treatment in Routine Dental Practice.
+     | Comparative Evaluation of Periodontal Parameters and Microbiological Profile in Smokers and Non-Smokers.
+     | PREVALENCE AND CONTRIBUTING FACTORS OF GINGIVAL HYPERPLASIA IN ORTHODONTIC PATIENTS.
+     | Effectiveness of Periodontal Treatment in preventing Periodontal Loss, A cohort study.
+  r7 NAME='Annex - D' cols=1
+    c0 n=1 text='Annex - D'
+     | Annex - D
+  r8 NAME='The effectiveness of periodontal treatment in reducing tooth loss: a cohort study” Zeeshan Danish, Abira Hamid, Mahira Iqbal, Taif Ahmad, Hina Tariq Tariq, Wajeeha Urooj. Vol. 13 No. 1 (2026): JGMDS (Jan- March 2026)“Prevalence and Contributing Factors of Gingival Hyperplasia in Orthodontic Patients” Zeeshan Danish, Abira Hamid, Mahira Iqbal, Taif Ahmad, Hina Tariq Tariq, Hafiza Tayyaba Muqarrab. Vol. 12 No. 2 (2025): JGMDS (April- June 2025)“THE RELATIONSHIP BETWEEN PERIODONTAL DISEASE AND SYSTEMIC HEALTH: A STUDY IN PESHAWAR” Dr Palwasha Afridi, Dr Abira Hamid, Dr Madiha Riasat, Dr Hussam Muhammad Ashfaq, Syed Midhat Batool, Dr Fahmeed Akhtar Vol. 32 No. 3 (2025): JPTCP (583-585)“KNOWLEDGE & ATTITUDE OF GENERAL DENTIST, REGARDING PERIODONTAL DISEASE DIAGNOSIS, TREATMENT PROTOCOL AND PERIODONTAL SPECIALIST REFERRAL”Mahirah Iqbal, Hussam Muhammad Ashfaq, Muhammad Ifham Khan Jadoon, Muhammad Jamil, Azeem Khan, Abira Hamid. J Khyber Coll Dent, Sep 2024, Vol. 14, No. 3COMPARATIVE EVALUATION OF PERIODONTAL PARAMETERS AND MICROBIOLOGICAL PROFILE IN SMOKERS AND NON-SMOKERS. Zeeshan Danish, Mahirah Iqbal, Irfan Salim, Taif Ahmad, Abira Hamid, Hina Tariq Vol. 12 No. 4 (2025): JGMDS (October - December 2025)' cols=1
+    c0 n=5 text='The effectiveness of periodontal treatment in reducing tooth loss: a cohort study” Zeeshan Danish, Abira Hamid, Mahira I'
+     | The effectiveness of periodontal treatment in reducing tooth loss: a cohort study” Zeeshan Danish, Abira Hamid, Mahira Iqbal, Taif Ahmad, Hina Tariq Tariq, Wajeeha Urooj. Vol. 13 No. 1 (2026): JGMDS (Jan- March 2026)
+     | “Prevalence and Contributing Factors of Gingival Hyperplasia in Orthodontic Patients” Zeeshan Danish, Abira Hamid, Mahira Iqbal, Taif Ahmad, Hina Tariq Tariq, Hafiza Tayyaba Muqarrab. Vol. 12 No. 2 (2025): JGMDS (April- June 2025)
+     | “THE RELATIONSHIP BETWEEN PERIODONTAL DISEASE AND SYSTEMIC HEALTH: A STUDY IN PESHAWAR” Dr Palwasha Afridi, Dr Abira Hamid, Dr Madiha Riasat, Dr Hussam Muhammad Ashfaq, Syed Midhat Batool, Dr Fahmeed Akhtar Vol. 32 No. 3 (2025): JPTCP (583-585)
+     | “KNOWLEDGE & ATTITUDE OF GENERAL DENTIST, REGARDING PERIODONTAL DISEASE DIAGNOSIS, TREATMENT PROTOCOL AND PERIODONTAL SPECIALIST REFERRAL”Mahirah Iqbal, Hussam Muhammad Ashfaq, Muhammad Ifham Khan Jadoon, Muhammad Jamil, Azeem Khan, Abira Hamid. J Khyber Coll Dent, Sep 2024, Vol. 14, No. 3
+     | COMPARATIVE EVALUATION OF PERIODONTAL PARAMETERS AND MICROBIOLOGICAL PROFILE IN SMOKERS AND NON-SMOKERS. Zeeshan Danish, Mahirah Iqbal, Irfan Salim, Taif Ahmad, Abira Hamid, Hina Tariq Vol. 12 No. 4 (2025): JGMDS (October - December 2025)
+  r9 NAME='Annex - E' cols=1
+    c0 n=1 text='Annex - E'
+     | Annex - E
+  r10 NAME='Odontogenic Myxoma in the maxilla: A report of a rare caseCorrelation between histopathological features and clinical presentation of oral squamous cell carcinoma' cols=1
+    c0 n=2 text='Odontogenic Myxoma in the maxilla: A report of a rare caseCorrelation between histopathological features and clinical pr'
+     | Odontogenic Myxoma in the maxilla: A report of a rare case
+     | Correlation between histopathological features and clinical presentation of oral squamous cell carcinoma
+  BODY PARAS (non-table, first 80 nonempty already listed via cells; extra file paras:)
+  P1. #
+  P2. Name
+  P3. Designation
+  P4. Profile with Photograph*
+  P5. Qualification
+  P6. Professional Experience
+  P7. Any Specific Skill to be displayed on web
+  P8. List of Publications
+  P9. Professor Dr. Kawish Syed
+  P10. Professor / Head Department Of Periodontology
+  P11. BDS, MCPS (Periodontology)
+  P12. MFD RCSI
+  P13. F Perio RCSEd
+  P14. CHPE KMU
+  P15. Professor/Head Department Of Periodontology
+  P16. Peshawar Dental College, Riphah International University, Peshawar Campus,
+  P17. Pakistan.
+  P18. July 9, 2026 – Till date.
+  P19. Professor Department of Periodontology
+  P20. Peshawar Dental College, Riphah International University, Peshawar Campus,
+  P21. Pakistan.
+  P22. Feb 2026- July 8 2026
+  P23. Associate Professor & Head Department Of Periodontology Gandhara University, Peshawar, Pakistan
+  P24. Feb 2022 – July 2025
+  P25. Assistant Professor& Head Department Of Periodontology
+  P26. Gandhara University, Peshawar, Pakistan
+  P27. Dec 2014 – Feb 2022
+  P28. Special Interest In Health Care Research; 21 Publications In National And International Journals with a cumulative Impact Factor Of 14.4; h- index5, i10- index , 122 Citations
+  P29. Supervisor for M.sc Periodontology programme Sardar Begum Dental college Gandhara University, Peshawar 2015-2025.
+  P30. Member of IRB Sardar Begum Dental College, Gandhara University Peshawar.
+  P31. 2016-2025
+  P32. Member of infection prevention and control committee, Sardar Begum Dental College Gandhara University, Peshawar
+  P33. 2018-2020
+  P34. Reviewer for journals PODJ, JKCD
+  P35. Attended workshops on Education Planning And Evaluation, Research Methodology And Biomedical Writing, Assessment Of Competence And Supervisory Skills mediated by Who Collaborating Center For Research In Health Professional Education CPSP
+  P36. Conducted Career Counselling session July 14 2026
+  P37. at Peshawar Dental College
+  P38. Annex - A
+  P39. Dr. Mahirah Iqbal
+  P40. Associate Professor
+  P41. BDS
+  P42. DCD Periodontology
+  P43. CHPE
+  P44. C- Periodontal
+  P45. Aesthetic
+  P46. Surgery
+  P47. C-Implant
+  P48. C-Orthodontics
+  P49. Years
+  P50. Annex – B
+  P51. Dr. Zeeshan Danish
+  P52. Associate Professor
+  P53. B.D.S
+  P54. M.C.P.S
+  P55. Jan 2017 Till date
+  P56. (9 years, 6 months)
+  P57. Skillful in performing Non-Surgical periodontal therapy as well as Implant placement surgeries, Guided Bone Regenerations and Soft Tissue surgeries
+  P58. Annex - C
+  P59. Dr. Abira Hamid
+  P60. Senior Lecturer
+
+##########################################################################################
+Periodontology\Dr. Abeera Hamid.docx
+d:\\projects\\php\\www\\dds\\faculty profile\_extract_facilities\Facilities required to be uploaded on website\Periodontology\Dr. Abeera Hamid.docx
+tables 1 body_paras 39
+-- table 0 rows=2 --
+  r0 HEADER ['#', 'Name', 'Designation', 'Profile with Photograph*', 'Qualification', 'Professional Experience', 'Any Specific Skill to be displayed on web', 'List of Publications']
+  r1 NAME='Dr. Abira Hamid' cols=8
+    QUAL n=3
+     | BDS
+     | MCPS
+     | [Periodontology]
+    EXP n=5
+     | House Job - Sardar Begum Dental College – 2011
+     | Family Dentistry - Khyber College of Dentistry – August 2012 to December 2012
+     | Periodontology - Khyber College of Dentistry – January 2013 to December 2014
+     | Oral Medicine - Peshawar Dental College - September 2022 to August 14, 2023
+     | Periodontology - Peshawar Dental College - August 16, 2023 till date
+    SKILL n=3
+     | Workshop on Masterclass In Implantology by institute of continuing education at Rehman College of Dentistry by Prof. Dr. Tariq Ali Khan on January 28th, 2023.
+     | Workshop on Soft Tissue Management Around Implant at Rehman College of Dentistry on February 17th, 2024.
+     | Workshop on CBCT Interpretation & Dental Implant Treatment Planning (Hands On) at Rehman College of Dentistry on January 11th, 2025.
+    PUB n=12
+     | The effectiveness of periodontal treatment in reducing tooth loss: a cohort study”
+     | Zeeshan Danish, Abira Hamid, Mahira Iqbal, Taif Ahmad, Hina Tariq Tariq, Wajeeha Urooj. Vol. 13 No. 1 (2026): JGMDS (Jan- March 2026)
+     | “Prevalence and Contributing Factors of Gingival Hyperplasia in Orthodontic Patients”
+     | Zeeshan Danish, Abira Hamid, Mahira Iqbal, Taif Ahmad, Hina Tariq Tariq, Hafiza Tayyaba Muqarrab.
+     | Vol. 12 No. 2 (2025): JGMDS (April- June 2025)
+     | “THE RELATIONSHIP BETWEEN PERIODONTAL DISEASE AND SYSTEMIC HEALTH: A STUDY IN PESHAWAR”
+     | Dr Palwasha Afridi, Dr Abira Hamid, Dr Madiha Riasat, Dr Hussam Muhammad Ashfaq, Syed Midhat Batool, Dr Fahmeed Akhtar Vol. 32 No. 3 (2025): JPTCP (583-585)
+     | “KNOWLEDGE & ATTITUDE OF GENERAL DENTIST, REGARDING PERIODONTAL DISEASE DIAGNOSIS, TREATMENT PROTOCOL AND PERIODONTAL SPECIALIST REFERRAL”
+     | Mahirah Iqbal, Hussam Muhammad Ashfaq, Muhammad Ifham Khan Jadoon, Muhammad Jamil, Azeem Khan, Abira Hamid
+     | J Khyber Coll Dent, Sep 2024, Vol. 14, No. 3
+     | COMPARATIVE EVALUATION OF PERIODONTAL PARAMETERS AND MICROBIOLOGICAL PROFILE IN SMOKERS AND NON-SMOKERS
+     | Zeeshan Danish, Mahirah Iqbal, Irfan Salim, Taif Ahmad, Abira Hamid, Hina Tariq Vol. 12 No. 4 (2025): JGMDS (October - December 2025)
+  BODY PARAS (non-table, first 80 nonempty already listed via cells; extra file paras:)
+  P1. Data Required for Website
+  P2. (Summary to be provided by HoD / Unit as per below format and each faculty to be attached as required)
+  P3. Department Name: Periodontology Name of HoD / Unit: Prof. Dr. Kawish Syed
+  P4. Facilities required to be uploaded on website:
+  P5. Faculty details:
+  P6. #
+  P7. Name
+  P8. Designation
+  P9. Profile with Photograph*
+  P10. Qualification
+  P11. Professional Experience
+  P12. Any Specific Skill to be displayed on web
+  P13. List of Publications
+  P14. Dr. Abira Hamid
+  P15. Senior Lecturer
+  P16. BDS
+  P17. MCPS
+  P18. [Periodontology]
+  P19. House Job - Sardar Begum Dental College – 2011
+  P20. Family Dentistry - Khyber College of Dentistry – August 2012 to December 2012
+  P21. Periodontology - Khyber College of Dentistry – January 2013 to December 2014
+  P22. Oral Medicine - Peshawar Dental College - September 2022 to August 14, 2023
+  P23. Periodontology - Peshawar Dental College - August 16, 2023 till date
+  P24. Workshop on Masterclass In Implantology by institute of continuing education at Rehman College of Dentistry by Prof. Dr. Tariq Ali Khan on January 28th, 2023.
+  P25. Workshop on Soft Tissue Management Around Implant at Rehman College of Dentistry on February 17th, 2024.
+  P26. Workshop on CBCT Interpretation & Dental Implant Treatment Planning (Hands On) at Rehman College of Dentistry on January 11th, 2025.
+  P27. The effectiveness of periodontal treatment in reducing tooth loss: a cohort study”
+  P28. Zeeshan Danish, Abira Hamid, Mahira Iqbal, Taif Ahmad, Hina Tariq Tariq, Wajeeha Urooj. Vol. 13 No. 1 (2026): JGMDS (Jan- March 2026)
+  P29. “Prevalence and Contributing Factors of Gingival Hyperplasia in Orthodontic Patients”
+  P30. Zeeshan Danish, Abira Hamid, Mahira Iqbal, Taif Ahmad, Hina Tariq Tariq, Hafiza Tayyaba Muqarrab.
+  P31. Vol. 12 No. 2 (2025): JGMDS (April- June 2025)
+  P32. “THE RELATIONSHIP BETWEEN PERIODONTAL DISEASE AND SYSTEMIC HEALTH: A STUDY IN PESHAWAR”
+  P33. Dr Palwasha Afridi, Dr Abira Hamid, Dr Madiha Riasat, Dr Hussam Muhammad Ashfaq, Syed Midhat Batool, Dr Fahmeed Akhtar Vol. 32 No. 3 (2025): JPTCP (583-585)
+  P34. “KNOWLEDGE & ATTITUDE OF GENERAL DENTIST, REGARDING PERIODONTAL DISEASE DIAGNOSIS, TREATMENT PROTOCOL AND PERIODONTAL SPECIALIST REFERRAL”
+  P35. Mahirah Iqbal, Hussam Muhammad Ashfaq, Muhammad Ifham Khan Jadoon, Muhammad Jamil, Azeem Khan, Abira Hamid
+  P36. J Khyber Coll Dent, Sep 2024, Vol. 14, No. 3
+  P37. COMPARATIVE EVALUATION OF PERIODONTAL PARAMETERS AND MICROBIOLOGICAL PROFILE IN SMOKERS AND NON-SMOKERS
+  P38. Zeeshan Danish, Mahirah Iqbal, Irfan Salim, Taif Ahmad, Abira Hamid, Hina Tariq Vol. 12 No. 4 (2025): JGMDS (October - December 2025)
+  P39. *. Not mandatory for female faculty
+
+##########################################################################################
+Periodontology\Dr. Mahirah Iqbal list of articles.docx
+d:\\projects\\php\\www\\dds\\faculty profile\_extract_facilities\Facilities required to be uploaded on website\Periodontology\Dr. Mahirah Iqbal list of articles.docx
+tables 1 body_paras 3
+-- table 0 rows=20 --
+  r0 NAME='ARTICLE' cols=3
+    c0 n=1 text='S.no'
+     | S.no
+    c1 n=1 text='ARTICLE'
+     | ARTICLE
+    c2 n=1 text='JOURNAL'
+     | JOURNAL
+  BODY PARAS (non-table, first 80 nonempty already listed via cells; extra file paras:)
+  P1. S.no
+  P2. ARTICLE
+  P3. JOURNAL
+
+##########################################################################################
+Periodontology\Dr. Mubah Safdar.docx
+d:\\projects\\php\\www\\dds\\faculty profile\_extract_facilities\Facilities required to be uploaded on website\Periodontology\Dr. Mubah Safdar.docx
+tables 1 body_paras 31
+-- table 0 rows=2 --
+  r0 HEADER ['#', 'Name', 'Designation', 'Profile with Photograph*', 'Qualification', 'Professional Experience', 'Any Specific Skill to be displayed on web', 'List of Publications']
+  r1 NAME='DR.MUBAH SAFDAR' cols=8
+    QUAL n=1
+     | BDS
+    EXP n=11
+     | Employer: Peshawar Dental College.
+     | Designation: Lecturer Periodontology (18th August 2025 till date)
+     | Employer: Lady Reading Hospital, MTI, Peshawar.
+     | Designation: Trainee Registrar Oral & maxillofacial surgery ( 16th August 2017 to 15th August 2019)
+     | Employer: Sardar Begum Dental Hospital
+     | Designation: MDS Resident Oral & maxillofacial surgery ( June 2012 to May 2016)
+     | ROTATIONAL TMO ENT Unit LRH 01.07.2015 to 31.08.2015
+     | ROTATIONAL TMO Surgical “D” Unit LRH
+     | 01.09.2015 to 31.10.2015
+     | ROTATIONAL TMO Anaesthesia Unit LRH
+     | 01.11.2015 to 31.12.2015
+    SKILL n=0
+    PUB n=2
+     | Odontogenic Myxoma in the maxilla: A report of a rare case
+     | Correlation between histopathological features and clinical presentation of oral squamous cell carcinoma
+  BODY PARAS (non-table, first 80 nonempty already listed via cells; extra file paras:)
+  P1. Data Required for Website
+  P2. (Summary to be provided by HOD / Unit as per below format and each faculty to be attached as required)
+  P3. Department Name: PERIODONTOLOGY Name of HOD /Unit: DR. KAWISH
+  P4. Facilities required to be uploaded on website:
+  P5. Faculty details:
+  P6. #
+  P7. Name
+  P8. Designation
+  P9. Profile with Photograph*
+  P10. Qualification
+  P11. Professional Experience
+  P12. Any Specific Skill to be displayed on web
+  P13. List of Publications
+  P14. 1
+  P15. DR.MUBAH SAFDAR
+  P16. LECTURER
+  P17. BDS
+  P18. Employer: Peshawar Dental College.
+  P19. Designation: Lecturer Periodontology (18th August 2025 till date)
+  P20. Employer: Lady Reading Hospital, MTI, Peshawar.
+  P21. Designation: Trainee Registrar Oral & maxillofacial surgery ( 16th August 2017 to 15th August 2019)
+  P22. Employer: Sardar Begum Dental Hospital
+  P23. Designation: MDS Resident Oral & maxillofacial surgery ( June 2012 to May 2016)
+  P24. ROTATIONAL TMO ENT Unit LRH 01.07.2015 to 31.08.2015
+  P25. ROTATIONAL TMO Surgical “D” Unit LRH
+  P26. 01.09.2015 to 31.10.2015
+  P27. ROTATIONAL TMO Anaesthesia Unit LRH
+  P28. 01.11.2015 to 31.12.2015
+  P29. Odontogenic Myxoma in the maxilla: A report of a rare case
+  P30. Correlation between histopathological features and clinical presentation of oral squamous cell carcinoma
+  P31. *. Not mandatory for female faculty
+
+##########################################################################################
+Periodontology\Dr. Zeeshan.docx
+d:\\projects\\php\\www\\dds\\faculty profile\_extract_facilities\Facilities required to be uploaded on website\Periodontology\Dr. Zeeshan.docx
+tables 1 body_paras 35
+-- table 0 rows=2 --
+  r0 HEADER ['#', 'Name', 'Designation', 'Profile with Photograph*', 'Qualification', 'Professional Experience', 'Any Specific Skill to be displayed on web', 'List of Publications']
+  r1 NAME='Dr. Zeeshan Danish' cols=8
+    QUAL n=2
+     | B.D.S
+     | M.C.P.S
+    EXP n=3
+     | Jan 2017
+     | Till date
+     | (9 years, 6 months)
+    SKILL n=1
+     | Skillful in performing Non-Surgical periodontal therapy as well as Implant placement surgeries, Guided Bone Regenerations and Soft Tissue surgeries.
+    PUB n=12
+     | 1.EFFECT OF NON-SURGICAL PERIODONTAL THERAPY ON GLYCEMIC LEVEL IN TYPE 2 DIABETICS PATIENTS.
+     | 2.MOTIVATION AND SOCIOECONOMIC STATUS AS A FACTOR FOR NOT RESTORING EXISTING EDENTULOUS SPACES IN PARTIALLY DENTATE PATIENTS REPORTING FOR DENTAL EXTRACTION.
+     | 3. FREQUENCY OF GINGIVAL RECESSION AND ITS SEVERITY: A CROSS SECTIONAL STUDY AMONG PATIENTS VISITING PERIODONTICS DEPARTMENT, KHYBER COLLEGE OF DENTISTRY, PESHAWAR.
+     | 5. CHRONIC PERIODONTITIS AND ADVERSE PREGNANCY OUTCOMES: A QUESTIONNAIRE SURVEY REGARDING GYNECOLOGISTS KNOWLEDGE ATTITUDE AND PRACTICE BEHAVIOUR IN TERTIARY CARE HOPSITALS OF PESHAWAR.
+     | 6. POST-ORTHODONTIC PERIODONTAL SURGERY IN THE MANAGEMENT OF EXCESSIVE GINGIVAL DISPLAY. A REVIEW AND CASE REPORTS.
+     | 7.FREQUENCY OF GINGIVITIS AMONG PATIENTS VISITING SARDAR BEGUM DENTAL COLLEGE (SBDC) AND HOSPITAL PESHAWAR.
+     | 8.Validity and Reliability of Periodontal Parameters Measurements.
+     | 9.Practitioners Perspective towards Association Between Periodontal Disease and Systemic Illness.
+     | 10.Knowledge and Perception of Dental Practitioners towards Dental Implant Treatment in Routine Dental Practice.
+     | 11.Comparative Evaluation of Periodontal Parameters and Microbiological Profile in Smokers and Non-Smokers.
+     | 12. PREVALENCE AND CONTRIBUTING FACTORS OF GINGIVAL HYPERPLASIA IN ORTHODONTIC PATIENTS.
+     | 13. Effectiveness of Periodontal Treatment in preventing Periodontal Loss, A cohort study.
+  BODY PARAS (non-table, first 80 nonempty already listed via cells; extra file paras:)
+  P1. Data Required for Website
+  P2. (Summary to be provided by HoD / Unit as per below format and each faculty to be attached as required)
+  P3. Department Name: Periodontology Name of HoD / Unit:Prof. Dr. Kawish Syed
+  P4. Facilities required to be uploaded on website:
+  P5. Faculty details:
+  P6. #
+  P7. Name
+  P8. Designation
+  P9. Profile with Photograph*
+  P10. Qualification
+  P11. Professional Experience
+  P12. Any Specific Skill to be displayed on web
+  P13. List of Publications
+  P14. 3.
+  P15. Dr. Zeeshan Danish
+  P16. Associate Professor
+  P17. B.D.S
+  P18. M.C.P.S
+  P19. Jan 2017
+  P20. Till date
+  P21. (9 years, 6 months)
+  P22. Skillful in performing Non-Surgical periodontal therapy as well as Implant placement surgeries, Guided Bone Regenerations and Soft Tissue surgeries.
+  P23. 1.EFFECT OF NON-SURGICAL PERIODONTAL THERAPY ON GLYCEMIC LEVEL IN TYPE 2 DIABETICS PATIENTS.
+  P24. 2.MOTIVATION AND SOCIOECONOMIC STATUS AS A FACTOR FOR NOT RESTORING EXISTING EDENTULOUS SPACES IN PARTIALLY DENTATE PATIENTS REPORTING FOR DENTAL EXTRACTION.
+  P25. 3. FREQUENCY OF GINGIVAL RECESSION AND ITS SEVERITY: A CROSS SECTIONAL STUDY AMONG PATIENTS VISITING PERIODONTICS DEPARTMENT, KHYBER COLLEGE OF DENTISTRY, PESHAWAR.
+  P26. 5. CHRONIC PERIODONTITIS AND ADVERSE PREGNANCY OUTCOMES: A QUESTIONNAIRE SURVEY REGARDING GYNECOLOGISTS KNOWLEDGE ATTITUDE AND PRACTICE BEHAVIOUR IN TERTIARY CARE HOPSITALS OF PESHAWAR.
+  P27. 6. POST-ORTHODONTIC PERIODONTAL SURGERY IN THE MANAGEMENT OF EXCESSIVE GINGIVAL DISPLAY. A REVIEW AND CASE REPORTS.
+  P28. 7.FREQUENCY OF GINGIVITIS AMONG PATIENTS VISITING SARDAR BEGUM DENTAL COLLEGE (SBDC) AND HOSPITAL PESHAWAR.
+  P29. 8.Validity and Reliability of Periodontal Parameters Measurements.
+  P30. 9.Practitioners Perspective towards Association Between Periodontal Disease and Systemic Illness.
+  P31. 10.Knowledge and Perception of Dental Practitioners towards Dental Implant Treatment in Routine Dental Practice.
+  P32. 11.Comparative Evaluation of Periodontal Parameters and Microbiological Profile in Smokers and Non-Smokers.
+  P33. 12. PREVALENCE AND CONTRIBUTING FACTORS OF GINGIVAL HYPERPLASIA IN ORTHODONTIC PATIENTS.
+  P34. 13. Effectiveness of Periodontal Treatment in preventing Periodontal Loss, A cohort study.
+  P35. *. Not mandatory for female faculty
+
+##########################################################################################
+Periodontology\Prof. Dr. Kawish Syed.docx
+d:\\projects\\php\\www\\dds\\faculty profile\_extract_facilities\Facilities required to be uploaded on website\Periodontology\Prof. Dr. Kawish Syed.docx
+tables 1 body_paras 64
+-- table 0 rows=2 --
+  r0 HEADER ['#', 'Name', 'Designation', 'Profile with Photograph*', 'Qualification', 'Professional Experience', 'Any Specific Skill to be displayed on web', 'List of Publications']
+  r1 NAME='Professor Dr. Kawish Syed' cols=8
+    QUAL n=4
+     | BDS, MCPS (Periodontology)
+     | MFD RCSI
+     | F Perio RCSEd
+     | CHPE KMU
+    EXP n=13
+     | Professor/Head Department Of Periodontology
+     | Peshawar Dental College, Riphah International University, Peshawar Campus,
+     | Pakistan.
+     | July 9, 2026 – Till date.
+     | Professor Department of Periodontology
+     | Peshawar Dental College, Riphah International University, Peshawar Campus,
+     | Pakistan.
+     | Feb 2026- July 8 2026
+     | Associate Professor & Head Department Of Periodontology Gandhara University, Peshawar, Pakistan
+     | Feb 2022 – July 2025
+     | Assistant Professor& Head Department Of Periodontology
+     | Gandhara University, Peshawar, Pakistan
+     | Dec 2014 – Feb 2022
+    SKILL n=10
+     | Special Interest In Health Care Research; 21 Publications In National And International Journals with a cumulative Impact Factor Of 14.4; h- index5, i10- index , 122 Citations
+     | Supervisor for M.sc Periodontology programme Sardar Begum Dental college Gandhara University, Peshawar 2015-2025.
+     | Member of IRB Sardar Begum Dental College, Gandhara University Peshawar.
+     | 2016-2025
+     | Member of infection prevention and control committee, Sardar Begum Dental College Gandhara University, Peshawar
+     | 2018-2020
+     | Reviewer for journals PODJ, JKCD
+     | Attended workshops on Education Planning And Evaluation, Research Methodology And Biomedical Writing, Assessment Of Competence And Supervisory Skills mediated by Who Collaborating Center For Research In Health Professional Education CPSP
+     | Conducted Career Counselling session July 14 2026
+     | at Peshawar Dental College
+    PUB n=21
+     | Comparison of gingival phenotype among adult male naswar users, cigarette smokers and non-tobacco users: a cross-sectional study, Scientific Reports, 2026
+     | Exploring the relationship between climate-related exposures and oral health outcomes in Pakistan: A community-based cross-sectional study, Plos Global Public Health, 2026
+     | Artificial intelligence-powered dentistry: Probing the potential, challenges, and ethicality of artificial intelligence in dentistry, Digital health, 2024
+     | Maintenance of Dental Hygiene in Various Brushing Practices Among Orthodontic Patients with Multi-Bracket Fixed Appliances, FUJD, 2024
+     | Comparative Efficacy Of Chlorhexidine And Sodium Bicarbonate Dentifrices In Plaque And Gingival Inflammation Reduction: A Randomized Controlled Trial, JKCD, 2023.
+     | Frequency of White Spot Lesions after Fixed Appliance Therapy in A Tertiary Care Hospital Of Peshawar, HMDJ, 2023.
+     | Use of personal protective equipment (PPES) by dental health care workers during covid-19 pandemic in khyber pakhtunkhwa. Podj, 2023.
+     | Comparison of plaque removal efficacy of modified bass technique and charter’s technique in orthodontic patients. PJMHS, 2023
+     | Comparison of severity of periodontal clinical parameters among naswar/snuff users: Cross sectional study. PLoS ONE, 2022.
+     | Prevelance of SARS-COV-2 Antibodies in dental health care providers. PJMHS, 2022.
+     | Determination of most frequent emergencies in patients with fixed and removable orthodontic appliances at tertiary care dental hospital. JGMDS, 2022.
+     | Plaque removal efficacy of dental floss compare to water jet following single use. PJMHS, 2021.
+     | Correlation of mandibular incisors proclination and gingival recession in orthodontic patients. POJ, 2021.
+     | Assessing relationship between lip prints, finger prints and different blood groups within the population of Karachi. PJMHS, 2021.
+     | Comparison of posterior tooth angulation in patients with normal bite and deep bite malocclusion. POJ, 2021.
+     | Radiographic assessment of the prevalence of maxillary canine impaction according to sector method- A cross sectional study. POJ, 2021.
+     | Stress level Assessment in Orthodontic Patient Receiving Treatment from three months: A Qausi experimental study. PJMHS, 2019.
+     | Root Resorption 4 months after initiation of fixed orthodontic appliance therapy. PODJ, 2018.
+     | Comparison of Inter Premolar, Molar Widths and Arch Depth among different Malocclusions. PODJ, 2016.
+     | Comparison of the gonial angle measurements on Lateral Cephalogram and both hemispheres of Orthopantomogram. POJ, 2015.
+     | Dental Phobia among Orthodontic Patients of Peshawar. PODJ, 2015.
+  BODY PARAS (non-table, first 80 nonempty already listed via cells; extra file paras:)
+  P1. Data Required for Website
+  P2. (Summary to be provided by HoD / Unit as per below format and each faculty to be attached as required)
+  P3. Department Name: PERIODONTOLOGY Name of HoD / Unit: Professor & Head Dr. Kawish Syed
+  P4. Facilities required to be uploaded on website:
+  P5. Faculty details:
+  P6. #
+  P7. Name
+  P8. Designation
+  P9. Profile with Photograph*
+  P10. Qualification
+  P11. Professional Experience
+  P12. Any Specific Skill to be displayed on web
+  P13. List of Publications
+  P14. Professor Dr. Kawish Syed
+  P15. Professor/Head Department Of Periodontology
+  P16. BDS, MCPS (Periodontology)
+  P17. MFD RCSI
+  P18. F Perio RCSEd
+  P19. CHPE KMU
+  P20. Professor/Head Department Of Periodontology
+  P21. Peshawar Dental College, Riphah International University, Peshawar Campus,
+  P22. Pakistan.
+  P23. July 9, 2026 – Till date.
+  P24. Professor Department of Periodontology
+  P25. Peshawar Dental College, Riphah International University, Peshawar Campus,
+  P26. Pakistan.
+  P27. Feb 2026- July 8 2026
+  P28. Associate Professor & Head Department Of Periodontology Gandhara University, Peshawar, Pakistan
+  P29. Feb 2022 – July 2025
+  P30. Assistant Professor& Head Department Of Periodontology
+  P31. Gandhara University, Peshawar, Pakistan
+  P32. Dec 2014 – Feb 2022
+  P33. Special Interest In Health Care Research; 21 Publications In National And International Journals with a cumulative Impact Factor Of 14.4; h- index5, i10- index , 122 Citations
+  P34. Supervisor for M.sc Periodontology programme Sardar Begum Dental college Gandhara University, Peshawar 2015-2025.
+  P35. Member of IRB Sardar Begum Dental College, Gandhara University Peshawar.
+  P36. 2016-2025
+  P37. Member of infection prevention and control committee, Sardar Begum Dental College Gandhara University, Peshawar
+  P38. 2018-2020
+  P39. Reviewer for journals PODJ, JKCD
+  P40. Attended workshops on Education Planning And Evaluation, Research Methodology And Biomedical Writing, Assessment Of Competence And Supervisory Skills mediated by Who Collaborating Center For Research In Health Professional Education CPSP
+  P41. Conducted Career Counselling session July 14 2026
+  P42. at Peshawar Dental College
+  P43. Comparison of gingival phenotype among adult male naswar users, cigarette smokers and non-tobacco users: a cross-sectional study, Scientific Reports, 2026
+  P44. Exploring the relationship between climate-related exposures and oral health outcomes in Pakistan: A community-based cross-sectional study, Plos Global Public Health, 2026
+  P45. Artificial intelligence-powered dentistry: Probing the potential, challenges, and ethicality of artificial intelligence in dentistry, Digital health, 2024
+  P46. Maintenance of Dental Hygiene in Various Brushing Practices Among Orthodontic Patients with Multi-Bracket Fixed Appliances, FUJD, 2024
+  P47. Comparative Efficacy Of Chlorhexidine And Sodium Bicarbonate Dentifrices In Plaque And Gingival Inflammation Reduction: A Randomized Controlled Trial, JKCD, 2023.
+  P48. Frequency of White Spot Lesions after Fixed Appliance Therapy in A Tertiary Care Hospital Of Peshawar, HMDJ, 2023.
+  P49. Use of personal protective equipment (PPES) by dental health care workers during covid-19 pandemic in khyber pakhtunkhwa. Podj, 2023.
+  P50. Comparison of plaque removal efficacy of modified bass technique and charter’s technique in orthodontic patients. PJMHS, 2023
+  P51. Comparison of severity of periodontal clinical parameters among naswar/snuff users: Cross sectional study. PLoS ONE, 2022.
+  P52. Prevelance of SARS-COV-2 Antibodies in dental health care providers. PJMHS, 2022.
+  P53. Determination of most frequent emergencies in patients with fixed and removable orthodontic appliances at tertiary care dental hospital. JGMDS, 2022.
+  P54. Plaque removal efficacy of dental floss compare to water jet following single use. PJMHS, 2021.
+  P55. Correlation of mandibular incisors proclination and gingival recession in orthodontic patients. POJ, 2021.
+  P56. Assessing relationship between lip prints, finger prints and different blood groups within the population of Karachi. PJMHS, 2021.
+  P57. Comparison of posterior tooth angulation in patients with normal bite and deep bite malocclusion. POJ, 2021.
+  P58. Radiographic assessment of the prevalence of maxillary canine impaction according to sector method- A cross sectional study. POJ, 2021.
+  P59. Stress level Assessment in Orthodontic Patient Receiving Treatment from three months: A Qausi experimental study. PJMHS, 2019.
+  P60. Root Resorption 4 months after initiation of fixed orthodontic appliance therapy. PODJ, 2018.
+
+##########################################################################################
+Prosthodontics\Prosthodontics Facilities required to be uploaded on website.docx
+d:\\projects\\php\\www\\dds\\faculty profile\_extract_facilities\Facilities required to be uploaded on website\Prosthodontics\Prosthodontics Facilities required to be uploaded on website.docx
+tables 1 body_paras 126
+-- table 0 rows=8 --
+  r0 HEADER ['#', 'Name', 'Designation', 'Profile with Photograph*', 'Qualification', 'Professional Experience', 'Any Specific Skill to be displayed on web', 'List of Publications']
+  r1 NAME='Muhammad Raza' cols=8
+    QUAL n=1
+     | BDS, FCPS
+    EXP n=1
+     | 25 years
+    SKILL n=0
+    PUB n=1
+     | 40
+  r2 NAME='Muhammad Sartaj Khan' cols=8
+    QUAL n=1
+     | BDS, FCPS
+    EXP n=1
+     | 26 Years
+    SKILL n=0
+    PUB n=1
+     | 30
+  r3 NAME='Saima Afridi' cols=8
+    QUAL n=1
+     | BDS, FCPS
+    EXP n=1
+     | 5 Years
+    SKILL n=0
+    PUB n=1
+     | 06
+  r4 NAME='Maryam Tahir' cols=8
+    QUAL n=1
+     | BDS, FCPS
+    EXP n=1
+     | 16 Years
+    SKILL n=0
+    PUB n=1
+     | 04
+  r5 NAME='Samia Manzar' cols=8
+    QUAL n=1
+     | BDS
+    EXP n=1
+     | 18 years
+    SKILL n=0
+    PUB n=1
+     | 04
+  r6 NAME='Shazia Raif' cols=8
+    QUAL n=1
+     | BDS
+    EXP n=1
+     | 6 Years
+    SKILL n=0
+    PUB n=1
+     | 00
+  r7 NAME='Ejaz ur Rehman' cols=8
+    QUAL n=1
+     | BDS
+    EXP n=1
+     | 5 Years
+    SKILL n=0
+    PUB n=1
+     | 02
+  BODY PARAS (non-table, first 80 nonempty already listed via cells; extra file paras:)
+  P1. #
+  P2. Name
+  P3. Designation
+  P4. Profile with Photograph*
+  P5. Qualification
+  P6. Professional Experience
+  P7. Any Specific Skill to be displayed on web
+  P8. List of Publications
+  P9. Muhammad Raza
+  P10. Professor
+  P11. BDS, FCPS
+  P12. 25 years
+  P13. 40
+  P14. Muhammad Sartaj Khan
+  P15. Professor
+  P16. BDS, FCPS
+  P17. 26 Years
+  P18. 30
+  P19. Saima Afridi
+  P20. Assistant Professor
+  P21. BDS, FCPS
+  P22. 5 Years
+  P23. 06
+  P24. Maryam Tahir
+  P25. Senior Registrar
+  P26. BDS, FCPS
+  P27. 16 Years
+  P28. 04
+  P29. Samia Manzar
+  P30. Junior Registrar
+  P31. BDS
+  P32. 18 years
+  P33. 04
+  P34. Shazia Raif
+  P35. Lecturer
+  P36. BDS
+  P37. 6 Years
+  P38. 00
+  P39. Ejaz ur Rehman
+  P40. Lecturer
+  P41. BDS
+  P42. 5 Years
+  P43. 02
+  P44. *. Not mandatory for female faculty
+  P45. DR. MUHAMMAD RAZA
+  P46. PUBLICATIONS:
+  P47. Concepts technique & materials used for complete denture impressions by dental house officer. Journal of Pakistan dental association Jan - Mar 2008;17(1):5-11.
+  P48. Dentists experiences, practices & understanding of some design statements regarding mandibular Kennedy class-I removable partial dentures. Journal of Pakistan dental association Apr - Jun 2008;17(2):70-8.
+  P49. Facial fractures in children. Pak oral &dental journal, June 2010,30(1):68-71
+  P50. Patterns of facial fractures in children. Pak oral &dental journal, Dec 2011,31(2):263-265
+  P51. Comparison of mineral trioxide aggregate (MTA) and zinc free amalgam as retrograde filling materials in the surgical endodontics. Pak Oral &Dental Journal, June 2014,34(2):352-354
+  P52. Complications and their severity in patients of conventional metal ceramic fixed dental prosthesis: a clinical study. Pak Oral &Dental Journal, Mar 2015,35(1):155-158
+  P53. Interruption of warfarin before dental surgery. Pak Oral & Dental Journal ,January-march 2016,36(1):22-25
+  P54. Risk factors " for life threatening complications associated with maxillofacial space infections: a clinical study. Journal of dentistry, oral disorders & therapy, June 2016,4(2):1-5
+  P55. Association of patient related factors with new complete denture satisfaction- A study Pakistan Oral & Dental Journal, 2016; 36(3) :498-502
+  P56. The pattern of maxillofacial trauma & its management. Journal of dentistry, oral disorders & therapy Dec 2016,4(4):1-6
+  P57. Evaluation of crown and bridge treatment: patients perspective. International journal of medical research professional, Jan 2017,3(1):101-103
+  P58. Effect of cobalt chromium alloy re use in dentistry on its castability value. Journal of Ayub Medical College, Abbottabad, 2017,29(2):270-274
+  P59. Diagnostic accuracy of clinico-radiological and histological examination in chronic peri-apical pathologies. Pak Oral & Dental Journal June 2017,37(2):238-241
+  P60. Radiographic technical quality of root canal fillings performed by undergraduate dental students. Pak Oral & Dental Journal June 2017, 37(2):355-360
+
+##########################################################################################
+Prosthodontics\Research Publications\DR. MUHAMMAD RAZA PUBLICATIONS.docx
+d:\\projects\\php\\www\\dds\\faculty profile\_extract_facilities\Facilities required to be uploaded on website\Prosthodontics\Research Publications\DR. MUHAMMAD RAZA PUBLICATIONS.docx
+tables 0 body_paras 38
+  P1. DR. MUHAMMAD RAZA
+  P2. PUBLICATIONS:
+  P3. Concepts technique & materials used for complete denture impressions by dental house officer. Journal of Pakistan dental association Jan - Mar 2008;17(1):5-11.
+  P4. Dentists experiences, practices & understanding of some design statements regarding mandibular Kennedy class-I removable partial dentures. Journal of Pakistan dental association Apr - Jun 2008;17(2):70-8.
+  P5. Facial fractures in children. Pak oral &dental journal, June 2010,30(1):68-71
+  P6. Patterns of facial fractures in children. Pak oral &dental journal, Dec 2011,31(2):263-265
+  P7. Comparison of mineral trioxide aggregate (MTA) and zinc free amalgam as retrograde filling materials in the surgical endodontics. Pak Oral &Dental Journal, June 2014,34(2):352-354
+  P8. Complications and their severity in patients of conventional metal ceramic fixed dental prosthesis: a clinical study. Pak Oral &Dental Journal, Mar 2015,35(1):155-158
+  P9. Interruption of warfarin before dental surgery. Pak Oral & Dental Journal ,January-march 2016,36(1):22-25
+  P10. Risk factors " for life threatening complications associated with maxillofacial space infections: a clinical study. Journal of dentistry, oral disorders & therapy, June 2016,4(2):1-5
+  P11. Association of patient related factors with new complete denture satisfaction- A study Pakistan Oral & Dental Journal, 2016; 36(3) :498-502
+  P12. The pattern of maxillofacial trauma & its management. Journal of dentistry, oral disorders & therapy Dec 2016,4(4):1-6
+  P13. Evaluation of crown and bridge treatment: patients perspective. International journal of medical research professional, Jan 2017,3(1):101-103
+  P14. Effect of cobalt chromium alloy re use in dentistry on its castability value. Journal of Ayub Medical College, Abbottabad, 2017,29(2):270-274
+  P15. Diagnostic accuracy of clinico-radiological and histological examination in chronic peri-apical pathologies. Pak Oral & Dental Journal June 2017,37(2):238-241
+  P16. Radiographic technical quality of root canal fillings performed by undergraduate dental students. Pak Oral & Dental Journal June 2017, 37(2):355-360
+  P17. Occlusal Splint Therapy In The Treatment of Myofacial Pain Dysfunction Syndrome (MPDs). Pak Oral & Dental Journal, April- June 2018,38(2): 274-277
+  P18. Association Of Lateral Excursive Contacts Schemes With Demographic Characteristics and Static Occlusal Relation. Pak Oral & Dental Journal, April-June,2019, 39(2): 222-226
+  P19. Prosthetic Status and Needs in Patients Visiting Dental Teaching Hospitals of Peshawar. The Professional Medical Journal. 2019; 26(11):1835-1843.
+  P20. A comparative in- vitro study on weight change of conventional glass ionomer, resin modified glass ionomer cement and composite resin. JKCD 2019; 9(4):72-78
+  P21. Comparison of the Coronal Marginal Micro leakage Of Tooth Colored Restorative Materials. The Professional Medical Journal.2020;27(1):11-15
+  P22. Occlusal plane evaluation in dentate patients for complete denture prosthodontic practice. A clinical study. Journal of Ayub Medical College, Abbottabad . 2020;32(1):54-57
+  P23. Comparison of flexural strength of Zinc nanoparticles reinforced resin with conventional heat cure acrylic resin. Pak Oral Dent J 2020; 40(1):51-54
+  P24. A Comparative study of oral health in preclinical and clinical years of undergraduate dental students of Peshawar by using DMFT index. Professional Med J 2020; 27(7):1340-1345.
+  P25. Risk factors for temporomandibular disorders symptoms in private clinics patients at Peshawar. J Khyber Coll Dentistry 2020; 10(4):60-66
+  P26. Comparison of iatrogenic proximal surface damage during abutment preparation by different group of Practitioners. Pak Oral Dent J 2021; 41(2):106-110
+  P27. Antibacterial Efficacy of Silver Nanoparticles Impregnated Calcium Hydroxide: An in Vitro Study. Journal of Pakistan dental association 2022;31(1):1-4
+  P28. Practitioner's Perspective of Personal Protection against COVID-19 during Prosthodontics Rehabilitation. Pakistan BioMedical Journal, 2022; 5(7).
+  P29. Evaluation of Palatal Rugae in Patients for Maxillary Dental Prostheses. Pakistan Journal of Health Sciences,2022; 3(05).
+  P30. Frequency of Various Grades of Failure and Their Number of Units Involved in Non Maintained Metal Ceramic Fixed Dental Prosthesis. Pakistan Journal of Health Sciences,2022; 3(05).
+  P31. Evaluation of Patient Satisfaction with Fixed Prosthodontic Therapy Visiting Prosthodontic Department of a Teaching Dental Hospital. Pakistan Journal of Health Sciences,2022; 3(06).
+  P32. Assessment of Supraeruption of Teeth Affecting Prosthodontic Rehabilitation in Different Segments of Opposing Arch. Pakistan Journal of Health Sciences,2022; 3(04).
+  P33. Fabrication and Optimization of Essential-Oil-Loaded Nanoemulsion Using Box–Behnken Design against Staphylococos aureus and Staphylococos epidermidis Isolated from Oral Cavity. Pharmaceutics 2022, 14, 1640
+  P34. Effects of Microwave and Light Emitting Diode as Disinfection Methods on the Dimensional Stability of Polymethyl Methacrylate and Polyamide Denture Base Resin. JIIMC 2022 ; 17, 4:274-9
+  P35. Antifungal effect of silver nano particles coating on denture base specimens made of acrylic resin. J Pak Dent Assoc 2022;31(2):59-64.
+  P36. Knowledge and Perception of Dental Practitioners Towards Dental Implant Treatment in Routine Dental Practice. Med Forum 2023;34(1): 91-95
+  P37. Determination of Preferences and Practices of Fixed Prosthodontics Treatment Modalities by Dental Practitioners. Med Forum 2023;34(2):30-34.
+  P38. Determination of Preferences and Practices of Fixed Prosthodontics Treatment Modalities by Dental Practitioners. Med Forum 2023;34(2):30-34.
+
+##########################################################################################
+Prosthodontics\Research Publications\Dr. Muhammad Sartaj Research Publications.docx
+d:\\projects\\php\\www\\dds\\faculty profile\_extract_facilities\Facilities required to be uploaded on website\Prosthodontics\Research Publications\Dr. Muhammad Sartaj Research Publications.docx
+tables 0 body_paras 31
+  P1. DR. MUHAMMAD SARTAJ RESEARCH PUBLICATIONS
+  P2. Dentists knowledge attitude and practice for preparing a sound maxillary premolar for a fixed dental prosthesis, Journal Postgraduate Medical Institute, Vol 23(3), 2009, Mohammad Sartaj Khan, Fazal Ghani
+  P3. A review of classification systems for cleft lip and palate patients- i. Morphological classifications, Journal of Khyber College of Dentistry, Vol 1(2) June, 2011, Syed Nasir Shah, Mariya Khalid, Mohammad Sartaj Khan
+  P4. A review of classification systems for cleft lip and palate patients’ ii. Embryological classifications, Journal of Khyber College of Dentistry, Vol 2(2) June,2012, Syed Nasir Shah, Mariya Khalid, Mohammad Sartaj Khan
+  P5. The effect of salivation status and denture wearing on oral candidal activity of the patient, Pakistan Oral Dental Journal, Vol 33(1) April, 2013, Muhammad Ali Chughtai, Amjid Naseer, Mohammad Sartaj Khan
+  P6. Association of patient related factors with new complete dentures satisfaction — a study, Pakistan Oral Dental Journal, Vol 36(3) July-September 2016, Fahimullah, Mohammad Raza, Mohammad Sartaj Khan, Sadia Ikram
+  P7. Elephant tusk dentine: a scanning electron Microscopy study, Pakistan Oral Dental Journal, Vol 33(1) April, 2013, Amjid Naseer, Muhammad Ali Chughtai, Tahir Ali Khan, Mohammad Sartaj Khan
+  P8. Evaluation of crown and bridge treatment: patients perspective. International Journal of Medical Research Professional. Vol 3(1) 2017. Muhammad Sartaj Khan, Muhammad Raza, Azhar Iqbal, Muhammad Ali Chughtai
+  P9. Its castability value, Journal of Ayub Medical College, Vol 29(2) 2017, Mehreen Imran, Muhammad Raza, Muhammad Sartaj Khan, Yousaf Hayat
+  P10. The factors responsible for the failure of direct composite restoration in patients reported to College of Dentistry, Al Jouf University. International Medical Journal. Vol 24(6) December 2017. Azhar Iqbal, Muhamamd Sartaj Khan, Ansar Maqsood, Santosh Patil, Rayan Okla Alswulim, Mohamme Khurshid Alam
+  P11. A survey on patient satisfaction following dental implant therapy in college of Dentistry- Al Jouf University. International Medical Journal. Vol 25(5) Oct 2018. Vinod Bandela, Azhar Iqbal, Fahimullah, Muhmmad Sartaj Khan, Hussam ML Aruaily, Majid AA Alenazy
+  P12. Biometric analysis of palatal rugae in northern region of Saudi Arabia. International Journal of Innovative Sciences and Research technology. Vol 3, (4)April 2018. Farahnaz Muddebihal, Muhammad Sartaj Khan, Mohammad Anwarulhaque Chand, Salman AlShariri, Abdullah Almajhad, Metab Albalawe
+  P13. Bite force evaluation in complete denture wearer with different denture base materials: A randomized controlled clinical trial. Journal of International Society of Preventive and Community Dentistry. Vol 8, (5)Sep-Oct 2018. Mostafa Alfayyad, Hussam HT Alruwaili, Muhammad Sartaj Khan, Muhammad Nadeem Baig
+  P14. Risk factors associated with cervical caries in patients reported to college of Dentistry, Al Jouf University. International Medical Journal (Japan). Vol 25(2) April 2018. Azhar Iqbal, Muhammad Sartaj Khan, Santosh Patel, Ansar Maqsood, Karim Alonazy, Abdullah H Albedaiwi
+  P15. Association of lateral excursive contacts schemes with demographic characteristics and static occlusal relation. Pakistan Oral and Dental Journal. Vol 39(2) April-June 2019. Nuzhat Ayub, Muhammad Raza, Mohammad Sartaj Khan
+  P16. Risk factors of Temporomandibular Disorders symptoms in Private Clinics Patients at Peshawar. Journal of Khyber College of Dentistry. Vol 10(4) December 2020. Nuzhat Ayub, Mohammad Sartaj Khan, Muhammad Raza
+  P17. Association of pathological activity of oral candida and denture wearing habit in denture wearers. Journal of Postgraduate Institute JPMI. Vol 27(1) 2013. Mohammad Ali Chughtai, Amjid Naseer, Fazal Ghani, Mohammad Sartaj Khan
+  P18. Comparison of Iatrogenic Proximal Surface Damage During Abutment Preparation By Different Groups Of Practitioner. Pakistan Oral and Dental Journal. Vol 41(2) 2021. Mohammad Sartaj khan, Nuzhat Ayub
+  P19. Practitioners Perspective of Personal Protection against COID during Prosthodontics Rehabilitation Pakistan Biomedical Journal Vol5(7) 2022 Hassan Khan, Mohammad Sartaj Khan
+  P20. Assessment of Supraeruption of Teeth Affecting Prosthodontic Rehabilitation in Different Segments of Opposing Arch Pakistan Journal of Health Sciences Vol 3(4) 2022 Mohammad Sartaj Khan, Mohammad Raza
+  P21. Evaluation of Palatal Rugae in Patients for Maxillary Dental Prostheses Pakistan Journal of Health Sciences Vol 3(5) Oct;22 Mohammad Sartaj Khan
+  P22. Frequency of Various Grades of Failure and their Number of Units Involved in Non-maintained Metal Ceramic Fixed Partial Denture Pakistan Journal of Health Sciences Vol 3(5) Oct;22 Mohammad Sartaj Khan
+  P23. Evaluation of Patient Satisfaction with Fixed Prosthodontics Therapy Visiting Prosthodontics Department of a Teaching Dental Hospital Pakistan Journal of Health Sciences Vol 3(6) November 22 Mohammad Sartaj Khan
+  P24. Correlation of Interalar Width and Maxillary Intercanine Width in Dentate Subjects of Gandhara University Peshawar Journal of Khyber College of Dentistry Vol 12(3) September 2022 Muhammad Sartaj Khan
+  P25. Inadequate Fixed Prosthesis Design Affecting the Periodontal Health Pakistan Journal of Health Sciences Vol 3(7), December 2022 Mohammad Sartaj Khan, Mahirah Iqbal
+  P26. Knowledge and Perception of Dental Practitioners towards Dental Implant Treatment in Routine Dental Practice, Medical Forum, January 2023 Vol 34(1, Mohammad Sartaj Khan
+  P27. Determination of Preferences and Practices of Fixed Prosthodontics Treatment Modalities by Dental Practitioners, Medical Forum, February 2023, Vol 34(2), Mohammad Sartaj Khan
+  P28. Determination of aetiology for delaying replacement of teeth in partially edentulous arches Prosthodontically, Medical Forum, September, 2023, Vol 34(9), Muhammad Sartaj Khan
+  P29. Crowns and Bridges Failure: Reasons and Type of Disassembly, Journal of Saidu Medical College, Swat, 2024;14(3):214-217, Muhammad Sartaj Khan
+  P30. Fixed Partial Denture Failure: Types of Failure in Non-Maintained Metal Ceramic Fixed Dental Prosthesis in the Different Location of Arches. Journal of Saidu Medical College, Swat, 2024;14(3):144-147, Muhammad Sartaj Khan
+  P31. Determining the Dental Hygiene of removable prostheses from patient perspective, Life & Science, 2025, Vol. 6(1), Muhammad Sartaj Khan
+
+##########################################################################################
+Prosthodontics\Research Publications\Dr. Saima RESEARCH PAPERS.docx
+d:\\projects\\php\\www\\dds\\faculty profile\_extract_facilities\Facilities required to be uploaded on website\Prosthodontics\Research Publications\Dr. Saima RESEARCH PAPERS.docx
+tables 0 body_paras 8
+  P1. Dr. Saima Afridi
+  P2. RESEARCH PAPERS
+  P3. Saima, Khan AU, Khan MS, Raza M, Zubair N, Manzar S, et al Fixed partial denture failure: Types of failure in non- maintained metal-ceramic fixed dental prostheses in the different locations of arches J Saidu Med Coll Swat. 2024;14(3):144-147. DOI: https://doi.org/10.52206/jsmc.2024.14.3.916
+  P4. Saima, Khan MS, Raza M. Determining the dental hygiene of removable prostheses from the patient's perspective Life andScience.2025;6(1): 76- 80.doi:http://doi.org/10.37185/LnS.1.1.638.
+  P5. Afridi, S. ., Khan, S. ., Raza, M. ., Khan, A. ., Khan, H. ., & Zubair, N. . (2022). Frequency of Various Grades of Failure and Their Number of Units Involved in Non Maintained Metal Ceramic Fixed Dental Prosthesis: Non Maintained Metal Ceramic Fixed Dental Prosthesis. Pakistan Journal of Health Sciences, 3(05). https://doi.org/10.54393/pjhs.v3i05.205.
+  P6. Khan,M.S..,Raza,M..,Khan,H..,Zubair,N..,Ur Rahman, E. ., & Afridi, S. . (2022). Assessment of Supraeruption of Teeth Affecting Prosthodontics Rehabilitation in Different Segments of Opposing Arch: Assessment of supraeruption of teeth. Pakistan Journal of Health Sciences, 3(04). https://doi.org/10.54393/pjhs.v3i04.131.
+  P7. Sartaj khan, M. ., Raza, M. ., Tahir, M. ., Afridi, S. ., & Manzar, S. . (2022). Practitioner's Perspective of Personal Protection Against COVID-19 During Prosthodontics Rehabilitation: Personal Protection against COVID-19 during Prosthodontics Rehabilitation. Pakistan BioMedical Journal, 5(7). https://doi.org/10.54393/pbmj.v5i7.601.
+  P8. Wisal G, Shakir S, Saboor A, Saima, Nawaz S, and Kumari C. Frequency and patterns of inappropriate maxillary incisor abutment preparation for metal-ceramic retainers in fixed dental prostheses: A cross-sectional study J Saidu Med Coll. 2025;15(4):516–521
+
+##########################################################################################
+Prosthodontics\Research Publications\Samia_Manzar_Prosthodontics_Publications (1).docx
+d:\\projects\\php\\www\\dds\\faculty profile\_extract_facilities\Facilities required to be uploaded on website\Prosthodontics\Research Publications\Samia_Manzar_Prosthodontics_Publications (1).docx
+tables 1 body_paras 26
+-- table 0 rows=5 --
+  r0 NAME='Article Title' cols=5
+    c0 n=1 text='Year'
+     | Year
+    c1 n=1 text='Article Title'
+     | Article Title
+    c2 n=1 text='Authors'
+     | Authors
+    c3 n=1 text='Journal'
+     | Journal
+    c4 n=1 text='APA 7 Citation'
+     | APA 7 Citation
+  r1 NAME='Evaluation of Palatal Rugae in Patients for Maxillary Dental Prostheses' cols=5
+    c0 n=1 text='2022'
+     | 2022
+    c1 n=1 text='Evaluation of Palatal Rugae in Patients for Maxillary Dental Prostheses'
+     | Evaluation of Palatal Rugae in Patients for Maxillary Dental Prostheses
+    c2 n=1 text='Khan, M. S.; Raza, M.; Tahir, M.; Manzar, S.'
+     | Khan, M. S.; Raza, M.; Tahir, M.; Manzar, S.
+    c3 n=1 text='Pakistan Journal of Health Sciences'
+     | Pakistan Journal of Health Sciences
+    c4 n=1 text='Khan, M. S., Raza, M., Tahir, M., & Manzar, S. (2022). Evaluation of palatal rugae in patients for maxillary dental pros'
+     | Khan, M. S., Raza, M., Tahir, M., & Manzar, S. (2022). Evaluation of palatal rugae in patients for maxillary dental prostheses. Pakistan Journal of Health Sciences, 3(5). https://doi.org/10.54393/pjhs.v3i05.240
+  r2 NAME='Practitioner’s Perspective of Personal Protection Against COVID-19 During Prosthodontics Rehabilitation' cols=5
+    c0 n=1 text='2022'
+     | 2022
+    c1 n=1 text='Practitioner’s Perspective of Personal Protection Against COVID-19 During Prosthodontics Rehabilitation'
+     | Practitioner’s Perspective of Personal Protection Against COVID-19 During Prosthodontics Rehabilitation
+    c2 n=1 text='Khan, H.; Khan, M. S.; Raza, M.; Tahir, M.; Afridi, S.; Manzar, S.'
+     | Khan, H.; Khan, M. S.; Raza, M.; Tahir, M.; Afridi, S.; Manzar, S.
+    c3 n=1 text='Pakistan BioMedical Journal'
+     | Pakistan BioMedical Journal
+    c4 n=1 text='Khan, H., Khan, M. S., Raza, M., Tahir, M., Afridi, S., & Manzar, S. (2022). Practitioner’s perspective of personal prot'
+     | Khan, H., Khan, M. S., Raza, M., Tahir, M., Afridi, S., & Manzar, S. (2022). Practitioner’s perspective of personal protection against COVID-19 during prosthodontics rehabilitation. Pakistan BioMedical Journal, 5(7), 206–211. https://doi.org/10.54393/pbmj.v5i7.601
+  r3 NAME='Fixed Partial Denture Failure: Types of Failure in Non Maintained Metal Ceramic Fixed Dental Prosthesis in the Different Location of Arches' cols=5
+    c0 n=1 text='2024'
+     | 2024
+    c1 n=1 text='Fixed Partial Denture Failure: Types of Failure in Non Maintained Metal Ceramic Fixed Dental Prosthesis in the Different'
+     | Fixed Partial Denture Failure: Types of Failure in Non Maintained Metal Ceramic Fixed Dental Prosthesis in the Different Location of Arches
+    c2 n=1 text='Saima; Khan, A. U.; Khan, M. S.; Raza, M.; Zubair, N.; Manzar, S.; Khan, H.'
+     | Saima; Khan, A. U.; Khan, M. S.; Raza, M.; Zubair, N.; Manzar, S.; Khan, H.
+    c3 n=1 text='Journal of Saidu Medical College'
+     | Journal of Saidu Medical College
+    c4 n=1 text='Saima, Khan, A. U., Khan, M. S., Raza, M., Zubair, N., Manzar, S., & Khan, H. (2024). Fixed partial denture failure: Typ'
+     | Saima, Khan, A. U., Khan, M. S., Raza, M., Zubair, N., Manzar, S., & Khan, H. (2024). Fixed partial denture failure: Types of failure in non maintained metal ceramic fixed dental prosthesis in the different location of arches. Journal of Saidu Medical College, 14(3), 144–147. https://doi.org/10.52206/jsmc.2024.14.3.916
+  r4 NAME='Comparative Study of Patient Satisfaction with Implant-Retained vs. Conventional Overdentures' cols=5
+    c0 n=1 text='2024'
+     | 2024
+    c1 n=1 text='Comparative Study of Patient Satisfaction with Implant-Retained vs. Conventional Overdentures'
+     | Comparative Study of Patient Satisfaction with Implant-Retained vs. Conventional Overdentures
+    c2 n=1 text='Shakir, S.; Rafique, J.; Manzar, S.; Ajmal, T.; Usmani, A.'
+     | Shakir, S.; Rafique, J.; Manzar, S.; Ajmal, T.; Usmani, A.
+    c3 n=1 text='Journal of Population Therapeutics and Clinical Pharmacology'
+     | Journal of Population Therapeutics and Clinical Pharmacology
+    c4 n=1 text='Shakir, S., Rafique, J., Manzar, S., Ajmal, T., & Usmani, A. (2024). Comparative study of patient satisfaction with impl'
+     | Shakir, S., Rafique, J., Manzar, S., Ajmal, T., & Usmani, A. (2024). Comparative study of patient satisfaction with implant-retained vs. conventional overdentures. Journal of Population Therapeutics and Clinical Pharmacology, 31(11), 2346–2352. https://doi.org/10.53555/qyrd5152
+  BODY PARAS (non-table, first 80 nonempty already listed via cells; extra file paras:)
+  P1. Publications Samia Manzar
+  P2. Year
+  P3. Article Title
+  P4. Authors
+  P5. Journal
+  P6. APA 7 Citation
+  P7. 2022
+  P8. Evaluation of Palatal Rugae in Patients for Maxillary Dental Prostheses
+  P9. Khan, M. S.; Raza, M.; Tahir, M.; Manzar, S.
+  P10. Pakistan Journal of Health Sciences
+  P11. Khan, M. S., Raza, M., Tahir, M., & Manzar, S. (2022). Evaluation of palatal rugae in patients for maxillary dental prostheses. Pakistan Journal of Health Sciences, 3(5). https://doi.org/10.54393/pjhs.v3i05.240
+  P12. 2022
+  P13. Practitioner’s Perspective of Personal Protection Against COVID-19 During Prosthodontics Rehabilitation
+  P14. Khan, H.; Khan, M. S.; Raza, M.; Tahir, M.; Afridi, S.; Manzar, S.
+  P15. Pakistan BioMedical Journal
+  P16. Khan, H., Khan, M. S., Raza, M., Tahir, M., Afridi, S., & Manzar, S. (2022). Practitioner’s perspective of personal protection against COVID-19 during prosthodontics rehabilitation. Pakistan BioMedical Journal, 5(7), 206–211. https://doi.org/10.54393/pbmj.v5i7.601
+  P17. 2024
+  P18. Fixed Partial Denture Failure: Types of Failure in Non Maintained Metal Ceramic Fixed Dental Prosthesis in the Different Location of Arches
+  P19. Saima; Khan, A. U.; Khan, M. S.; Raza, M.; Zubair, N.; Manzar, S.; Khan, H.
+  P20. Journal of Saidu Medical College
+  P21. Saima, Khan, A. U., Khan, M. S., Raza, M., Zubair, N., Manzar, S., & Khan, H. (2024). Fixed partial denture failure: Types of failure in non maintained metal ceramic fixed dental prosthesis in the different location of arches. Journal of Saidu Medical College, 14(3), 144–147. https://doi.org/10.52206/jsmc.2024.14.3.916
+  P22. 2024
+  P23. Comparative Study of Patient Satisfaction with Implant-Retained vs. Conventional Overdentures
+  P24. Shakir, S.; Rafique, J.; Manzar, S.; Ajmal, T.; Usmani, A.
+  P25. Journal of Population Therapeutics and Clinical Pharmacology
+  P26. Shakir, S., Rafique, J., Manzar, S., Ajmal, T., & Usmani, A. (2024). Comparative study of patient satisfaction with implant-retained vs. conventional overdentures. Journal of Population Therapeutics and Clinical Pharmacology, 31(11), 2346–2352. https://doi.org/10.53555/qyrd5152
+
+##########################################################################################
+Science of Dental Materials\faculty update department of dental materials (1).docx
+d:\\projects\\php\\www\\dds\\faculty profile\_extract_facilities\Facilities required to be uploaded on website\Science of Dental Materials\faculty update department of dental materials (1).docx
+tables 1 body_paras 79
+-- table 0 rows=5 --
+  r0 HEADER ['', 'Name', 'Designation', 'Profile with photograph', 'Qualification', 'Professional Experience', 'Any specific skills to be displayed on web', 'List of Publications']
+  r1 NAME='Amjad Hanif' cols=8
+    QUAL n=1
+     | BDS, MSc, PhD
+    EXP n=1
+     | Fifteen years teaching experience
+    SKILL n=1
+     | -------
+    PUB n=15
+     | Synthesis and characterization of antimicrobial polymer containing silver nanoparticles, (2012) Pakistan Oral & Dental Journal, 32(3)
+     | Impression techniques and materials used for fabrication of complete denture. a survey. (2014) Pakistan Oral and Dental Journal, 34(1).
+     | The oral hygiene practices of Pakistanis in Riyadh Saudi Arabia. (2013) Pakistan Oral & Dental Journal, 33.
+     | Effect on hardness of reused cast cobalt chrome alloy using flame centrifuge casting method. (2019) Pakistan Oral & Dental Journal, 39(4).
+     | Comparison of endodontic sealers in terms of their sealing ability (2015) Pakistan Oral & Dental Journal, 35(1).
+     | Hanif, A. (2020). Fracture Toughness of Resin Based Composites, Impregnated with Silver Nanoparticles and Bioactive Glass. JPDA, 29(04), 180.
+     | Hanif, A., & Ghani, F. (2020). Mechanical properties of an experimental resin based composite containing silver nanoparticles and bioactive glass. Pakistan Journal of Medical Sciences, 36(4), 776.
+     | Hanif, A. (2020). Diametral tensile and compressive strength of resin based composite containing bioactive glasses and silver nanoparticles. Pakistan Oral & Dental Journal, 40(4), 260-265.
+     | Effect of immersion and incorporation of polyvinyl chloride on the flexural strength and hardness of polymethyl methacrylate denture base resin. Journal of Khyber Medical University
+     | Akram S, Fahimullah, Ayub N, Hanif A, (2022). A comparative study of the flexural strength of maxillary denture bases made in conventional and high impact heat cure acrylic resin. Khyber Medical University Journal 14 (1).
+     | Antibacterial efficacy of silver nanoparticles impregnated calcium hydroxide: An in vitro study. Journal of Pakistan Dental Association, 31(1), 1-4
+     | Khan AH, Hanif A, Ilyas S, Khattak SH, Hanan A, Hussain S, Ullah I. Effect of PH and Powder to Liquid Ratio on the Solubility of a Conventional Glass Ionomer Luting Cement. Pakistan Journal of Medical & Health Sciences. 2022 Aug 22;16(06):786-.
+     | Rehman H, Raza M, Hanif A, Effect of microwave and light emitting diode as disinfection method on the dimensional stability of polymethylmethacrylate and polyamide denture base resins. JIIMC 2022. 17(4)
+     | Effect of pouring time on dimensional changes in irreversible hydrocolloid impression material after treatment with disinfectant PODJ, 2022.12(4)
+     | Assessment of polymerization shrinkage in resin based composite impregnated with cellulose nanocrystals. PODJ, 2022, 42(4)
+  r2 NAME='Hina Rehman' cols=8
+    QUAL n=1
+     | BDS, MPhil
+    EXP n=1
+     | Eight years teaching experience
+    SKILL n=0
+    PUB n=20
+     | 1. Effects of Microwave and Light Emitting Diode as Disinfection Methods on the Color Stability of Polymethyl Methacrylate and Polyamide Denture Base Resins: Disinfection Effects …
+     | H Rehman, M Raza, A Hanif, Z Riaz, M Imran, A Hameed
+     | Journal of Postgraduate Medical Institute 38 (4)
+     | 2. ASSESSMENT OF POLYMERIZATION SHRINKAGE IN RESIN BASED COMPOSITE IMPREGNATED WITH VARIOUS CONCENTRATION OF CELLULOSE NANOCRYSTALS
+     | FK Bangash, A Hanif, M Imran, H Rehman
+     | Pakistan Oral & Dental Journal 42 (4), 209-214
+     | 3. In Vitro Assessment of Antifungal Property of Azadirachta Indica (Neem) Modified Heat-Cured Polymethyl Methacrylate Resin Denture Base Material After Water Storage
+     | N Saeed, M Imran, S Khan, H Rehman, I Khan, K Khan
+     | Annals of Punjab Medical College 18 (4), 289-294
+     | 4. Synthesis, Characterization, and Biological Evaluation of Zinc and Boron Oxide-Modified Bioactive Glass for Dental Applications
+     | M Imran, S Khalid, H Rehman, M Ejaz, BZ Babar, A Khan, N Muhammad, ...
+     | Journal of Saidu Medical College Swat 14 (3), 176-186
+     | 5. EFFECT OF POURING TIME ON DIMENSIONAL CHANGES IN IRREVERSIBLE HYDROCOLLOID IMPRESSION MATERIAL AFTER TREATMENT WITH DISINFECTANT
+     | A Hanif, M Imran, H Rehman, Z Riaz, M Muhammad, Z ur Rehman
+     | Journal of Khyber College of Dentistry 12 (04), 68-73
+     | 6. COMPARISON OF IMPACT STRENGTH OF MICROCRYSTALLINE CELLULOSE REINFORCED DENTURE BASE ACRYLIC RESIN WITH AND WITHOUT THERMOCYCLING. (2025). Frontier in Medical and Health Research, 3(7), 1215-1231. https://fmhr.net/index.php/fmhr/article/view/1221
+     | 7. Effects of Disinfection Methods on Dimensions of Base Resins ORIGINALARTICLE Effects of Microwave and Light Emitting Diode as Disinfection Methods on the Dimensional Stability of Polymethyl Methacrylate and Polyamide Denture Base Resin
+     | Hina Rehman , Muhammad Raza , Amjad Hanif , Mehreen Imran , Zia-Ur Rehman Khalil , Salman Khan , Nida Saeed ,Zudia Riaz JIIMC 2022 Vol. 17, No.4
+     | 8. Impact of Number of Exposed Carious Lesions as Reason for Pain or Tooth Extraction on Quality of Life of Children Aged 7-16 Years Attending Tertiary Care Hospitals in Peshawar.
+     | IHTESHAM-UD-DIN, A. K., IFTIKHAR, A., YOUSAF, M., KHAN, O. N., & REHMAN, H. (2021). https://pjmhsonline.com/pjmhs/issue/view/11
+  r3 NAME='Zudia Riaz' cols=8
+    QUAL n=1
+     | BDS, MPhil
+    EXP n=1
+     | Five years teaching experience in department of dentalmaterials
+    SKILL n=0
+    PUB n=13
+     | 1.Antibacterial efficacy of silver nanoparticles impregnated calcium hydroxide.2022.jan 1:31(1)
+     | 2. Antifungal effect of silver nanoparticles coating on denture base specimens made of acrylic resin.
+     | 3. Radiographic location of mental foramen in dentate adults visiting dental hospitals of peshawar . JPDA. 2022.Jan.1: 31(1)
+     | 4. Comparative study of the flexural strength of maxillary denture bases made in conventional and high impact heat cure acrylic resin. Khyber Medical University Journal. 2022 Mar 31;14(1):38-41.
+     | 5. Effects of Microwave and Light Emitting Diode as Disinfection Methods on the Dimensional Stability of Polymethyl Methacrylate and Polyamide Denture Base Resin: Effects of Disinfection Methods on Dimensions of Base Resins. Journal of Islamic International Medical College (JIIMC). 2022 Dec 30;17(4):274-9.
+     | 6. Effect of pouring time on dimensional changes in irreversible hydrocolloid impression material after treatment with disinfectant. Journal of Khyber College of Dentistry. 2022 Dec 31;12(04):68-73.
+     | 7. Development and characterization of novel dental composites using locally sourced materials in Pakistan. Cureus. 2024 Nov 23;16(11).
+     | 8. Effects of Microwave and Light Emitting Diode as Disinfection Methods on the Color Stability of Polymethyl Methacrylate and Polyamide Denture Base Resins: Disinfection Effects on Color of Dentures. Journal of Postgraduate Medical Institute. 2024 Dec 31;38(4).
+     | 9. Analysing the efficacy of mineral trioxide aggregate versus dentine as direct pulp capping agents in permanent teeth with severe carious lesions
+     | 10. The impact of common drinks on composite resins' mechanical properties. Journal of Shifa Tameer-e-Millat University. 2025 Oct 24;8(1):22-6.
+     | 11. Effect of different surface treatments on the shear bond strength of zirconia based crowns cemented with self adhesive resin cements: an experimental study conducted in tertiary care dental institutes of Pakistan.
+     | 12. Comparative evaluation of the mechanical properties and fluoride release of conventional glass ionomer cement and bulk fill composites in permanent posterior restorations in a Pakistani population.
+     | 13. The effect of bioactive restorative materials on oral microbiome and gingival health: a cross-sectional study. journal of khyber college of dentistry. 2026 Jun 30;16(02):8-12.
+  r4 NAME='Mah Rukh' cols=8
+    QUAL n=1
+     | BDS, MPhil. Scholar
+    EXP n=1
+     | Four Years Teaching Experience in department of dental materials
+    SKILL n=0
+    PUB n=3
+     | 1.Role of Nanoparticles as a Diagnostic and Therapeutic Tool in Oral Cancer: A Systematic Review.(2025) Oct,3:6(3)
+     | 2.Effects of Microwave and Light Emitting Diode as Disinfection Methods on the Color Stability of Polymethyl Methacrylate and Polyamide Denture Base Resins.2024,Dec, 31:38(4)
+     | 3.Effect of pouring time on dimensional changes in irreversible hydrocolloid impression material after treatment with disinfectant.(2022) Dec 31: 12(4)
+  BODY PARAS (non-table, first 80 nonempty already listed via cells; extra file paras:)
+  P1. Name
+  P2. Designation
+  P3. Profile with photograph
+  P4. Qualification
+  P5. Professional Experience
+  P6. Any specific skills to be displayed on web
+  P7. List of Publications
+  P8. 1
+  P9. Amjad Hanif
+  P10. Professor
+  P11. BDS, MSc, PhD
+  P12. Fifteen years teaching experience
+  P13. -------
+  P14. Synthesis and characterization of antimicrobial polymer containing silver nanoparticles, (2012) Pakistan Oral & Dental Journal, 32(3)
+  P15. Impression techniques and materials used for fabrication of complete denture. a survey. (2014) Pakistan Oral and Dental Journal, 34(1).
+  P16. The oral hygiene practices of Pakistanis in Riyadh Saudi Arabia. (2013) Pakistan Oral & Dental Journal, 33.
+  P17. Effect on hardness of reused cast cobalt chrome alloy using flame centrifuge casting method. (2019) Pakistan Oral & Dental Journal, 39(4).
+  P18. Comparison of endodontic sealers in terms of their sealing ability (2015) Pakistan Oral & Dental Journal, 35(1).
+  P19. Hanif, A. (2020). Fracture Toughness of Resin Based Composites, Impregnated with Silver Nanoparticles and Bioactive Glass. JPDA, 29(04), 180.
+  P20. Hanif, A., & Ghani, F. (2020). Mechanical properties of an experimental resin based composite containing silver nanoparticles and bioactive glass. Pakistan Journal of Medical Sciences, 36(4), 776.
+  P21. Hanif, A. (2020). Diametral tensile and compressive strength of resin based composite containing bioactive glasses and silver nanoparticles. Pakistan Oral & Dental Journal, 40(4), 260-265.
+  P22. Effect of immersion and incorporation of polyvinyl chloride on the flexural strength and hardness of polymethyl methacrylate denture base resin. Journal of Khyber Medical University
+  P23. Akram S, Fahimullah, Ayub N, Hanif A, (2022). A comparative study of the flexural strength of maxillary denture bases made in conventional and high impact heat cure acrylic resin. Khyber Medical University Journal 14 (1).
+  P24. Antibacterial efficacy of silver nanoparticles impregnated calcium hydroxide: An in vitro study. Journal of Pakistan Dental Association, 31(1), 1-4
+  P25. Khan AH, Hanif A, Ilyas S, Khattak SH, Hanan A, Hussain S, Ullah I. Effect of PH and Powder to Liquid Ratio on the Solubility of a Conventional Glass Ionomer Luting Cement. Pakistan Journal of Medical & Health Sciences. 2022 Aug 22;16(06):786-.
+  P26. Rehman H, Raza M, Hanif A, Effect of microwave and light emitting diode as disinfection method on the dimensional stability of polymethylmethacrylate and polyamide denture base resins. JIIMC 2022. 17(4)
+  P27. Effect of pouring time on dimensional changes in irreversible hydrocolloid impression material after treatment with disinfectant PODJ, 2022.12(4)
+  P28. Assessment of polymerization shrinkage in resin based composite impregnated with cellulose nanocrystals. PODJ, 2022, 42(4)
+  P29. 2
+  P30. Hina Rehman
+  P31. Assistant Professor
+  P32. BDS, MPhil
+  P33. Eight years teaching experience
+  P34. 1. Effects of Microwave and Light Emitting Diode as Disinfection Methods on the Color Stability of Polymethyl Methacrylate and Polyamide Denture Base Resins: Disinfection Effects …
+  P35. H Rehman, M Raza, A Hanif, Z Riaz, M Imran, A Hameed
+  P36. Journal of Postgraduate Medical Institute 38 (4)
+  P37. 2. ASSESSMENT OF POLYMERIZATION SHRINKAGE IN RESIN BASED COMPOSITE IMPREGNATED WITH VARIOUS CONCENTRATION OF CELLULOSE NANOCRYSTALS
+  P38. FK Bangash, A Hanif, M Imran, H Rehman
+  P39. Pakistan Oral & Dental Journal 42 (4), 209-214
+  P40. 3. In Vitro Assessment of Antifungal Property of Azadirachta Indica (Neem) Modified Heat-Cured Polymethyl Methacrylate Resin Denture Base Material After Water Storage
+  P41. N Saeed, M Imran, S Khan, H Rehman, I Khan, K Khan
+  P42. Annals of Punjab Medical College 18 (4), 289-294
+  P43. 4. Synthesis, Characterization, and Biological Evaluation of Zinc and Boron Oxide-Modified Bioactive Glass for Dental Applications
+  P44. M Imran, S Khalid, H Rehman, M Ejaz, BZ Babar, A Khan, N Muhammad, ...
+  P45. Journal of Saidu Medical College Swat 14 (3), 176-186
+  P46. 5. EFFECT OF POURING TIME ON DIMENSIONAL CHANGES IN IRREVERSIBLE HYDROCOLLOID IMPRESSION MATERIAL AFTER TREATMENT WITH DISINFECTANT
+  P47. A Hanif, M Imran, H Rehman, Z Riaz, M Muhammad, Z ur Rehman
+  P48. Journal of Khyber College of Dentistry 12 (04), 68-73
+  P49. 6. COMPARISON OF IMPACT STRENGTH OF MICROCRYSTALLINE CELLULOSE REINFORCED DENTURE BASE ACRYLIC RESIN WITH AND WITHOUT THERMOCYCLING. (2025). Frontier in Medical and Health Research, 3(7), 1215-1231. https://fmhr.net/index.php/fmhr/article/view/1221
+  P50. 7. Effects of Disinfection Methods on Dimensions of Base Resins ORIGINALARTICLE Effects of Microwave and Light Emitting Diode as Disinfection Methods on the Dimensional Stability of Polymethyl Methacrylate and Polyamide Denture Base Resin
+  P51. Hina Rehman , Muhammad Raza , Amjad Hanif , Mehreen Imran , Zia-Ur Rehman Khalil , Salman Khan , Nida Saeed ,Zudia Riaz JIIMC 2022 Vol. 17, No.4
+  P52. 8. Impact of Number of Exposed Carious Lesions as Reason for Pain or Tooth Extraction on Quality of Life of Children Aged 7-16 Years Attending Tertiary Care Hospitals in Peshawar.
+  P53. IHTESHAM-UD-DIN, A. K., IFTIKHAR, A., YOUSAF, M., KHAN, O. N., & REHMAN, H. (2021). https://pjmhsonline.com/pjmhs/issue/view/11
+  P54. 3
+  P55. Zudia Riaz
+  P56. Assistant Professor
+  P57. BDS, MPhil
+  P58. Five years teaching experience in department of dentalmaterials
+  P59. 1.Antibacterial efficacy of silver nanoparticles impregnated calcium hydroxide.2022.jan 1:31(1)
+  P60. 2. Antifungal effect of silver nanoparticles coating on denture base specimens made of acrylic resin.

@@ -127,28 +127,33 @@ include('includes/header.php');
       <p class="sec-desc mx-auto" style="max-width:570px;">A curriculum built to produce graduates with clinical acumen,
         research ability, ethical values, and community leadership.</p>
     </div>
-    <div class="row g-4">
+    <div class="row g-4 home-prog-grid">
       <div class="col-lg-6 fu fu-delay-1">
-        <div class="pmc-card home-prog-card">
-          <!-- <div class="home-prog-logo">
-            <img src="assets/images/logo/pdc-crest.png" alt="Peshawar Dental College logo" width="72" height="72" loading="lazy" />
-          </div> -->
+        <a class="home-prog-card home-prog-card--ug" href="pdc.php">
           <span class="home-prog-code">Undergraduate</span>
-          <h4>Peshawar Dental College</h4>
+          <h3>Peshawar Dental College</h3>
           <p>Established in 2010; a PM&amp;DC-recognized BDS programme for female students, with clinical training at Peshawar Dental Hospital and affiliated teaching hospitals.</p>
-          <a href="pdc.php" class="btn-pmc btn-pmc-outline home-prog-btn">Learn More <i class="bi bi-arrow-right"></i></a>
-        </div>
+          <ul class="home-prog-meta">
+            <li>BDS · 4 years</li>
+            <li>Female students</li>
+            <li>PM&amp;DC recognised</li>
+          </ul>
+          <span class="home-prog-cta">Learn more</span>
+        </a>
       </div>
       <div class="col-lg-6 fu fu-delay-2">
-        <div class="pmc-card home-prog-card">
-          <!-- <div class="home-prog-logo">
-            <img src="assets/images/logo/pdc-crest.png" alt="Peshawar Dental College logo" width="72" height="72" loading="lazy" />
-          </div> -->
+        <a class="home-prog-card home-prog-card--pg" href="pg-dental-education.php">
           <span class="home-prog-code">Postgraduate</span>
-          <h4>Postgraduate Dental Education</h4>
+          <h3>Postgraduate Dental Education</h3>
           <p>M.Phil programmes in Oral Pathology, Oral Biology, and Dental Materials, with clinical postgraduate training at Peshawar Dental Hospital.</p>
-          <a href="pg-dental-education.php" class="btn-pmc btn-pmc-outline home-prog-btn">Explore <i class="bi bi-arrow-right"></i></a>
-        </div>
+          <ul class="home-prog-meta">
+            <li>M.Phil</li>
+            <li>Oral Pathology</li>
+            <li>Oral Biology</li>
+            <li>Dental Materials</li>
+          </ul>
+          <span class="home-prog-cta">Explore programmes</span>
+        </a>
       </div>
     </div>
   </div>
