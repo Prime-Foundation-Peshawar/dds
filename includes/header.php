@@ -134,12 +134,12 @@ if (($seo['schema'] ?? null) === 'Course') {
   <script type="application/ld+json"><?= seo_json_ld($ld_graph) ?></script>
 
   <?php if (!$is_staging): ?>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E9LT8GJ4Y9"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LLF69PBVMB"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-E9LT8GJ4Y9');
+    gtag('config', 'G-LLF69PBVMB');
   </script>
   <?php endif; ?>
 
