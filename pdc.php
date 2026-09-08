@@ -37,7 +37,7 @@
             <span class="sec-eyebrow">College Profile</span>
             <h2 class="sec-title" style="font-size:1.75rem;">Peshawar Dental College</h2>
             <p class="about-lead">
-              The undergraduate dental college of the <strong>Department of Dental Sciences</strong> — a <strong>female-only</strong> BDS programme with ethics-centred teaching and hospital-based clinical training.
+              The undergraduate dental college of the <strong>Department of Dental Sciences</strong> — a <strong>female-only</strong> BDS programme with ethics-centred teaching and hospital-based clinical training. Peshawar Dental College is a leading dental college in Peshawar and a recognised BDS college in Pakistan — PM&amp;DC and HEC recognized since 2010, with its own Peshawar Dental Hospital.
             </p>
             <p>
               Established in <strong>2010</strong> and recognized by the Federal Ministry of Health, <strong>PM&amp;DC</strong>, and <strong>HEC</strong>, PDC prepares dentists who are professionally competent, research-minded, and attentive to community oral health needs.

@@ -174,6 +174,7 @@ include('includes/header.php');
         <p class="sec-desc">The Department of Dental Sciences is a constituent department of Riphah International University – Peshawar Campus. It comprises <strong>Peshawar Dental College</strong>, established in 2010. The College is recognized by the Federal Ministry of Health, PM&amp;DC, and HEC, and offers a student-centred BDS programme for female students — professionally competent, ethically grounded, research-minded, and community-aware.
         </p>
         <p class="sec-desc">Peshawar Dental College has graduated more than 450 dentists and continues to serve students and communities in KP through academic, social, and research activities, with clinical training at Peshawar Dental Hospital and affiliated teaching hospitals.</p>
+        <p class="sec-desc">For students searching for the best dental college in Peshawar or a top BDS college in Pakistan, PDC offers PM&amp;DC-recognized female dental education, a dedicated teaching hospital, and a Warsak Road campus of Riphah International University.</p>
         <a href="about.php" class="btn-pmc btn-pmc-primary mt-4"><i class="bi bi-arrow-right-circle"></i> Read Full
           About Department of Dental Sciences</a>
       </div>
@@ -184,6 +185,47 @@ include('includes/header.php');
 
 
 
+
+<!-- ═══ WHY PDC ═══ -->
+<section class="pmc-section" id="why-pdc">
+  <div class="container">
+    <div class="home-sec-head text-center fu">
+      <span class="sec-eyebrow">Why PDC</span>
+      <h2 class="sec-title">Why Choose Peshawar Dental College</h2>
+      <p class="sec-desc">Looking for the best dental college in Peshawar or a leading BDS college in Pakistan? Peshawar Dental College is PM&amp;DC and HEC recognized, female-only, and trains dentists at Peshawar Dental Hospital.</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3 fu fu-delay-1">
+        <div class="why-card">
+          <div class="why-ico"><i class="bi bi-award-fill"></i></div>
+          <h4>PM&amp;DC &amp; HEC</h4>
+          <p>Recognised dental college in Peshawar since 2010, aligned with national BDS standards.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 fu fu-delay-2">
+        <div class="why-card">
+          <div class="why-ico"><i class="bi bi-hospital"></i></div>
+          <h4>Own Dental Hospital</h4>
+          <p>Clinical training at Peshawar Dental Hospital plus affiliated teaching hospitals.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 fu fu-delay-3">
+        <div class="why-card">
+          <div class="why-ico"><i class="bi bi-person-hearts"></i></div>
+          <h4>Female BDS</h4>
+          <p>A dedicated BDS programme for female students serving communities across KP.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 fu fu-delay-4">
+        <div class="why-card">
+          <div class="why-ico"><i class="bi bi-mortarboard-fill"></i></div>
+          <h4>450+ Graduates</h4>
+          <p>Dentists trained in Peshawar and serving patients across Pakistan and beyond.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- ═══ TEACHING HOSPITALS ═══ -->
 <section class="pmc-section bg-navy home-hospitals" id="hospitals">
