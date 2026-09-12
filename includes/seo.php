@@ -6,7 +6,7 @@ if (!defined('SEO_ORG_NAME')) {
   define('SEO_ORG_NAME', 'Peshawar Dental College');
 }
 if (!defined('SEO_DEFAULT_TITLE')) {
-  define('SEO_DEFAULT_TITLE', 'Best Dental College in Peshawar | Peshawar Dental College');
+  define('SEO_DEFAULT_TITLE', 'Peshawar Dental College | BDS in Peshawar');
 }
 if (!defined('SEO_DEFAULT_DESCRIPTION')) {
   define('SEO_DEFAULT_DESCRIPTION', 'Peshawar Dental College — a leading PM&DC recognized dental college in Peshawar. Female BDS programme at Riphah Peshawar Campus, Warsak Road.');
