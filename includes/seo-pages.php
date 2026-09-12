@@ -3,7 +3,7 @@ return [
   '' => [
     'label' => 'Home',
     'section' => 'College',
-    'title' => 'Best Dental College in Peshawar | Female BDS — PDC',
+    'title' => 'Peshawar Dental College | PDC — BDS in Peshawar',
     'description' => 'PDC Peshawar: a leading dental college for girls in Peshawar. PM&DC BDS, Peshawar Dental Hospital, KMU admissions, Warsak Road.',
     'priority' => '1.0',
     'changefreq' => 'weekly',
