@@ -126,9 +126,24 @@
         "PhD (Oral Pathology)"
       ],
       "experience": [
-        "Associate Professor, General & Oral Pathology, Peshawar Dental College, Riphah International University, Peshawar Campus, Aug 2022 – Present",
-        "Assistant Professor, General & Oral Pathology, Peshawar Dental College, Apr 2017 – Jul 2022",
-        "Lecturer, General Pathology, Peshawar Medical College, Jan 2010 – Mar 2017"
+        {
+          "kind": "role",
+          "title": "Associate Professor, General & Oral Pathology",
+          "dates": "Aug 2022 – Present",
+          "detail": "Peshawar Dental College, Riphah International University, Peshawar Campus"
+        },
+        {
+          "kind": "role",
+          "title": "Assistant Professor, General & Oral Pathology",
+          "dates": "Apr 2017 – Jul 2022",
+          "detail": "Peshawar Dental College"
+        },
+        {
+          "kind": "role",
+          "title": "Lecturer, General Pathology",
+          "dates": "Jan 2010 – Mar 2017",
+          "detail": "Peshawar Medical College"
+        }
       ],
       "skills": [
         "General & Oral Pathology",

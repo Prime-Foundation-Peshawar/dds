@@ -67,10 +67,13 @@ function faculty_slugs_match(string $a, string $b): bool {
 
 function faculty_profiles_pack(): array {
   static $pack = null;
-  if ($pack !== null) {
+  static $mtime = null;
+  $path = dirname(__DIR__) . '/assets/data/faculty-profiles.json';
+  $now = is_file($path) ? (int) filemtime($path) : 0;
+  if ($pack !== null && $mtime === $now) {
     return $pack;
   }
-  $path = dirname(__DIR__) . '/assets/data/faculty-profiles.json';
+  $mtime = $now;
   if (!is_file($path)) {
     $pack = ['profiles' => [], 'index' => [], 'source' => ''];
     return $pack;
