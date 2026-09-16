@@ -361,6 +361,32 @@ function hasWordProfile(extra) {
     .some(key => Array.isArray(extra[key]) && extra[key].length > 0);
 }
 
+function listHasProfile(rec) {
+  const keys = [rec.slug, ...(rec.aliases || [])].filter(Boolean);
+  return allFaculty.some(f => {
+    const s = facultySlug(f.empName);
+    return keys.some(k => slugsMatch(s, k));
+  });
+}
+
+function appendMissingCvFaculty() {
+  const rows = extraPack.profiles ? Object.values(extraPack.profiles) : [];
+  for (const rec of rows) {
+    if (!rec || !rec.name || !hasWordProfile(rec)) continue;
+    if (listHasProfile(rec)) continue;
+    allFaculty.push({
+      empName: rec.name,
+      desTitle: rec.designation || 'Faculty',
+      depName: rec.department || '',
+      facPMDCNo: '',
+      facFacRegNo: '',
+      qualifications: Array.isArray(rec.qualifications)
+        ? rec.qualifications.join(', ')
+        : (rec.qualifications || ''),
+    });
+  }
+}
+
 function renderMemberRow(m) {
   const extra = extraFor(m.empName);
   const linked = hasWordProfile(extra);
@@ -473,7 +499,8 @@ function clearAllFilters() {
   loading.style.display = 'none';
 
   if (!data) {
-    document.getElementById('facultyContent').innerHTML = `
+    if (!(extraPack.profiles && Object.keys(extraPack.profiles).length)) {
+      document.getElementById('facultyContent').innerHTML = `
       <div class="fac-error">
         <div class="fac-error-icon"><i class="bi bi-wifi-off"></i></div>
         <h5>Could not load the faculty list</h5>
@@ -482,7 +509,9 @@ function clearAllFilters() {
           <i class="bi bi-arrow-clockwise"></i> Retry
         </button>
       </div>`;
-    return;
+      return;
+    }
+    data = [];
   }
 
   if (DEBUG && data.length > 0) {
@@ -491,6 +520,12 @@ function clearAllFilters() {
   }
 
   allFaculty = data.sort((a, b) => {
+    const deptDiff = getDeptOrder(a.depName) - getDeptOrder(b.depName);
+    if (deptDiff !== 0) return deptDiff;
+    return getDesigRank(a.desTitle) - getDesigRank(b.desTitle);
+  });
+  appendMissingCvFaculty();
+  allFaculty.sort((a, b) => {
     const deptDiff = getDeptOrder(a.depName) - getDeptOrder(b.depName);
     if (deptDiff !== 0) return deptDiff;
     return getDesigRank(a.desTitle) - getDesigRank(b.desTitle);
