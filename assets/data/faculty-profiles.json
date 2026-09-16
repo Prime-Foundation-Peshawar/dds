@@ -119,18 +119,32 @@
       "department": "Oral Pathology",
       "designation": "Associate Professor",
       "hod": false,
-      "photo": "",
+      "photo": "assets/images/faculty/fatima-iqbal.jpg",
       "qualifications": [
         "BDS",
-        "MPhil",
-        "PhD"
+        "MPhil (Oral Pathology)",
+        "PhD (Oral Pathology)"
       ],
       "experience": [
-        "14 Years"
+        "Associate Professor, General & Oral Pathology, Peshawar Dental College, Riphah International University, Peshawar Campus, Aug 2022 – Present",
+        "Assistant Professor, General & Oral Pathology, Peshawar Dental College, Apr 2017 – Jul 2022",
+        "Lecturer, General Pathology, Peshawar Medical College, Jan 2010 – Mar 2017"
       ],
-      "skills": [],
+      "skills": [
+        "General & Oral Pathology",
+        "Immunohistochemistry (IHC)",
+        "Fine Needle Aspiration Cytology",
+        "Histopathology & Microscopy",
+        "Oncology Research",
+        "Next-Generation Sequencing",
+        "Statistical Analysis (SPSS)",
+        "Digital Image Analysis",
+        "Scientific & Medical Writing",
+        "Postgraduate Supervision",
+        "Curriculum Design",
+        "Journal Peer Review"
+      ],
       "publications": [
-        "Iqbal F, Bashir N, Maryam H, Ahmad S. Histopathological spectrum of oral squamous cell carcinoma in Naswar users: correlation with duration, age and site. J Pak Med Assoc. 2026;76(3):387-391. doi:10.51253/jpma.12430.",
         "Bashir N, Ahmad S, Iqbal F, Fayyaz L, Naushin T. Stage-specific analysis of targeted microRNAs in oral squamous cell carcinoma and their association with the use of naswar. Journal of Oral Science. 2026;68(2):59–65. doi:10.2334/josnusd.25-0294.",
         "Iqbal F, Ahmad S, Maryam H, Amin H. Evidence of mutations in tumour suppressor genes among oral cancer in Naswar, smokeless tobacco users. Acta Odontologica Scandinavica. 2025;84:43778. doi:10.2340/aos.v84.43778.",
         "Khan AS, Ahmad S, Khan ZA, Nisar M, Shafiq F, Naushin T, Iqbal F, Bashir N, Issrani R, Prabhu N. Clinicopathological features of oral potentially malignant disorders among tobacco users and nonusers. National Journal of Maxillofacial Surgery. 2025;16(3):568–575. doi:10.4103/njms.njms_204_23.",
@@ -139,14 +153,14 @@
         "Bashir N, Obaid M, Iqbal F, Maryam H, Naushin T, Khan AS. Comparative study on histochemical expression of CD34 in different variants of ameloblastoma. Pakistan Journal of Health Sciences. 2025;6(1):2246. doi:10.54393/pjhs.v6i1.2246.",
         "Iqbal F, Bashir N. An insight into the histopathology of oral potentially malignant disorders and malignant neoplasms of head and neck. Journal of the Pakistan Medical Association. doi:10.47391/JPMA.20155.",
         "Aamir R, Rauf F, Iqbal F, Yousuf S, Rehman A, Sheikh AK, Muhammad S. Immunohistochemical expression of epidermal growth factor receptor (EGFR) in oral squamous cell carcinoma and oral potentially malignant disorders. Applied Immunohistochemistry & Molecular Morphology. 2024;32(3):157–162. doi:10.1097/PAI.0000000000001185.",
-        "Naushin T, Khan AS, Alam S, Motahir N, Iqbal F, Maryam HY, Mahmood S, Mahmood U. Clinicopathological features of oral leukoplakia among snuff users and non-users: an analytical study. Pakistan Journal of Health Sciences. doi:10.54393/pjhs. v4i06.845.",
+        "Naushin T, Khan AS, Alam S, Motahir N, Iqbal F, Maryam HY, Mahmood S, Mahmood U. Clinicopathological features of oral leukoplakia among snuff users and non-users: an analytical study. Pakistan Journal of Health Sciences. doi:10.54393/pjhs.v4i06.845.",
         "Naushin T, Khan AS, Ishfaq M, Bashir N, Iqbal F, Hassan M. Histopathological assessment of oral leukoplakia among snuff users and non-users. Journal of Medical Sciences Peshawar. 2023;31(1):14. doi:10.52764/jms.23.31.1.14.",
         "Saeed S, Rauf F, Iqbal F, Khan AS, Khan AH, Alamgeer R. Comparison of PD-L1 expression in oral squamous cell carcinoma and premalignant lesions of oral cavity. Asian Pacific Journal of Cancer Prevention. 2022;23(12):4039–4045. doi:10.31557/APJCP.2022.23.12.4039.",
         "Maryam H, Nasir S, Khan MM, Saleem A, Bashir N, Iqbal F, Nausheen T. Expression of survivin in oral malignancy and premalignancy. Journal of Medical Sciences. 2022;30(1):3. doi:10.52764/jms.22.30.1.3.",
         "Khan AS, Ahmad S, Iqbal F, Saboor A, Nisar M, Naushin T, Sheikh AK, Haq M, Ahmad T, Rehman B. Immunohistochemical expression of p53 in oral squamous cell carcinoma, oral epithelial precursor lesions, and normal oral mucosa. Journal of Medical Sciences. 2021;29(4):9. doi:10.52764/jms.21.29.4.9.",
         "Maryam H, Nasir S, Basheer A, Iqbal F, Shafiq F, Awan AH. Role of survivin as a diagnostic tool for oral squamous cell carcinoma. International Journal of Pathology. 2021;19(3).",
         "Ghani S, Rauf F, Rehman A, Irfan M, Iqbal F, Jamal Y. Detection of Epstein-Barr virus antigen in oral squamous cell carcinoma by immunohistochemistry in patients from Khyber Pakhtunkhwa province of Pakistan. The Professional Medical Journal. 2021;28(12). doi:10.29309/TPMJ/2021.28.12.6379.",
-        "Iqbal F, Saeed S, Bashir N, Khattak SM, Naushin T, Sulaiman M. Histopathological typing and topographic distribution of head and neck lesions: an eight-year retrospective study. Journal of Rawalpindi Medical College. 2021;25(3):339–344. doi:10.37939/jrmc. v25i3.1546.",
+        "Iqbal F, Saeed S, Bashir N, Khattak SM, Naushin T, Sulaiman M. Histopathological typing and topographic distribution of head and neck lesions: an eight-year retrospective study. Journal of Rawalpindi Medical College. 2021;25(3):339–344. doi:10.37939/jrmc.v25i3.1546.",
         "Naushin T, Khan MM, Ahmed S, Hassan M, Iqbal F, Bashir N, Khan AS. Determination of Ki-67 expression in oral leukoplakia in snuff users and non-users in Khyber Pakhtunkhwa province of Pakistan. The Professional Medical Journal. 2020;27(4). doi:10.29309/TPMJ/2020.27.04.3124.",
         "Bashir N, Iqbal F, Ahmad S, Motahir ST, Mohammad S, Naushin T. Estrogen receptor alpha signaling in salivary gland tumors: lessons learned from breast carcinoma. International Journal of Pathology. 2020;18(3).",
         "Iqbal F, Bashir N, Saleem A, Khan MM, Naushin T, Alam S. Cytomorphological spectrum of pleomorphic adenoma in association with clinical parameters. The Professional Medical Journal. 2019;26(10). doi:10.29309/TPMJ/2019.26.10.2786.",
