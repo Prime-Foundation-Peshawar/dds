@@ -739,9 +739,63 @@ function faculty_list_as_written(array $items): array {
   return $out;
 }
 
-function faculty_experience_as_written(array $items): array {
+function faculty_experience_is_new_post(string $text): bool {
+  return (bool) preg_match(
+    '/^(professor|associate professor|assistant professor|senior lecturer|'
+    . 'senior registrar|junior registrar|lecturer|consultant|dental surgeon|'
+    . 'house job|visiting faculty|over\s+\d|more than\s+\d)/i',
+    $text
+  );
+}
+
+function faculty_experience_is_wrap(string $text): bool {
+  if (faculty_experience_is_new_post($text)) {
+    return false;
+  }
+  if (preg_match('/^(designation\s*:|pakistan\.?|peshawar dental|gandhara university|riphah|khyber college|pgmi|government lady|at\s+|consumer director)/i', $text)) {
+    return true;
+  }
+  if (preg_match('/^\(/', $text)) {
+    return true;
+  }
+  if (preg_match('/^(jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|june?|july?|aug(?:ust)?|sep(?:t(?:ember)?)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)\b/i', $text)) {
+    return true;
+  }
+  if (preg_match('/^(till date|\d{1,2}\s+\w+\s+\d{4}|\d{4}\s*[-–—]\s*\d{4}|\d{2}\.\d{2}\.\d{4}\s+to\s+\d{2}\.\d{2}\.\d{4})/i', $text)) {
+    return true;
+  }
+  return false;
+}
+
+function faculty_join_experience_wraps(array $items): array {
   $out = [];
   foreach ($items as $item) {
+    if (is_array($item) && isset($item['kind'])) {
+      $out[] = $item;
+      continue;
+    }
+    $text = trim(preg_replace('/\s+/', ' ', (string) $item) ?? '');
+    if ($text === '') {
+      continue;
+    }
+    $text = preg_replace('/\bProfessor&/', 'Professor &', $text) ?? $text;
+    $last = $out ? $out[count($out) - 1] : null;
+    if (is_string($last) && (faculty_experience_is_wrap($text) || preg_match('/,$/', (string) $last))) {
+      $prev = rtrim((string) $last, " ;");
+      $next = ltrim($text, " ,");
+      $out[count($out) - 1] = preg_match('/,$/', $prev)
+        ? $prev . ' ' . $next
+        : $prev . ', ' . $next;
+      continue;
+    }
+    $out[] = $text;
+  }
+  return $out;
+}
+
+function faculty_experience_as_written(array $items): array {
+  $out = [];
+  foreach (faculty_join_experience_wraps($items) as $item) {
     if (is_array($item) && isset($item['kind'])) {
       $out[] = $item;
       continue;
