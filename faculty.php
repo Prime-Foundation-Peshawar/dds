@@ -136,10 +136,8 @@ const DEBUG = new URLSearchParams(window.location.search).has('debug');
 const DEPT_CONFIG = {
   'Oral Pathology':                    { icon: 'bi-virus',              order: 1  },
   'Sciences of Dental Materials':      { icon: 'bi-boxes',              order: 2  },
-  'Sciences of Dental Material':       { icon: 'bi-boxes',              order: 2  },
   'Oral Biology':                      { icon: 'bi-flower1',            order: 3  },
   'Community & Preventive Dentistry':  { icon: 'bi-people-fill',        order: 4  },
-  'Community and Preventive Dentistry':{ icon: 'bi-people-fill',        order: 4  },
   'Dental Education':                  { icon: 'bi-mortarboard-fill',   order: 5  },
   'Anatomy':                           { icon: 'bi-body-text',          order: 6  },
   'Physiology':                        { icon: 'bi-activity',           order: 7  },
@@ -151,13 +149,24 @@ const DEPT_CONFIG = {
   'Prosthodontics':                    { icon: 'bi-grid-3x3-gap',       order: 13 },
   'Operative Dentistry':               { icon: 'bi-tools',              order: 14 },
   'Oral & Maxillofacial Surgery':      { icon: 'bi-scissors',           order: 15 },
-  'Oral and Maxillofacial Surgery':    { icon: 'bi-scissors',           order: 15 },
   'Paediatric Dentistry':              { icon: 'bi-emoji-smile',        order: 16 },
-  'Pediatric Dentistry':               { icon: 'bi-emoji-smile',        order: 16 },
   'Oral Medicine':                     { icon: 'bi-clipboard2-pulse',   order: 17 },
   'Medicine':                          { icon: 'bi-heart-pulse-fill',   order: 18 },
   'Surgery':                           { icon: 'bi-bandaid',            order: 19 },
   'Administration':                    { icon: 'bi-building-fill',      order: 99 },
+};
+
+const DEPT_ALIASES = {
+  'oral patholgy': 'Oral Pathology',
+  'oral pathology': 'Oral Pathology',
+  'sciences of dental material': 'Sciences of Dental Materials',
+  'sciences of dental materials': 'Sciences of Dental Materials',
+  'community and preventive dentistry': 'Community & Preventive Dentistry',
+  'community & preventive dentistry': 'Community & Preventive Dentistry',
+  'oral and maxillofacial surgery': 'Oral & Maxillofacial Surgery',
+  'oral & maxillofacial surgery': 'Oral & Maxillofacial Surgery',
+  'pediatric dentistry': 'Paediatric Dentistry',
+  'paediatric dentistry': 'Paediatric Dentistry',
 };
 
 const DESIG_RANK = {
@@ -182,11 +191,20 @@ const DESIG_PREFIX = {
 let allFaculty = [];
 
 function getDeptIcon(dept) {
-  return (DEPT_CONFIG[dept] || { icon: 'bi-person-badge' }).icon;
+  return (DEPT_CONFIG[canonicalDept(dept)] || { icon: 'bi-person-badge' }).icon;
 }
 
 function getDeptOrder(dept) {
-  return (DEPT_CONFIG[dept] || { order: 50 }).order;
+  return (DEPT_CONFIG[canonicalDept(dept)] || { order: 50 }).order;
+}
+
+function canonicalDept(name) {
+  const raw = String(name || '').trim();
+  if (!raw) return '';
+  const key = raw.toLowerCase().replace(/&/g, 'and').replace(/\s+/g, ' ').trim();
+  if (DEPT_ALIASES[key]) return DEPT_ALIASES[key];
+  if (DEPT_ALIASES[raw.toLowerCase()]) return DEPT_ALIASES[raw.toLowerCase()];
+  return DEPT_CONFIG[raw] ? raw : raw;
 }
 
 function getDesigRank(desig) {
@@ -377,7 +395,7 @@ function appendMissingCvFaculty() {
     allFaculty.push({
       empName: rec.name,
       desTitle: rec.designation || 'Faculty',
-      depName: rec.department || '',
+      depName: canonicalDept(rec.department) || rec.department || '',
       facPMDCNo: '',
       facFacRegNo: '',
       qualifications: Array.isArray(rec.qualifications)
@@ -525,6 +543,9 @@ function clearAllFilters() {
     return getDesigRank(a.desTitle) - getDesigRank(b.desTitle);
   });
   appendMissingCvFaculty();
+  allFaculty.forEach(f => {
+    f.depName = canonicalDept(f.depName) || f.depName;
+  });
   allFaculty.sort((a, b) => {
     const deptDiff = getDeptOrder(a.depName) - getDeptOrder(b.depName);
     if (deptDiff !== 0) return deptDiff;
