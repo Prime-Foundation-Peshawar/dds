@@ -265,6 +265,9 @@ if (($seo['schema'] ?? null) === 'Course') {
                   <div class="col-lg-4">
                     <div class="mega-col-head"><i class="bi bi-cash-stack"></i> Fees &amp; Scholarships</div>
                     <a class="mega-link"
+                      href="assets/uploads/admissions/fee-structure/PDC-Fee structure 2026-27.htm"
+                      target="_blank"><i class="bi bi-receipt"></i>Fee Structure 2026–27</a>
+                    <a class="mega-link"
                       href="https://pdc.prime.edu.pk/downloads/BDS_Fee_Session_2025-26_25-12-2025.htm"
                       target="_blank"><i class="bi bi-receipt"></i>Fee Structure 2025–26</a>
                     <a class="mega-link"
