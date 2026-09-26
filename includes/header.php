@@ -304,9 +304,9 @@ if (($seo['schema'] ?? null) === 'Course') {
                   </div>
                   <div class="col-lg-4">
                     <div class="mega-col-head"><i class="bi bi-laptop"></i> Research</div>
-                    <a class="mega-link" href="https://umr.prime.edu.pk/" target="_blank"><i class="bi bi-search"></i>Undergraduate Medical Research (UMR)</a>
+                    <a class="mega-link" href="https://umr.riphahpsh.edu.pk/" target="_blank"><i class="bi bi-search"></i>Undergraduate Medical Research (UMR)</a>
                     <a class="mega-link" href="faculty-research.php"><i class="bi bi-people"></i>Faculty Research</a>
-                    <a class="mega-link" href="https://oric.prime.edu.pk/" target="_blank"><i class="bi bi-lightbulb"></i>ORIC</a>
+                    <a class="mega-link" href="https://oric.riphahpsh.edu.pk/" target="_blank"><i class="bi bi-lightbulb"></i>ORIC</a>
                     <a class="mega-link" href="https://riphahpsh.edu.pk/pubedu.php" target="_blank"><i class="bi bi-journal-bookmark"></i>Educational Literature</a>
                   </div>
                   <div class="col-lg-4">
