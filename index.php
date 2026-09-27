@@ -30,10 +30,10 @@ include('includes/header.php');
               <a href="pdc.php#hospital">
                 <div class="sf-item"><i class="bi bi-hospital"></i><span>Peshawar Dental Hospital</span></div>
               </a>
-              <a href="https://mth.prime.edu.pk/" target="_blank">
+              <a href="https://mth.riphahpsh.edu.pk/" target="_blank">
                 <div class="sf-item"><i class="bi bi-heart-pulse"></i><span>Mercy Teaching Hospital</span></div>
               </a>
-              <a href="https://pth.prime.edu.pk/" target="_blank">
+              <a href="https://pth.riphahpsh.edu.pk/" target="_blank">
                 <div class="sf-item"><i class="bi bi-building"></i><span>Prime Teaching Hospital</span></div>
               </a>
               <a href="departments.php">
@@ -245,7 +245,7 @@ include('includes/header.php');
         </a>
       </div>
       <div class="col-lg-4 col-md-6 fu fu-delay-2">
-        <a class="hosp-card" href="https://mth.prime.edu.pk/" target="_blank" rel="noopener">
+        <a class="hosp-card" href="https://mth.riphahpsh.edu.pk/" target="_blank" rel="noopener">
           <span class="hosp-code">MTH</span>
           <h3 class="hosp-name">Mercy Teaching Hospital</h3>
           <p class="hosp-desc">Focused on community healthcare with high patient volume — ideal for comprehensive, broad clinical experience.</p>
@@ -253,7 +253,7 @@ include('includes/header.php');
         </a>
       </div>
       <div class="col-lg-4 col-md-6 fu fu-delay-3">
-        <a class="hosp-card" href="https://pth.prime.edu.pk/" target="_blank" rel="noopener">
+        <a class="hosp-card" href="https://pth.riphahpsh.edu.pk/" target="_blank" rel="noopener">
           <span class="hosp-code">PTH</span>
           <h3 class="hosp-name">Prime Teaching Hospital</h3>
           <p class="hosp-desc">Equipped with modern diagnostic and surgical facilities for intensive clinical and surgical training rotations.</p>

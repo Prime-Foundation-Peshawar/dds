@@ -208,12 +208,12 @@
                 <strong>Peshawar Dental Hospital</strong>
                 <span>Primary dental teaching hospital</span>
               </a>
-              <a class="pmc-hosp-card" href="https://mth.prime.edu.pk/" target="_blank" rel="noopener">
+              <a class="pmc-hosp-card" href="https://mth.riphahpsh.edu.pk/" target="_blank" rel="noopener">
                 <i class="bi bi-heart-pulse"></i>
                 <strong>Mercy Teaching Hospital</strong>
                 <span>Affiliated clinical rotations</span>
               </a>
-              <a class="pmc-hosp-card" href="https://pth.prime.edu.pk/" target="_blank" rel="noopener">
+              <a class="pmc-hosp-card" href="https://pth.riphahpsh.edu.pk/" target="_blank" rel="noopener">
                 <i class="bi bi-building"></i>
                 <strong>Prime Teaching Hospital</strong>
                 <span>Adjacent affiliated site</span>

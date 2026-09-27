@@ -162,8 +162,8 @@
           <div class="sw-head"><i class="bi bi-hospital-fill"></i> Teaching Hospitals</div>
           <div class="sw-body">
             <a class="sw-link" href="pdc.php#hospital"><i class="bi bi-hospital"></i>Peshawar Dental Hospital</a>
-            <a class="sw-link" href="https://mth.prime.edu.pk/" target="_blank"><i class="bi bi-heart-pulse"></i>Mercy Teaching Hospital</a>
-            <a class="sw-link" href="https://pth.prime.edu.pk/" target="_blank"><i class="bi bi-capsule-pill"></i>Prime Teaching Hospital</a>
+            <a class="sw-link" href="https://mth.riphahpsh.edu.pk/" target="_blank"><i class="bi bi-heart-pulse"></i>Mercy Teaching Hospital</a>
+            <a class="sw-link" href="https://pth.riphahpsh.edu.pk/" target="_blank"><i class="bi bi-capsule-pill"></i>Prime Teaching Hospital</a>
           </div>
         </div>
         <div class="sidebar-widget">
