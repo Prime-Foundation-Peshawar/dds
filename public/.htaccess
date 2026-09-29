@@ -1,0 +1,34 @@
+Options -Indexes
+
+# Prefer PHP 8.2 for CI4 4.7+ (cPanel EA4). If this host ignores it, set MultiPHP 8.2 for /dds in cPanel.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php82 .php .php8 .phtml
+</IfModule>
+
+<IfModule mod_rewrite.c>
+	Options +FollowSymlinks
+	RewriteEngine On
+
+	# Staging lives at /dds/ — production at site root
+	RewriteCond %{HTTP_HOST} ^(www\.)?staging\.riphahpsh\.edu\.pk$ [NC]
+	RewriteRule .* - [E=REWRITEBASE:/dds/]
+	RewriteCond %{HTTP_HOST} !^(www\.)?staging\.riphahpsh\.edu\.pk$ [NC]
+	RewriteRule .* - [E=REWRITEBASE:/]
+
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_URI} (.+)/$
+	RewriteRule ^ %1 [L,R=301]
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^([\s\S]*)$ index.php/$1 [L,NC,QSA]
+
+	RewriteCond %{HTTP:Authorization} .
+	RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+</IfModule>
+
+<IfModule !mod_rewrite.c>
+	ErrorDocument 404 index.php
+</IfModule>
+
+ServerSignature Off
