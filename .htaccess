@@ -1,13 +1,8 @@
 DirectoryIndex index.php index.html
 
-# Staging /dds uses PHP 8.4 for CI4. Production stays on 8.2 unless MultiPHP is changed.
+# DDS uses PHP 8.4 for CI4 (cPanel EA4). Other sites on the same account are unchanged.
 <IfModule mime_module>
-  <If "%{HTTP_HOST} =~ /staging\.riphahpsh\.edu\.pk$/i">
-    AddHandler application/x-httpd-ea-php84 .php .php8 .phtml
-  </If>
-  <Else>
-    AddHandler application/x-httpd-ea-php82 .php .php8 .phtml
-  </Else>
+  AddHandler application/x-httpd-ea-php84 .php .php8 .phtml
 </IfModule>
 
 RewriteEngine On

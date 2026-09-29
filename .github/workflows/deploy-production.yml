@@ -93,7 +93,9 @@ jobs:
             chmod -R u+rwX,go-w "$TARGET" || true
             chmod -R ug+rwX "$TARGET/writable" 2>/dev/null || true
             PHP_BIN="php"
-            if [ -x /opt/cpanel/ea-php82/root/usr/bin/php ]; then
+            if [ -x /opt/cpanel/ea-php84/root/usr/bin/php ]; then
+              PHP_BIN="/opt/cpanel/ea-php84/root/usr/bin/php"
+            elif [ -x /opt/cpanel/ea-php82/root/usr/bin/php ]; then
               PHP_BIN="/opt/cpanel/ea-php82/root/usr/bin/php"
             elif [ -x /opt/cpanel/ea-php81/root/usr/bin/php ]; then
               PHP_BIN="/opt/cpanel/ea-php81/root/usr/bin/php"
