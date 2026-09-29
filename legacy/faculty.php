@@ -509,9 +509,9 @@ function clearAllFilters() {
   const loading = document.getElementById('loadingState');
   loading.style.display = 'block';
 
-  const data = await fetchFaculty();
+  let data = await fetchFaculty();
   try {
-    const extraRes = await fetch('assets/data/faculty-profiles.json');
+    const extraRes = await fetch('faculty-profiles-api');
     if (extraRes.ok) extraPack = await extraRes.json();
   } catch (e) { /* directory still works without extra CVs */ }
   loading.style.display = 'none';

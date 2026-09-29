@@ -22,9 +22,11 @@ include __DIR__ . '/includes/header.php';
 
 $photo = '';
 if (!empty($extra['photo'])) {
-  $photo_fs = __DIR__ . '/' . ltrim($extra['photo'], '/');
-  if (is_file($photo_fs)) {
-    $photo = $extra['photo'];
+  $rawPhoto = (string) $extra['photo'];
+  if (preg_match('#^(?:https?:)?//#i', $rawPhoto)) {
+    $photo = $rawPhoto;
+  } elseif (faculty_photo_fs($rawPhoto) !== '') {
+    $photo = $rawPhoto;
   }
 }
 $desig = faculty_normalize_designation((string) ($extra['designation'] ?? ''));

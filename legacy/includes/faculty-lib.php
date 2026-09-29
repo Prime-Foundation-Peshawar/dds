@@ -67,22 +67,158 @@ function faculty_slugs_match(string $a, string $b): bool {
 
 function faculty_profiles_pack(): array {
   static $pack = null;
-  static $mtime = null;
-  $path = dirname(__DIR__) . '/assets/data/faculty-profiles.json';
-  $now = is_file($path) ? (int) filemtime($path) : 0;
-  if ($pack !== null && $mtime === $now) {
+  if ($pack !== null) {
     return $pack;
   }
-  $mtime = $now;
-  if (!is_file($path)) {
-    $pack = ['profiles' => [], 'index' => [], 'source' => ''];
-    return $pack;
+
+  $pack = ['profiles' => [], 'index' => [], 'source' => ''];
+
+  // Base: static dental JSON under public/assets (CI4 layout).
+  $candidates = [];
+  if (defined('ROOTPATH')) {
+    $candidates[] = ROOTPATH . 'public/assets/data/faculty-profiles.json';
   }
-  $decoded = json_decode((string) file_get_contents($path), true);
-  $pack = is_array($decoded) ? $decoded : ['profiles' => [], 'index' => [], 'source' => ''];
-  $pack['profiles'] = $pack['profiles'] ?? [];
-  $pack['index'] = $pack['index'] ?? [];
+  $legacyRoot = dirname(__DIR__);
+  $candidates[] = dirname($legacyRoot) . '/public/assets/data/faculty-profiles.json';
+  $candidates[] = $legacyRoot . '/assets/data/faculty-profiles.json';
+
+  foreach ($candidates as $path) {
+    if (!is_file($path)) {
+      continue;
+    }
+    $decoded = json_decode((string) file_get_contents($path), true);
+    if (!is_array($decoded)) {
+      continue;
+    }
+    $pack = [
+      'profiles' => is_array($decoded['profiles'] ?? null) ? $decoded['profiles'] : [],
+      'index' => is_array($decoded['index'] ?? null) ? $decoded['index'] : [],
+      'source' => (string) ($decoded['source'] ?? 'json'),
+    ];
+    break;
+  }
+
+  // Overlay ACP / DB profiles (wins per slug).
+  try {
+    require_once __DIR__ . '/db.php';
+    $pdo = dms_db();
+    $rows = $pdo->query(
+      'SELECT slug, aliases, name, department, designation, hod, photo,
+              qualifications, experience, skills, publications, research_preferences,
+              publications_url, contact_phone, source, updated_at
+       FROM faculty_profiles'
+    )->fetchAll();
+  } catch (Throwable $e) {
+    error_log('[faculty_profiles_pack] ' . $e->getMessage());
+    $rows = [];
+  }
+
+  $decode = static function ($v) {
+    if (is_array($v)) {
+      return $v;
+    }
+    if (!is_string($v) || $v === '') {
+      return [];
+    }
+    $d = json_decode($v, true);
+    return is_array($d) ? $d : [];
+  };
+
+  foreach ($rows as $row) {
+    $slug = (string) ($row['slug'] ?? '');
+    if ($slug === '') {
+      continue;
+    }
+    $aliases = $decode($row['aliases'] ?? '[]');
+    $rec = [
+      'slug' => $slug,
+      'aliases' => $aliases,
+      'name' => (string) ($row['name'] ?? ''),
+      'department' => (string) ($row['department'] ?? ''),
+      'designation' => (string) ($row['designation'] ?? ''),
+      'hod' => !empty($row['hod']),
+      'photo' => (string) ($row['photo'] ?? ''),
+      'qualifications' => $decode($row['qualifications'] ?? '[]'),
+      'experience' => $decode($row['experience'] ?? '[]'),
+      'skills' => $decode($row['skills'] ?? '[]'),
+      'publications' => $decode($row['publications'] ?? '[]'),
+      'research_preferences' => $decode($row['research_preferences'] ?? '[]'),
+      'publications_url' => (string) ($row['publications_url'] ?? ''),
+      'contact_phone' => (string) ($row['contact_phone'] ?? ''),
+      'source' => (string) ($row['source'] ?? 'db'),
+    ];
+    $photoUrl = faculty_photo_url($rec['photo']);
+    if ($photoUrl === '') {
+      unset($rec['photo']);
+    } else {
+      $rec['photo'] = $photoUrl;
+    }
+    if ($rec['publications_url'] === '') {
+      unset($rec['publications_url']);
+    }
+    if ($rec['contact_phone'] === '') {
+      unset($rec['contact_phone']);
+    }
+    $pack['profiles'][$slug] = $rec;
+    $pack['index'][$slug] = $slug;
+    foreach ($aliases as $alias) {
+      $a = faculty_slug((string) $alias);
+      if ($a !== '') {
+        $pack['index'][$a] = $slug;
+      }
+    }
+    $pack['source'] = $pack['source'] !== '' ? $pack['source'] . '+db' : 'db';
+  }
+
   return $pack;
+}
+
+/**
+ * Resolve a stored photo path to a real file under public/.
+ */
+function faculty_photo_fs(?string $rel): string {
+  $rel = ltrim(str_replace('\\', '/', (string) $rel), '/');
+  if ($rel === '' || preg_match('#^(?:https?:)?//#i', $rel)) {
+    return '';
+  }
+
+  $candidates = [];
+  if (defined('FCPATH')) {
+    $candidates[] = FCPATH . $rel;
+  }
+  if (defined('ROOTPATH')) {
+    $candidates[] = ROOTPATH . 'public/' . $rel;
+    $candidates[] = ROOTPATH . 'legacy/' . $rel;
+  }
+  $legacyRoot = dirname(__DIR__);
+  $candidates[] = dirname($legacyRoot) . '/public/' . $rel;
+  $candidates[] = $legacyRoot . '/' . $rel;
+
+  foreach ($candidates as $path) {
+    if ($path !== '' && is_file($path)) {
+      return $path;
+    }
+  }
+
+  return '';
+}
+
+/** Public URL for a faculty photo, or '' if the file is missing. */
+function faculty_photo_url(?string $rel): string {
+  $rel = ltrim(str_replace('\\', '/', (string) $rel), '/');
+  if ($rel === '') {
+    return '';
+  }
+  if (preg_match('#^(?:https?:)?//#i', $rel)) {
+    return $rel;
+  }
+  if (faculty_photo_fs($rel) === '') {
+    return '';
+  }
+  if (defined('base_url')) {
+    return rtrim((string) base_url, '/') . '/' . $rel;
+  }
+  return $rel;
 }
 
 function faculty_profile_lookup(string $slug): ?array {
