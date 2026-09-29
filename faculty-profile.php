@@ -31,10 +31,9 @@ $desig = faculty_normalize_designation((string) ($extra['designation'] ?? ''));
 $dept = (string) ($extra['department'] ?? '');
 $is_hod = !empty($extra['hod']);
 $quals = faculty_list_as_written($extra['qualifications'] ?? []);
-$experience = faculty_experience_as_written($extra['experience'] ?? []);
 $skills = faculty_list_as_written($extra['skills'] ?? []);
+$research = faculty_research_preferences($extra);
 $pubs = faculty_publications_as_written($extra['publications'] ?? []);
-$expRoles = count($experience);
 $initials = 'F';
 if ($display_name !== '') {
   $parts = preg_split('/\s+/', $display_name);
@@ -116,40 +115,25 @@ if ($display_name !== '') {
           <h1 class="fp-name" id="fpName"><?= htmlspecialchars($display_name !== '' ? $display_name : 'Faculty member') ?></h1>
           <p class="fp-college">Peshawar Dental College · Riphah International University, Peshawar Campus</p>
           <div class="fp-stats" id="fpStats">
-            <div class="fp-stat"><strong id="fpStatExp"><?= $expRoles ?: '—' ?></strong><span>Posts</span></div>
+            <div class="fp-stat"><strong id="fpStatResearch"><?= count($research) ?: '—' ?></strong><span>Research areas</span></div>
             <div class="fp-stat"><strong id="fpStatPub"><?= count($pubs) ?: '—' ?></strong><span>Papers</span></div>
             <div class="fp-stat"><strong id="fpStatQual"><?= count($quals) ?: '—' ?></strong><span>Degrees</span></div>
           </div>
         </header>
 
-        <section class="fp-panel" id="fpExpPanel"<?= $experience ? '' : ' hidden' ?>>
+        <section class="fp-panel" id="fpResearchPanel"<?= $research ? '' : ' hidden' ?>>
           <div class="fp-panel-head">
-            <span class="fp-panel-ico"><i class="bi bi-briefcase"></i></span>
+            <span class="fp-panel-ico"><i class="bi bi-lightbulb"></i></span>
             <div>
-              <h3>Professional experience</h3>
-              <p>Teaching and hospital posts</p>
+              <h3>Research preferences</h3>
+              <p>Areas of academic and clinical research interest</p>
             </div>
           </div>
-          <ol class="fp-timeline" id="fpExp">
-            <?php foreach ($experience as $item):
-              if (($item['kind'] ?? '') === 'heading'): ?>
-              <li class="fp-exp-heading"><?= htmlspecialchars($item['text'] ?? '') ?></li>
-            <?php else: ?>
-              <li class="fp-exp-role">
-                <div class="fp-exp-card">
-                  <div class="fp-exp-top">
-                    <strong><?= htmlspecialchars($item['title'] ?? '') ?></strong>
-                    <?php if (!empty($item['dates'])): ?>
-                      <span class="fp-exp-dates"><?= htmlspecialchars($item['dates']) ?></span>
-                    <?php endif; ?>
-                  </div>
-                  <?php if (!empty($item['detail'])): ?>
-                    <p class="fp-exp-place"><?= htmlspecialchars($item['detail']) ?></p>
-                  <?php endif; ?>
-                </div>
-              </li>
-            <?php endif; endforeach; ?>
-          </ol>
+          <ul class="fp-research-list" id="fpResearch">
+            <?php foreach ($research as $item): ?>
+              <li><?= htmlspecialchars($item) ?></li>
+            <?php endforeach; ?>
+          </ul>
         </section>
 
         <section class="fp-panel" id="fpPubPanel"<?= $pubs ? '' : ' hidden' ?>>
@@ -191,10 +175,10 @@ if ($display_name !== '') {
             <span class="fp-panel-ico"><i class="bi bi-hourglass-split"></i></span>
             <div>
               <h3>More details coming</h3>
-              <p>The department is still adding this CV.</p>
+              <p>The department is still adding this profile.</p>
             </div>
           </div>
-          <p class="fp-pending-copy">Name, post, subject, and PM&amp;DC numbers come from the college staff record. Professional experience, college duties, and papers will appear when the department sends the full CV.</p>
+          <p class="fp-pending-copy">Name, current post, subject, and PM&amp;DC numbers come from the college staff record. Research preferences, college duties, and papers will appear when the department provides them.</p>
         </section>
       </div>
     </article>
