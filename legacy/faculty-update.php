@@ -10,7 +10,7 @@ $errorMsg = trim((string) ($_GET['error'] ?? ''));
 include __DIR__ . '/includes/header.php';
 ?>
 
-<link href="<?= dms_asset('assets/css/faculty-update.css') ?>" rel="stylesheet"/>
+<link href="<?= dds_asset('assets/css/faculty-update.css') ?>" rel="stylesheet"/>
 
 <div class="page-hero">
   <div class="page-hero-grid"></div>
@@ -45,7 +45,7 @@ include __DIR__ . '/includes/header.php';
 
         <div class="fu-intro">
           <h2>Faculty profile form</h2>
-          <p>Select your name, add research topics, and upload publications. Reviewed before going live.</p>
+          <p>Select your name, upload your publications list, and share research interests. Reviewed before going live.</p>
         </div>
 
         <?php if ($errorMsg !== ''): ?>
@@ -56,7 +56,7 @@ include __DIR__ . '/includes/header.php';
           <input type="text" name="website" class="fu-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
 
           <div class="fu-card">
-            <h3>1. Who are you?</h3>
+            <h3>1. Tell us about yourself</h3>
 
             <div class="fu-row">
               <div>
@@ -85,28 +85,7 @@ include __DIR__ . '/includes/header.php';
           </div>
 
           <div class="fu-card">
-            <h3>2. Research topics <span class="req">*</span></h3>
-            <label class="fu-label" for="researchInput">Add 3–8 short topics</label>
-            <div class="fu-tag-box" id="researchBox">
-              <div class="fu-tags" id="researchTags" aria-live="polite"></div>
-              <div class="fu-tag-add">
-                <input class="fu-input" type="text" id="researchInput" maxlength="80" placeholder="e.g. Culturally adapted CBT" autocomplete="off">
-                <button type="button" class="btn-pmc btn-pmc-outline" id="researchAddBtn">Add</button>
-              </div>
-            </div>
-            <input type="hidden" name="research_preferences" id="researchHidden" value="">
-            <p class="fu-note" id="researchCount">0 topics</p>
-          </div>
-
-          <div class="fu-card">
-            <h3>3. Publications</h3>
-
-            <div class="fu-row">
-              <div>
-                <label class="fu-label" for="publicationsUrl">Link (optional)</label>
-                <input class="fu-input" type="url" id="publicationsUrl" name="publications_url" placeholder="e.g. scholar.google.com / orcid.org">
-              </div>
-            </div>
+            <h3>2. Publications</h3>
 
             <div class="fu-row">
               <div>
@@ -115,22 +94,57 @@ include __DIR__ . '/includes/header.php';
                 <p class="fu-note">PDF, Word, or TXT — max 8 MB</p>
               </div>
             </div>
+
+            <div class="fu-row">
+              <div>
+                <label class="fu-label" for="publicationsUrl">Link (optional)</label>
+                <input class="fu-input" type="url" id="publicationsUrl" name="publications_url" placeholder="e.g. scholar.google.com / orcid.org">
+              </div>
+            </div>
           </div>
 
           <div class="fu-card">
-            <h3>4. Other details</h3>
+            <h3>3. Research interests <span class="req">*</span></h3>
+            <label class="fu-label" for="researchInput">Add 3–8 short topics</label>
+            <div class="fu-tag-box" id="researchBox">
+              <div class="fu-tags" id="researchTags" aria-live="polite"></div>
+              <div class="fu-tag-add">
+                <input class="fu-input" type="text" id="researchInput" maxlength="80" placeholder="e.g. Oral squamous cell carcinoma" autocomplete="off">
+                <button type="button" class="btn-pmc btn-pmc-outline" id="researchAddBtn">Add</button>
+              </div>
+            </div>
+            <input type="hidden" name="research_preferences" id="researchHidden" value="">
+            <p class="fu-note" id="researchCount">0 topics</p>
+          </div>
+
+          <div class="fu-card">
+            <h3>4. Current research projects <span class="fu-optional">(if any)</span></h3>
+            <label class="fu-label" for="projectsInput">Add project titles as chips</label>
+            <div class="fu-tag-box" id="projectsBox">
+              <div class="fu-tags" id="projectsTags" aria-live="polite"></div>
+              <div class="fu-tag-add">
+                <input class="fu-input" type="text" id="projectsInput" maxlength="120" placeholder="e.g. Biomarkers in oral leukoplakia" autocomplete="off">
+                <button type="button" class="btn-pmc btn-pmc-outline" id="projectsAddBtn">Add</button>
+              </div>
+            </div>
+            <input type="hidden" name="current_research_projects" id="projectsHidden" value="">
+            <p class="fu-note" id="projectsCount">0 projects</p>
+          </div>
+
+          <div class="fu-card">
+            <h3>5. Qualification / Responsibilities</h3>
 
             <div class="fu-row">
               <div>
                 <label class="fu-label" for="qualifications">Education / degrees</label>
-                <textarea class="fu-textarea" id="qualifications" name="qualifications" placeholder="e.g.&#10;MBBS&#10;FCPS (Psychiatry)"></textarea>
+                <textarea class="fu-textarea" id="qualifications" name="qualifications" placeholder="e.g.&#10;BDS&#10;M.Phil (Oral Pathology)"></textarea>
                 <p class="fu-note">One per line</p>
               </div>
             </div>
 
             <div class="fu-row">
               <div>
-                <label class="fu-label" for="skills">College duties</label>
+                <label class="fu-label" for="skills">Responsibilities in college</label>
                 <textarea class="fu-textarea" id="skills" name="skills" placeholder="e.g.&#10;Research supervision&#10;Curriculum committee"></textarea>
                 <p class="fu-note">One per line</p>
               </div>
@@ -143,7 +157,7 @@ include __DIR__ . '/includes/header.php';
                 <p class="fu-note">JPG/PNG — max 2.5 MB</p>
               </div>
               <div>
-                <label class="fu-label" for="phone">Phone (office only)</label>
+                <label class="fu-label" for="phone">Phone <span class="fu-confidential">(confidential — only for office use)</span></label>
                 <input class="fu-input" type="tel" id="phone" name="contact_phone" placeholder="03xx-xxxxxxx" autocomplete="tel">
               </div>
             </div>
@@ -182,6 +196,11 @@ include __DIR__ . '/includes/header.php';
   const researchHidden = document.getElementById('researchHidden');
   const researchCount = document.getElementById('researchCount');
   const researchAddBtn = document.getElementById('researchAddBtn');
+  const projectsInput = document.getElementById('projectsInput');
+  const projectsTagsEl = document.getElementById('projectsTags');
+  const projectsHidden = document.getElementById('projectsHidden');
+  const projectsCount = document.getElementById('projectsCount');
+  const projectsAddBtn = document.getElementById('projectsAddBtn');
   const publicationsUrl = document.getElementById('publicationsUrl');
   const publicationsFile = document.getElementById('publicationsFile');
   const qualifications = document.getElementById('qualifications');
@@ -192,6 +211,8 @@ include __DIR__ . '/includes/header.php';
   let faculty = [];
   let profiles = {};
   let researchTags = [];
+  let projectTags = [];
+  const MAX_PROJECTS = 12;
 
   function facultySlug(name) {
     let n = String(name || '').trim();
@@ -255,8 +276,54 @@ include __DIR__ . '/includes/header.php';
     renderResearchTags();
   }
 
+  function syncProjectsHidden() {
+    projectsHidden.value = projectTags.join('\n');
+    projectsCount.textContent = projectTags.length
+      ? (projectTags.length + ' project' + (projectTags.length === 1 ? '' : 's'))
+      : '0 projects';
+  }
+
+  function renderProjectTags() {
+    projectsTagsEl.innerHTML = projectTags.map((tag, i) => (
+      '<span class="fu-tag">' + escapeHtml(tag) +
+        '<button type="button" aria-label="Remove ' + escapeHtml(tag) + '" data-i="' + i + '">&times;</button>' +
+      '</span>'
+    )).join('');
+    projectsTagsEl.querySelectorAll('button[data-i]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        projectTags.splice(Number(btn.getAttribute('data-i')), 1);
+        renderProjectTags();
+      });
+    });
+    syncProjectsHidden();
+  }
+
+  function addProjectTag(raw) {
+    const tag = String(raw || '').trim().replace(/\s+/g, ' ');
+    if (!tag) return;
+    if (projectTags.length >= MAX_PROJECTS) {
+      projectsCount.textContent = 'Maximum ' + MAX_PROJECTS + ' projects.';
+      return;
+    }
+    const exists = projectTags.some(t => t.toLowerCase() === tag.toLowerCase());
+    if (exists) return;
+    projectTags.push(tag.slice(0, 120));
+    projectsInput.value = '';
+    renderProjectTags();
+  }
+
+  function setProjectTags(list) {
+    projectTags = [];
+    (list || []).forEach(item => {
+      const tag = String(item || '').trim();
+      if (tag && projectTags.length < MAX_PROJECTS) projectTags.push(tag.slice(0, 120));
+    });
+    renderProjectTags();
+  }
+
   function clearProfileFields() {
     setResearchTags([]);
+    setProjectTags([]);
     publicationsUrl.value = '';
     qualifications.value = '';
     skills.value = '';
@@ -293,6 +360,9 @@ include __DIR__ . '/includes/header.php';
       setResearchTags(rec.research_preferences);
     } else if (Array.isArray(rec.research_interests) && rec.research_interests.length) {
       setResearchTags(rec.research_interests);
+    }
+    if (Array.isArray(rec.current_research_projects) && rec.current_research_projects.length) {
+      setProjectTags(rec.current_research_projects);
     }
     if (rec.publications_url) {
       publicationsUrl.value = rec.publications_url;
@@ -373,6 +443,13 @@ include __DIR__ . '/includes/header.php';
       addResearchTag(researchInput.value.replace(/,/g, ''));
     }
   });
+  projectsAddBtn.addEventListener('click', () => addProjectTag(projectsInput.value));
+  projectsInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ',') {
+      e.preventDefault();
+      addProjectTag(projectsInput.value.replace(/,/g, ''));
+    }
+  });
 
   search.addEventListener('input', () => {
     empName.value = '';
@@ -393,21 +470,22 @@ include __DIR__ . '/includes/header.php';
 
   form.addEventListener('submit', (e) => {
     syncResearchHidden();
+    syncProjectsHidden();
     if (!empName.value.trim() || !slugEl.value.trim()) {
       e.preventDefault();
       statusEl.textContent = 'Select your name from the list.';
       search.focus();
       return;
     }
-    if (!researchTags.length) {
-      e.preventDefault();
-      researchCount.textContent = 'Add at least one topic.';
-      researchInput.focus();
-      return;
-    }
     if (!publicationsFile.files || !publicationsFile.files.length) {
       e.preventDefault();
       publicationsFile.focus();
+      return;
+    }
+    if (!researchTags.length) {
+      e.preventDefault();
+      researchCount.textContent = 'Add at least one research interest.';
+      researchInput.focus();
       return;
     }
     submitBtn.disabled = true;

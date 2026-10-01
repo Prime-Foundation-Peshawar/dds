@@ -27,13 +27,16 @@
     <label>Publications URL
       <input type="url" name="publications_url" value="<?= esc($row['publications_url'] ?? '') ?>">
     </label>
-    <label>Research topics (one per line)
+    <label>Research interests (one per line)
       <textarea name="research_preferences"><?= esc(implode("\n", $row['research_preferences'] ?? [])) ?></textarea>
     </label>
-    <label>Education (one per line)
+    <label>Current research projects (one per line)
+      <textarea name="current_research_projects"><?= esc(implode("\n", $row['current_research_projects'] ?? [])) ?></textarea>
+    </label>
+    <label>Qualifications (one per line)
       <textarea name="qualifications"><?= esc(implode("\n", $row['qualifications'] ?? [])) ?></textarea>
     </label>
-    <label>Duties (one per line)
+    <label>Responsibilities in college (one per line)
       <textarea name="skills"><?= esc(implode("\n", $row['skills'] ?? [])) ?></textarea>
     </label>
     <div class="acp-actions">

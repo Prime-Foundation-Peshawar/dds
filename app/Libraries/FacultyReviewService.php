@@ -43,6 +43,12 @@ class FacultyReviewService
             'department'            => (string) ($sub['dep_name'] ?? ($existing['department'] ?? '')),
             'designation'           => (string) ($sub['des_title'] ?? ($existing['designation'] ?? '')),
             'research_preferences'  => json_encode($sub['research_preferences'] ?? [], JSON_UNESCAPED_UNICODE),
+            'current_research_projects' => json_encode(
+                !empty($sub['current_research_projects'])
+                    ? $sub['current_research_projects']
+                    : ($existing['current_research_projects'] ?? []),
+                JSON_UNESCAPED_UNICODE
+            ),
             'publications_url'      => $sub['publications_url'] ?: ($existing['publications_url'] ?? null),
             'qualifications'        => json_encode(
                 !empty($sub['qualifications']) ? $sub['qualifications'] : ($existing['qualifications'] ?? []),

@@ -23,6 +23,7 @@ class FacultyProfileModel extends Model
         'skills',
         'publications',
         'research_preferences',
+        'current_research_projects',
         'publications_url',
         'contact_phone',
         'source',
@@ -59,7 +60,7 @@ class FacultyProfileModel extends Model
      */
     public function normalize(array $row): array
     {
-        foreach (['aliases', 'qualifications', 'experience', 'skills', 'publications', 'research_preferences'] as $key) {
+        foreach (['aliases', 'qualifications', 'experience', 'skills', 'publications', 'research_preferences', 'current_research_projects'] as $key) {
             $row[$key] = dms_json_list($row[$key] ?? null);
         }
         $row['hod'] = !empty($row['hod']);

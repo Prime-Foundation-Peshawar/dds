@@ -47,6 +47,7 @@ $desTitle = trim((string) ($_POST['des_title'] ?? ''));
 $depName = trim((string) ($_POST['dep_name'] ?? ''));
 $phone = trim((string) ($_POST['contact_phone'] ?? ''));
 $research = faculty_parse_lines_field($_POST['research_preferences'] ?? '', 8);
+$projects = faculty_parse_lines_field($_POST['current_research_projects'] ?? '', 12);
 $quals = faculty_parse_lines_field($_POST['qualifications'] ?? '', 12);
 $skills = faculty_parse_lines_field($_POST['skills'] ?? '', 12);
 $publicationsUrl = faculty_clean_url((string) ($_POST['publications_url'] ?? ''));
@@ -59,7 +60,7 @@ if ($empName === '' || $slug === '') {
   faculty_update_redirect('error=' . rawurlencode('Please select your name from the list.'));
 }
 if (count($research) < 1) {
-  faculty_update_redirect('error=' . rawurlencode('Please add at least one research topic tag.'));
+  faculty_update_redirect('error=' . rawurlencode('Please add at least one research interest.'));
 }
 if (!$hasPubsFile) {
   faculty_update_redirect('error=' . rawurlencode('Please upload your full publications list (PDF, Word, or TXT).'));
@@ -71,12 +72,13 @@ if (strlen($phone) > 40) {
 $photo = $_FILES['photo'] ?? null;
 $result = faculty_save_submission([
   'ip' => $ip,
-  'college' => 'dms',
+  'college' => 'dds',
   'emp_name' => $empName,
   'slug' => $slug,
   'des_title' => $desTitle,
   'dep_name' => $depName,
   'research_preferences' => $research,
+  'current_research_projects' => $projects,
   'publications_url' => $publicationsUrl,
   'publications' => [],
   'qualifications' => $quals,

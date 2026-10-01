@@ -20,6 +20,7 @@ class FacultySubmissionModel extends Model
         'des_title',
         'dep_name',
         'research_preferences',
+        'current_research_projects',
         'publications_url',
         'publications_file',
         'publications',
@@ -72,7 +73,7 @@ class FacultySubmissionModel extends Model
      */
     public function normalize(array $row): array
     {
-        foreach (['research_preferences', 'publications', 'qualifications', 'skills'] as $key) {
+        foreach (['research_preferences', 'current_research_projects', 'publications', 'qualifications', 'skills'] as $key) {
             $row[$key] = dms_json_list($row[$key] ?? null);
         }
 

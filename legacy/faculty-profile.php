@@ -35,6 +35,7 @@ $is_hod = !empty($extra['hod']);
 $quals = faculty_list_as_written($extra['qualifications'] ?? []);
 $skills = faculty_list_as_written($extra['skills'] ?? []);
 $research = faculty_research_preferences($extra);
+$projects = faculty_list_as_written($extra['current_research_projects'] ?? []);
 $pubs = faculty_publications_as_written($extra['publications'] ?? []);
 $initials = 'F';
 if ($display_name !== '') {
@@ -100,7 +101,7 @@ if ($display_name !== '') {
           </ul>
         </div>
         <div class="fp-side-block" id="fpSkillBlock"<?= $skills ? '' : ' hidden' ?>>
-          <h2>College duties</h2>
+          <h2>Responsibilities in college</h2>
           <ul class="fp-duty-list" id="fpSkills">
             <?php foreach ($skills as $s): ?>
               <li><?= htmlspecialchars(faculty_soft_space((string) $s)) ?></li>
@@ -117,7 +118,7 @@ if ($display_name !== '') {
           <h1 class="fp-name" id="fpName"><?= htmlspecialchars($display_name !== '' ? $display_name : 'Faculty member') ?></h1>
           <p class="fp-college">Peshawar Dental College · Riphah International University, Peshawar Campus</p>
           <div class="fp-stats" id="fpStats">
-            <div class="fp-stat"><strong id="fpStatResearch"><?= count($research) ?: '—' ?></strong><span>Research areas</span></div>
+            <div class="fp-stat"><strong id="fpStatResearch"><?= count($research) ?: '—' ?></strong><span>Research interests</span></div>
             <div class="fp-stat"><strong id="fpStatPub"><?= count($pubs) ?: '—' ?></strong><span>Papers</span></div>
             <div class="fp-stat"><strong id="fpStatQual"><?= count($quals) ?: '—' ?></strong><span>Degrees</span></div>
           </div>
@@ -127,12 +128,27 @@ if ($display_name !== '') {
           <div class="fp-panel-head">
             <span class="fp-panel-ico"><i class="bi bi-lightbulb"></i></span>
             <div>
-              <h3>Research preferences</h3>
+              <h3>Research interests</h3>
               <p>Areas of academic and clinical research interest</p>
             </div>
           </div>
           <ul class="fp-research-list" id="fpResearch">
             <?php foreach ($research as $item): ?>
+              <li><?= htmlspecialchars($item) ?></li>
+            <?php endforeach; ?>
+          </ul>
+        </section>
+
+        <section class="fp-panel" id="fpProjectsPanel"<?= $projects ? '' : ' hidden' ?>>
+          <div class="fp-panel-head">
+            <span class="fp-panel-ico"><i class="bi bi-kanban"></i></span>
+            <div>
+              <h3>Current research projects</h3>
+              <p>Active project titles</p>
+            </div>
+          </div>
+          <ul class="fp-research-list" id="fpProjects">
+            <?php foreach ($projects as $item): ?>
               <li><?= htmlspecialchars($item) ?></li>
             <?php endforeach; ?>
           </ul>
@@ -180,7 +196,7 @@ if ($display_name !== '') {
               <p>The department is still adding this profile.</p>
             </div>
           </div>
-          <p class="fp-pending-copy">Name, current post, subject, and PM&amp;DC numbers come from the college staff record. Research preferences, college duties, and papers will appear when the department provides them.</p>
+          <p class="fp-pending-copy">Name, current post, subject, and PM&amp;DC numbers come from the college staff record. Research interests, responsibilities in college, and papers will appear when the department provides them.</p>
         </section>
       </div>
     </article>

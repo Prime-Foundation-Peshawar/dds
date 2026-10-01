@@ -131,6 +131,7 @@ class Faculty extends BaseController
             'designation'          => trim((string) $this->request->getPost('designation')),
             'publications_url'     => trim((string) $this->request->getPost('publications_url')) ?: null,
             'research_preferences' => json_encode($lines($this->request->getPost('research_preferences')), JSON_UNESCAPED_UNICODE),
+            'current_research_projects' => json_encode($lines($this->request->getPost('current_research_projects')), JSON_UNESCAPED_UNICODE),
             'qualifications'       => json_encode($lines($this->request->getPost('qualifications')), JSON_UNESCAPED_UNICODE),
             'skills'               => json_encode($lines($this->request->getPost('skills')), JSON_UNESCAPED_UNICODE),
             'updated_at'           => date('Y-m-d H:i:s'),

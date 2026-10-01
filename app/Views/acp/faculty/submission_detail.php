@@ -19,7 +19,7 @@
       <p><strong>Phone (office):</strong> <?= esc($sub['contact_phone']) ?></p>
     <?php endif; ?>
 
-    <h3>Research topics</h3>
+    <h3>Research interests</h3>
     <?php if (empty($sub['research_preferences'])): ?>
       <p class="acp-muted">None</p>
     <?php else: ?>
@@ -30,7 +30,18 @@
       </ul>
     <?php endif; ?>
 
-    <h3>Education</h3>
+    <h3>Current research projects</h3>
+    <?php if (empty($sub['current_research_projects'])): ?>
+      <p class="acp-muted">None</p>
+    <?php else: ?>
+      <ul class="acp-list">
+        <?php foreach ($sub['current_research_projects'] as $item): ?>
+          <li><?= esc((string) $item) ?></li>
+        <?php endforeach; ?>
+      </ul>
+    <?php endif; ?>
+
+    <h3>Qualifications</h3>
     <?php if (empty($sub['qualifications'])): ?>
       <p class="acp-muted">None</p>
     <?php else: ?>
@@ -41,7 +52,7 @@
       </ul>
     <?php endif; ?>
 
-    <h3>Duties</h3>
+    <h3>Responsibilities in college</h3>
     <?php if (empty($sub['skills'])): ?>
       <p class="acp-muted">None</p>
     <?php else: ?>
