@@ -104,8 +104,8 @@ include __DIR__ . '/includes/header.php';
           </div>
 
           <div class="fu-card">
-            <h3>3. Research interests <span class="req">*</span></h3>
-            <label class="fu-label" for="researchInput">Add 3–8 short topics</label>
+            <h3>3. Research interests <span class="fu-optional">(if any)</span></h3>
+            <label class="fu-label" for="researchInput">Add short topics as chips</label>
             <div class="fu-tag-box" id="researchBox">
               <div class="fu-tags" id="researchTags" aria-live="polite"></div>
               <div class="fu-tag-add">
@@ -480,12 +480,6 @@ include __DIR__ . '/includes/header.php';
     if (!publicationsFile.files || !publicationsFile.files.length) {
       e.preventDefault();
       publicationsFile.focus();
-      return;
-    }
-    if (!researchTags.length) {
-      e.preventDefault();
-      researchCount.textContent = 'Add at least one research interest.';
-      researchInput.focus();
       return;
     }
     submitBtn.disabled = true;
