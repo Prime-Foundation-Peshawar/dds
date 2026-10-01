@@ -1,6 +1,7 @@
 <?= $this->extend('layouts/public') ?>
 <?= $this->section('content') ?>
 
+<?php
 $photo = '';
 if (!empty($extra['photo'])) {
   $rawPhoto = (string) $extra['photo'];
