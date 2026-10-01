@@ -43,8 +43,12 @@ class Pages extends PublicController
             return $this->redirectLegacy('portal-login', 301);
         }
 
-        // CMS override for editable slugs (non-reserved).
-        if (! $this->isReserved($slug)) {
+        // Built-in static views win over CMS so ported pages never 500 on a missing sidebar include.
+        $view = 'pages/' . $slug;
+        $hasStatic = is_file(APPPATH . 'Views/' . $view . '.php');
+
+        // CMS override only for slugs that are not reserved and have no static view.
+        if (! $hasStatic && ! $this->isReserved($slug)) {
             require_once ROOTPATH . 'legacy/includes/cms-content.php';
             $cmsPage = dms_cms_page_by_slug($slug);
             if (is_array($cmsPage)) {
@@ -52,14 +56,128 @@ class Pages extends PublicController
             }
         }
 
-        $view = 'pages/' . $slug;
-        if (! is_file(APPPATH . 'Views/' . $view . '.php')) {
+        if (! $hasStatic) {
             throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound($slug);
         }
 
-        $data = $this->metaFromLegacy($slug);
+        $data = array_merge($this->metaFromLegacy($slug), $this->pageData($slug));
 
         return $this->renderPage($view, $data);
+    }
+
+    /**
+     * View data that used to be prepared at the top of legacy *.php pages.
+     *
+     * @return array<string,mixed>
+     */
+    protected function pageData(string $slug): array
+    {
+        return match ($slug) {
+            'faculty-research' => $this->facultyResearchData(),
+            default => [],
+        };
+    }
+
+    /**
+     * @return array<string,mixed>
+     */
+    protected function facultyResearchData(): array
+    {
+        $debugMode = $this->request->getGet('debug') === '1';
+        $apiUrl = 'https://oric.riphahpsh.edu.pk/apis/getPublicationsInfo.php';
+        $publicationsByDept = [];
+        $fetchError = false;
+        $debugInfo = [];
+
+        $ch = curl_init();
+        curl_setopt_array($ch, [
+            CURLOPT_URL => $apiUrl,
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_TIMEOUT => 15,
+            CURLOPT_CONNECTTIMEOUT => 8,
+            CURLOPT_FOLLOWLOCATION => true,
+            CURLOPT_MAXREDIRS => 3,
+            CURLOPT_SSL_VERIFYPEER => false,
+            CURLOPT_USERAGENT => 'Mozilla/5.0 (compatible; PDC-Website/1.0)',
+            CURLOPT_HTTPHEADER => ['Accept: application/json'],
+        ]);
+        $result = curl_exec($ch);
+        $httpCode = (int) curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        $curlError = curl_error($ch);
+        curl_close($ch);
+
+        $debugInfo['http_code'] = $httpCode;
+        $debugInfo['curl_error'] = $curlError;
+        $debugInfo['raw_result'] = $result;
+
+        if ($result === false || $curlError !== '') {
+            $fetchError = true;
+        } elseif ($httpCode < 200 || $httpCode >= 300) {
+            $fetchError = true;
+        } else {
+            $data = json_decode((string) $result);
+            if (json_last_error() !== JSON_ERROR_NONE) {
+                $fetchError = true;
+            } else {
+                $list = null;
+                if (is_array($data)) {
+                    $list = $data;
+                } elseif (is_object($data)) {
+                    foreach (['data', 'records', 'result', 'publications', 'items'] as $key) {
+                        if (isset($data->{$key}) && is_array($data->{$key})) {
+                            $list = $data->{$key};
+                            break;
+                        }
+                    }
+                }
+                if ($list === null) {
+                    $fetchError = true;
+                } else {
+                    foreach ($list as $pub) {
+                        $dept = $pub->depName ?? 'Other';
+                        $publicationsByDept[$dept][] = $pub;
+                    }
+                }
+            }
+        }
+
+        $flatPublications = [];
+        foreach ($publicationsByDept as $dept => $pubs) {
+            foreach ($pubs as $pub) {
+                $flatPublications[] = [
+                    'department' => $dept,
+                    'author' => $pub->authorName ?? '',
+                    'title' => $pub->pubTitle ?? '',
+                    'journal' => $pub->pubJournalName ?? '',
+                    'year' => $pub->pubYear ?? '',
+                ];
+            }
+        }
+
+        usort($flatPublications, static function (array $a, array $b): int {
+            if ((int) $a['year'] !== (int) $b['year']) {
+                return (int) $b['year'] - (int) $a['year'];
+            }
+
+            return strcmp((string) $a['department'], (string) $b['department']);
+        });
+
+        $departments = array_keys($publicationsByDept);
+        sort($departments);
+        $years = array_values(array_unique(array_map(static fn (array $p) => $p['year'], $flatPublications)));
+        rsort($years);
+
+        return [
+            'debug_mode' => $debugMode,
+            'debug_info' => $debugInfo,
+            'fetch_error' => $fetchError,
+            'publications_by_dept' => $publicationsByDept,
+            'flat_publications' => $flatPublications,
+            'departments' => $departments,
+            'years' => $years,
+            'page_title' => 'Faculty Research — Department of Dental Sciences - Riphah International University (Peshawar Campus)',
+            'page_description' => 'Explore research publications by faculty members of the Department of Dental Sciences.',
+        ];
     }
 
     public function cms(): string

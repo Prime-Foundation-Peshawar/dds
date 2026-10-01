@@ -31,7 +31,9 @@ if (!function_exists('str_contains')) {
 
 function faculty_slug(string $name): string {
   $n = trim($name);
-  $titles = '/^(associate professor|assistant professor|professor|prof\.?|dr\.?)\s+/i';
+  // Strip HRMS / department titles (full and abbreviated) so
+  // "Sr. Registrar Dr. …" and "Asst. Prof. Dr. …" resolve to CV JSON slugs.
+  $titles = '/^(senior\s+registrar|sr\.?\s+registrar|associate\s+professor|assoc\.?\s+prof\.?|assistant\s+professor|asst\.?\s+prof\.?|senior\s+lecturer|professor|prof\.?|dr\.?)\s+/i';
   while (preg_match($titles, $n)) {
     $n = preg_replace($titles, '', $n, 1);
   }
