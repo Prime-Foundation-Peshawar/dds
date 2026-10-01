@@ -1280,6 +1280,7 @@ function faculty_is_hod_name(string $memberName, string $hodName): bool {
 function faculty_public_hidden_desigs(): array {
   return [
     'Senior Lecturer' => true,
+    'Lecturer' => true,
     'Junior Registrar' => true,
   ];
 }

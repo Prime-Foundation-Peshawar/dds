@@ -178,7 +178,7 @@ const DESIG_RANK = {
 };
 
 /** Posts hidden from the public faculty directory (HRMS + CV overlay). */
-const HIDDEN_DESIGS = new Set(['Senior Lecturer', 'Junior Registrar']);
+const HIDDEN_DESIGS = new Set(['Senior Lecturer', 'Lecturer', 'Junior Registrar']);
 
 function isPublicFacultyDesig(desTitle) {
   return !HIDDEN_DESIGS.has(String(desTitle || '').trim());
