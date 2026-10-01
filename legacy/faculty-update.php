@@ -482,6 +482,12 @@ include __DIR__ . '/includes/header.php';
       publicationsFile.focus();
       return;
     }
+    if (!researchTags.length) {
+      e.preventDefault();
+      researchCount.textContent = 'Add at least one research interest.';
+      researchInput.focus();
+      return;
+    }
     submitBtn.disabled = true;
     submitBtn.innerHTML = '<i class="bi bi-hourglass-split"></i> Sending…';
   });
