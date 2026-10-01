@@ -59,6 +59,9 @@ $hasPubsFile = is_array($publicationsFile)
 if ($empName === '' || $slug === '') {
   faculty_update_redirect('error=' . rawurlencode('Please select your name from the list.'));
 }
+if (count($research) < 1) {
+  faculty_update_redirect('error=' . rawurlencode('Please add at least one research interest.'));
+}
 if (!$hasPubsFile) {
   faculty_update_redirect('error=' . rawurlencode('Please upload your full publications list (PDF, Word, or TXT).'));
 }

@@ -104,8 +104,8 @@ include __DIR__ . '/includes/header.php';
           </div>
 
           <div class="fu-card">
-            <h3>3. Research interests <span class="fu-optional">(if any)</span></h3>
-            <label class="fu-label" for="researchInput">Add short topics as chips</label>
+            <h3>3. Research interests <span class="req">*</span></h3>
+            <label class="fu-label" for="researchInput">Add at least 1 short topic</label>
             <div class="fu-tag-box" id="researchBox">
               <div class="fu-tags" id="researchTags" aria-live="polite"></div>
               <div class="fu-tag-add">
