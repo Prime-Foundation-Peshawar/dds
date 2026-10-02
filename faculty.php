@@ -175,6 +175,13 @@ const DESIG_RANK = {
   'Registrar': 7, 'CEO': 8, 'Director IT': 9, 'Other': 10
 };
 
+/** Posts hidden from the public faculty directory (HRMS + CV overlay). */
+const HIDDEN_DESIGS = new Set(['Senior Lecturer', 'Lecturer', 'Junior Registrar']);
+
+function isPublicFacultyDesig(desTitle) {
+  return !HIDDEN_DESIGS.has(String(desTitle || '').trim());
+}
+
 const DESIG_PREFIX = {
   'Professor': 'Prof.',
   'Associate Professor': 'Assoc. Prof.',
@@ -391,6 +398,7 @@ function appendMissingCvFaculty() {
   const rows = extraPack.profiles ? Object.values(extraPack.profiles) : [];
   for (const rec of rows) {
     if (!rec || !rec.name || !hasWordProfile(rec)) continue;
+    if (!isPublicFacultyDesig(rec.designation || 'Faculty')) continue;
     if (listHasProfile(rec)) continue;
     allFaculty.push({
       empName: rec.name,
@@ -537,12 +545,15 @@ function clearAllFilters() {
     if (debugEl) debugEl.textContent = JSON.stringify(data[0], null, 2);
   }
 
-  allFaculty = data.sort((a, b) => {
+  allFaculty = data
+    .filter(f => isPublicFacultyDesig(f.desTitle))
+    .sort((a, b) => {
     const deptDiff = getDeptOrder(a.depName) - getDeptOrder(b.depName);
     if (deptDiff !== 0) return deptDiff;
     return getDesigRank(a.desTitle) - getDesigRank(b.desTitle);
   });
   appendMissingCvFaculty();
+  allFaculty = allFaculty.filter(f => isPublicFacultyDesig(f.desTitle));
   allFaculty.forEach(f => {
     f.depName = canonicalDept(f.depName) || f.depName;
   });
