@@ -1234,6 +1234,9 @@ function faculty_hrms_count_for_department(string $slug, string $deptName, ?int 
     if (!is_array($row)) {
       continue;
     }
+    if (!faculty_public_desig_allowed((string) ($row['desTitle'] ?? ''))) {
+      continue;
+    }
     $dep = faculty_hrms_norm_dept((string) ($row['depName'] ?? ''));
     if ($dep !== '' && !empty($wanted[$dep])) {
       $n++;
