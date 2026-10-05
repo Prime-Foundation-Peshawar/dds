@@ -31,7 +31,7 @@ if (!function_exists('str_contains')) {
 
 function faculty_slug(string $name): string {
   $n = trim($name);
-  $titles = '/^(associate professor|assistant professor|professor|prof\.?|dr\.?)\s+/i';
+  $titles = '/^(associate professor|assistant professor|senior registrar|senior lecturer|assoc\.?\s*prof\.?|asst\.?\s*prof\.?|sr\.?\s*registrar|sr\.?\s*lecturer|professor|prof\.?|dr\.?)\s+/i';
   while (preg_match($titles, $n)) {
     $n = preg_replace($titles, '', $n, 1);
   }

@@ -138,7 +138,6 @@ const DEPT_CONFIG = {
   'Sciences of Dental Materials':      { icon: 'bi-boxes',              order: 2  },
   'Oral Biology':                      { icon: 'bi-flower1',            order: 3  },
   'Community & Preventive Dentistry':  { icon: 'bi-people-fill',        order: 4  },
-  'Dental Education':                  { icon: 'bi-mortarboard-fill',   order: 5  },
   'Anatomy':                           { icon: 'bi-body-text',          order: 6  },
   'Physiology':                        { icon: 'bi-activity',           order: 7  },
   'Biochemistry':                      { icon: 'bi-moisture',           order: 8  },
@@ -168,6 +167,9 @@ const DEPT_ALIASES = {
   'pediatric dentistry': 'Paediatric Dentistry',
   'paediatric dentistry': 'Paediatric Dentistry',
 };
+
+/** Departments hidden from the public faculty directory (DDE). */
+const HIDDEN_DEPTS = new Set(['Dental Education', 'DDE']);
 
 const DESIG_RANK = {
   'Professor': 1, 'Associate Professor': 2, 'Assistant Professor': 3,
@@ -350,7 +352,7 @@ let extraPack = { profiles: {}, index: {} };
 
 function facultySlug(name) {
   let n = String(name || '').trim();
-  const titles = /^(associate professor|assistant professor|professor|prof\.?|dr\.?)\s+/i;
+  const titles = /^(associate professor|assistant professor|senior registrar|senior lecturer|assoc\.?\s*prof\.?|asst\.?\s*prof\.?|sr\.?\s*registrar|sr\.?\s*lecturer|professor|prof\.?|dr\.?)\s+/i;
   while (titles.test(n)) n = n.replace(titles, '');
   return n.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 }
@@ -400,10 +402,12 @@ function appendMissingCvFaculty() {
     if (!rec || !rec.name || !hasWordProfile(rec)) continue;
     if (!isPublicFacultyDesig(rec.designation || 'Faculty')) continue;
     if (listHasProfile(rec)) continue;
+    const depName = canonicalDept(rec.department) || rec.department || '';
+    if (HIDDEN_DEPTS.has(String(depName).trim())) continue;
     allFaculty.push({
       empName: rec.name,
       desTitle: rec.designation || 'Faculty',
-      depName: canonicalDept(rec.department) || rec.department || '',
+      depName,
       facPMDCNo: '',
       facFacRegNo: '',
       qualifications: Array.isArray(rec.qualifications)
@@ -557,6 +561,7 @@ function clearAllFilters() {
   allFaculty.forEach(f => {
     f.depName = canonicalDept(f.depName) || f.depName;
   });
+  allFaculty = allFaculty.filter(f => !HIDDEN_DEPTS.has(String(f.depName || '').trim()));
   allFaculty.sort((a, b) => {
     const deptDiff = getDeptOrder(a.depName) - getDeptOrder(b.depName);
     if (deptDiff !== 0) return deptDiff;
