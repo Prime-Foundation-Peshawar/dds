@@ -1485,6 +1485,59 @@
         "Khan SA, Shah W, Khan MA, Khan MJ, Ali Shah. Significance of endoscopy/colonoscopy versus microscopy in patients with chronic diarrhea. Journal of Medical Sciences. 2014;22(3):132-136.",
         "Khattak M, Habib SH, Irfan M. Effect of a non-energy restricted ketogenic diet on cognition in sedentary healthy young adults. Physiology International. 2026 Jan 20:2060-25."
       ]
+    },
+    "hina-hakim": {
+      "slug": "hina-hakim",
+      "aliases": [
+        "hina-hakim"
+      ],
+      "name": "Hina Hakim",
+      "department": "Biochemistry",
+      "designation": "Assistant Professor",
+      "hod": true,
+      "photo": "",
+      "qualifications": [
+        "BDS",
+        "M.phil",
+        "CHR",
+        "CHPE",
+        "PGD",
+        "HQ&RM"
+      ],
+      "experience": [
+        "Senior lecturer Department of Biochemistry, Peshawar Medical and dental College Peshawar (22.01.2022 till3107.2022)",
+        "Assistant professor Biochemistry department 01.08.2022 till date Peshawar medical college and dental college"
+      ],
+      "skills": [],
+      "publications": [
+        "Diagnosis of Malaria Gametocytes Using MP ICT Vs PCR in Infected Patients: A Cross-Sectional Study of Asymptomatic Relatives",
+        "Glycated Albumin's Clinical Effectiveness in the Diagnosis of Diabetes",
+        "Association of Zinc Concentration in Seminal Plasma and Blood with Several Parameters of Semen in Infertile Males",
+        "Association between Vitamin D and serum ferritin levels in anemic women of child bearing age in Malakand KPK",
+        "Effect of cholecalciferol recommended daily allowances on vitamin d status and fabroblast growth factor- 23, in Acute burn patients",
+        "AN ASSOCIATION BETWEEN TYPE 2 DIABETES MELLITUS AND A CLINICAL PERIODONTAL PARAMETER: POCKET DEPTH",
+        "A comparison of the effects of hydrochlorothiazide and captopril on glucose and lipid metabolism in patients with hypertension.",
+        "Effects of Vitamin D on Respiratory Function and Immune Status for Patients with Chronic Obstructive Pulmonary Disease (COPD): A Systematic Review",
+        "Frequency of undiagnosed Chronic Obstructive Pulmonary Disease amongst Coronary Artery Disease patients: A single centre study"
+      ]
+    },
+    "amna-umer": {
+      "slug": "amna-umer",
+      "aliases": [
+        "amna-umer"
+      ],
+      "name": "Amna Umer",
+      "department": "Pharmacology",
+      "designation": "Assistant Professor",
+      "hod": true,
+      "photo": "",
+      "qualifications": [
+        "BDS",
+        "M.Phil"
+      ],
+      "experience": [],
+      "skills": [],
+      "publications": []
     }
   },
   "index": {
@@ -1539,6 +1592,8 @@
     "hina-rehman": "hina-rehman",
     "zudia-riaz": "zudia-riaz",
     "mah-rukh": "mah-rukh",
-    "munaza-khattak": "munaza-khattak"
+    "munaza-khattak": "munaza-khattak",
+    "hina-hakim": "hina-hakim",
+    "amna-umer": "amna-umer"
   }
 }
