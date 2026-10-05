@@ -95,7 +95,7 @@ $academic_departments = [
       ],
       [
         'name' => 'Associate Professor Dr. Sana Arbab',
-        'qualification' => 'BDS, M.Phil',
+        'qualification' => 'BDS, MPhil (Oral Biology), CHPE, PGD',
         'reg' => '9289-D',
       ],
     ],
@@ -141,6 +141,7 @@ $academic_departments = [
     'name' => 'Dental Education',
     'icon' => 'bi-mortarboard-fill',
     'group' => 'Basic',
+    'hidden' => true,
     'intro' => [
       'The Department of Dental Education at Peshawar Dental College supports BDS education through structured teaching in health professions education and faculty development.',
       'Faculty combine classroom teaching, laboratory or clinical exposure, and assessment aligned with PM&DC requirements and community oral health needs.',
@@ -230,7 +231,7 @@ $academic_departments = [
     'faculty' => [
       [
         'name' => 'Assistant Professor Dr. Hina Hakim',
-        'qualification' => 'BDS, M.Phil',
+        'qualification' => 'BDS, M.Phil., CHR, CHPE, PGD, HQ&RM',
         'reg' => '18806-D',
       ],
     ],
@@ -434,12 +435,12 @@ $academic_departments = [
       ],
       [
         'name' => 'Professor Dr. Muhammad Ishfaq',
-        'qualification' => 'BDS, FCPS',
+        'qualification' => 'BDS, FCPS, CHPE',
         'reg' => '6374-D',
       ],
       [
         'name' => 'Associate Professor Dr. Nadia Ashraf',
-        'qualification' => 'BDS, FCPS',
+        'qualification' => 'BDS, FCPS(OMFS), CHPE',
         'reg' => '6951-D',
       ],
       [
@@ -565,7 +566,11 @@ unset($dept);
 
 function get_academic_department(string $slug): ?array {
   global $academic_departments;
-  return $academic_departments[$slug] ?? null;
+  $dept = $academic_departments[$slug] ?? null;
+  if (!$dept || !empty($dept['hidden'])) {
+    return null;
+  }
+  return $dept;
 }
 
 function get_department_activity(string $slug, int $index): ?array {
@@ -588,6 +593,9 @@ function get_department_activity(string $slug, int $index): ?array {
 function academic_department_groups(array $departments): array {
   $groups = [];
   foreach ($departments as $slug => $dept) {
+    if (!empty($dept['hidden'])) {
+      continue;
+    }
     $group = $dept['group'] ?? 'Other';
     $groups[$group][$slug] = $dept;
   }

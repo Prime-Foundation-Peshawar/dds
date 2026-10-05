@@ -1493,19 +1493,18 @@
       ],
       "name": "Hina Hakim",
       "department": "Biochemistry",
-      "designation": "Assistant Professor",
+      "designation": "Assistant professor",
       "hod": true,
       "photo": "",
       "qualifications": [
         "BDS",
-        "M.phil",
+        "M.Phil.",
         "CHR",
         "CHPE",
         "PGD",
         "HQ&RM"
       ],
       "experience": [
-        "Senior lecturer Department of Biochemistry, Peshawar Medical and dental College Peshawar (22.01.2022 till3107.2022)",
         "Assistant professor Biochemistry department 01.08.2022 till date Peshawar medical college and dental college"
       ],
       "skills": [],
@@ -1538,6 +1537,158 @@
       "experience": [],
       "skills": [],
       "publications": []
+    },
+    "nadia-ashraf": {
+      "slug": "nadia-ashraf",
+      "aliases": [
+        "nadia-ashraf"
+      ],
+      "name": "Nadia Ashraf",
+      "department": "Oral & Maxillofacial Surgery",
+      "designation": "Associate Professor",
+      "hod": false,
+      "photo": "assets/images/faculty/nadia-ashraf.jpeg",
+      "qualifications": [
+        "BDS",
+        "FCPS(OMFS)",
+        "CHPE"
+      ],
+      "experience": [
+        "Associate Professor Oral and Maxillofacial Surgery From 1st December 2025-till date"
+      ],
+      "skills": [],
+      "publications": [
+        "Effects of Temporomandibular Joint Dysfunction Syndrome on the quality of life- a cross- sectional study. J Saidu Medical College Swat November 2024, Vol 14, No. 4 (Co-author)",
+        "Causes of removal of impacted mandibular third molar in patients visiting Peshawar Dental College and Hospital, Peshawar. PODJ September 2024, Vol 44, No. 3 (Co-author)",
+        "Levels of inflammatory blood parameters following third molar surgery in patients visiting an Oral and Maxillofacial Surgery Department. PODJ September 2024, Vol 44, No. 3 (Co-author)",
+        "Frequency of mandibular condylar fracture in children presenting to Hayatabad Medical Complex Peshawar: a cross sectional study. JKCD June 2024, vol 14, No. 2 ( Co-author)",
+        "The frequency of accessory mental foramen using cone beam computed tomographic images. Med forum June 2024, Vol 35, No.6 (Co-author)",
+        "Screening of tobacco users for potentially malignant disorders using toluidine blue staining. JPMI April 2024, Vol 38, No. 2 (Principal author)",
+        "Pattern of motorcycle related maxillofacial injuries in patients presenting to a tertiary care hospital in Pakistan: a cross sectional study. JKCD March 2022, Vol 12, No. 1( Principal author)",
+        "Comparison of the mean reduction in trismus postoperatively after use of 4mg and 8mg intravenous dexamethasone preoperatively, following impacted mandibular third molar surgery. JKCD September 2021, Vol 11, No. 3. (Co-author).",
+        "Prevalence of medically compromised conditions in patients requiring dental treatment. J Med Sci, July 2016, Vol 24, No.3 (Principal author).",
+        "The prevalence of common oral complications of diabetes mellitus. KJMS January- April 2015, Vol 8, No. 1(Co-author).",
+        "Pattern of mandibular fractures resulting from fall. Pakistan Oral and Dental Journal, June 2014, Vol 34, No.2  (Principal author)",
+        "Mandibular third molar - a risk factor for angle fracture. JKCD December 2013, Vol 4, No.1.  (Principal author)",
+        "Loss of consciousness in mandibular fractures, an audit of 254 patients. Pakistan Oral and Dental Journal, June 2011, Vol 31, No.1 (Co-author).",
+        "Cancrum oris- a descriptive case series on 13 patients. JKCD, December 2010, Vol.1,No.1 (Co-author)"
+      ]
+    },
+    "muhammad-ishfaq": {
+      "slug": "muhammad-ishfaq",
+      "aliases": [
+        "muhammad-ishfaq"
+      ],
+      "name": "Muhammad Ishfaq",
+      "department": "Oral & Maxillofacial Surgery",
+      "designation": "Professor",
+      "hod": false,
+      "photo": "",
+      "qualifications": [
+        "BDS",
+        "FCPS",
+        "CHPE"
+      ],
+      "experience": [
+        "14 years"
+      ],
+      "skills": [],
+      "publications": [
+        "Etiology and pattern of impacted mandibular third molars — a study. Sana Wazir, Muslim Khan, Muhammad Ashfaq, Saima Manzoor",
+        "Comparison of pain and mouth opening in primary versus secondary closure after surgical removal of impacted mandibular third molar. Muhammad Aamir, Tahir Ullah khan, Muhammad Masood khan, Muhammad Ishfaq, Mohammad Farooq, Hanif Ullah",
+        "Incidence of dry socket after removal of impacted mandibular third molar and its relation to surgical difficulty, Tariq Sardar, Naveed Sadiq, Muhammad Ishfaq, Gulrukh Sheikh",
+        "Agenesis, position, class and angulation of impacted mandibular third molar teeth in 21 – 25 years old subjects visiting dental teaching hospital in Peshawar. Mahvash Zeb, Muhammad Ishfaq, Sana Arbab, Asma Ali Khattak, Imran Khattak, Asif Rehman",
+        "Comparison of two dosages of submucosal dexamethasone to control postoperative trismus after surgical extraction of mandibular impacted third molar. Tariq Mehmood, Zafar Ali khan, Tahir Ullah Khan, Muhammad Farooq, Muhammad Ishfaq, Rozi Afsar",
+        "Screening of tobacco users for potentially malignant disorders using toluidine blue staining. Nadia Ashraf, Muhammad Younus, Muhammad Ishfaq, Syed Amjad Shah, Bushra Mehboob, Muhammad Sulaiman",
+        "Effect of dexamethasone using two doses to evaluate postoperative trismus in the patients after impacted mandibular third molar extraction. Rozi Afsar, Tahir u. Khan, Muhammad Ishfaq, Sana Wazir, Syed a. Shah, Muhammad Farooq",
+        "CLINICAL PRESENTATION AND MANAGEMENT OF NASO-LABIAL CYSTS CASE SERIES MUSLIM KHAN, BDS (LUMHS), FCPS (ORAL AND MAXILLOFACIAL SURGERY), SANA WAZIR, BDS (RESIDENT ORAL AND MAXILLOFACIAL SURGERY), MUHAMMAD ISHFAQ, BDS, FCPS (ORAL AND MAXILLOFACIAL SURGERY), BUSHRA MEHBOOB, BDS & ASFAND ALI KHAN, BDS",
+        "Presenting Features and Factors Leading to Extraction of Root Canal Treated Teeth. Laima Shahid, Tahir Ullah Khan, Basheer Rahman, Muhammad Ishfaq, Saima Rahat, Waseem Abbas",
+        "The Frequency of Accessary Mental Foramen Using Cone Beam Computed Tomographic Images Asma Sattar, Muhammad Ishfaq, Naheed Imran, Bushra Mehboob, Nadia Ashraf and Fatima Abdul Qaiyum"
+      ]
+    },
+    "zafar-ul-islam": {
+      "slug": "zafar-ul-islam",
+      "aliases": [
+        "zafar-ul-islam",
+        "zafar-islam"
+      ],
+      "name": "Zafar Ul Islam",
+      "department": "Orthodontics",
+      "designation": "Professor",
+      "hod": true,
+      "photo": "",
+      "qualifications": [
+        "BDS",
+        "FCPS"
+      ],
+      "experience": [
+        "Professor of orthodontics at Peshawar dental college from February 1st 2025 to date",
+        "HEAD OF ORTHODONTIC DEPARTMENT at Peshawar dental college from February 20, 2025 to date"
+      ],
+      "skills": [],
+      "publications": [
+        "Dentoalveolar Heights In Skeletal Class I Normodivergent Facial Patterns. Zafar-Ul-Islam, Shaikh A, Fida M. J Coll Physicians Surg Pak. 2012 Jan;22(1):5-9",
+        "Plaque Index In Multi-Bracket Fixed Appliances. Zafar-Ul-Islam, Shaikh A, Fida M. J Coll Physicians Surg Pak. 2014 Nov;24(11):791-5.",
+        "Dentoalveolar Heights in Vertical and Sagittal Facial Patterns. Zafar Ul Islam, Shaikh A, Fida M. J Coll Physician Surg Pak 2016  Vol.26 (9): 753-757.",
+        "Oral hygiene in children, adolescent and adult orthodontic pateints with multi bracket fixed appliances. Zafar ul Islam, Adil S, Kareem K. Pakistan Oral & Dental Journal. 2020 40(4):210-213.",
+        "Orthodontics Pain and Patients’ Quality of Life: Patient Experience and Provider Assesments. Sanam Tauheed, Erum Behroze, Zafar Islam, Shoaib Khan, Saima Akram, Attiya Shaikh and Mubassar Fida. JAMMR 2020 32(6):47-54.",
+        "The correlation of overbite with skeletal, dental and soft tissues characteristics. Zafar ul Islam, Attiya Shaikh, & Mubassar Fida. Pakistan Oral & Dental Journal, 2020 40(3), 149-154.",
+        "Radiographic assessment of the prevalence of maxillary canine impaction according to sector method- A cross sectional study. Ishfaq M, Sikandar H, Islam ZU, Syed K, Nisar S, Adil S.  POJ 2021:13(1)7-11.",
+        "Determination of Most Frequent Emergencies in Patients with Fixed and Removable Orthodontic Appliances at Tertiary Care Dental Hospital. Shah S, Syed K, Ul islam Z & Adil, S. Journal of Gandhara Medical and Dental Science, 2022;9(1), 69–74.",
+        "Macro, mini and micro-esthetics: An evaluation of orthodontically treated patients. Tauheed S, Islam ZU, khan, EB, Raza HA, Adil, S. POJ 2022;13(2):81–89.",
+        "Correlation of dental and skeletal maturity using Dimirgian and cervical vertebral maturation indices in orthodontic patients. Shahab A, Islam ZU, Kulsoom K, Hassan AR, Sanam T, Sohaib H. Journal of Gandhara Medical and Dental Science. 2022;9(4)20-4.",
+        "Correlation of anb, wits appraisal and Mcnamara analysis with mandibular corpus length in class I, II and III adult patients visiting tertiary care hospital. Salma Bibi, Shahab Adil, Zafar Ul Islam, Hassan Ali Raza, Sadar Ilham, & Naila Sunmbal. Pakistan Oral & Dental Journal. 2023;42(4):180-3.",
+        "Use of personal protective equipment (ppes) by dental health care workers during covid-19 pandemic in khyber pakhtunkhwa. Ahmad, F., Adil, S., Islam, Z. ul, Syed, K., Raza, H. A., & Subhan, F. Pakistan Oral & Dental Journal. 2023;43(2):74-79.",
+        "The relationship of maxillary incisor eruption and upper lip length with the incisor stomion. Zafar ul Islam, Shahab Adil, Tania Arshad, Sanam Naveed, Sohaib Hassan, & Hassan Ali Raza. Pakistan Orthodontic Journal. 2023;15(1), 38–42.",
+        "Frequency of natal, neonatal and early infancy teeth in patients with cleft lip and palate in khyber pakhtunkhwa, pakistan sana naz, shahab adil, zafar ul islam, hasan ali raza, farrukh ahmad, sadaf ilham. Pak Oral Dent J 2023; 43(3):119-123.",
+        "Frequency of different palatal rugae patterns in mixed dentition patients. Fazli Subhan , Shahab Adil, Zafar Ul Islam, Hassan Ali Raza, Farrukh Ahmad. J Postgrad Med Inst 2023;37(4):291-96.",
+        "The position of hyoid bone on lateral cephalographs in various vertical facial patterns. Ghazala , Shahab Adil, Zafar Ul Islam, Gulalai Jan, Sana Riaz, Lalina Taj. J Postgrad Med Inst 2023;37(4):269-73.",
+        "Maintenance of Dental Hygiene in Various Brushing Practices Among Orthodontic Patients with Multi-Bracket Fixed Appliances. Zafar Ul Islam1, Kawish Syed2, Hassan Ali Raza 3, Sanam Naveed 4, Sohaib Hassan 5, Shahab Adil. Found Univ J Dent. 2024;4(1):25-30.",
+        "Frequency of white spot lesions after Fixed appliance therapy in a tertiary care Hospital of peshawar. Gulalai Jan, Zafar ul Islam, Kawish Syed, Hasan Ali Raza, Shahab Adil. HMDJ. 2023; 03(01): 16-20.",
+        "Comparison of Intercanine and Intermolar Widths in Dental Malocclusions Based Upon Angle Classification at Tertiary Care Hospital. Sadaf Ilham, Shahab Adil, Zafar ul Islam, Salma Bibi, Sana Naz, Gulalai Jan. POJ 2023:15(Suppl) 80-84.",
+        "Evaluation Of Nose Morphology In Different Skeletal Patterns In Patients Reporting To Tertiary Care Hospital At Peshawar, Pakistan: A Cross-Sectional Study. Ghazala, Adil S, Ul Islam Z, Jan G, Subhan F, Naz S.  J Postgrad Med Inst [Internet]. 2024 Sep. 30 [cited 2024 Nov. 14];38(3).",
+        "Evaluation of arch width variations among skeletal vertical patterns. Taj L, Adil S, Islam ZU, Raza HA, Naz S, Ghazala.. Pak Oral Dent J, 2024; 44(4):23-27.",
+        "Perception of the midline deviations in smile esthetics by layperson. Asim I, Adil S, Islam Z, Raza HA, Ghazala, Naz S. Pak Oral Dent J, 2024; 44(4):34-38."
+      ]
+    },
+    "sana-arbab": {
+      "slug": "sana-arbab",
+      "aliases": [
+        "sana-arbab"
+      ],
+      "name": "Sana Arbab",
+      "department": "Oral Biology",
+      "designation": "Associate Professor",
+      "hod": false,
+      "photo": "",
+      "qualifications": [
+        "BDS",
+        "MPhil (Oral Biology)",
+        "CHPE",
+        "PGD"
+      ],
+      "experience": [
+        "2010 till date"
+      ],
+      "skills": [],
+      "publications": [
+        "Association of age to the linear and volumetric changes of maxillary permanent canine’s assessment through cone beam computed tomography: across-sectional observational study",
+        "Anatomical variation in the position of mandibular foramen with side of the arch using cone beam computed tomography",
+        "Use of tooth clearing technique to determine root and canal morphology of permanent mandibular third molars in population of Peshawar: an in vitro cross-sectional study",
+        "Assessment of the labial alveolar bone thickness overlying maxillary anterior teeth in different age groups, genders, and sides of the arch: a cone beam computed tomographic study | medical forum monthly",
+        "Anatomical variation in the location of mandibular foramen with age using cone beam computed tomography | medical forum monthly",
+        "Frequency of number of roots and root canals of maxillary first premolar teeth. | The Professional Medical Journal",
+        "Frequency of developmentally malformed permanent maxillary lateral incisors in patients visiting the three teaching dental hospitals of Peshawar | journal of Ayub Medical College Abbottabad",
+        "Gender as a variable influencing the mesiodistal width of permanent maxillary anterior teeth an analysis using AutoCAD software",
+        "Use  of tooth clearing technique to determine root and canal morphology of permanent mandibular third molars in population of Peshawar an in vitro cross-sectional study",
+        "Agenesis position class and angulation of impacted mandibular third molar teeth in 21 – 25  years old subjects visiting dental teaching hospital in Peshawar",
+        "Evaluation of the occlusal contact between  the opposing teeth and the cusp of carabelli in maxillary permanent first molars in patients visiting Peshawar Dental College",
+        "Root canal configuration of maxillary first premolar teeth in a subpopulation of Peshawar using tooth cross-sectioning method an invitro study",
+        "Frequency and grading of supernumerary cusps in permanent human teeth of patients visiting the teaching hospitals of Peshawar Dental College and Khyber College of Dentistry Peshawar",
+        "The frequency of unilateral and bilateral distribution of cusp of carabelli in maxillary permanent first molars in patients visiting Peshawar Dental Hospital Peshawar",
+        "Frequency of cusp of carabelli in maxillary permanent first molars and its association with dental caries in patients visiting Peshawar dental hospital Peshawar",
+        "The association between gender with the shape of mandibular condyle in young adults of Peshawar"
+      ]
     }
   },
   "index": {
@@ -1594,6 +1745,11 @@
     "mah-rukh": "mah-rukh",
     "munaza-khattak": "munaza-khattak",
     "hina-hakim": "hina-hakim",
-    "amna-umer": "amna-umer"
+    "amna-umer": "amna-umer",
+    "nadia-ashraf": "nadia-ashraf",
+    "muhammad-ishfaq": "muhammad-ishfaq",
+    "zafar-ul-islam": "zafar-ul-islam",
+    "zafar-islam": "zafar-ul-islam",
+    "sana-arbab": "sana-arbab"
   }
 }
