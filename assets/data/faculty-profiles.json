@@ -1,5 +1,5 @@
 {
-  "source": "PDC departmental faculty templates received Sep 2026 (Oral Pathology, Community Dentistry, Dental Education, OMFS, Oral Biology, Oral Medicine, Paediatric Dentistry, Periodontology, Prosthodontics, Dental Materials).",
+  "source": "PDC departmental faculty templates received Sep 2026 (Oral Pathology, Community Dentistry, Dental Education, OMFS, Oral Biology, Oral Medicine, Paediatric Dentistry, Periodontology, Prosthodontics, Dental Materials); Operative Dentistry departmental template Oct 2026.",
   "profiles": {
     "abbas-saleem-khan": {
       "slug": "abbas-saleem-khan",
@@ -1689,6 +1689,53 @@
         "Frequency of cusp of carabelli in maxillary permanent first molars and its association with dental caries in patients visiting Peshawar dental hospital Peshawar",
         "The association between gender with the shape of mandibular condyle in young adults of Peshawar"
       ]
+    },
+    "iftikhar-akbar": {
+      "slug": "iftikhar-akbar",
+      "aliases": [
+        "iftikhar-akbar"
+      ],
+      "name": "Iftikhar Akbar",
+      "department": "Operative Dentistry",
+      "designation": "Professor",
+      "hod": true,
+      "photo": "",
+      "qualifications": [
+        "BDS",
+        "FCPS",
+        "MFDSRCPSG",
+        "CHPE"
+      ],
+      "experience": [
+        "Professor/Head Department Of Operative Dentistry & Endodontics Peshawar Dental College, Riphah International University, Peshawar Campus, Pakistan."
+      ],
+      "skills": [
+        "Advanced Clinical Skills in Operative Dentistry & Endodontics"
+      ],
+      "publications": [
+        "Misri khan, Iftikhar Akbar, Khalid Rehman. Effect of Propylactic Amoxicillin on endodontic flare-up in teeth with Asymptomatic, necrotic pulps and periradicular pathosis. (Pakistan oral and Dental Journal vol.30, No.2 December 2010).",
+        "Beenish Qureshi, Bader Munir, Iftikhar Akbar. A Comparison of Thermafil and Lateral condensation techniques in obturation of root canal systems.  (Pakistan Oral and Dental Journal Vol; 32 No.3 December 2012).",
+        "Khalid Rehman, Iftikhar Akbar, Qazi Javed. Role of antibiotics in control of post-endodontic pain: Cases of symptomatic irreversible pulpitis and periapical periodontitis: A randomized control clinical trial. JKCD December 2012, vol, 3 No.1.",
+        "Azhar Iqbal, Iftikhar Akbar, Mahmoud K Al-Omiri. An in vivo study to determine the Effect of pre-flaring on the working length determination in curved mesial canals of mandibular Molars (Journal of contemporary dental practice 2013; 14 (2):163-167.",
+        "Iftikhar Akbar, Azhar Iqbal, Mahmoud K Al-Omiri. Flare-up rate in molars with peri-apical radiolucency in one visit versus two visits endodontic treatment (J Contemp Dent Pract 2013; 14 (2): 414-418.)",
+        "Azhar Iqbal, Iftikhar Akbar, Beenish Qureshi, Mohd G. Sghaireen, Mahmoud K. AL-Omiri. A Survey of Standard Protocols for Endodontic Treatment in North of KSA. ISRN Dentistry Volume 2014, Article ID 865780",
+        "Iftikhar Akbar. Knowledge, Attitudes and Practice of restoring endodontically treated teeth by dentists in northern Saudi Arabia. (Int J Health Sci (Qassim Univeristy, Saudi Arabia). 2015 Jan; 9 (1): 41–49).",
+        "Iftikhar Akbar. Knowledge and Attitudes of General Dental Practitioners towards Posterior Composite Restorations in Northern Saudi Arabia (Journal of Clinical and Diagnostic Reseach (2015 Feb; 9(2): ZC61–ZC64)",
+        "Iftikhar Akbar. Efficacy of Prophylactic use of Antibiotics to Avoid Flare up During Root Canal Treatment of Nonvital Teeth: A Randomized Clinical Trial.  (J Clin Diagn Res. 2015 Mar; 9 (3): ZC 08-11)",
+        "Iftikhar Akbar. Radiographic study of the problems and failures of endodontic treatment. Int J Health Sci (Qassim Univeristy, Saudi Arabia). 2015 Apr; 9(2):111-8",
+        "Iftikhar Akbar, Nadeem Baig.  Incidence of dental caries and associated risk factors in patients attending college of dentistry, Aljouf University (December 2015 Pakistan Oral and Dental Journal)",
+        "Iftikhar Akbar, Fayyaz Alam, Muhammad Raza. Radiographic technical quality of root canal fillings performed by undergraduate dental students ( PODJ Vol.37, No.2 (April-June 2017)",
+        "Iftikhar Akbar, Fayyaz Alam, Beenish qureshi, Mohammad Abulhamid Almayouf. The attitude of undergraduate dental students towards the use of rubber dam. PODJ Vol.37, No. 4 (October- December 2017)",
+        "Iftikhar Akbar, Junaid Islam, Abdul Majid, Rizwan Qureshi. Prevalence of second mesiobuccal canal in maxillary second molars on the basis of clinical and radiographic parameters. J Ayub Med Coll Abbottabad 2023; 35(4):579–82",
+        "Iftikhar Akbar, Rizwan Qureshi, Saifa Rashad, Margalara Noor. Prevalence of Dens Invaginatus in Maxillary Lateral Incisors in Patients Visiting Peshawar Dental College and Hospital.  Found Univ J Dent. 2024; 4(1): 42-46.",
+        "Iftikhar Akbar, Asmat Ullah, Asma Hassan and Asma Begum. Frequency of Dental Caries and Associated Factors among Patients Attending the Peshawar Dental College and Hospital: A Hospital-Based Cross-Sectional Study. Med Forum 2024; 35(5):8-12.",
+        "17. Iftikhar Akbar, Huma Kamal, Ashfaq Azeem. Comparison of Dentin Hypersensitivity Management of Exposed root surfaces by Dentin bonding agent and thinly applied Glass ionomer cement: A Clinical Trial. J Ayub Med Coll Abbottabad 2024; 36(3): 531-6.",
+        "Iftikhar Akbar, Abdul Majeed, Junaid Islam, Rizwan Qureshi. Comparison of post-operative pain with and without apical patency technique in asymptomatic necrotic teeth: A Randomized control trial. Khyber Med Univ J 2025; 17 (1): 13-8.",
+        "Junaid Islam, Iftikhar Akbar, Mehr Un Nisa, Itrat Batool, Nasir Amin, Wahaj Anees. Frquency of Canals in permanent maxillary second molars on the basis of clinical and radiographic parameters. The Research of Medical Science Review 2025; 3(1): 1244-51.",
+        "Iftikhar Akbar, Muhammad Bader Munir, Asmat Ullah, Itrat Batool, Fayaz Alam, Hassan Jan. Comparison of Postoperative Pain following endodontic treatment of  symptomatic apical periodontitis with and without the buccal infiltration of methylprednisolone. JKCD. 2025; 15(4): 1-6",
+        "Saifa Rashad, Iftikhar Akbar, Marghalara Noor, Shah Zaman, Syed Shahbaz Ali Shah. Prevalence of Two Roots Canals in Mandibular Incisors in Patients Visiting a Dental College (Using Magnification 3.5x) Biol. Clin. Sci. Res. J.  2025; 6(4): 2316.",
+        "Iftikhar Akbar, Sobia Awais. Comparison of the Clinical Effectiveness of Self-etch adhesive and Fluoride varnish in Reducing Dentin Hypersensitivity in Patients with Gingival Recession: A Randomized Clinical Trial.  J Saidu Med Coll 2026, 16 (1)."
+      ]
     }
   },
   "index": {
@@ -1750,6 +1797,7 @@
     "muhammad-ishfaq": "muhammad-ishfaq",
     "zafar-ul-islam": "zafar-ul-islam",
     "zafar-islam": "zafar-ul-islam",
-    "sana-arbab": "sana-arbab"
+    "sana-arbab": "sana-arbab",
+    "iftikhar-akbar": "iftikhar-akbar"
   }
 }

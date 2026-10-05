@@ -398,7 +398,7 @@ $academic_departments = [
     'faculty' => [
       [
         'name' => 'Professor Dr. Iftikhar Akbar',
-        'qualification' => 'BDS, FCPS',
+        'qualification' => 'BDS, FCPS, MFDSRCPSG, CHPE',
         'reg' => '5711-D',
       ],
       [
