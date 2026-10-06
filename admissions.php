@@ -3,9 +3,9 @@
 <div class="page-hero">
   <div class="page-hero-grid"></div>
   <div class="container page-hero-content">
-    <h1>Admissions 2025-26</h1>
+    <h1>Admissions 2026-27</h1>
     <div class="breadcrumb-pmc"><a href="index.php">Home</a><span class="sep"><i
-          class="bi bi-chevron-right"></i></span><span class="current">Admissions 2025-26</span></div>
+          class="bi bi-chevron-right"></i></span><span class="current">Admissions 2026-27</span></div>
   </div>
 </div>
 
@@ -101,7 +101,7 @@
             <li
               style="display:flex;align-items:flex-start;gap:10px;margin-bottom:12px;font-family:var(--font-body);font-size:.92rem;color:var(--gray-dark);line-height:1.7;">
               <i class="bi bi-check-circle-fill" style="color:var(--teal);flex-shrink:0;margin-top:3px;"></i>
-              <span>Candidates who have passed <strong>MDCAT-2023, 2024 or MDCAT-2025</strong> with minimum <strong>50% marks for BDS</strong>.</span>
+              <span>Candidates who have passed <strong>MDCAT-2024, 2025 or MDCAT-2026</strong> with minimum <strong>50% marks for BDS</strong>.</span>
             </li>
             <li
               style="display:flex;align-items:flex-start;gap:10px;margin-bottom:12px;font-family:var(--font-body);font-size:.92rem;color:var(--gray-dark);line-height:1.7;">
@@ -188,42 +188,34 @@
               <tbody>
                 <tr style="border-bottom:1px solid var(--border-color);">
                   <td style="padding:11px 18px;color:var(--gray-dark);">Admission Portal Opens</td>
-                  <td style="padding:11px 18px;text-align:right;font-weight:600;color:var(--navy);">07 November 2025
+                  <td style="padding:11px 18px;text-align:right;font-weight:600;color:var(--navy);">06 October 2026
                   </td>
                 </tr>
                 <tr style="border-bottom:1px solid var(--border-color);">
                   <td style="padding:11px 18px;color:var(--gray-dark);">Last Date for Submission</td>
-                  <td style="padding:11px 18px;text-align:right;font-weight:600;color:#d32f2f;">08 December 2025</td>
+                  <td style="padding:11px 18px;text-align:right;font-weight:600;color:#d32f2f;">09 November 2026</td>
                 </tr>
                 <tr style="border-bottom:1px solid var(--border-color);">
                   <td style="padding:11px 18px;color:var(--gray-dark);">Provisional Merit List</td>
-                  <td style="padding:11px 18px;text-align:right;font-weight:600;color:var(--navy);">12 December 2025
+                  <td style="padding:11px 18px;text-align:right;font-weight:600;color:var(--navy);">10 November 2025
                   </td>
                 </tr>
                 <tr style="border-bottom:1px solid var(--border-color);">
                   <td style="padding:11px 18px;color:var(--gray-dark);">Submission of Online Objections / Claims</td>
-                  <td style="padding:11px 18px;text-align:right;font-weight:600;color:var(--navy);">15 – 16 December
-                    2025</td>
+                  <td style="padding:11px 18px;text-align:right;font-weight:600;color:var(--navy);">10 - 11 November 2026</td>
+                </tr>
+                <tr style="border-bottom:1px solid var(--border-color);">
+                  <td style="padding:11px 18px;color:var(--gray-dark);">Appellate Scrutiny Committee</td>
+                  <td style="padding:11px 18px;text-align:right;font-weight:600;color:var(--navy);">16 November 2026</td>
                 </tr>
                 <tr style="border-bottom:1px solid var(--border-color);">
                   <td style="padding:11px 18px;color:var(--gray-dark);">Final Merit List</td>
-                  <td style="padding:11px 18px;text-align:right;font-weight:600;color:var(--navy);">22 December 2025
+                  <td style="padding:11px 18px;text-align:right;font-weight:600;color:var(--navy);">23 November 2026
                   </td>
                 </tr>
                 <tr style="border-bottom:1px solid var(--border-color);">
                   <td style="padding:11px 18px;color:var(--gray-dark);">Placement in Colleges</td>
-                  <td style="padding:11px 18px;text-align:right;font-weight:600;color:var(--navy);">25 – 27 December
-                    2025</td>
-                </tr>
-                <tr style="border-bottom:1px solid var(--border-color);">
-                  <td style="padding:11px 18px;color:var(--gray-dark);">2nd Round of Placement (Vacant Seats)</td>
-                  <td style="padding:11px 18px;text-align:right;font-weight:600;color:var(--navy);">03 – 07 January 2026
-                  </td>
-                </tr>
-                <tr>
-                  <td style="padding:11px 18px;color:var(--gray-dark);">3rd Round of Placement (Vacant Seats)</td>
-                  <td style="padding:11px 18px;text-align:right;font-weight:600;color:var(--navy);">19 – 21 January 2026
-                  </td>
+                  <td style="padding:11px 18px;text-align:right;font-weight:600;color:var(--navy);">26 November - 18 December 2026</td>
                 </tr>
               </tbody>
             </table>
@@ -267,7 +259,17 @@
           <a href="contact.php" class="btn-pmc btn-pmc-outline mt-3 ms-2" style="font-size:.9rem;padding:12px 24px;">
             <i class="bi bi-envelope"></i> Contact Admissions Office
           </a> -->
-
+          <div class="adm-cta-row fu">
+            <a href="https://caspr.kmu.edu.pk/" target="_blank" class="btn-pmc btn-pmc-primary">
+              <i class="bi bi-send"></i> Apply Now
+            </a>
+            <a href="assets/images/news/kmu-mbbs-bds-admissions.jpeg" class="btn-pmc btn-pmc-outline">
+              <i class="bi bi-download"></i> Advertisement
+            </a>
+            <!-- <a href="<?= hub_base ?>assets/images/news/PG-Admission-Form-Medical-Sciences.pdf" target="_blank" rel="noopener" class="btn-pmc btn-pmc-outline">
+              <i class="bi bi-file-earmark-pdf"></i> MPhil Form
+            </a> -->
+          </div>
         </div>
       </div><!-- Sidebar -->
       <?php include('includes/sidebar.php'); ?>
