@@ -1780,6 +1780,29 @@
         "Use of IOTN in determining Orthodontic treatment needs in Peshawar adolescents. JKCD 2019 December. Sajid Ali, Ghulam Rasool, Seema Abid, Ahsan Mahmood Shah, Faizan ul Hassan, Hasan Ali Raza",
         "A cross sectional study among patients visiting Periodontics Department, Khyber College of Dentistry, Peshawar. PODJ 2019 March. Zeeshan Danish, Farid Ullah, M Nasir Shah, Safia Rehmat, Faiza Abdul Hakam, Hasan Ali Raza."
       ]
+    },
+    "muhammad-zain": {
+      "slug": "muhammad-zain",
+      "aliases": [
+        "muhammad-zain"
+      ],
+      "name": "Muhammad Zain",
+      "department": "Operative Dentistry",
+      "designation": "Associate Professor",
+      "hod": false,
+      "photo": "",
+      "qualifications": [
+        "BDS",
+        "FCPS",
+        "CHPE"
+      ],
+      "experience": [
+        "Associate Professor Nov 2024 till date"
+      ],
+      "skills": [
+        "Advanced Clinical Skills in Operative Dentistry & Endodontics"
+      ],
+      "publications": []
     }
   },
   "index": {
@@ -1844,6 +1867,7 @@
     "sana-arbab": "sana-arbab",
     "iftikhar-akbar": "iftikhar-akbar",
     "hasan-ali-raza": "hasan-ali-raza",
-    "hassan-ali-raza": "hasan-ali-raza"
+    "hassan-ali-raza": "hasan-ali-raza",
+    "muhammad-zain": "muhammad-zain"
   }
 }

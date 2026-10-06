@@ -403,7 +403,7 @@ $academic_departments = [
       ],
       [
         'name' => 'Associate Professor Dr. Muhammad Zain',
-        'qualification' => 'BDS, FCPS',
+        'qualification' => 'BDS, FCPS, CHPE',
         'reg' => '10087-D',
       ],
       [
