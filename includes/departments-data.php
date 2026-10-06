@@ -339,7 +339,7 @@ $academic_departments = [
       ],
       [
         'name' => 'Associate Professor Dr. Hasan Ali Raza',
-        'qualification' => 'BDS, FCPS',
+        'qualification' => 'BDS, FCPS, CHPE',
         'reg' => '10371-D',
       ],
     ],
