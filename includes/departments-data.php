@@ -408,7 +408,7 @@ $academic_departments = [
       ],
       [
         'name' => 'Senior Registrar Dr. Nida Gul Sepah',
-        'qualification' => 'BDS, FCPS',
+        'qualification' => 'BDS, FCPS, CHPE',
         'reg' => '19074-D',
       ],
     ],
@@ -521,7 +521,7 @@ $academic_departments = [
     'faculty' => [
       [
         'name' => 'Associate Professor Dr. Muhammad Abbas',
-        'qualification' => 'MBBS, FCPS',
+        'qualification' => 'MBBS, FCPS (MEDICINE)',
         'reg' => '14848-N',
       ],
     ],

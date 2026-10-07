@@ -1802,7 +1802,92 @@
       "skills": [
         "Advanced Clinical Skills in Operative Dentistry & Endodontics"
       ],
-      "publications": []
+      "publications": [
+        "Zain M, Khattak SR, Shah SA, Sikandar H, Khattak Y. Comparison of effectiveness of 4% articaine buccal infiltration versus inferior alveolar nerve block in symptomatic mandibular 1st molar tooth. J Postgrad Med Inst 2015; 29(3): 176-80",
+        "Zain M, Khattak SR, Sikandar H, Shah SA, Fayyaz. Comparison of anesthetic efficacy of 4% articaine buccal infiltration versus 2% lidocaine inferior alveolar nerve block in symptomatic mandibular 1st molar teeth. JCPSP2016, Vol. 26(1):4-8",
+        "Shah FA, Jan UI, Ali A, Afridi UR, Zain M, Haider S. Comparison of anesthetic Efficacy of inferior alveolar nerve block and vazirani-akinosi technique in patients with irreversible pulpitis. Pak Oral Dent J 2019;39(3):301-303",
+        "Jan IU, Shah FA, Ali A, Zain M, Afridi RU, Khan AM, Ali F. Efficacy of form acresol and mineral trioxide aggregate pulpotomy among primary molars. A randomized control trial. Pak Oral Dent J 2019; 39(3):289-92",
+        "Afridi RU, Shah SA, Jan IU, Shah FA, Zain M, Ali F. Comparison of anesthetic efficacy of conventional inferior alveolar nerve block and gow gates technique inpatients with symptomatic irreversible pulpitis. A randomized control trial. JKCD 2019; 9(2)1-7",
+        "Khan TA, Hussam, Rehmat S, Iqbal S, Qureshi A, Zain M, Khan SZ. Periodontal health awareness among pregnant women regarding bidirectional relationship between gingival inflammation and adverse pregnancy outcomes. JKCD March 2020, 10(1) 126- 132.",
+        "Zain M, Qureshi A, Kamal H, Zia O, Rashid S. The effect of dental flourosis on the electric pulp tester response and probe placement site. EJHS, Vol.7, Issue 4, pp 1-8, 2022.",
+        "R Safia, Khan TA, Hussam, Zain M, Jadoon IFK, Farhan F, Khan SZ. Literacy among type 2diabetes mellitus from chronic periodontitis. JKCD June 2020, 10(2)",
+        "Hussam, Khan TA, Zara B, Zain M, Qureshi A, Khan SZ. Evaluation of patient’s expectations before and periodontal after nonsurgical treatment. JKCD June 2020,10(2)",
+        "Qureshi A, Zain M, Hussam, Jadoon IK, Qureshi R, AslamN. Frequency and associated factors of pulp stones among patients presenting to Ayub dental teaching hospital Abbottabad. JKCD, June 2021, 11 (2) 72-76.",
+        "Qureshi A, Zain M, Shah SI, Qureshi R, Majeed A, Islam J. The antibiotic prescription trend endodontic of dentists for treatment from a region Pakistan. An online survey. AJHMN.  Vol.7, Issue 8, pp 1-15, 2022."
+      ]
+    },
+    "nida-gul-sepah": {
+      "slug": "nida-gul-sepah",
+      "aliases": [
+        "nida-gul-sepah",
+        "nida-gul",
+        "nida-sepah"
+      ],
+      "name": "Nida Gul Sepah",
+      "department": "Operative Dentistry",
+      "designation": "Senior Registrar",
+      "hod": false,
+      "photo": "",
+      "qualifications": [
+        "BDS",
+        "FCPS",
+        "CHPE"
+      ],
+      "experience": [
+        "Senior Registrar 1 Year 7 Months"
+      ],
+      "skills": [],
+      "publications": [
+        "COMPARISON OF THE MEAN POST OPERATIVE PAIN AFTER MANUAL AND ROTARY INSTRUMENTATION FOR ROOT CANAL TREATMENT OF SINGLE ROOTED TEETH WITH IRREVERSIBLE PULPITIS. Vol. 36 No. 4 (Suppl 1) (2024): JOURNAL OF AYUB MEDICAL COLLEGE ABBOTTABAD",
+        "PARAFUNCTIONAL HABITS AMONG UNDERGRADUATE CLINICAL STUDENTS AND HOUSE OFFICERS AT KHYBER COLLEGE OF DENTISTRY Vol. 6 No. 02 (2016): JOURNAL OF KHYBER COLLEGE OF DENTISTRY",
+        "Comparing the Effectiveness of Mineral Trioxide Aggregate and Biodentine as Direct Pulp Capping Agents in Permanent Teeth with Deep Carious Lesion Vol 13 issue 8 (2024) Frontiers in health informatics journal.",
+        "PATIENT’S PERCEPTION ON CROSS-INFECTION CONTROL IN DENTAL PRACTICE Vol. 7 No. 02 (2017): Journal of Khyber College of Dentistry"
+      ]
+    },
+    "muhammad-abbas": {
+      "slug": "muhammad-abbas",
+      "aliases": [
+        "muhammad-abbas",
+        "mohammad-abbas"
+      ],
+      "name": "Muhammad Abbas",
+      "department": "General Medicine",
+      "designation": "Associate Professor",
+      "hod": true,
+      "photo": "",
+      "qualifications": [
+        "MBBS",
+        "FCPS (MEDICINE)"
+      ],
+      "experience": [
+        "NOVEMBER 2016 TILL DATE"
+      ],
+      "skills": [],
+      "publications": [
+        "pyrazinamide Induced hyperuricemia in  the induction phase of Antituberculosis Therapy. Noor Muhammad, Saima Mehboob, Muhammad Abbas. Pakistan Journal of medical and Health Sciences. 2021",
+        "Multidrug Resistance if Ecoli isolated from clinical isolated in District Peshawar KP Pakistan. Ihteshamul Haq, Mohsina Haq, Muhammad Farooq, Amber Javed, Shafaq Zafar,  Ashfaq Ahmed, Muhammad Kashif Khan, Muhammad Abbas, Bakht Biland Khan, Momina Haq. Pakistan Journal of medical and Health Sciences. 2022. DOI: https://doi.org/10.53350/pjmhs22161830",
+        "pharmaceutical and medicinal application of Panax ginseng and Ginsensides and their therapeutic role in different disease. Intehsamul Haq, seher Obaid, Rubina Salma Ysmeen, Munazza Khattak, Amber Javaid, Muhammad Abbas, Mohsina Haq, Faheem Anwar. Natural Volatiles and Essesntilesoiles. 2022. Nat. Volatiles & Essent. Oils, 2022; 9(1): 745-765",
+        "Clinical Features and Associated Comorbidities in 200 cases of COVId-19 in Peshawar Pakistan. Ihteshamul Haq, Mohsina Haq, Momina Haq, Seher Obaid, Susan Kakakhel, Muhammad Abbas. Natural Volatiles and Essesntilesoiles. 2022. Nat. Volatiles & Essent. Oils, 2022; 9(1): 766-775",
+        "Frequency of Thrombocytopenia in patients with chronic liver disease in tertiary care hospital. Muhammad Abbas, Jahan Sardar, Muhammad Asim, Radha Khan, Samiullah Khan, Ghulam Jaffar. Pakistan Journal of medical and Health Sciences. 2022. DOI: https://doi.org/10.53350/pjmhs22161739",
+        "Glycemic control among type 2 DM patients: a large sample hospital based study. Shabina Safullah, Muhammad Abbas, Noor Muhammad, Akhtar Zarin. Medical Forum. 2020. Med Forum 2020;31(11): 107-110",
+        "Bacteriological Profile and antibiogrm of urinary tract infection at microbiology laboratory of a private teaching Hospital. Mohsina Haq, Sardar, Momina Haq, Muhammad, Arbab Muhammad Kashif Khan, Muhammad Abbas, Shahzaman Khan. Journal of Saidu Medical College. 2019. DOI: https://doi.org/10.52206/jsmc.2019.9.2.%25p",
+        "Relationshio between various indications and endoscopic findings in patients presenting to tertiary care hospitals in peshawar. Saima Mehboob, Noor Muhammad, Mohammad Abbas, Saleem Shah. Medico research chronicles. 2020. DOI No. 10.26838/MEDRECH.2020.7.5.443",
+        "Incidence of SARSCoV2 reinfection in antinucleocapsid IgGpositivehealthcare workers: a prospective cohort study. Saima Mehboob, Asif Rehman, Mohsina Haq, Hala Rajab, Momina Haq, Hala Haq, Jawad Ahmad,Sajjad Ahmad, Mohammed Abbas, Saeed Anwar, Najib Ul Haq. Irish Journal of Medical Science (1971 -) (2023) 192:915–918. 2022. https://doi.org/10.1007/s11845-022-02997-w",
+        "Hyperuricemia in Acute Coronary Syndrome Patients in Tertiary Care Hospital. Shabina Shafiullah, Muhammad Abbas, Muhammad Abdur Rauf, Syed Tahir Shah, Muhammad Saleem Awan, Muhammad Ziyad. Advances in Basic Medical Sciences. 2024. https://doi.org/10.35845/abms.2024.1.345",
+        "Association Of Anxiety And Depressive Symptoms With Hypothyroidism. Dr. Ali Sebtain, Dr. Usman Akbar, Dr. Muhammad Abbas, Dr. Ambreen Gul, Dr Khalid Shehzad, Dr Muhammad Kamran Khan. Journal of Population Therapeutics & Clinical Pharmacology. 2024. DOI: 10.53555/jptcp.v31i4.5463",
+        "Gastrointestinal Efficacy Of Omeprazole In Patients With Gastroesophageal Reflux Disease. Dr Mian Shah Yousaf1, Dr Noman Khan, Dr Wajid Iqbal, Dr. Arbab Muhammad Kashif Khan, Dr Masood Muhammad Karim, Dr Muhammad Abbas. Journal of Population Therapeutics & Clinical Pharmacology. 2024. DOI: 10.53555/jptcp.v31i2.4592",
+        "Evidence of Mycobacterial Disease in Chronic Obstructive Pulmonary Disease Patients, the importance of Histological Assessment. NighatAra , Zahid Sarfaraz Khan , ShaistaAlam , Mohsina Haq , Muhammad Abbas , Salman Khan. Pakistan Journal of Chest Medicine. 2022",
+        "Frequency Of Raised Total Serum Ig E, Sputum Eosinophilia And Blood Eosinophil Count In Patients With SeverePersistent Asthma. Dr MianMufarih Shah, Dr Muhammad Abbas, Dr Momina Haq, Dr Sumira Abbas, Dr Munaz aKhattak, Dr Farhan Abbas Baloch. Journal of Population Therapeutics & Clinical Pharmacology. 2024. DOI: 10.53555/jptcp.v31i6.6828",
+        "Cardiovascular Effects of Splenomegaly and Splenectomy in Beta-Thalassemia Major. Sumira Abbas , Haris Ali Khan , Wajeeha Rehman , Mian Mufarih Shah , Muhammad Mustafa , Muhammad Abbas. Cureus 16(11): e74186. 2024. DOI:10.7759/cureus.74186",
+        "The Prevalence Of Diabetes Mellitus And Its Associated Symptoms In The Elderly Population Of University Campus Peshawar. Muhammad Abbas, Faiza Nadeem, Sofia Irshad, Humma Shafiq, Muhammad Alam Khan, Muhammad Wasif. Pakistan Medical Students Research Journal. 2023. https://www.pmsrj.com/index.php/pmsrj/article/view/39",
+        "Prevalence of Low Serum Vit B12 and Associated Factors in Gastric Motility and Type 2 Diabetic Patients on Met-Formin Therapy. Dr Danyal Khattak, Dr Muhammad Fawad, Dr Muhammad Abdul Quddus, Dr Rukhsana Munawar, Dr Muhammad Razaq, Dr Muhammad Abbas. African Journal of Biological sciences. 2024. doi:10.48047/AFJBS.6.16.2024.4336-4343",
+        "Frequency of Acute Kidney Injury among Women Presenting with Pre-Eclampsia. Hamid Ullah, Sumaira, Muhammad Shaukat, Muhammad Abbas, Humaira Aman, Saboor Ahmed Kakar. Pakistan journal of Medical & Health Sciences. 2024. https://doi.org/10.53350/pjmhs020231712394",
+        "Assessment of LGR5 Expression in Colonic Biopsies of Patients with Chronic Diarrhea of Unknown Origin. Rahid Gull , Sumbal Mansoor , Muhammad Abbas , Fouzia Jehangir , Naheed Akhtar , Farhan Abbas Baloch. Pakistan Journal of Medicine and Dentistry. 2025. https://doi.org/10.36283/ziun-pjmd14-4/010",
+        "DIABETIC NEPHROPATHY: SPECTRUM AND CLINICAL OUTCOMES IMPACT OF GLYCEMIC CONTROL ON PROGRESSION TO ESRD. European Journal of Clinical Pharmacology. 2025. DOI:10.61336/ejcp/25-01-388",
+        "Hypertension Management in ICU: Exploring the Role of Blood Pressure Control in Renal Protection. European Journal of Clinical Pharmacology. 25. DOI:10.61336/ejcp/25-12-546",
+        "Assessment of Renal Replacement Therapy Modalities In Critically Ill Patients Comparative Outcomes In ICU Settings. European Journal of Clinical Pharmacology. 2026. DOI:10.61336/ejcp/25-11-681",
+        "Role Of SGLT2 Inhibitors in Slowing Progression of Chronic Kidney Disease Beyond Diabetes. European Journal of Clinical Pharmacology. 2026. DOI:10.61336/ejcp/25-12-494"
+      ]
     }
   },
   "index": {
@@ -1868,6 +1953,11 @@
     "iftikhar-akbar": "iftikhar-akbar",
     "hasan-ali-raza": "hasan-ali-raza",
     "hassan-ali-raza": "hasan-ali-raza",
-    "muhammad-zain": "muhammad-zain"
+    "muhammad-zain": "muhammad-zain",
+    "nida-gul-sepah": "nida-gul-sepah",
+    "nida-gul": "nida-gul-sepah",
+    "nida-sepah": "nida-gul-sepah",
+    "muhammad-abbas": "muhammad-abbas",
+    "mohammad-abbas": "muhammad-abbas"
   }
 }
