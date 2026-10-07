@@ -187,7 +187,7 @@ $academic_departments = [
     'faculty' => [
       [
         'name' => 'Associate Professor Dr. Ambereen Humayun',
-        'qualification' => 'BDS, M.Phil',
+        'qualification' => 'BDS, M. Phil Anatomy, CHPE',
         'reg' => '10558-D',
       ],
     ],
@@ -253,7 +253,7 @@ $academic_departments = [
     'faculty' => [
       [
         'name' => 'Professor Dr. Sadaf Alam',
-        'qualification' => 'BDS, M.Phil',
+        'qualification' => 'MBBS, M. Phil, FCPS - II',
         'reg' => '12281-N',
       ],
     ],
