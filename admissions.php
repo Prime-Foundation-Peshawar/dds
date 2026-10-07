@@ -197,25 +197,33 @@
                 </tr>
                 <tr style="border-bottom:1px solid var(--border-color);">
                   <td style="padding:11px 18px;color:var(--gray-dark);">Provisional Merit List</td>
-                  <td style="padding:11px 18px;text-align:right;font-weight:600;color:var(--navy);">10 November 2025
+                  <td style="padding:11px 18px;text-align:right;font-weight:600;color:var(--navy);">11 November 2025
                   </td>
                 </tr>
                 <tr style="border-bottom:1px solid var(--border-color);">
                   <td style="padding:11px 18px;color:var(--gray-dark);">Submission of Online Objections / Claims</td>
-                  <td style="padding:11px 18px;text-align:right;font-weight:600;color:var(--navy);">10 - 11 November 2026</td>
+                  <td style="padding:11px 18px;text-align:right;font-weight:600;color:var(--navy);">11 - 12 November 2026</td>
                 </tr>
                 <tr style="border-bottom:1px solid var(--border-color);">
-                  <td style="padding:11px 18px;color:var(--gray-dark);">Appellate Scrutiny Committee</td>
+                  <td style="padding:11px 18px;color:var(--gray-dark);">Meeting of appellate Scrutiny Committee for objections/ claims/ complaints</td>
                   <td style="padding:11px 18px;text-align:right;font-weight:600;color:var(--navy);">16 November 2026</td>
                 </tr>
                 <tr style="border-bottom:1px solid var(--border-color);">
                   <td style="padding:11px 18px;color:var(--gray-dark);">Final Merit List</td>
-                  <td style="padding:11px 18px;text-align:right;font-weight:600;color:var(--navy);">23 November 2026
+                  <td style="padding:11px 18px;text-align:right;font-weight:600;color:var(--navy);">24 November 2026
                   </td>
                 </tr>
                 <tr style="border-bottom:1px solid var(--border-color);">
                   <td style="padding:11px 18px;color:var(--gray-dark);">Placement in Colleges</td>
-                  <td style="padding:11px 18px;text-align:right;font-weight:600;color:var(--navy);">26 November - 18 December 2026</td>
+                  <td style="padding:11px 18px;text-align:right;font-weight:600;color:var(--navy);">08 - 12 December 2026</td>
+                </tr>
+                <tr style="border-bottom:1px solid var(--border-color);">
+                  <td style="padding:11px 18px;color:var(--gray-dark);">Second round of placement on all vacant seats</td>
+                  <td style="padding:11px 18px;text-align:right;font-weight:600;color:var(--navy);">21 - 24 December 2026</td>
+                </tr>
+                <tr style="border-bottom:1px solid var(--border-color);">
+                  <td style="padding:11px 18px;color:var(--gray-dark);">Third round of placement on all vacant seats</td>
+                  <td style="padding:11px 18px;text-align:right;font-weight:600;color:var(--navy);">04 - 07 January 2027</td>
                 </tr>
               </tbody>
             </table>
