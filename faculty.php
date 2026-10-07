@@ -129,9 +129,36 @@
 
 <?php include('includes/footer.php'); ?>
 
+<?php
+require_once __DIR__ . '/includes/faculty-lib.php';
+$faculty_cv_slugs = [];
+foreach (faculty_profiles_pack()['profiles'] as $rec) {
+  if (!is_array($rec) || !faculty_profile_has_cv($rec)) {
+    continue;
+  }
+  $canon = (string) ($rec['slug'] ?? '');
+  if ($canon === '') {
+    continue;
+  }
+  $faculty_cv_slugs[$canon] = $canon;
+  foreach ($rec['aliases'] ?? [] as $alias) {
+    $aliasSlug = faculty_slug((string) $alias);
+    if ($aliasSlug !== '') {
+      $faculty_cv_slugs[$aliasSlug] = $canon;
+    }
+  }
+  $nameSlug = faculty_slug((string) ($rec['name'] ?? ''));
+  if ($nameSlug !== '') {
+    $faculty_cv_slugs[$nameSlug] = $canon;
+  }
+}
+$faculty_profiles_url = dds_asset('assets/data/faculty-profiles.json');
+?>
 <script>
 const API_URL = 'faculty-proxy';
 const DEBUG = new URLSearchParams(window.location.search).has('debug');
+const FACULTY_PROFILES_URL = <?= json_encode($faculty_profiles_url, JSON_UNESCAPED_SLASHES) ?>;
+const CV_SLUGS = <?= json_encode((object) $faculty_cv_slugs, JSON_UNESCAPED_SLASHES) ?>;
 
 const DEPT_CONFIG = {
   'Oral Pathology':                    { icon: 'bi-virus',              order: 1  },
@@ -375,8 +402,8 @@ function extraFor(name) {
   if (extraPack.profiles && extraPack.profiles[canon]) return extraPack.profiles[canon];
   const rows = extraPack.profiles ? Object.values(extraPack.profiles) : [];
   for (const rec of rows) {
-    const keys = [rec.slug, ...(rec.aliases || [])];
-    if (keys.some(k => slugsMatch(s, k))) return rec;
+    const keys = [rec.slug, rec.name, ...(rec.aliases || [])];
+    if (keys.some(k => slugsMatch(s, facultySlug(k)))) return rec;
   }
   return null;
 }
@@ -419,8 +446,9 @@ function appendMissingCvFaculty() {
 
 function renderMemberRow(m) {
   const extra = extraFor(m.empName);
-  const linked = hasWordProfile(extra);
-  const slug = (extra && extra.slug) || facultySlug(m.empName);
+  const nameSlug = facultySlug(m.empName);
+  const slug = (extra && extra.slug) || CV_SLUGS[nameSlug] || nameSlug;
+  const linked = hasWordProfile(extra) || !!CV_SLUGS[nameSlug];
   const name = escapeHtml(getDisplayName(m));
   const desig = escapeHtml(m.desTitle || 'Faculty');
   const qual = escapeHtml(getQualification(m) || '—');
@@ -523,7 +551,7 @@ function clearAllFilters() {
 
   const data = await fetchFaculty();
   try {
-    const extraRes = await fetch('assets/data/faculty-profiles.json');
+    const extraRes = await fetch(FACULTY_PROFILES_URL, { cache: 'no-cache' });
     if (extraRes.ok) extraPack = await extraRes.json();
   } catch (e) { /* directory still works without extra CVs */ }
   loading.style.display = 'none';
