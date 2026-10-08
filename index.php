@@ -137,6 +137,7 @@ include('includes/header.php');
             <li>BDS · 4 years</li>
             <li>Female students</li>
             <li>PM&amp;DC recognised</li>
+            <li>HEC recognised</li>
           </ul>
           <span class="home-prog-cta">Learn more</span>
         </a>
@@ -147,7 +148,6 @@ include('includes/header.php');
           <h3>Postgraduate Dental Education</h3>
           <p>M.Phil programmes in Oral Pathology, Oral Biology, and Dental Materials, with clinical postgraduate training at Peshawar Dental Hospital.</p>
           <ul class="home-prog-meta">
-            <li>M.Phil</li>
             <li>Oral Pathology</li>
             <li>Oral Biology</li>
             <li>Dental Materials</li>
@@ -192,7 +192,7 @@ include('includes/header.php');
     <div class="home-sec-head text-center fu">
       <span class="sec-eyebrow">Why PDC</span>
       <h2 class="sec-title">Why Choose Peshawar Dental College</h2>
-      <p class="sec-desc">Looking for the best dental college in Peshawar or a leading BDS college in Pakistan? Peshawar Dental College is PM&amp;DC and HEC recognized, female-only, and trains dentists at Peshawar Dental Hospital.</p>
+      <p class="sec-desc">Looking for the best dental college in Peshawar or a leading BDS college in Pakistan. Peshawar Dental College is PM&amp;DC and HEC recognized, female-only, and trains dentists at Peshawar Dental Hospital.</p>
     </div>
     <div class="row g-4">
       <div class="col-md-6 col-lg-3 fu fu-delay-1">
@@ -213,7 +213,7 @@ include('includes/header.php');
         <div class="why-card">
           <div class="why-ico"><i class="bi bi-person-hearts"></i></div>
           <h4>Female BDS</h4>
-          <p>A dedicated BDS programme for female students serving communities across KP.</p>
+          <p>A dedicated BDS programme for female students serving communities worldwide.</p>
         </div>
       </div>
       <div class="col-md-6 col-lg-3 fu fu-delay-4">

@@ -256,7 +256,7 @@ if (($seo['schema'] ?? null) === 'Course') {
                   <div class="col-lg-4">
                     <div class="mega-col-head"><i class="bi bi-mortarboard-fill"></i> Apply</div>
                     <a class="mega-link" href="admissions.php"><i class="bi bi-pencil-square"></i>Admissions</a>
-                    <a class="mega-link" href="vacant-seats.php"><i class="bi bi-door-open"></i>Vacant Seats</a>
+                    <a class="mega-link" href="vacant-seats.php"><i class="bi bi-door-open"></i>Vacant Seats (BDS)</a>
                     <a class="mega-link" href="https://pdc.prime.edu.pk/downloads/Dental%20College%20Prospectus%202025-26.pdf"
                       target="_blank"><i class="bi bi-file-pdf"></i>Prospectus 2025–26</a>
                     <a class="mega-link" href="https://pdc.prime.edu.pk/downloads/PDC%20BDS%20PROSPECTUS%2024-25.pdf"

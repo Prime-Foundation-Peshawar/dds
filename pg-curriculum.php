@@ -13,7 +13,7 @@
     <div class="row g-5">
       <div class="col-lg-8">
         <div class="page-content fu">
-          <h2 class="sec-title" style="font-size:1.8rem;">BDS Curriculum</h2>
+          <h2 class="sec-title" style="font-size:1.8rem;">Postgraduate Curriculum</h2>
 
           <p style="font-family:var(--font-body);font-size:.95rem;color:var(--gray-dark);line-height:1.85;">Our dental education curriculum is designed to provide graduate who can demonstrate excellence in professional competence and ethical values. This curriculum is based in the Pakistan Medical & Dental Council and Higher Education Commission guidelines and is an integrated curriculum that is orientated to address the local and global needs. We call it HuDeba curriculum i.e., 'Human Development Based' curriculum.</p>
 

@@ -216,7 +216,7 @@
               <a class="pmc-hosp-card" href="https://pth.riphahpsh.edu.pk/" target="_blank" rel="noopener">
                 <i class="bi bi-building"></i>
                 <strong>Prime Teaching Hospital</strong>
-                <span>Adjacent affiliated site</span>
+                <span>Affiliated clinical rotations</span>
               </a>
             </div>
           </div>
