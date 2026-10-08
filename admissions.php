@@ -17,7 +17,7 @@
 
           <!-- College Introduction -->
           <p style="font-family:var(--font-body);font-size:.95rem;color:var(--gray-dark);line-height:1.85;">
-            The <strong>Department of Dental Sciences</strong> at Riphah International University – Peshawar Campus, through <strong>Peshawar Dental College</strong>, offers merit-based admissions to the Bachelor of Dental Surgery (BDS) programme for female students. The transparent admission process aims to produce dentists who are professionally competent, ethically grounded, and committed to community oral health.
+            The Peshawar Dental College, through Khyber Medical University (KMU), in accordance with the rules and regulations of the Pakistan Medical and Dental Council (PM&DC). offers merit-based admissions to the Bachelor of Dental Surgery (BDS) programme for female students. The transparent admission process aims to produce dentists who are professionally competent, ethically grounded, and committed to community oral health.
           </p>
           <!-- <p style="font-size:.9rem;margin-bottom:1.25rem;">
             <a href="https://riphahpsh.edu.pk/admissions.php" target="_blank" rel="noopener">Campus admissions hub</a> ·
@@ -90,6 +90,7 @@
 
           <!-- 1. Eligibility Criteria -->
           <h2 class="sec-title" style="font-size:1.5rem;" id="eligibility">1. Eligibility Criteria</h2>
+          <h5>For Open Merit</h5>
           <ul class="checklist" style="list-style:none;padding-left:0;">
             <li
               style="display:flex;align-items:flex-start;gap:10px;margin-bottom:12px;font-family:var(--font-body);font-size:.92rem;color:var(--gray-dark);line-height:1.7;">
@@ -108,6 +109,7 @@
               <i class="bi bi-check-circle-fill" style="color:var(--teal);flex-shrink:0;margin-top:3px;"></i>
               <span>Candidates having <strong>domicile of Khyber Pakhtunkhwa / Merged Districts (MDs)</strong>.</span>
             </li>
+            <h5>For Foreign Quota</h5>
             <li
               style="display:flex;align-items:flex-start;gap:10px;margin-bottom:12px;font-family:var(--font-body);font-size:.92rem;color:var(--gray-dark);line-height:1.7;">
               <i class="bi bi-check-circle-fill" style="color:var(--teal);flex-shrink:0;margin-top:3px;"></i>
@@ -167,7 +169,7 @@
               style="font-family:var(--font-body);font-size:.9rem;color:var(--gray-dark);line-height:2;padding-left:22px;margin-bottom:0;">
               <li>Register / Create an Account</li>
               <li>Fill online application form</li>
-              <li>Select preferred PAMI KP member colleges</li>
+              <li>Select Peshawar Dental College (PDC)</li>
               <li>Upload required documents</li>
               <li>Pay online application fee</li>
               <li>Submit form and download acknowledgment slip</li>
