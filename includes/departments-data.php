@@ -275,7 +275,7 @@ $academic_departments = [
     'faculty' => [
       [
         'name' => 'Assistant Professor Dr. Amna Umer',
-        'qualification' => 'BDS, M.Phil',
+        'qualification' => 'BDS, M.Phil Pharmacology',
         'reg' => '18628-D',
       ],
     ],
@@ -543,7 +543,7 @@ $academic_departments = [
     'faculty' => [
       [
         'name' => 'Assistant Professor Dr. Nasir Bakhtiar',
-        'qualification' => 'MBBS, FCPS',
+        'qualification' => 'MBBS (Gold Medalist), FCPS General Surgery, Fellowship Laparoscopic Surgery (GLR), CHPE, CHR, AI in Health Care',
         'reg' => '17304-N',
       ],
     ],

@@ -191,6 +191,8 @@ const DEPT_ALIASES = {
   'community & preventive dentistry': 'Community & Preventive Dentistry',
   'oral and maxillofacial surgery': 'Oral & Maxillofacial Surgery',
   'oral & maxillofacial surgery': 'Oral & Maxillofacial Surgery',
+  'general surgery': 'Surgery',
+  'surgery': 'Surgery',
   'pediatric dentistry': 'Paediatric Dentistry',
   'paediatric dentistry': 'Paediatric Dentistry',
 };

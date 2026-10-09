@@ -1,5 +1,5 @@
 {
-  "source": "PDC departmental faculty templates received Sep 2026 (Oral Pathology, Community Dentistry, Dental Education, OMFS, Oral Biology, Oral Medicine, Paediatric Dentistry, Periodontology, Prosthodontics, Dental Materials); Operative Dentistry departmental template Oct 2026.",
+  "source": "PDC departmental faculty templates received Sep 2026 (Oral Pathology, Community Dentistry, Dental Education, OMFS, Oral Biology, Oral Medicine, Paediatric Dentistry, Periodontology, Prosthodontics, Dental Materials); Operative Dentistry departmental template Oct 2026. General Surgery (Nasir Bakhtiar), OMFS (Riaz Khan), and Pharmacology (Amna Umer) Word templates Oct 2026.",
   "profiles": {
     "abbas-saleem-khan": {
       "slug": "abbas-saleem-khan",
@@ -1523,20 +1523,27 @@
     "amna-umer": {
       "slug": "amna-umer",
       "aliases": [
+        "amna-umar",
         "amna-umer"
       ],
       "name": "Amna Umer",
       "department": "Pharmacology",
       "designation": "Assistant Professor",
       "hod": true,
-      "photo": "",
+      "photo": "assets/images/faculty/amna-umer.jpg",
       "qualifications": [
         "BDS",
-        "M.Phil"
+        "M.Phil Pharmacology"
       ],
-      "experience": [],
+      "experience": [
+        "Feb 10, 2018 Till Date"
+      ],
       "skills": [],
-      "publications": []
+      "publications": [
+        "Comparative Analysis of the Effectiveness of the Conventional Treatment versus Ibuprofen and Omega-3 fatty acids in the Management of Patients with Temporomandibular Joint Disorders. Journal name: African journal of biological sciences",
+        "Histological and Molecular Findings in Liger Biopsies from Cirrhotic Patients with Heptocellular Carcinoma. Journal name: international neurourology journal",
+        "Comparative efficacy of carbamazepine alone versus carbamazepine plus baclofen in patients with trigeminal neuralgia: A cross-sectional study"
+      ]
     },
     "nadia-ashraf": {
       "slug": "nadia-ashraf",
@@ -1971,6 +1978,79 @@
         "Immunohistochemical (IHC) expression of P16 in various grades of oral squamous cell carcinoma (OSCC)with snuff use in tertiary care hospitals of peshawar. Pakistan journal of Health sciences. 2024. Karishma Ali,Sadaf Alam,Natasha Kamran,Sabeen Nasir,Razia Aamir,Sarah Yoususf",
         "comparison of immunohistochemical expression of insulin like growth factor 1 receptor (igf-1r) in benign and malignant salivary gland tumors. Journal of Khyber college of Dentistry. 2024. Mehreen Malik1, Sadaf Alam2, Sara Ziaullah2, Maria Hanif3, Noor Jahanzeb3, Ayesha Khitab3"
       ]
+    },
+    "nasir-bakhtiar": {
+      "slug": "nasir-bakhtiar",
+      "aliases": [
+        "nasir-bakhtiar",
+        "nasir-bakhtyar"
+      ],
+      "name": "Nasir Bakhtiar",
+      "department": "General Surgery",
+      "designation": "Assistant Professor",
+      "hod": true,
+      "qualifications": [
+        "MBBS (Gold Medalist)",
+        "FCPS General Surgery",
+        "Fellowship Laparoscopic Surgery (GLR)",
+        "CHPE, CHR, AI in Health Care"
+      ],
+      "experience": [
+        "NOVEMBER 2016 TILL DATE"
+      ],
+      "skills": [
+        "General & Laparoscopic Surgery",
+        "Pancreaticobiliary Surgery"
+      ],
+      "publications": [
+        "POLY-PROPHYLENE MESH OR ULTRA PRO MESH IS BETTER? IN TERMS OF EFFECTIVENESS AND POST-OPERATIVE COMPLICATIONS. A RANDOMIZED CONTROL STUDY. Muhammad Yunas Khan, Nasir Bakhtiar, Shafi Ullah, Mehwish Asad, Shandana Gul, Qutbi Alam Jan",
+        "Safety and Feasibility of Laparoscopic Cholecystectomy in Acute Cholecystitis Mohammad Tayeb1, Fozia Rauf2 and Nasir Bakhtiar3",
+        "Comparative Analysis of Intravenous Ceftriaxone and Ciprofloxacin for the Treatment of Bacterial Peritonitis in Liver Cirrhosis. ARBAB MUHAMMAD KASHIF KHAN1, MOHSINA HAQ2, RAHMAN SHAH3, SAIFULLAH KHAN KHALIL4, NASIR BAKHTIAR5, FAHD MASUD6, HIKMAT ULLAH7, QUDRAT ULLAH KHAN8, AMIR ULLAH KHAN",
+        "Causes and Management of Blunt Liver Trauma in a Tertiary Care Hospital in Peshawar. Asad Ullah Khan1, Kamran Ahmad2, Abeer Jehanzeb Khan3, Nasir Bakhtiar1, Ahmad Arsalan Tahir1, Muhammad Haris4*, Muhammad Jehangir Khan5, Sobia Haris6 and Farah Deeba",
+        "Role of Minimally Invasive Surgery (Laparsocopic Surgery) in the Management of Acute Abdomen. NASIR BAKHTIAR1, MUHAMMAD TAYYEB2, AHMAD ARSALAN TAHIR3, TUFAIL AHMAD4, MUHAMMAD ISHFAQ5, ASAD ULLAH KHAN6",
+        "Socioeconomic, Laboratory and Associated Factors in Patients Suffering From Acute Appendicitis. AHMAD ARSALAN TAHIR1, ANWAR ALI2, MOHAMMAD USMAN3, NASIR BAKHTIAR4, IBRAHIM5, ASAD ULLAH KHAN",
+        "COMPARISON OF POSTOPERATIVE PAIN IN DESARDA VS LICHTENSTEIN MESH REPAIR IN THE TREATMENT OF INGUINAL HERNIAS. Kaleem Ullah1, Shahidullah Ahmad2, Sheikh Muhammad Ibqar Azeem2, Waleed Mahboob2, Sahibzada Salma Rahman2, Nasir Bakhtiar3",
+        "A COMPARATIVE STUDY BETWEEN CLOSED AND OPEN HEMORRHOIDECTOMY IN TERMS OF SURGICAL SITE INFECTION. Nadir Farid1, Imtiaz Ali Langah2 , Mudassar Jabeen3 , Furqan Ullah Butt4 , Ahmad Arsalan Tahir5 , Nasir Bakhtiar6 , Javeria Aabid7 , Saad Suleman8, Muhammad Rashid Waheed9*",
+        "SINGLE INCISION LAPAROSCOPIC SURGERY IN CHOLECYSTECTOMY: CURRENT TRENDS AND CHALLENGES. Nadir Farid1, Khurram Shehzad2 , Muhammad Hassaan Amjad3 , Imtiaz Ali Langah4 , Nasir Bakhtiar5 , Ahmad Arsalan Tahir6 , Muhammad Rashid Waheed7*",
+        "Outcomes of Lateral Pancreaticojejunostomy in Patients with Chronic Pancreatitis Nasir Bakhtiar, Muhammad Tayyeb, Ambareen Subhan, Ahmad Arsalan Tahir",
+        "CLINICAL OUTCOMES OF COMPRESSION ALONG WITH ULTRASOUND GUIDED FOAM SCLEROTHERAPY IN THE MANAGEMENT OF VENOUS ULCERS: A PROSPECTIVE STUDY AT TERTIARY CARE HOSPITAL, PESHAWAR. Shafi Ullah1, Ahmad Arsalan Tahir2, Muhammad Ishfaq3, Nasir Bakhtiar4, Ambareen Subhan5, Muhammad Farooq6.",
+        "Comparison of the Outcomes of On-Lay and Sub-Lay Mesh Repair in Patients with Ventral Abdominal Wall Hernias. Ahmad Arsalan Tahir1*, Ambareen Subhan1, Nasir Bakhtiar1, Muhammad Ishfaq1, Muhammad Farooq1 and Muhammad Tayyeb",
+        "DEEP VENOUS THROMBOSIS PROPHYLAXIS, STANDARDS AND PRACTICES Nasir Bakhtiar1, Muhammad Tayyab2, Shafi Ullah3, Ambareen Subhan4, Sheikh Muhammad Ibqar Azeem5, Ahmad Arsalan Tahir",
+        "Association of Glycated Hemoglobin Level and Postoperative Complications in General Surgical Procedures. Nadir Farid1, Muhammad Rizwan Anwar2, Muhammad Tariq Nazir3, Nasir Bakhtiar4, Muharram Ali5, Muhammad Afzal6, Shahzada Amir Ahmed Babar",
+        "Intraoperative Use of Methylene Blue for Sentinel Lymph Node Detection in Breast Cancer Surgery: A Prospective Study. Muhammad Abid Aziz 1*, Nasir Bakhtiar2, Nasir Naseem Akhtar3, Muhammad Ali Naper4, Fazli Akbar5, Mohammad Basil Rizvi"
+      ],
+      "photo": "assets/images/faculty/nasir-bakhtiar.jpg"
+    },
+    "riaz-khan": {
+      "slug": "riaz-khan",
+      "aliases": [
+        "riaz-khan"
+      ],
+      "name": "Riaz Khan",
+      "department": "Oral & Maxillofacial Surgery",
+      "designation": "Senior Registrar",
+      "hod": false,
+      "qualifications": [
+        "BDS",
+        "FCPS"
+      ],
+      "experience": [
+        "17 Months"
+      ],
+      "skills": [
+        "Specialized in Implants Surgery; Maxillofacial Trauma and Pathology, Minor Oral Surgical Procedure, Facial Aesthetics."
+      ],
+      "publications": [
+        "Pattern and common risk factors of Maxillofacial fractures in adults (Vol 10 : No 03 JKCD September 2020",
+        "Lingual nerve injury in mandibular third molar extraction “a comparison of two surgical techniques” published in Pak J.Sarrg 2021:37(2):119-122 Journal of the Khyber college of Dentistry",
+        "Post graduate research and medical libraries “ an analytical study  of library of post graduate medical institute Peshawar",
+        "Patterns of oral and maxillofacial surgeries in pediatrics patients “retrospective study”",
+        "The outcome of Two Drivers Irrigation Needles on Post-Operative Pain after PULPECTOMY in Permanent Dentition published in Annual of R.S.C.B; ISSN: 1583-6258, Vol 25, Issue 6, 2021, Pages 12873-12881.",
+        "Role of Interleukin-34together with Receptor Activator of Nuclear Factor kB ligand an Osteoprotegrin levels in Periodontal Disease:",
+        "The Association of Indications of Third Molar Coronectomy and Surgical Removal with Pell & Gregory and Winter Classification",
+        "Comparative Effectiveness of Topical Triamcinolone in Orabase in Treating Recurrent Aphthous Stomatitis: A Comparative Study Between Diabetic and Non-Diabetic Patients"
+      ],
+      "photo": "assets/images/faculty/riaz-khan.jpg"
     }
   },
   "index": {
@@ -2045,6 +2125,10 @@
     "ambereen-humayun": "ambereen-humayun",
     "ambereen": "ambereen-humayun",
     "ambreen-humayun": "ambereen-humayun",
-    "sadaf-alam": "sadaf-alam"
+    "sadaf-alam": "sadaf-alam",
+    "nasir-bakhtiar": "nasir-bakhtiar",
+    "nasir-bakhtyar": "nasir-bakhtiar",
+    "riaz-khan": "riaz-khan",
+    "amna-umar": "amna-umer"
   }
 }
