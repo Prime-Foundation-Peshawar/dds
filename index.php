@@ -482,6 +482,10 @@ include('includes/header.php');
         <div class="recog-name">Riphah International University</div>
       </div>
       <div class="recog-cell">
+        <div class="recog-ico"><i class="bi bi-patch-check-fill"></i></div>
+        <div class="recog-name">Higher Education Commission<br /><small style="opacity:.5;font-size:.62rem;">(HEC)</small></div>
+      </div>
+      <div class="recog-cell">
         <div class="recog-ico"><i class="bi bi-award-fill"></i></div>
         <div class="recog-name">College of Physicians &amp; Surgeons Pakistan<br /><small style="opacity:.5;font-size:.62rem;">(CPSP)</small></div>
       </div>
