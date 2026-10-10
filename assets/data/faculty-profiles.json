@@ -2051,6 +2051,25 @@
         "Comparative Effectiveness of Topical Triamcinolone in Orabase in Treating Recurrent Aphthous Stomatitis: A Comparative Study Between Diabetic and Non-Diabetic Patients"
       ],
       "photo": "assets/images/faculty/riaz-khan.jpg"
+    },
+    "shahab-adil": {
+      "slug": "shahab-adil",
+      "aliases": [
+        "shahab-adil",
+        "shahab-adil-"
+      ],
+      "name": "Shahab Adil",
+      "department": "Orthodontics",
+      "designation": "Professor",
+      "hod": false,
+      "qualifications": [
+        "BDS",
+        "FCPS"
+      ],
+      "experience": [],
+      "skills": [],
+      "publications": [],
+      "photo": "assets/images/faculty/shahab-adil.jpg"
     }
   },
   "index": {
@@ -2129,6 +2148,7 @@
     "nasir-bakhtiar": "nasir-bakhtiar",
     "nasir-bakhtyar": "nasir-bakhtiar",
     "riaz-khan": "riaz-khan",
-    "amna-umar": "amna-umer"
+    "amna-umar": "amna-umer",
+    "shahab-adil": "shahab-adil"
   }
 }
