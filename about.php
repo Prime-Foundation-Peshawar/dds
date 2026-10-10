@@ -53,7 +53,7 @@
           <div class="row g-3 mt-2">
             <div class="col-6 col-md-4">
               <div class="pmc-card p-3" style="border-radius:12px; cursor:pointer;"
-                data-img="assets/images/campus/library-pmc.png"
+                data-img="assets/images/pdc/library1.png"
                 data-title="Library & LRC"
                 onclick="openPmcSingleLightbox(this)">
                 <div class="text-center">
@@ -86,7 +86,7 @@
             </div>
             <div class="col-6 col-md-4">
               <div class="pmc-card p-3" style="border-radius:12px; cursor:pointer;"
-                data-img="assets/images/campus/cafe.jpg"
+                data-img="assets/images/pdc/cafe.png"
                 data-title="Cafeteria"
                 onclick="openPmcSingleLightbox(this)">
                 <div class="text-center">
@@ -97,7 +97,7 @@
             </div>
             <div class="col-6 col-md-4">
               <div class="pmc-card p-3" style="border-radius:12px; cursor:pointer;"
-                data-img="assets/images/campus/masjid.jpg"
+                data-img="assets/images/pdc/masjid.png"
                 data-title="Masjid"
                 onclick="openPmcSingleLightbox(this)">
                 <div class="text-center">
@@ -119,7 +119,7 @@
             </div>
             <div class="col-6 col-md-4">
               <div class="pmc-card p-3" style="border-radius:12px; cursor:pointer;"
-                data-img="assets/images/campus/daycare.jpg"
+                data-img="assets/images/pdc/daycare.png"
                 data-title="Day Care Center"
                 onclick="openPmcSingleLightbox(this)">
                 <div class="text-center">
@@ -130,7 +130,7 @@
             </div>
             <div class="col-6 col-md-4">
               <div class="pmc-card p-3" style="border-radius:12px; cursor:pointer;"
-                data-img="assets/images/campus/first-aid.jpg"
+                data-img="assets/images/pdc/first-aid.png"
                 data-title="First Aid & Counseling"
                 onclick="openPmcSingleLightbox(this)">
                 <div class="text-center">
