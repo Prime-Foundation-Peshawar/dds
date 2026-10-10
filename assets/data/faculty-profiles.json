@@ -1,5 +1,5 @@
 {
-  "source": "PDC departmental faculty templates received Sep 2026 (Oral Pathology, Community Dentistry, Dental Education, OMFS, Oral Biology, Oral Medicine, Paediatric Dentistry, Periodontology, Prosthodontics, Dental Materials); Operative Dentistry departmental template Oct 2026. General Surgery (Nasir Bakhtiar), OMFS (Riaz Khan), and Pharmacology (Amna Umer) Word templates Oct 2026.",
+  "source": "PDC departmental faculty templates received Sep 2026 (Oral Pathology, Community Dentistry, Dental Education, OMFS, Oral Biology, Oral Medicine, Paediatric Dentistry, Periodontology, Prosthodontics, Dental Materials); Operative Dentistry departmental template Oct 2026. General Surgery (Nasir Bakhtiar), OMFS (Riaz Khan), and Pharmacology (Amna Umer) Word templates Oct 2026. HR staff photographs (drive zip 10 Oct 2026) matched by empId/name.",
   "profiles": {
     "abbas-saleem-khan": {
       "slug": "abbas-saleem-khan",
@@ -308,7 +308,7 @@
       "department": "Community & Preventive Dentistry",
       "designation": "Professor",
       "hod": true,
-      "photo": "",
+      "photo": "assets/images/faculty/farzeen-khan.jpg",
       "qualifications": [
         "MSc Community Dentistry",
         "MPH",
@@ -414,7 +414,7 @@
       "department": "Community & Preventive Dentistry",
       "designation": "Senior Lecturer",
       "hod": false,
-      "photo": "",
+      "photo": "assets/images/faculty/farah-shah.jpg",
       "qualifications": [
         "MSc Community Dentistry",
         "BDS",
@@ -451,7 +451,7 @@
       "department": "Community & Preventive Dentistry",
       "designation": "Lecturer",
       "hod": false,
-      "photo": "",
+      "photo": "assets/images/faculty/areeba-faheem.jpg",
       "qualifications": [
         "MPhil Community Dentistry (in progress)",
         "BDS"
@@ -479,7 +479,7 @@
       "department": "Dental Education",
       "designation": "Assistant Professor",
       "hod": true,
-      "photo": "",
+      "photo": "assets/images/faculty/mushyyada-durrani.jpg",
       "qualifications": [
         "BDS",
         "CHPE",
@@ -698,7 +698,7 @@
       "department": "Oral Medicine",
       "designation": "Assistant Professor",
       "hod": false,
-      "photo": "",
+      "photo": "assets/images/faculty/sobia-kanwal.jpg",
       "qualifications": [
         "BDS",
         "FCPS",
@@ -744,7 +744,7 @@
       "department": "Oral Medicine",
       "designation": "Lecturer",
       "hod": false,
-      "photo": "",
+      "photo": "assets/images/faculty/manzar-qbal.jpg",
       "qualifications": [
         "BDS",
         "MPH"
@@ -870,7 +870,7 @@
       "department": "Periodontology",
       "designation": "Professor",
       "hod": true,
-      "photo": "",
+      "photo": "assets/images/faculty/kawish-syed.jpg",
       "qualifications": [
         "BDS",
         "MCPS (Periodontology)",
@@ -927,7 +927,7 @@
       "department": "Periodontology",
       "designation": "Associate Professor",
       "hod": false,
-      "photo": "",
+      "photo": "assets/images/faculty/mahirah-iqbal.jpg",
       "qualifications": [
         "BDS",
         "DCD Periodontology",
@@ -1007,7 +1007,7 @@
       "department": "Periodontology",
       "designation": "Senior Lecturer",
       "hod": false,
-      "photo": "",
+      "photo": "assets/images/faculty/abira-hamid.jpg",
       "qualifications": [
         "BDS",
         "MCPS (Periodontology)"
@@ -1075,7 +1075,7 @@
       "department": "Periodontology",
       "designation": "Lecturer",
       "hod": false,
-      "photo": "",
+      "photo": "assets/images/faculty/hina-tariq.jpg",
       "qualifications": [
         "BDS"
       ],
@@ -1151,7 +1151,7 @@
       "department": "Prosthodontics",
       "designation": "Professor",
       "hod": false,
-      "photo": "assets/images/faculty/muhammad-sartaj-khan.png",
+      "photo": "assets/images/faculty/muhammad-sartaj-khan.jpg",
       "qualifications": [
         "BDS",
         "FCPS"
@@ -1254,7 +1254,7 @@
       "department": "Prosthodontics",
       "designation": "Junior Registrar",
       "hod": false,
-      "photo": "",
+      "photo": "assets/images/faculty/samia-manzar.jpg",
       "qualifications": [
         "BDS"
       ],
@@ -1353,7 +1353,7 @@
       "department": "Sciences of Dental Materials",
       "designation": "Assistant Professor",
       "hod": false,
-      "photo": "",
+      "photo": "assets/images/faculty/hina-rehman.jpg",
       "qualifications": [
         "BDS",
         "MPhil"
@@ -1394,7 +1394,7 @@
       "department": "Sciences of Dental Materials",
       "designation": "Assistant Professor",
       "hod": false,
-      "photo": "",
+      "photo": "assets/images/faculty/zudia-riaz.jpg",
       "qualifications": [
         "BDS",
         "MPhil"
@@ -1590,7 +1590,7 @@
       "department": "Oral & Maxillofacial Surgery",
       "designation": "Professor",
       "hod": false,
-      "photo": "",
+      "photo": "assets/images/faculty/muhammad-ishfaq.jpg",
       "qualifications": [
         "BDS",
         "FCPS",
@@ -1667,7 +1667,7 @@
       "department": "Oral Biology",
       "designation": "Associate Professor",
       "hod": false,
-      "photo": "",
+      "photo": "assets/images/faculty/sana-arbab.jpg",
       "qualifications": [
         "BDS",
         "MPhil (Oral Biology)",
@@ -1826,15 +1826,15 @@
     "nida-gul-sepah": {
       "slug": "nida-gul-sepah",
       "aliases": [
-        "nida-gul-sepah",
         "nida-gul",
+        "nida-gul-sepah",
         "nida-sepah"
       ],
       "name": "Nida Gul Sepah",
       "department": "Operative Dentistry",
       "designation": "Senior Registrar",
       "hod": false,
-      "photo": "",
+      "photo": "assets/images/faculty/nida-gul-sepah.jpg",
       "qualifications": [
         "BDS",
         "FCPS",
