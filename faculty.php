@@ -153,12 +153,14 @@ foreach (faculty_profiles_pack()['profiles'] as $rec) {
   }
 }
 $faculty_profiles_url = dds_asset('assets/data/faculty-profiles.json');
+$faculty_photos = faculty_photo_src_map();
 ?>
 <script>
 const API_URL = 'faculty-proxy';
 const DEBUG = new URLSearchParams(window.location.search).has('debug');
 const FACULTY_PROFILES_URL = <?= json_encode($faculty_profiles_url, JSON_UNESCAPED_SLASHES) ?>;
 const CV_SLUGS = <?= json_encode((object) $faculty_cv_slugs, JSON_UNESCAPED_SLASHES) ?>;
+const FACULTY_PHOTOS = <?= json_encode((object) $faculty_photos, JSON_UNESCAPED_SLASHES) ?>;
 
 const DEPT_CONFIG = {
   'Oral Pathology':                    { icon: 'bi-virus',              order: 1  },
@@ -458,8 +460,12 @@ function renderMemberRow(m) {
   const facReg = escapeHtml(m.facFacRegNo || '—');
   const initials = escapeHtml(getInitials(m));
   const avatarClass = getAvatarClass(m.desTitle);
-  const avatar = extra && extra.photo
-    ? `<img src="${escapeHtml(extra.photo)}" alt="">`
+  const photo = FACULTY_PHOTOS[nameSlug]
+    || (extra && extra.slug && FACULTY_PHOTOS[extra.slug])
+    || (extra && extra.photo)
+    || '';
+  const avatar = photo
+    ? `<img src="${escapeHtml(photo)}" alt="">`
     : initials;
   const inner = `
       <div class="fac-list-avatar ${avatarClass}">${avatar}</div>
