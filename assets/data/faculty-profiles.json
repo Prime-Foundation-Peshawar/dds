@@ -1854,14 +1854,14 @@
     "muhammad-abbas": {
       "slug": "muhammad-abbas",
       "aliases": [
-        "muhammad-abbas",
-        "mohammad-abbas"
+        "mohammad-abbas",
+        "muhammad-abbas"
       ],
       "name": "Muhammad Abbas",
       "department": "General Medicine",
       "designation": "Associate Professor",
       "hod": true,
-      "photo": "",
+      "photo": "assets/images/faculty/muhammad-abbas.jpg",
       "qualifications": [
         "MBBS",
         "FCPS (MEDICINE)"
