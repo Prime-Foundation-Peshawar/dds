@@ -1,4 +1,4 @@
-﻿DirectoryIndex index.php index.html
+DirectoryIndex index.php index.html
 
 # DDS uses PHP 8.4 for CI4 (cPanel EA4). Other sites on the same account are unchanged.
 <IfModule mime_module>
