@@ -1,0 +1,102 @@
+{
+    "generated_at": "2026-10-02T12:14:27+00:00",
+    "rows": [
+        {
+            "source_name": "Abbas Saleem Khan",
+            "annexure": "Annexure-1",
+            "website_name": "Abbas Saleem Khan",
+            "slug": "abbas-saleem-khan",
+            "hrms": "Abbas Saleem Khan",
+            "desig": "Professor",
+            "status": "Completed",
+            "photo": true,
+            "q": 5,
+            "e": 1,
+            "p": 42,
+            "annexure_pubs_guess": 40,
+            "gaps": []
+        },
+        {
+            "source_name": "Nasiha Motahir",
+            "annexure": "Annexure-2",
+            "website_name": "Nasiha Motahir",
+            "slug": "nasiha-bashir",
+            "hrms": "Nasiha Motahir",
+            "desig": "Professor",
+            "status": "Completed",
+            "photo": true,
+            "q": 4,
+            "e": 1,
+            "p": 19,
+            "annexure_pubs_guess": 18,
+            "gaps": []
+        },
+        {
+            "source_name": "Fatima Iqbal",
+            "annexure": "Annexure-3",
+            "website_name": "Fatima Iqbal",
+            "slug": "fatima-iqbal",
+            "hrms": "",
+            "desig": "Associate Professor",
+            "status": "Completed",
+            "photo": true,
+            "q": 3,
+            "e": 3,
+            "p": 21,
+            "annexure_pubs_guess": 20,
+            "gaps": [
+                "not found in HRMS Oral Pathology filter"
+            ]
+        },
+        {
+            "source_name": "Tehmina Naushin",
+            "annexure": "Annexure-4",
+            "website_name": "Tehmina Naushin Ur Razaq",
+            "slug": "tehmina-nausheen",
+            "hrms": "Tehmina Naushin Ur Razaq",
+            "desig": "Associate Professor",
+            "status": "Completed",
+            "photo": true,
+            "q": 4,
+            "e": 3,
+            "p": 23,
+            "annexure_pubs_guess": 23,
+            "gaps": []
+        },
+        {
+            "source_name": "Karishma Ali",
+            "annexure": "Annexure-5",
+            "website_name": "Karishma Ali",
+            "slug": "karishma-ali",
+            "hrms": "",
+            "desig": "Senior Lecturer",
+            "status": "Completed",
+            "photo": false,
+            "q": 4,
+            "e": 1,
+            "p": 11,
+            "annexure_pubs_guess": 11,
+            "gaps": [
+                "missing photo (optional)",
+                "not found in HRMS Oral Pathology filter"
+            ]
+        },
+        {
+            "source_name": "Anoshia Zahid",
+            "annexure": "Annexure-6",
+            "website_name": "Anoshia Zahid",
+            "slug": "anoshia-zahid",
+            "hrms": "",
+            "desig": "Senior Lecturer",
+            "status": "Completed",
+            "photo": true,
+            "q": 3,
+            "e": 1,
+            "p": 4,
+            "annexure_pubs_guess": 2,
+            "gaps": [
+                "not found in HRMS Oral Pathology filter"
+            ]
+        }
+    ]
+}

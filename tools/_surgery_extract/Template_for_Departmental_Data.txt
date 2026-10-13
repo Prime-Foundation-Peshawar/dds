@@ -1,0 +1,18 @@
+#
+Name
+Designation
+Profile with Photograph*
+Qualification
+Professional Experience
+Any Specific Skill to be displayed on web
+List of Publications
+Dr. Amna Umar
+Assistant Professor
+BDS, M.Phil Pharmacology
+Feb 10, 2018 Till Date
+Annex - A
+*. Not mandatory for female faculty
+Annex - A
+Comparative Analysis of the Effectiveness of the Conventional Treatment versus Ibuprofen and Omega-3 fatty acids in the Management of Patients with Temporomandibular Joint Disorders. Journal name: African journal of biological sciences
+Histological and Molecular Findings in Liger Biopsies from Cirrhotic Patients with Heptocellular Carcinoma. Journal name: international neurourology journal
+Comparative efficacy of carbamazepine alone versus carbamazepine plus baclofen in patients with trigeminal neuralgia: A cross-sectional study
