@@ -1,6 +1,34 @@
-﻿# Send all requests to the public folder (CI4)
-<IfModule mod_rewrite.c>
-    RewriteEngine On
-    RewriteRule ^(.*)$ public/$1 [L]
+﻿DirectoryIndex index.php index.html
+
+# DDS uses PHP 8.4 for CI4 (cPanel EA4). Other sites on the same account are unchanged.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php84 .php .php8 .phtml
 </IfModule>
-DirectoryIndex public/index.php
+
+RewriteEngine On
+
+# Canonical host: www → non-www (production only)
+RewriteCond %{HTTP_HOST} ^www\.dds\.riphahpsh\.edu\.pk$ [NC]
+RewriteRule ^(.*)$ https://dds.riphahpsh.edu.pk/$1 [R=301,L]
+
+# Redirect legacy *.php URLs to clean routes (keep query string)
+# Staging: /dds/page.php → /dds/page
+RewriteCond %{HTTP_HOST} ^(www\.)?staging\.riphahpsh\.edu\.pk$ [NC]
+RewriteCond %{THE_REQUEST} \s/dds/index\.php[\s?] [NC]
+RewriteRule ^index\.php$ /dds/ [R=301,L,QSA]
+
+RewriteCond %{HTTP_HOST} ^(www\.)?staging\.riphahpsh\.edu\.pk$ [NC]
+RewriteCond %{THE_REQUEST} \s/dds/([^\s?]+)\.php[\s?] [NC]
+RewriteRule ^(.+)\.php$ /dds/$1 [R=301,L,QSA]
+
+# Production: /page.php → /page
+RewriteCond %{HTTP_HOST} !^(www\.)?staging\.riphahpsh\.edu\.pk$ [NC]
+RewriteCond %{THE_REQUEST} \s/+index\.php[\s?] [NC]
+RewriteRule ^index\.php$ / [R=301,L,QSA]
+
+RewriteCond %{HTTP_HOST} !^(www\.)?staging\.riphahpsh\.edu\.pk$ [NC]
+RewriteCond %{THE_REQUEST} \s/+([^\s?]+)\.php[\s?] [NC]
+RewriteRule ^(.+)\.php$ /$1 [R=301,L,QSA]
+
+# Front-controller map into public/
+RewriteRule ^(.*)$ public/$1 [L]
