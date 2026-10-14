@@ -27,9 +27,9 @@
             Prospectus and fee PDFs remain available via the links below (hosted on legacy download servers).
             <a href="<?= site_url('pg-dental-education') ?>">Postgraduate dental programmes</a> are open for Fall 2026
             (apply by <strong>03 Sep 2026</strong>).
-            <a href="<?= hub_base ?>assets/images/news/PG-Admission-Form-Dental-Sciences.pdf" target="_blank" rel="noopener">Admission form</a>
+            <a href="<?= hub_base() ?>assets/images/news/PG-Admission-Form-Dental-Sciences.pdf" target="_blank" rel="noopener">Admission form</a>
             ·
-            <a href="<?= hub_base ?>assets/images/news/pg-medical-dental-ad-fall-2026.png" target="_blank" rel="noopener">Advertisement</a>.
+            <a href="<?= hub_base() ?>assets/images/news/pg-medical-dental-ad-fall-2026.png" target="_blank" rel="noopener">Advertisement</a>.
           </p> -->
 
           <!-- KMU & Quota Note -->
@@ -279,7 +279,7 @@
             <a href="<?= base_url('assets/images/news/kmu-mbbs-bds-admissions.jpeg') ?>" class="btn-pmc btn-pmc-outline">
               <i class="bi bi-download"></i> Advertisement
             </a>
-            <!-- <a href="<?= hub_base ?>assets/images/news/PG-Admission-Form-Medical-Sciences.pdf" target="_blank" rel="noopener" class="btn-pmc btn-pmc-outline">
+            <!-- <a href="<?= hub_base() ?>assets/images/news/PG-Admission-Form-Medical-Sciences.pdf" target="_blank" rel="noopener" class="btn-pmc btn-pmc-outline">
               <i class="bi bi-file-earmark-pdf"></i> MPhil Form
             </a> -->
           </div>
