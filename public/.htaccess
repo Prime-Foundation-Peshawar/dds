@@ -10,6 +10,9 @@ Options -Indexes
 	RewriteEngine On
 
 	# Staging lives at /dds/ — production at site root
+	<If "%{HTTP_HOST} =~ /staging\.riphahpsh\.edu\.pk$/i">
+	  RewriteBase /dds/public/
+	</If>
 	RewriteCond %{HTTP_HOST} ^(www\.)?staging\.riphahpsh\.edu\.pk$ [NC]
 	RewriteRule .* - [E=REWRITEBASE:/dds/]
 	RewriteCond %{HTTP_HOST} !^(www\.)?staging\.riphahpsh\.edu\.pk$ [NC]
