@@ -104,7 +104,7 @@ class Faculty extends BaseController
             }
         }
         return view('faculty/profile', [
-            'page_title' => ($dirRow['empName'] ?? $extra['name'] ?? 'Faculty') . ' | Peshawar Dental College',
+            'page_title' => ((($extra ?? [])['name'] ?? '') ?: ($dirRow['empName'] ?? 'Faculty')) . ' | Peshawar Dental College',
             'page_description' => 'Faculty profile at Peshawar Dental College.',
             'canonical_url' => site_url('faculty-profile?n=' . rawurlencode($n)),
             'extra' => $extra,
