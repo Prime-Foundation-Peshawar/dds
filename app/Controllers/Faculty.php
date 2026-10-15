@@ -82,15 +82,25 @@ class Faculty extends BaseController
         helper('faculty');
         $dirRow = null;
         if ($n !== '') {
+            $extraEmpId = trim((string) ($extra['emp_id'] ?? ''));
             foreach ($dirSvc->publicDirectory() as $row) {
-                if (faculty_slugs_match(faculty_slug($n), faculty_slug((string) $row['empName']))) {
+                $rowEmpId = trim((string) ($row['empId'] ?? ''));
+                if ($extraEmpId !== '' && $rowEmpId !== '' && $extraEmpId === $rowEmpId) {
                     $dirRow = $row;
                     break;
                 }
             }
+            if ($dirRow === null) {
+                foreach ($dirSvc->publicDirectory() as $row) {
+                    if (faculty_slugs_match(faculty_slug($n), faculty_slug((string) $row['empName']))) {
+                        $dirRow = $row;
+                        break;
+                    }
+                }
+            }
         }
         return view('faculty/profile', [
-            'page_title' => ($extra['name'] ?? $dirRow['empName'] ?? 'Faculty') . ' | Peshawar Dental College',
+            'page_title' => ($dirRow['empName'] ?? $extra['name'] ?? 'Faculty') . ' | Peshawar Dental College',
             'page_description' => 'Faculty profile at Peshawar Dental College.',
             'canonical_url' => site_url('faculty-profile?n=' . rawurlencode($n)),
             'extra' => $extra,

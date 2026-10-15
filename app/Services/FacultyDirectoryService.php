@@ -20,7 +20,7 @@ class FacultyDirectoryService
     /** @return list<string> */
     protected function hiddenDepts(): array
     {
-        return [];
+        return array_keys(faculty_public_hidden_depts());
     }
 
     public function isPublicDept(string $depName): bool

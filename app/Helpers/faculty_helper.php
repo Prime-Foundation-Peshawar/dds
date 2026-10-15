@@ -98,6 +98,8 @@ if (! function_exists('faculty_canonical_dept')) {
             'gynaecology and obstetrics' => 'Gynae and Obstetrics',
             'gynaecology' => 'Gynae and Obstetrics',
             'orthopaedics' => 'Orthopedics',
+            'sciences of dental materials' => 'Sciences of Dental Material',
+            'oral pathology' => 'Oral Patholgy',
         ];
         return $aliases[$key] ?? $raw;
     }
@@ -112,6 +114,49 @@ if (! function_exists('faculty_is_directory_rank')) {
             'Junior Registrar' => true,
         ];
         return ! isset($hidden[trim($desTitle)]);
+    }
+}
+
+if (! function_exists('faculty_public_hidden_depts')) {
+    function faculty_public_hidden_depts(): array
+    {
+        return [
+            'Dental Education' => true,
+            'DDE' => true,
+        ];
+    }
+}
+
+if (! function_exists('faculty_list_as_written')) {
+    /** @param mixed $items @return list<string> */
+    function faculty_list_as_written($items): array
+    {
+        return faculty_plain_list($items);
+    }
+}
+
+if (! function_exists('faculty_publications_as_written')) {
+    /** @param mixed $pubs @return list<string> */
+    function faculty_publications_as_written($pubs): array
+    {
+        return faculty_plain_list($pubs);
+    }
+}
+
+if (! function_exists('faculty_public_current_post')) {
+    function faculty_public_current_post(?array $directory, ?array $extra): string
+    {
+        $hrms = trim((string) ($directory['desTitle'] ?? ''));
+        $cv = trim((string) ($extra['designation'] ?? ''));
+        $probe = $hrms !== '' ? $hrms : $cv;
+        if (preg_match('/owner|patron|founder|\bceo\b|chairman of (the )?prime/i', $probe)) {
+            return faculty_normalize_designation($cv !== '' ? $cv : 'Professor');
+        }
+        if ($hrms !== '') {
+            return $hrms;
+        }
+
+        return faculty_normalize_designation($cv);
     }
 }
 

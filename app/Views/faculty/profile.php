@@ -6,7 +6,7 @@ $EXTRA = $extra ?? null;
 $DIRECTORY = $directory ?? null;
 $slug = $slug ?? '';
 
-$display_name = trim((string) ($EXTRA['name'] ?? $DIRECTORY['empName'] ?? 'Faculty Member'));
+$display_name = trim((string) ($DIRECTORY['empName'] ?? $EXTRA['name'] ?? 'Faculty Member'));
 $photoRel = trim((string) ($EXTRA['photo'] ?? ''));
 $photo = '';
 if ($photoRel !== '') {
@@ -16,16 +16,16 @@ if ($photoRel !== '') {
         $photo = base_url(ltrim($photoRel, '/'));
     }
 }
-$desig = faculty_normalize_designation((string) ($DIRECTORY['desTitle'] ?? $EXTRA['designation'] ?? ''));
-$dept = (string) ($EXTRA['department'] ?? $EXTRA['department_name'] ?? $DIRECTORY['depName'] ?? '');
+$desig = faculty_public_current_post($DIRECTORY, $EXTRA);
+$dept = (string) ($DIRECTORY['depName'] ?? $EXTRA['department'] ?? $EXTRA['department_name'] ?? '');
 $is_hod = ! empty($EXTRA['hod']) || ! empty($EXTRA['is_hod']);
 
 $dirQuals = [];
 if (! $EXTRA && ! empty($DIRECTORY['qualifications'])) {
     $dirQuals = array_values(array_filter(array_map('trim', preg_split('/[,;]+/', (string) $DIRECTORY['qualifications']) ?: [])));
 }
-$quals = faculty_normalize_qualifications($EXTRA['qualifications'] ?? $dirQuals);
-$skills = faculty_normalize_skills($EXTRA['skills'] ?? []);
+$quals = faculty_list_as_written($EXTRA['qualifications'] ?? $dirQuals);
+$skills = faculty_list_as_written($EXTRA['skills'] ?? []);
 $research = $EXTRA ? faculty_research_preferences($EXTRA) : [];
 $academic_roles = faculty_plain_list($EXTRA['academic_roles'] ?? []);
 $memberships = faculty_plain_list($EXTRA['memberships'] ?? []);
@@ -35,13 +35,13 @@ $chapters = faculty_plain_list($EXTRA['book_chapters'] ?? []);
 $registrations = faculty_plain_list($EXTRA['registrations'] ?? []);
 if (! $registrations && $DIRECTORY) {
     if (! empty($DIRECTORY['facPMDCNo'])) {
-        $registrations[] = 'PM&DC ' . $DIRECTORY['facPMDCNo'];
+        $registrations[] = 'PM&DC No. ' . $DIRECTORY['facPMDCNo'];
     }
     if (! empty($DIRECTORY['facFacRegNo'])) {
         $registrations[] = 'Faculty No. ' . $DIRECTORY['facFacRegNo'];
     }
 }
-$pubs = faculty_explode_publications($EXTRA['publications'] ?? []);
+$pubs = faculty_publications_as_written($EXTRA['publications'] ?? []);
 $initials = 'F';
 if ($display_name !== '') {
     $parts = preg_split('/\s+/', $display_name) ?: [];
