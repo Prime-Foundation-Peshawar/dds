@@ -91,25 +91,17 @@ class Dashboard extends BaseAcpController
         $newsByMonth = array_fill_keys($months, 0);
         $eventsByMonth = array_fill_keys($months, 0);
 
-        $newsRows = $db->table('news_posts')
-            ->select("strftime('%Y-%m', COALESCE(published_at, created_at)) as ym, COUNT(*) as c")
-            ->where("strftime('%Y-%m', COALESCE(published_at, created_at)) >=", $months[0])
-            ->groupBy('ym')
-            ->get()->getResultArray();
-        foreach ($newsRows as $r) {
-            if (isset($newsByMonth[$r['ym']])) {
-                $newsByMonth[$r['ym']] = (int) $r['c'];
+        foreach ($db->table('news_posts')->select('published_at, created_at')->get()->getResultArray() as $r) {
+            $ym = substr((string) (($r['published_at'] ?? '') !== '' ? $r['published_at'] : ($r['created_at'] ?? '')), 0, 7);
+            if (isset($newsByMonth[$ym])) {
+                $newsByMonth[$ym]++;
             }
         }
 
-        $eventRows = $db->table('events')
-            ->select("strftime('%Y-%m', COALESCE(event_date, created_at)) as ym, COUNT(*) as c")
-            ->where("strftime('%Y-%m', COALESCE(event_date, created_at)) >=", $months[0])
-            ->groupBy('ym')
-            ->get()->getResultArray();
-        foreach ($eventRows as $r) {
-            if (isset($eventsByMonth[$r['ym']])) {
-                $eventsByMonth[$r['ym']] = (int) $r['c'];
+        foreach ($db->table('events')->select('event_date, created_at')->get()->getResultArray() as $r) {
+            $ym = substr((string) (($r['event_date'] ?? '') !== '' ? $r['event_date'] : ($r['created_at'] ?? '')), 0, 7);
+            if (isset($eventsByMonth[$ym])) {
+                $eventsByMonth[$ym]++;
             }
         }
 
