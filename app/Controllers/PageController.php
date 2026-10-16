@@ -114,8 +114,12 @@ class PageController extends BaseController
             $data['canonical_url']    = site_url('event-single') . '?slug=' . rawurlencode($event['slug']);
         }
 
-        // CMS-managed pages render body from DB
-        if (! empty($page['use_cms']) && (! empty($page['body_html']) || ! empty($page['body_text']))) {
+        // Gallery, news, events, and vacant seats stay on their templates so
+        // album and listing edits are not replaced by a saved HTML snapshot.
+        $liveTemplates = ['gallery', 'all-news', 'single-news', 'events', 'event-single', 'vacant-seats'];
+        if (! in_array($slug, $liveTemplates, true)
+            && ! empty($page['use_cms'])
+            && (! empty($page['body_html']) || ! empty($page['body_text']))) {
             return view('pages/content_wrap', array_merge($data, [
                 'viewKey' => 'cms_content',
             ]));
