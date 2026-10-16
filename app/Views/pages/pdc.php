@@ -241,16 +241,17 @@
                 ['src' => 'assets/images/campus/pdc10.jpeg', 'alt' => 'PDC facilities'],
               ];
               foreach ($pdc_gallery as $i => $img):
+                $imgUrl = base_url($img['src']);
               ?>
                 <button type="button"
                   class="pmc-gallery-item<?= $i === 0 ? ' pmc-gallery-item--wide' : '' ?>"
-                  data-img="<?= esc(base_url($img['src']), 'attr') ?>"
-                  data-title="<?= esc($img['alt'], 'attr') ?>"
+                  data-img="<?= esc($imgUrl) ?>"
+                  data-title="<?= esc($img['alt']) ?>"
                   onclick="openPmcLightbox(this)"
-                  aria-label="Open <?= esc($img['alt'], 'attr') ?>">
-                  <img src="<?= esc(base_url($img['src']), 'attr') ?>"
-                    alt="<?= esc($img['alt'], 'attr') ?>"
-                    loading="lazy" decoding="async" />
+                  aria-label="Open <?= esc($img['alt']) ?>">
+                  <img src="<?= esc($imgUrl) ?>"
+                    alt="<?= esc($img['alt']) ?>"
+                    decoding="async" />
                   <span class="pmc-gallery-zoom"><i class="bi bi-zoom-in"></i></span>
                 </button>
               <?php endforeach; ?>
