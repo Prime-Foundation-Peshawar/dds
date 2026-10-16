@@ -19,5 +19,4 @@ php spark serve
 
 ## Notes
 
-- Branch `ci4` is the CI4 conversion (legacy PHP remains on `master`).
-- Seed data is built from `_legacy` via `tools/extract_seed_data.php` and related scripts.
+- Seed data was imported from the former static site. The archived PHP copy is no longer in this repo.
