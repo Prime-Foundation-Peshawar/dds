@@ -244,12 +244,12 @@
               ?>
                 <button type="button"
                   class="pmc-gallery-item<?= $i === 0 ? ' pmc-gallery-item--wide' : '' ?>"
-                  data-img="<?= htmlspecialchars($img['src']) ?>"
-                  data-title="<?= htmlspecialchars($img['alt']) ?>"
+                  data-img="<?= esc(base_url($img['src']), 'attr') ?>"
+                  data-title="<?= esc($img['alt'], 'attr') ?>"
                   onclick="openPmcLightbox(this)"
-                  aria-label="Open <?= htmlspecialchars($img['alt']) ?>">
-                  <img src="<?= htmlspecialchars($img['src']) ?>"
-                    alt="<?= htmlspecialchars($img['alt']) ?>"
+                  aria-label="Open <?= esc($img['alt'], 'attr') ?>">
+                  <img src="<?= esc(base_url($img['src']), 'attr') ?>"
+                    alt="<?= esc($img['alt'], 'attr') ?>"
                     loading="lazy" decoding="async" />
                   <span class="pmc-gallery-zoom"><i class="bi bi-zoom-in"></i></span>
                 </button>
