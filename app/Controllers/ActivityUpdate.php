@@ -21,7 +21,7 @@ class ActivityUpdate extends BaseController
 
         return view('pages/activity-update', [
             'page_title'       => 'Activity Submission | Department of Dental Sciences',
-            'page_description' => 'Submit a department activity for website review and publication.',
+            'page_description' => 'Official form for submitting departmental academic activities for the PDC website.',
             'robots'           => 'noindex, nofollow',
             'thanks'           => $this->request->getGet('thanks') !== null,
             'errorMsg'         => trim((string) ($this->request->getGet('error') ?? '')),
