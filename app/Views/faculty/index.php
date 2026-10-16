@@ -1,6 +1,5 @@
 <?= $this->extend('layouts/main') ?>
 <?= $this->section('content') ?>
-?>
 
 <link href="<?= dds_asset('assets/css/faculty.css') ?>" rel="stylesheet"/>
 
