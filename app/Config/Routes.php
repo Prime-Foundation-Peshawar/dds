@@ -21,6 +21,8 @@ $routes->get('faculty-profiles-api', 'Faculty::profilesApi');
 $routes->get('faculty-all', 'Faculty::redirectAll');
 $routes->get('faculty-update', 'FacultyUpdate::index');
 $routes->post('faculty-update-submit', 'FacultyUpdate::submit');
+$routes->get('update-activity', 'ActivityUpdate::index');
+$routes->post('update-activity-submit', 'ActivityUpdate::submit');
 $routes->get('medical-education', 'PageController::redirectMedicalEducation');
 $routes->get('pg-medical-education', 'PageController::redirectPgDentalEducation');
 $routes->get('pg-surgery-residency', 'PageController::redirectPgComingSoon');

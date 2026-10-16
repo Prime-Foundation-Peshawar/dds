@@ -39,3 +39,7 @@ Thumbs.db
 /public/assets/videos/pmc-hero-source.mp4
 /public/assets/videos/frames/
 .cursor/
+
+/data/activity-submissions/*
+!/data/activity-submissions/.htaccess
+!/data/activity-submissions/.gitkeep
