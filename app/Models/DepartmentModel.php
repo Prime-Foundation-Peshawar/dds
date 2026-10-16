@@ -45,7 +45,7 @@ class DepartmentModel extends Model
         $row['activities'] = array_map(static function ($a) {
             return [
                 'title' => $a['title'],
-                'date' => $a['date_label'],
+                'date' => str_replace("\u{00E2}\u{20AC}\u{201C}", "\u{2013}", (string) $a['date_label']),
                 'text' => $a['body'],
             ];
         }, $acts);
