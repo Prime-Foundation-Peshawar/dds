@@ -124,7 +124,7 @@ $profileSvc = new \App\Services\FacultyProfileService();
                   <span class="dept-activity-date-top"><?= esc($dateTop) ?></span>
                   <?php if ($dateBottom !== ''): ?>
                     <span class="dept-activity-date-bottom"><?= esc($dateBottom) ?></span>
-                  <?php else: ?>
+                  <?php elseif (mb_strlen($dateMain) <= 4): ?>
                     <span class="dept-activity-date-bottom"><i class="bi bi-calendar3"></i></span>
                   <?php endif; ?>
                 </div>

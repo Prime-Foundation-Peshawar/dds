@@ -1166,7 +1166,7 @@
     .dept-timeline::before {
       content: '';
       position: absolute;
-      left: 39px;
+      left: 45px;
       top: 12px;
       bottom: 12px;
       width: 2px;
@@ -1174,7 +1174,7 @@
     }
     .dept-activity {
       display: grid;
-      grid-template-columns: 80px 1fr;
+      grid-template-columns: 92px 1fr;
       gap: 16px;
       align-items: stretch;
       position: relative;
@@ -1188,7 +1188,7 @@
       border-radius: 14px;
     }
     .dept-activity-datebox {
-      width: 80px;
+      width: 92px;
       min-height: 80px;
       border-radius: 14px;
       background: var(--navy);
@@ -1209,8 +1209,9 @@
       letter-spacing: .04em;
       text-transform: uppercase;
       color: var(--gold-light, #e8c547);
-      line-height: 1.2;
-      word-break: break-word;
+      line-height: 1.15;
+      overflow-wrap: normal;
+      word-break: normal;
     }
     .dept-activity-date-bottom {
       font-family: var(--font-body);
