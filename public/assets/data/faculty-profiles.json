@@ -183,7 +183,8 @@
         "Iqbal F, Bashir N, Saleem A, Khan MM, Naushin T, Alam S. Cytomorphological spectrum of pleomorphic adenoma in association with clinical parameters. The Professional Medical Journal. 2019;26(10). doi:10.29309/TPMJ/2019.26.10.2786.",
         "Iqbal F, Bashir N, Khan MM, Ahmad S, Sharif N. CD10 expression in ameloblastoma variants. Pakistan Oral & Dental Journal. 2018;38(2).",
         "Bashir N, Iqbal F, Khan MM, Sharif N. Estrogen receptor alpha expression in salivary gland tumors. Pakistan Oral & Dental Journal. 2018;38(2)."
-      ]
+      ],
+      "emp_id": "301"
     },
     "tehmina-nausheen": {
       "slug": "tehmina-nausheen",
@@ -2229,6 +2230,7 @@
     "274": "sadaf-alam",
     "1373": "nasir-bakhtiar",
     "1948": "riaz-khan",
-    "775": "shahab-adil"
+    "775": "shahab-adil",
+    "301": "fatima-iqbal"
   }
 }
