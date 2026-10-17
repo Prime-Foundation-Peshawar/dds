@@ -117,6 +117,55 @@ if (! function_exists('faculty_is_directory_rank')) {
     }
 }
 
+if (! function_exists('faculty_public_excluded_slugs')) {
+    /** Resigned / non-public staff who must not appear on the DDS directory. */
+    function faculty_public_excluded_slugs(): array
+    {
+        return [];
+    }
+}
+
+if (! function_exists('faculty_slug_is_public')) {
+    function faculty_slug_is_public(string $slugOrName): bool
+    {
+        $slug = faculty_slug($slugOrName);
+        if ($slug === '') {
+            return true;
+        }
+        foreach (array_keys(faculty_public_excluded_slugs()) as $excluded) {
+            if (faculty_slugs_match($slug, $excluded) || $slug === $excluded) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+}
+
+if (! function_exists('faculty_profile_is_public')) {
+    function faculty_profile_is_public(?array $rec): bool
+    {
+        if (! $rec) {
+            return false;
+        }
+        if (array_key_exists('public', $rec) && $rec['public'] === false) {
+            return false;
+        }
+        if (array_key_exists('is_public', $rec) && (int) $rec['is_public'] === 0) {
+            return false;
+        }
+        $keys = array_merge([(string) ($rec['slug'] ?? '')], $rec['aliases'] ?? []);
+        $keys[] = (string) ($rec['name'] ?? '');
+        foreach ($keys as $key) {
+            if (! faculty_slug_is_public((string) $key)) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+}
+
 if (! function_exists('faculty_public_hidden_depts')) {
     function faculty_public_hidden_depts(): array
     {

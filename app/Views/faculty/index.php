@@ -129,16 +129,21 @@
 </section>
 
 <?php
-$faculty_cv_slugs = $faculty_cv_slugs ?? [];
+helper('faculty');
+$faculty_cv_by_emp = $faculty_cv_by_emp ?? [];
 $faculty_photos = $faculty_photos ?? [];
-$faculty_profiles_url = dds_asset('assets/data/faculty-profiles.json');
+// CV pack from DB (faculty-profiles-api), not the static JSON seed file.
+$faculty_profiles_url = site_url('faculty-profiles-api');
+$faculty_excluded_slugs = array_keys(faculty_public_excluded_slugs());
 ?>
 <script>
+// Live HRMS directory (name, designation, dept, regs) + DB CV pack (photo/pubs/etc).
 const API_URL = <?= json_encode(site_url('faculty-proxy')) ?>;
 const DEBUG = new URLSearchParams(window.location.search).has('debug');
 const FACULTY_PROFILES_URL = <?= json_encode($faculty_profiles_url, JSON_UNESCAPED_SLASHES) ?>;
-const CV_SLUGS = <?= json_encode((object) $faculty_cv_slugs, JSON_UNESCAPED_SLASHES) ?>;
+const CV_BY_EMP = <?= json_encode((object) $faculty_cv_by_emp, JSON_UNESCAPED_SLASHES) ?>;
 const FACULTY_PHOTOS = <?= json_encode((object) $faculty_photos, JSON_UNESCAPED_SLASHES) ?>;
+const EXCLUDED_SLUGS = <?= json_encode(array_values($faculty_excluded_slugs), JSON_UNESCAPED_SLASHES) ?>;
 
 const DEPT_CONFIG = {
   'Oral Pathology':                    { icon: 'bi-virus',              order: 1  },
@@ -378,68 +383,71 @@ function slugsMatch(a, b) {
   return firstOk && lastOk;
 }
 
-function extraFor(name) {
-  const s = facultySlug(name);
-  const canon = (extraPack.index && extraPack.index[s]) || s;
-  if (extraPack.profiles && extraPack.profiles[canon]) return extraPack.profiles[canon];
-  const rows = extraPack.profiles ? Object.values(extraPack.profiles) : [];
-  for (const rec of rows) {
-    const keys = [rec.slug, rec.name, ...(rec.aliases || [])];
-    if (keys.some(k => slugsMatch(s, facultySlug(k)))) return rec;
-  }
-  return null;
+function empIdOf(mOrRec) {
+  return String(
+    (mOrRec && (mOrRec.empId ?? mOrRec.emp_id ?? mOrRec.empID ?? mOrRec.EmpID)) || ''
+  ).trim();
 }
 
+function isExcludedSlug(slugOrName) {
+  const s = facultySlug(slugOrName);
+  if (!s) return false;
+  return EXCLUDED_SLUGS.some(ex => ex === s || slugsMatch(s, ex));
+}
+
+function isPublicCvRec(rec) {
+  if (!rec) return false;
+  if (rec.public === false) return false;
+  if (isExcludedSlug(rec.slug) || isExcludedSlug(rec.name)) return false;
+  return true;
+}
+
+/** Resolve CV pack row by HRMS empId only (never by name). */
+function extraForMember(m) {
+  const empId = empIdOf(m);
+  if (!empId) return null;
+  const idx = extraPack.index || {};
+  const profiles = extraPack.profiles || {};
+  let rec = null;
+  if (idx[empId] && profiles[idx[empId]]) rec = profiles[idx[empId]];
+  if (!rec) {
+    for (const row of Object.values(profiles)) {
+      if (empIdOf(row) === empId) { rec = row; break; }
+    }
+  }
+  return isPublicCvRec(rec) ? rec : null;
+}
+
+/** DB CV content only — rank/name come from live HRMS list row. */
 function hasWordProfile(extra) {
-  if (!extra) return false;
+  if (!extra || !isPublicCvRec(extra)) return false;
   if (extra.photo) return true;
   return ['qualifications', 'experience', 'publications', 'skills']
     .some(key => Array.isArray(extra[key]) && extra[key].length > 0);
 }
 
-function listHasProfile(rec) {
-  const keys = [rec.slug, ...(rec.aliases || [])].filter(Boolean);
-  return allFaculty.some(f => {
-    const s = facultySlug(f.empName);
-    return keys.some(k => slugsMatch(s, k));
-  });
-}
-
-function appendMissingCvFaculty() {
-  const rows = extraPack.profiles ? Object.values(extraPack.profiles) : [];
-  for (const rec of rows) {
-    if (!rec || !rec.name || !hasWordProfile(rec)) continue;
-    if (!isPublicFacultyDesig(rec.designation || 'Faculty')) continue;
-    if (listHasProfile(rec)) continue;
-    const depName = canonicalDept(rec.department) || rec.department || '';
-    if (HIDDEN_DEPTS.has(String(depName).trim())) continue;
-    allFaculty.push({
-      empName: rec.name,
-      desTitle: rec.designation || 'Faculty',
-      depName,
-      facPMDCNo: '',
-      facFacRegNo: '',
-      qualifications: Array.isArray(rec.qualifications)
-        ? rec.qualifications.join(', ')
-        : (rec.qualifications || ''),
-    });
+function dbQualification(extra) {
+  if (!extra) return '';
+  if (Array.isArray(extra.qualifications) && extra.qualifications.length) {
+    return extra.qualifications.join(', ');
   }
+  return String(extra.qualifications || '');
 }
 
 function renderMemberRow(m) {
-  const extra = extraFor(m.empName);
-  const nameSlug = facultySlug(m.empName);
-  const slug = (extra && extra.slug) || CV_SLUGS[nameSlug] || nameSlug;
-  const linked = hasWordProfile(extra) || !!CV_SLUGS[nameSlug];
+  if (isExcludedSlug(m.empName)) return '';
+  const empId = empIdOf(m);
+  const extra = extraForMember(m);
+  const slug = (extra && extra.slug) || (empId && CV_BY_EMP[empId]) || '';
+  const linked = !!slug && (hasWordProfile(extra) || !!(empId && CV_BY_EMP[empId]));
   const name = escapeHtml(getDisplayName(m));
   const desig = escapeHtml(m.desTitle || 'Faculty');
-  const qual = escapeHtml(getQualification(m) || '—');
+  const qual = escapeHtml(dbQualification(extra) || getQualification(m) || '—');
   const pmdc = escapeHtml(m.facPMDCNo || '—');
   const facReg = escapeHtml(m.facFacRegNo || '—');
   const initials = escapeHtml(getInitials(m));
   const avatarClass = getAvatarClass(m.desTitle);
-  const photo = FACULTY_PHOTOS[nameSlug]
-    || (extra && extra.slug && FACULTY_PHOTOS[extra.slug])
+  const photo = (empId && FACULTY_PHOTOS[empId])
     || (extra && extra.photo)
     || '';
   const avatar = photo
@@ -538,13 +546,24 @@ function clearAllFilters() {
   const data = await fetchFaculty();
   try {
     const extraRes = await fetch(FACULTY_PROFILES_URL, { cache: 'no-cache' });
-    if (extraRes.ok) extraPack = await extraRes.json();
+    if (extraRes.ok) {
+      extraPack = await extraRes.json();
+      const profiles = extraPack.profiles || {};
+      const index = extraPack.index || {};
+      for (const [slug, rec] of Object.entries(profiles)) {
+        const keep = rec && empIdOf(rec) && isPublicCvRec(rec) && hasWordProfile(rec);
+        if (keep) continue;
+        delete profiles[slug];
+        for (const [alias, target] of Object.entries(index)) {
+          if (target === slug) delete index[alias];
+        }
+      }
+    }
   } catch (e) { /* directory still works without extra CVs */ }
   loading.style.display = 'none';
 
   if (!data) {
-    if (!(extraPack.profiles && Object.keys(extraPack.profiles).length)) {
-      document.getElementById('facultyContent').innerHTML = `
+    document.getElementById('facultyContent').innerHTML = `
       <div class="fac-error">
         <div class="fac-error-icon"><i class="bi bi-wifi-off"></i></div>
         <h5>Could not load the faculty list</h5>
@@ -553,9 +572,7 @@ function clearAllFilters() {
           <i class="bi bi-arrow-clockwise"></i> Retry
         </button>
       </div>`;
-      return;
-    }
-    data = [];
+    return;
   }
 
   if (DEBUG && data.length > 0) {
@@ -563,20 +580,15 @@ function clearAllFilters() {
     if (debugEl) debugEl.textContent = JSON.stringify(data[0], null, 2);
   }
 
+  // Directory is HRMS-only; CV fields come from DB via empId (no JSON / no CV-only rows).
   allFaculty = data
-    .filter(f => isPublicFacultyDesig(f.desTitle))
+    .filter(f => isPublicFacultyDesig(f.desTitle) && !isExcludedSlug(f.empName))
+    .map(f => {
+      f.depName = canonicalDept(f.depName) || f.depName;
+      return f;
+    })
+    .filter(f => !HIDDEN_DEPTS.has(String(f.depName || '').trim()))
     .sort((a, b) => {
-    const deptDiff = getDeptOrder(a.depName) - getDeptOrder(b.depName);
-    if (deptDiff !== 0) return deptDiff;
-    return getDesigRank(a.desTitle) - getDesigRank(b.desTitle);
-  });
-  appendMissingCvFaculty();
-  allFaculty = allFaculty.filter(f => isPublicFacultyDesig(f.desTitle));
-  allFaculty.forEach(f => {
-    f.depName = canonicalDept(f.depName) || f.depName;
-  });
-  allFaculty = allFaculty.filter(f => !HIDDEN_DEPTS.has(String(f.depName || '').trim()));
-  allFaculty.sort((a, b) => {
     const deptDiff = getDeptOrder(a.depName) - getDeptOrder(b.depName);
     if (deptDiff !== 0) return deptDiff;
     return getDesigRank(a.desTitle) - getDesigRank(b.desTitle);

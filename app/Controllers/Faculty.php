@@ -15,9 +15,17 @@ class Faculty extends BaseController
     public function index()
     {
         helper('faculty');
+        // Keyed by HRMS empId only — never by name.
         $faculty_photos = [];
-        $faculty_cv_slugs = [];
+        $faculty_cv_by_emp = [];
         foreach (model(\App\Models\FacultyProfileModel::class)->publicRows() as $rec) {
+            if (! faculty_profile_is_public($rec)) {
+                continue;
+            }
+            $empId = trim((string) ($rec['emp_id'] ?? ''));
+            if ($empId === '') {
+                continue;
+            }
             $canon = trim((string) ($rec['slug'] ?? ''));
             $hasCv = ! empty($rec['photo'])
                 || ! empty($rec['qualifications'])
@@ -25,17 +33,7 @@ class Faculty extends BaseController
                 || ! empty($rec['publications'])
                 || ! empty($rec['skills']);
             if ($canon !== '' && $hasCv) {
-                $faculty_cv_slugs[$canon] = $canon;
-                foreach ($rec['aliases'] ?? [] as $alias) {
-                    $aliasSlug = faculty_slug((string) $alias);
-                    if ($aliasSlug !== '') {
-                        $faculty_cv_slugs[$aliasSlug] = $canon;
-                    }
-                }
-                $nameSlug = faculty_slug((string) ($rec['name'] ?? ''));
-                if ($nameSlug !== '') {
-                    $faculty_cv_slugs[$nameSlug] = $canon;
-                }
+                $faculty_cv_by_emp[$empId] = $canon;
             }
 
             $photo = trim((string) ($rec['photo'] ?? ''));
@@ -45,21 +43,14 @@ class Faculty extends BaseController
             if (! preg_match('#^https?://#i', $photo)) {
                 $photo = base_url(ltrim($photo, '/'));
             }
-            $keys = array_merge([(string) ($rec['slug'] ?? '')], $rec['aliases'] ?? []);
-            $keys[] = faculty_slug((string) ($rec['name'] ?? ''));
-            foreach ($keys as $key) {
-                $key = trim((string) $key);
-                if ($key !== '') {
-                    $faculty_photos[$key] = $photo;
-                }
-            }
+            $faculty_photos[$empId] = $photo;
         }
         return view('faculty/index', [
             'page_title' => 'Faculty | Peshawar Dental College',
             'page_description' => 'Meet PM&DC registered faculty at Peshawar Dental College.',
             'canonical_url' => site_url('faculty'),
             'faculty_photos' => $faculty_photos,
-            'faculty_cv_slugs' => $faculty_cv_slugs,
+            'faculty_cv_by_emp' => $faculty_cv_by_emp,
         ]);
     }
 
@@ -75,15 +66,12 @@ class Faculty extends BaseController
     {
         $n = (string) $this->request->getGet('n');
         helper('faculty');
-        if ($n === '') {
+        if ($n === '' || ! faculty_slug_is_public($n)) {
             return redirect()->to(site_url('faculty'));
         }
         $profileSvc = new FacultyProfileService();
         $dirSvc = new FacultyDirectoryService();
         $extra = $profileSvc->lookup($n);
-        if (! $extra) {
-            return redirect()->to(site_url('faculty'));
-        }
         $dirRow = null;
         if ($n !== '') {
             $extraEmpId = trim((string) (($extra ?? [])['emp_id'] ?? ''));
@@ -103,8 +91,19 @@ class Faculty extends BaseController
                 }
             }
         }
+        if ($extra && ! faculty_profile_is_public($extra)) {
+            return redirect()->to(site_url('faculty'));
+        }
+        if (! $extra && ! $dirRow) {
+            return redirect()->to(site_url('faculty'));
+        }
+        $liveName = trim((string) ($dirRow['empName'] ?? ''));
+        $pageName = $liveName !== ''
+            ? $liveName
+            : (string) ((($extra ?? [])['name'] ?? '') ?: 'Faculty');
+
         return view('faculty/profile', [
-            'page_title' => ((($extra ?? [])['name'] ?? '') ?: ($dirRow['empName'] ?? 'Faculty')) . ' | Peshawar Dental College',
+            'page_title' => $pageName . ' | Peshawar Dental College',
             'page_description' => 'Faculty profile at Peshawar Dental College.',
             'canonical_url' => site_url('faculty-profile?n=' . rawurlencode($n)),
             'extra' => $extra,
@@ -119,18 +118,30 @@ class Faculty extends BaseController
         $profiles = [];
         $index = [];
         foreach (model(\App\Models\FacultyProfileModel::class)->publicRows() as $rec) {
-            if (! faculty_slug_is_public((string) ($rec['slug'] ?? '')) || ! faculty_slug_is_public((string) ($rec['name'] ?? ''))) {
+            if (! faculty_profile_is_public($rec)) {
                 continue;
             }
-            $slug = (string) $rec['slug'];
+            $empId = trim((string) ($rec['emp_id'] ?? ''));
+            // Public list/profile CV pack is empId-keyed only (HRMS is source of name/designation).
+            if ($empId === '') {
+                continue;
+            }
+            $slug = trim((string) ($rec['slug'] ?? ''));
+            if ($slug === '') {
+                continue;
+            }
+            $photo = trim((string) ($rec['photo'] ?? ''));
+            if ($photo !== '' && ! preg_match('#^https?://#i', $photo)) {
+                $photo = base_url(ltrim($photo, '/'));
+            }
             $profiles[$slug] = [
                 'slug' => $slug,
-                'name' => (string) ($rec['name'] ?? ''),
-                'aliases' => array_values($rec['aliases'] ?? []),
-                'department' => (string) ($rec['department_name'] ?? ''),
-                'designation' => (string) ($rec['designation'] ?? ''),
+                'emp_id' => $empId,
                 'qualifications' => array_values($rec['qualifications'] ?? []),
+                'experience' => array_values($rec['experience'] ?? []),
                 'skills' => array_values($rec['skills'] ?? []),
+                'publications' => array_values($rec['publications'] ?? []),
+                'photo' => $photo,
                 'research_preferences' => faculty_research_preferences($rec),
                 'current_research_projects' => array_values(array_filter(array_map(
                     static fn ($item) => is_string($item) || is_numeric($item) ? trim((string) $item) : '',
@@ -138,17 +149,8 @@ class Faculty extends BaseController
                 ), static fn ($item) => $item !== '')),
                 'publications_url' => (string) ($rec['publications_url'] ?? ''),
             ];
+            $index[$empId] = $slug;
             $index[$slug] = $slug;
-            foreach ($rec['aliases'] ?? [] as $alias) {
-                $aliasSlug = faculty_slug((string) $alias);
-                if ($aliasSlug !== '') {
-                    $index[$aliasSlug] = $slug;
-                }
-            }
-            $nameSlug = faculty_slug((string) ($rec['name'] ?? ''));
-            if ($nameSlug !== '') {
-                $index[$nameSlug] = $slug;
-            }
         }
 
         return $this->response->setJSON([
