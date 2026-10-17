@@ -106,14 +106,17 @@ if (! function_exists('faculty_canonical_dept')) {
 }
 
 if (! function_exists('faculty_is_directory_rank')) {
+    /** Public directory is SR+ teaching faculty only (not lab/admin staff). */
     function faculty_is_directory_rank(string $desTitle): bool
     {
-        $hidden = [
-            'Senior Lecturer' => true,
-            'Lecturer' => true,
-            'Junior Registrar' => true,
+        $allowed = [
+            'Professor' => true,
+            'Associate Professor' => true,
+            'Assistant Professor' => true,
+            'Senior Registrar' => true,
         ];
-        return ! isset($hidden[trim($desTitle)]);
+
+        return isset($allowed[trim($desTitle)]);
     }
 }
 
