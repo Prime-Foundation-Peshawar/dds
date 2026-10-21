@@ -6,65 +6,36 @@
 
 ?>
 
-<!-- ═══ HERO SLIDER ═══ -->
-<div id="heroSlider" aria-roledescription="carousel" aria-label="Department of Dental Sciences highlights">
-
-  <!-- SLIDE 1 — Clinical training & campus -->
-  <div class="hero-slide active" role="group" aria-roledescription="slide" aria-label="1 of 2">
-    <div class="slide-media slide-bg-3"></div>
-    <div class="slide-overlay"></div>
-    <div class="container slide-inner">
-      <div class="row align-items-center g-4 g-xl-5">
-        <div class="col-lg-6">
-          <div class="slide-content">
-            <p class="slide-brand">Clinical Training</p>
-            <h1 class="slide-title">Learn Where <span class="hl">Care</span> Happens</h1>
-            <p class="slide-body">From skill labs to specialty clinics — train at Peshawar Dental Hospital and affiliated teaching hospitals with real patients, supervised practice, and research-minded mentors.</p>
-            <div class="slide-actions">
-              <a href="<?= site_url('departments') ?>" class="btn-pmc btn-pmc-primary">Academic Departments</a>
-              <a href="#hospitals" class="btn-pmc btn-pmc-outline-white"><i class="bi bi-hospital"></i> Teaching Hospitals</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 d-none d-lg-block">
-          <div class="slide-facilities" aria-label="Clinical training strengths">
-            <div class="sf-title">Where You Train</div>
-            <div class="sf-grid">
-              <a href="<?= site_url('pdc') ?>#hospital">
-                <div class="sf-item"><i class="bi bi-hospital"></i><span>Peshawar Dental Hospital</span></div>
-              </a>
-              <a href="https://mth.riphahpsh.edu.pk/" target="_blank">
-                <div class="sf-item"><i class="bi bi-heart-pulse"></i><span>Mercy Teaching Hospital</span></div>
-              </a>
-              <a href="https://pth.riphahpsh.edu.pk/" target="_blank">
-                <div class="sf-item"><i class="bi bi-building"></i><span>Prime Teaching Hospital</span></div>
-              </a>
-              <a href="<?= site_url('departments') ?>">
-                <div class="sf-item"><i class="bi bi-diagram-3"></i><span>Academic Departments</span></div>
-              </a>
-              <a href="<?= site_url('pdc') ?>#hospital">
-                <div class="sf-item"><i class="bi bi-activity"></i><span>Clinical Skill Labs</span></div>
-              </a>
-              <a href="<?= site_url('faculty') ?>">
-                <div class="sf-item"><i class="bi bi-people"></i><span>Expert Faculty</span></div>
-              </a>
-              <a href="<?= site_url('faculty-research') ?>">
-                <div class="sf-item"><i class="bi bi-search"></i><span>Research Culture</span></div>
-              </a>
-              <a href="https://riphahpsh.edu.pk/pubedu" target="_blank">
-                <div class="sf-item"><i class="bi bi-airplane"></i><span>Educational Literature</span></div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+<?php
+$heroPosterJpg = FCPATH . 'assets/images/slider/pdc-hero-poster.jpg';
+$heroPosterWebp = FCPATH . 'assets/images/slider/pdc-hero-poster.webp';
+$heroVideo720 = FCPATH . 'assets/videos/pdc-hero-720.mp4';
+$heroVideo480 = FCPATH . 'assets/videos/pdc-hero-480.mp4';
+$heroPosterJpgV = @filemtime($heroPosterJpg) ?: time();
+$heroPosterWebpV = @filemtime($heroPosterWebp) ?: time();
+$heroVideo720V = @filemtime($heroVideo720) ?: time();
+$heroVideo480V = @filemtime($heroVideo480) ?: time();
+?>
+<!-- ═══ HERO — cinematic campus film ═══ -->
+<div id="heroSlider" class="hero-cinematic" aria-label="Peshawar Dental College campus film">
+  <div class="hero-slide active">
+    <div class="slide-media slide-bg-hero has-video">
+      <picture class="hero-poster">
+        <source srcset="<?= base_url('assets/images/slider/pdc-hero-poster.webp') ?>?v=<?= $heroPosterWebpV ?>" type="image/webp">
+        <img src="<?= base_url('assets/images/slider/pdc-hero-poster.jpg') ?>?v=<?= $heroPosterJpgV ?>" alt="" width="1600" height="900" fetchpriority="high" decoding="async">
+      </picture>
+      <video
+        class="hero-video"
+        muted
+        playsinline
+        loop
+        preload="none"
+        disablepictureinpicture
+        aria-hidden="true"
+        data-src-720="<?= base_url('assets/videos/pdc-hero-720.mp4') ?>?v=<?= $heroVideo720V ?>"
+        data-src-480="<?= base_url('assets/videos/pdc-hero-480.mp4') ?>?v=<?= $heroVideo480V ?>"></video>
     </div>
-  </div>
-
-  <!-- SLIDE 2 — BDS / Peshawar Dental College -->
-  <div class="hero-slide" role="group" aria-roledescription="slide" aria-label="2 of 2" data-lazy-bg>
-    <div class="slide-media slide-bg-4"></div>
-    <div class="slide-overlay"></div>
+    <div class="slide-overlay slide-overlay-film"></div>
     <div class="container slide-inner">
       <div class="slide-content">
         <p class="slide-brand">Department of Dental Sciences</p>
@@ -72,27 +43,14 @@
         <p class="slide-body">Peshawar Dental College offers PM&amp;DC-aligned BDS education — rigorous preclinical science, early clinical exposure, and mentors who teach dentistry with integrity.</p>
         <p class="slide-body slide-body-sub">Study at Riphah International University – Peshawar Campus and build the competence to serve communities across KP and beyond.</p>
         <div class="slide-actions">
-          <a href="<?= site_url('admissions') ?>" class="btn-pmc btn-pmc-primary"><i class="bi bi-mortarboard"></i> Admissions 2025–26</a>
+          <a href="<?= site_url('admissions') ?>" class="btn-pmc btn-pmc-primary"><i class="bi bi-mortarboard"></i> Admissions Info</a>
           <a href="<?= site_url('pdc') ?>" class="btn-pmc btn-pmc-outline-white">About PDC</a>
         </div>
       </div>
     </div>
-  </div>
-
-  <!-- Controls -->
-  <div class="slider-chrome">
-    <button class="slider-prev" type="button" aria-label="Previous slide"><i class="bi bi-chevron-left"></i></button>
-    <div class="slider-indicators" role="tablist" aria-label="Slides">
-      <button class="slider-dot active" type="button" data-slide="0" role="tab" aria-label="Clinical Training" aria-selected="true">
-        <span class="slider-dot-track"><span class="slider-dot-bar"></span></span>
-        <span class="slider-dot-label">Clinical</span>
-      </button>
-      <button class="slider-dot" type="button" data-slide="1" role="tab" aria-label="Peshawar Dental College" aria-selected="false">
-        <span class="slider-dot-track"><span class="slider-dot-bar"></span></span>
-        <span class="slider-dot-label">BDS</span>
-      </button>
-    </div>
-    <button class="slider-next" type="button" aria-label="Next slide"><i class="bi bi-chevron-right"></i></button>
+    <button type="button" class="hero-video-toggle" aria-label="Pause campus film" hidden>
+      <i class="bi bi-pause-fill"></i>
+    </button>
   </div>
 </div>
 
