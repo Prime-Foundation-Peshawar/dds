@@ -169,6 +169,29 @@ if (! function_exists('faculty_profile_is_public')) {
     }
 }
 
+if (! function_exists('faculty_profile_has_cv')) {
+    /**
+     * Public profile is clickable only when education AND bio content exist.
+     * Education = qualifications. Bio = experience, skills, or publications.
+     * Photo alone (or quals alone) is not enough.
+     */
+    function faculty_profile_has_cv(array $rec): bool
+    {
+        $quals = $rec['qualifications'] ?? [];
+        if (! is_array($quals) || $quals === []) {
+            return false;
+        }
+        foreach (['experience', 'skills', 'publications'] as $key) {
+            $items = $rec[$key] ?? [];
+            if (is_array($items) && $items !== []) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+}
+
 if (! function_exists('faculty_public_hidden_depts')) {
     function faculty_public_hidden_depts(): array
     {
