@@ -6,6 +6,40 @@
 
 ?>
 
+<?php if (! empty($home_slides)): ?>
+<!-- Home slider managed in ACP -->
+<div id="heroSlider" class="home-image-slider" aria-label="Featured announcements">
+  <?php foreach ($home_slides as $index => $slide): ?>
+  <div class="hero-slide <?= $index === 0 ? 'active' : '' ?> <?= !array_key_exists('motion_enabled', $slide) || !empty($slide['motion_enabled']) ? 'has-motion' : '' ?>">
+    <?php
+    $isVideoSlide = ($slide['media_type'] ?? 'image') === 'video';
+    $isCurrentVideo = ($slide['video_source'] ?? 'current') === 'current';
+    $mediaPath = $isVideoSlide
+        ? ($isCurrentVideo ? \App\Models\SettingModel::CURRENT_VIDEO_720 : (string) $slide['video_path'])
+        : (string) $slide['image_path'];
+    $posterPath = ! empty($slide['image_path'])
+        ? ltrim((string) $slide['image_path'], '/')
+        : \App\Models\SettingModel::CURRENT_POSTER;
+    $mediaVersion = @filemtime(FCPATH . ltrim($mediaPath, '/')) ?: time();
+    $posterVersion = @filemtime(FCPATH . $posterPath) ?: time();
+    ?>
+    <div class="slide-media <?= $isVideoSlide ? 'has-video' : '' ?>" style="background-image:url('<?= esc(base_url($isVideoSlide ? $posterPath : ltrim($mediaPath, '/')) . '?v=' . ($isVideoSlide ? $posterVersion : $mediaVersion), 'attr') ?>')">
+      <?php if ($isVideoSlide): ?>
+        <video class="managed-slide-video" muted playsinline loop preload="none" poster="<?= esc(base_url($posterPath) . '?v=' . $posterVersion, 'attr') ?>" src="<?= esc(base_url(ltrim($mediaPath, '/')) . '?v=' . $mediaVersion, 'attr') ?>" aria-hidden="true"></video>
+      <?php endif; ?>
+    </div>
+    <div class="slide-overlay"></div>
+    <div class="slide-grid"></div><div class="slide-circle-1"></div><div class="slide-circle-2"></div>
+    <div class="container slide-inner"><div class="row align-items-center"><div class="col-lg-7"><div class="slide-content">
+      <?php if (! empty($slide['title'])): ?><h1 class="slide-title"><?= esc($slide['title']) ?></h1><?php endif; ?>
+      <?php if (! empty($slide['text'])): ?><p class="slide-body"><?= esc($slide['text']) ?></p><?php endif; ?>
+      <?php if (! empty($slide['link_url'])): ?><div class="slide-actions"><a href="<?= esc(preg_match('#^https?://#i', $slide['link_url']) ? $slide['link_url'] : site_url(ltrim($slide['link_url'], '/')), 'attr') ?>" class="btn-pmc btn-pmc-primary"><?= esc($slide['link_label'] ?: 'Learn more') ?></a></div><?php endif; ?>
+    </div></div></div></div>
+  </div>
+  <?php endforeach; ?>
+  <?php if (count($home_slides) > 1): ?><div class="slider-chrome"><button class="slider-prev" type="button" aria-label="Previous slide"><i class="bi bi-chevron-left"></i></button><div class="slider-indicators" role="tablist"><?php foreach ($home_slides as $index => $slide): ?><button class="slider-dot <?= $index === 0 ? 'active' : '' ?>" type="button" aria-label="Show slide <?= $index + 1 ?>" aria-selected="<?= $index === 0 ? 'true' : 'false' ?>"><span class="slider-dot-track"><span class="slider-dot-bar"></span></span></button><?php endforeach; ?></div><button class="slider-next" type="button" aria-label="Next slide"><i class="bi bi-chevron-right"></i></button></div><?php endif; ?>
+</div>
+<?php else: ?>
 <?php
 $heroPosterJpg = FCPATH . 'assets/images/slider/pdc-hero-poster.jpg';
 $heroPosterWebp = FCPATH . 'assets/images/slider/pdc-hero-poster.webp';
@@ -53,6 +87,7 @@ $heroVideo480V = @filemtime($heroVideo480) ?: time();
     </button>
   </div>
 </div>
+<?php endif; ?>
 
 <!-- ═══ STATS BAR ═══ -->
 <div class="pmc-stats">
@@ -311,33 +346,22 @@ $heroVideo480V = @filemtime($heroVideo480) ?: time();
         <p class="sec-desc mb-0">Current programme openings and application guidance for Peshawar Dental College and postgraduate dental programmes.</p>
       </div>
     </div>
+    <?php if (! empty($admission_cards)): ?>
     <div class="row g-4">
-      <div class="col-lg-4 col-md-6 fu fu-delay-1">
-        <article class="news-card news-card-text news-card--admissions">
-          <div class="nc-body">
-            <div class="nc-meta">
-              <span class="nc-cat nc-cat-admissions">Admissions</span>
-              <span class="nc-date"><i class="bi bi-calendar3"></i> Published: 06 Oct 2026</span>
-            </div>
-            <h3 class="nc-title">BDS Admissions Open 2026-27</h3>
-            <p class="nc-deadline"><i class="bi bi-clock"></i> Apply by <strong>09 Nov 2026</strong></p>
-            <p class="nc-excerpt">Provisional Merit List: 10 November 2026.</p>
-            <div class="nc-actions nc-actions-split">
-              <a target="_blank" rel="noopener" href="https://caspr.kmu.edu.pk/" class="nc-btn nc-btn-primary">Apply Now <i class="bi bi-arrow-right"></i></a>
-              <a target="_blank" rel="noopener" href="<?= base_url('assets/images/news/kmu-mbbs-bds-admissions.jpeg') ?>" class="nc-btn nc-btn-form"><i class="bi bi-download"></i> Advertisement</a>
-            </div>
-          </div>
-        </article>
-      </div>
+      <?php foreach ($admission_cards as $i => $card): ?>
+        <?= view('pages/partials/home_news_card', ['card' => $card, 'delay' => $i + 1, 'variant' => 'admissions']) ?>
+      <?php endforeach; ?>
     </div>
-    <!-- <div class="row">
+    <?php else: ?>
+    <div class="row">
       <div class="col-lg-12 fu-scale">
         <div class="alert alert-warning d-inline-flex align-items-center gap-2 py-2 px-3 mb-0 small rounded-pill" role="status">
           <i class="bi bi-exclamation-triangle-fill"></i>
           <span>No admissions are open at the moment. New openings and deadlines will be posted here once the next cycle begins.</span>
         </div>
       </div>
-    </div> -->
+    </div>
+    <?php endif; ?>
   </div>
 </section>
 
@@ -386,24 +410,22 @@ $heroVideo480V = @filemtime($heroVideo480) ?: time();
         <a href="<?= site_url('events') ?>" class="btn-pmc btn-pmc-outline"><i class="bi bi-calendar-event"></i> View All</a>
       </div>
     </div>
+    <?php if (! empty($campus_cards)): ?>
     <div class="row g-4">
-      <div class="col-lg-4 col-md-6 fu fu-delay-1">
-        <article class="news-card news-card-text news-card--campus">
-          <div class="nc-body">
-            <div class="nc-meta">
-              <span class="nc-cat nc-cat-news">Convocation</span>
-              <span class="nc-date"><i class="bi bi-calendar3"></i> Nov 2026</span>
-            </div>
-            <h3 class="nc-title">Convocation 2026</h3>
-            <p class="nc-excerpt">Last Date for Registration is October 27, 2026</p>
-            <div class="nc-actions nc-actions-split">
-              <a target="_blank" rel="noopener" href="https://convocation.riphahpsh.edu.pk/" class="nc-btn nc-btn-primary">Register Now <i class="bi bi-arrow-right"></i></a>
-              <a target="_blank" rel="noopener" href="<?= base_url('assets/images/news/convocation2026.jpeg') ?>" class="nc-btn nc-btn-form"><i class="bi bi-download"></i> Advertisement</a>
-            </div>
-          </div>
-        </article>
+      <?php foreach ($campus_cards as $i => $card): ?>
+        <?= view('pages/partials/home_news_card', ['card' => $card, 'delay' => $i + 1, 'variant' => 'campus']) ?>
+      <?php endforeach; ?>
+    </div>
+    <?php else: ?>
+    <div class="row">
+      <div class="col-lg-12 fu-scale">
+        <div class="alert alert-light border d-inline-flex align-items-center gap-2 py-2 px-3 mb-0 small rounded-pill" role="status">
+          <i class="bi bi-newspaper"></i>
+          <span>No news found. Please check back soon for campus updates.</span>
+        </div>
       </div>
     </div>
+    <?php endif; ?>
   </div>
 </section>
 

@@ -45,7 +45,7 @@
         "cover_image": null,
         "published_at": "2025-05-15 10:00:00",
         "expires_at": null,
-        "status": "published"
+        "status": "draft"
     },
     {
         "slug": "umr-society-annual-medical-research-conference-2025",
@@ -129,6 +129,6 @@
         "cover_image": null,
         "published_at": "2024-08-14 10:00:00",
         "expires_at": null,
-        "status": "published"
+        "status": "draft"
     }
 ]
