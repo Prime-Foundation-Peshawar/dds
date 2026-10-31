@@ -154,6 +154,7 @@ class DdsSeeder extends Seeder
                     'body_text' => $e['body_text'] ?? null,
                     'category' => $e['category'] ?? null,
                     'cover_image' => $e['cover_image'] ?? null,
+                    'start_date' => $e['start_date'] ?? null,
                     'event_date' => $e['event_date'] ?? null,
                     'location' => $e['location'] ?? null,
                     'status' => $e['status'] ?? 'published',

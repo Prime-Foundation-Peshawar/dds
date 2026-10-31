@@ -29,6 +29,8 @@ class Events extends BaseAcpController
     public function store()
     {
         $model = model(EventModel::class);
+        $model->ensureLinkColumns();
+        $model->ensureStartDateColumn();
         $title = trim((string) $this->request->getPost('title'));
         $slug  = trim((string) $this->request->getPost('slug')) ?: $this->makeSlug($title);
         $cover = $this->storeUpload('cover_image', 'events', ['jpg', 'jpeg', 'png', 'webp', 'gif']);
@@ -42,11 +44,12 @@ class Events extends BaseAcpController
             'body_text'   => $bodyText,
             'category'    => trim((string) $this->request->getPost('category')),
             'cover_image' => $cover,
+            'start_date'  => $this->request->getPost('start_date') ?: null,
             'event_date'  => $this->request->getPost('event_date') ?: null,
             'location'    => trim((string) $this->request->getPost('location')),
             'status'      => in_array($this->request->getPost('status'), ['published', 'draft'], true)
                 ? $this->request->getPost('status') : 'draft',
-        ], true);
+        ] + $this->postedLink(), true);
 
         $this->attachMedia((int) $id);
 
@@ -70,6 +73,8 @@ class Events extends BaseAcpController
     public function update(int $id)
     {
         $model = model(EventModel::class);
+        $model->ensureLinkColumns();
+        $model->ensureStartDateColumn();
         $row   = $model->find($id);
         if (! $row) {
             return redirect()->to(site_url('acp/events'))->with('error', 'Event not found.');
@@ -85,11 +90,12 @@ class Events extends BaseAcpController
             'body_html'  => $bodyHtml,
             'body_text'  => $bodyText,
             'category'   => trim((string) $this->request->getPost('category')),
+            'start_date' => $this->request->getPost('start_date') ?: null,
             'event_date' => $this->request->getPost('event_date') ?: null,
             'location'   => trim((string) $this->request->getPost('location')),
             'status'     => in_array($this->request->getPost('status'), ['published', 'draft'], true)
                 ? $this->request->getPost('status') : $row['status'],
-        ];
+        ] + $this->postedLink();
         $cover = $this->storeUpload('cover_image', 'events', ['jpg', 'jpeg', 'png', 'webp', 'gif']);
         if ($cover) {
             $data['cover_image'] = $cover;

@@ -11,6 +11,12 @@ class SettingModel extends Model
     protected $allowedFields = ['key', 'value', 'updated_at'];
     protected $useTimestamps = false;
 
+    public const HOME_SLIDER_KEY = 'home_slider';
+
+    /** The campus film that ships with the site ("current video"). */
+    public const CURRENT_VIDEO_720 = 'assets/videos/pdc-hero-720.mp4';
+    public const CURRENT_POSTER    = 'assets/images/slider/pdc-hero-poster.jpg';
+
     public function getValue(string $key, ?string $default = null): ?string
     {
         $row = $this->where('key', $key)->first();
@@ -49,9 +55,26 @@ class SettingModel extends Model
             'updated_at' => date('Y-m-d H:i:s'),
         ];
         if ($existing) {
-            $this->update($existing['id'], $payload);
+            $this->db->table($this->table)->where($this->primaryKey, $existing[$this->primaryKey])->update($payload);
         } else {
             $this->insert(array_merge(['key' => $key], $payload));
         }
+    }
+
+    /** Fills every key a slide can have, so older saved slides keep working. */
+    public static function normaliseSlide(array $s): array
+    {
+        return [
+            'media_type'     => ($s['media_type'] ?? 'image') === 'video' ? 'video' : 'image',
+            'video_source'   => ($s['video_source'] ?? 'current') === 'new' ? 'new' : 'current',
+            'video_path'     => (string) ($s['video_path'] ?? ''),
+            'image_path'     => (string) ($s['image_path'] ?? ''),
+            'title'          => (string) ($s['title'] ?? ''),
+            'text'           => (string) ($s['text'] ?? ''),
+            'link_label'     => (string) ($s['link_label'] ?? ''),
+            'link_url'       => (string) ($s['link_url'] ?? ''),
+            'enabled'        => ! array_key_exists('enabled', $s) || ! empty($s['enabled']),
+            'motion_enabled' => ! array_key_exists('motion_enabled', $s) || ! empty($s['motion_enabled']),
+        ];
     }
 }
