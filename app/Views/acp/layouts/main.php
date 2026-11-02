@@ -17,6 +17,8 @@ $uri = uri_string();
 $navGroups = [
     'Overview' => [
         ['Dashboard', 'acp', 'bi-speedometer2'],
+        ['Reports', 'acp/reports', 'bi-graph-up-arrow'],
+        ['Website Analytics', 'acp/website-analytics', 'bi-bar-chart-line'],
     ],
     'Content' => [
         ['Pages', 'acp/pages', 'bi-file-earmark-text'],
@@ -47,6 +49,10 @@ $navGroups = [
       <p class="brand-sub">Dental Sciences</p>
     </div>
     <?php foreach ($navGroups as $group => $items): ?>
+      <?php $items = array_filter($items, static fn ($item) => acp_can_open($item[1])); ?>
+      <?php if (! $items) {
+          continue;
+      } ?>
       <div class="acp-nav-label"><?= esc($group) ?></div>
       <?php foreach ($items as [$label, $path, $icon]): ?>
         <?php

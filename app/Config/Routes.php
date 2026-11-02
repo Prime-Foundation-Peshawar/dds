@@ -56,6 +56,9 @@ $routes->group('acp', ['namespace' => 'App\Controllers\Acp'], static function ($
 
     $routes->group('', ['filter' => 'acpAuth'], static function ($routes) {
         $routes->get('/', 'Dashboard::index');
+        $routes->get('reports', 'Reports::index');
+        $routes->get('reports/export', 'Reports::export');
+        $routes->get('website-analytics', 'WebsiteAnalytics::index');
 
         $routes->get('pages', 'Pages::index');
         $routes->get('pages/create', 'Pages::create');

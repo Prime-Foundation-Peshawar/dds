@@ -43,6 +43,25 @@ class EventModel extends Model
         }
     }
 
+    /**
+     * Published events that have not started yet, soonest first.
+     *
+     * @return list<array<string,mixed>>
+     */
+    public function upcomingEvents(int $limit = 5): array
+    {
+        $this->ensureStartDateColumn();
+        $out = [];
+        foreach ($this->where('status', 'published')
+            ->where(self::FIRST_DAY_SQL . ' >=', date('Y-m-d'))
+            ->orderBy('event_date', 'ASC')
+            ->findAll() as $row) {
+            $out[(string) $row['slug']] ??= $row;
+        }
+
+        return array_slice(array_values($out), 0, $limit);
+    }
+
     /** @return list<array<string,mixed>> */
     public function published(int $limit = 0): array
     {

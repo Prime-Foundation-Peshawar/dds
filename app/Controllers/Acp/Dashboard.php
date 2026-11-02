@@ -2,6 +2,7 @@
 
 namespace App\Controllers\Acp;
 
+use App\Libraries\ReportService;
 use App\Models\DepartmentActivityModel;
 use App\Models\DepartmentModel;
 use App\Models\EventModel;
@@ -255,6 +256,7 @@ class Dashboard extends BaseAcpController
             'attentionMissingPhoto' => $attentionMissingPhoto,
             'attentionCvOnly'       => $attentionCvOnly,
             'draftNews'             => $draftNews,
+            'report'                => (new ReportService())->build('month'),
         ]);
     }
 }
