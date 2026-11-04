@@ -859,6 +859,64 @@
       color: var(--navy);
     }
 
+    /* ── WHY PDC ── */
+    .why-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: var(--r-lg);
+      padding: 28px 22px;
+      height: 100%;
+      position: relative;
+      overflow: hidden;
+      transition: border-color var(--ease), transform var(--ease), box-shadow var(--ease);
+    }
+    .why-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--teal), var(--gold-light, #e8c547));
+      opacity: 0;
+      transition: opacity var(--ease);
+    }
+    .why-card:hover {
+      border-color: rgba(194,65,12,.35);
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-md, 0 12px 32px rgba(10,22,40,.08));
+    }
+    .why-card:hover::before { opacity: 1; }
+    .why-ico {
+      width: 52px;
+      height: 52px;
+      border-radius: 14px;
+      background: rgba(194,65,12,.1);
+      color: var(--teal);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.3rem;
+      margin-bottom: 18px;
+      transition: transform var(--ease), background var(--ease);
+    }
+    .why-card:hover .why-ico {
+      transform: translateY(-2px);
+      background: rgba(194,65,12,.16);
+    }
+    .why-card h4 {
+      font-family: var(--font-head);
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 8px;
+    }
+    .why-card p {
+      font-family: var(--font-body);
+      font-size: .84rem;
+      color: var(--gray-mid);
+      line-height: 1.65;
+      margin: 0;
+    }
+
     /* ── HOSPITALS ── */
     .home-sec-head {
       max-width: 640px;
