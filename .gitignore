@@ -47,3 +47,4 @@ Thumbs.db
 !/data/activity-submissions/drafts/
 /data/activity-submissions/drafts/*
 !/data/activity-submissions/drafts/.gitkeep
+/writable/campus_jobs_tokens.json
