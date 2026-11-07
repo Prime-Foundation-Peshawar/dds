@@ -16,6 +16,10 @@ class Slider extends BaseAcpController
 
     public function save()
     {
+        $postLimit = ini_parse_quantity(ini_get('post_max_size'));
+        if ($postLimit > 0 && (int) $this->request->getServer('CONTENT_LENGTH') > $postLimit) {
+            return redirect()->back()->with('error', 'Slider was not saved: uploads exceed the server total request limit of ' . ini_get('post_max_size') . '.');
+        }
         $slides = [];
         $titles = $this->request->getPost('title') ?? [];
         $texts = $this->request->getPost('text') ?? [];
@@ -30,12 +34,31 @@ class Slider extends BaseAcpController
         $uploads = $this->request->getFileMultiple('image') ?? [];
         $videoUploads = $this->request->getFileMultiple('video') ?? [];
 
+        // PHP can reject uploads before application validation (size, partial upload,
+        // missing temporary directory, etc.). Never silently keep the old path.
+        foreach ($titles as $i => $title) {
+            $isVideo = ($mediaTypes[$i] ?? 'image') === 'video';
+            $upload = $isVideo ? ($videoUploads[$i] ?? null) : ($uploads[$i] ?? null);
+            if ($upload && $upload->getError() !== UPLOAD_ERR_NO_FILE && ! $upload->isValid()) {
+                return redirect()->back()->withInput()->with('error',
+                    'Slide upload failed: ' . $upload->getErrorString()
+                    . ' Server upload limit: ' . ini_get('upload_max_filesize')
+                    . '; total request limit: ' . ini_get('post_max_size') . '.');
+            }
+        }
+
         foreach ($titles as $i => $title) {
             $title = trim((string) $title);
             $mediaType = ($mediaTypes[$i] ?? 'image') === 'video' ? 'video' : 'image';
             $videoSource = ($videoSources[$i] ?? 'current') === 'new' ? 'new' : 'current';
             $imagePath = ltrim(trim((string) ($paths[$i] ?? '')), '/');
             $videoPath = ltrim(trim((string) ($videoPaths[$i] ?? '')), '/');
+
+            // An explicitly selected file takes precedence over a saved source.
+            if ($mediaType === 'video' && isset($videoUploads[$i])
+                && $videoUploads[$i]->getError() !== UPLOAD_ERR_NO_FILE) {
+                $videoSource = 'new';
+            }
 
             if ($mediaType === 'image') {
                 $upload = $uploads[$i] ?? null;
@@ -55,6 +78,9 @@ class Slider extends BaseAcpController
                     if ($videoPath === null) {
                         return redirect()->back()->withInput()->with('error', 'Videos must be MP4 or WebM and no larger than 100 MB.');
                     }
+                } elseif ($videoPath !== '' && ! is_file(FCPATH . $videoPath)) {
+                    return redirect()->back()->withInput()->with('error',
+                        'The custom video file is missing. Upload it again or enter the path of an existing video.');
                 }
                 $hasMedia = $videoPath !== '';
             }
