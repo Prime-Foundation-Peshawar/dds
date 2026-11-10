@@ -75,20 +75,69 @@ class SettingModel extends Model
         }
     }
 
+    /**
+     * The banner that was hard-coded on the home page, as an editable slide.
+     * Used to pre-fill the ACP slider until the first save.
+     */
+    public static function defaultHeroSlide(): array
+    {
+        return self::normaliseSlide([
+            'media_type'  => 'video',
+            'subtitle'    => 'Department of Dental Sciences',
+            'title'       => 'Your *BDS* Journey Starts Here',
+            'text'        => 'Peshawar Dental College offers PM&DC-aligned BDS education — rigorous preclinical science, early clinical exposure, and mentors who teach dentistry with integrity.',
+            'link_label'  => 'Admissions Info',
+            'link_url'    => 'admissions',
+            'link2_label' => 'About PDC',
+            'link2_url'   => 'pdc',
+        ]);
+    }
+
     /** Fills every key a slide can have, so older saved slides keep working. */
     public static function normaliseSlide(array $s): array
     {
         return [
             'media_type'     => ($s['media_type'] ?? 'image') === 'video' ? 'video' : 'image',
-            'video_source'   => ($s['video_source'] ?? 'current') === 'new' ? 'new' : 'current',
-            'video_path'     => (string) ($s['video_path'] ?? ''),
             'image_path'     => (string) ($s['image_path'] ?? ''),
+            // Empty video path = the campus film (older slides marked it with video_source "current").
+            'video_path'     => ($s['video_source'] ?? '') === 'current' ? '' : (string) ($s['video_path'] ?? ''),
+            'subtitle'       => (string) ($s['subtitle'] ?? ''),
             'title'          => (string) ($s['title'] ?? ''),
             'text'           => (string) ($s['text'] ?? ''),
             'link_label'     => (string) ($s['link_label'] ?? ''),
             'link_url'       => (string) ($s['link_url'] ?? ''),
+            'link2_label'    => (string) ($s['link2_label'] ?? ''),
+            'link2_url'      => (string) ($s['link2_url'] ?? ''),
+            'start_date'     => (string) ($s['start_date'] ?? ''),
+            'end_date'       => (string) ($s['end_date'] ?? ''),
             'enabled'        => ! array_key_exists('enabled', $s) || ! empty($s['enabled']),
             'motion_enabled' => ! array_key_exists('motion_enabled', $s) || ! empty($s['motion_enabled']),
         ];
+    }
+
+    /**
+     * Home slider slides.
+     * Never saved yet → the current banner as one editable slide (ACP only).
+     * $liveOnly → only enabled slides whose display/expiry dates include today.
+     */
+    public function homeSlides(bool $liveOnly = false): array
+    {
+        $raw = $this->getValue(self::HOME_SLIDER_KEY);
+        if ($raw === null) {
+            return $liveOnly ? [] : [self::defaultHeroSlide()];
+        }
+
+        $slides = json_decode($raw, true);
+        $slides = is_array($slides) ? array_map([self::class, 'normaliseSlide'], array_filter($slides, 'is_array')) : [];
+
+        if ($liveOnly) {
+            $today  = date('Y-m-d');
+            $slides = array_filter($slides, static fn ($s) => $s['enabled']
+                && ($s['start_date'] === '' || $s['start_date'] <= $today)
+                && ($s['end_date'] === '' || $s['end_date'] >= $today)
+                && ($s['media_type'] === 'video' || $s['image_path'] !== ''));
+        }
+
+        return array_values($slides);
     }
 }
