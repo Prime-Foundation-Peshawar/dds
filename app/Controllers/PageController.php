@@ -114,9 +114,10 @@ class PageController extends BaseController
             $data['canonical_url']    = site_url('event-single') . '?slug=' . rawurlencode($event['slug']);
         }
 
-        // Gallery, news, events, vacant seats, and PDC stay on their templates.
-        // The saved PDC HTML snapshot has an empty campus gallery.
-        $liveTemplates = ['gallery', 'all-news', 'single-news', 'events', 'event-single', 'vacant-seats', 'pdc'];
+        // Gallery, news, events, vacant seats, PDC and PG dental stay on their templates.
+        // The saved PDC HTML snapshot has an empty campus gallery; the PG dental
+        // snapshot predates the PG Fee Structure button.
+        $liveTemplates = ['gallery', 'all-news', 'single-news', 'events', 'event-single', 'vacant-seats', 'pdc', 'pg-dental-education'];
         if (! in_array($slug, $liveTemplates, true)
             && ! empty($page['use_cms'])
             && (! empty($page['body_html']) || ! empty($page['body_text']))) {
