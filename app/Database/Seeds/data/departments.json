@@ -2,7 +2,7 @@
     {
         "slug": "oral-pathology",
         "name": "Oral Pathology",
-        "icon": "bi-virus",
+        "icon": "fa-virus",
         "group_name": "Basic",
         "hod": "Professor Dr. Abbas Saleem Khan",
         "intro": [
@@ -39,7 +39,7 @@
     {
         "slug": "sciences-of-dental-material",
         "name": "Sciences of Dental Materials",
-        "icon": "bi-droplet",
+        "icon": "fa-flask-vial",
         "group_name": "Basic",
         "hod": "Professor Dr. Amjad Hanif",
         "intro": [
@@ -71,7 +71,7 @@
     {
         "slug": "oral-biology",
         "name": "Oral Biology",
-        "icon": "bi-eyedropper",
+        "icon": "fa-dna",
         "group_name": "Basic",
         "hod": "Professor Dr. Dila Baz Khan",
         "intro": [
@@ -103,7 +103,7 @@
     {
         "slug": "community-preventive-dentistry",
         "name": "Community & Preventive Dentistry",
-        "icon": "bi-people-fill",
+        "icon": "fa-people-group",
         "group_name": "Basic",
         "hod": "Professor Dr. Farzeen Khan",
         "intro": [
@@ -135,7 +135,7 @@
     {
         "slug": "dental-education",
         "name": "Dental Education",
-        "icon": "bi-mortarboard-fill",
+        "icon": "fa-graduation-cap",
         "group_name": "Basic",
         "hod": "Assistant Professor Dr. Mushyyada Durrani",
         "intro": [
@@ -172,7 +172,7 @@
     {
         "slug": "anatomy",
         "name": "Anatomy",
-        "icon": "bi-body-text",
+        "icon": "fa-skull",
         "group_name": "Basic",
         "hod": "Associate Professor Dr. Ambereen Humayun",
         "intro": [
@@ -194,7 +194,7 @@
     {
         "slug": "physiology",
         "name": "Physiology",
-        "icon": "bi-activity",
+        "icon": "ms-body_system",
         "group_name": "Basic",
         "hod": "Professor Dr. Munaza Khattak",
         "intro": [
@@ -216,7 +216,7 @@
     {
         "slug": "biochemistry",
         "name": "Biochemistry",
-        "icon": "bi-moisture",
+        "icon": "fa-flask",
         "group_name": "Basic",
         "hod": "Assistant Professor Dr. Hina Hakim",
         "intro": [
@@ -238,7 +238,7 @@
     {
         "slug": "pathology",
         "name": "Pathology",
-        "icon": "bi-eyedropper",
+        "icon": "fa-microscope",
         "group_name": "Basic",
         "hod": "Professor Dr. Sadaf Alam",
         "intro": [
@@ -260,7 +260,7 @@
     {
         "slug": "pharmacology",
         "name": "Pharmacology",
-        "icon": "bi-capsule-pill",
+        "icon": "fa-pills",
         "group_name": "Basic",
         "hod": "Assistant Professor Dr. Amna Umer",
         "intro": [
@@ -282,7 +282,7 @@
     {
         "slug": "periodontology",
         "name": "Periodontology",
-        "icon": "bi-heart-pulse",
+        "icon": "ms-dentistry",
         "group_name": "Clinical",
         "hod": "Professor Dr. Kawish Syed",
         "intro": [
@@ -314,7 +314,7 @@
     {
         "slug": "orthodontics",
         "name": "Orthodontics",
-        "icon": "bi-intersect",
+        "icon": "fa-teeth",
         "group_name": "Clinical",
         "hod": "Professor Dr. Zafar Ul Islam",
         "intro": [
@@ -346,7 +346,7 @@
     {
         "slug": "prosthodontics",
         "name": "Prosthodontics",
-        "icon": "bi-gem",
+        "icon": "fa-teeth-open",
         "group_name": "Clinical",
         "hod": "Professor Dr. Muhammad Raza",
         "intro": [
@@ -383,7 +383,7 @@
     {
         "slug": "operative-dentistry",
         "name": "Operative Dentistry",
-        "icon": "bi-tools",
+        "icon": "fa-tooth",
         "group_name": "Clinical",
         "hod": "Professor Dr. Iftikhar Akbar",
         "intro": [
@@ -415,7 +415,7 @@
     {
         "slug": "oral-maxillofacial-surgery",
         "name": "Oral & Maxillofacial Surgery",
-        "icon": "bi-scissors",
+        "icon": "fa-user-doctor",
         "group_name": "Clinical",
         "hod": "Professor Dr. Syed Amjad Shah",
         "intro": [
@@ -452,7 +452,7 @@
     {
         "slug": "paediatric-dentistry",
         "name": "Paediatric Dentistry",
-        "icon": "bi-emoji-smile",
+        "icon": "fa-child",
         "group_name": "Clinical",
         "hod": "Professor Dr. Hasham Khan",
         "intro": [
@@ -479,7 +479,7 @@
     {
         "slug": "oral-medicine",
         "name": "Oral Medicine",
-        "icon": "bi-clipboard2-pulse",
+        "icon": "fa-prescription-bottle-medical",
         "group_name": "Clinical",
         "hod": "Professor Dr. Muhammad Younas",
         "intro": [
@@ -506,7 +506,7 @@
     {
         "slug": "medicine",
         "name": "General Medicine",
-        "icon": "bi-heart-pulse-fill",
+        "icon": "fa-stethoscope",
         "group_name": "Clinical",
         "hod": "Associate Professor Dr. Muhammad Abbas",
         "intro": [
@@ -528,7 +528,7 @@
     {
         "slug": "surgery",
         "name": "General Surgery",
-        "icon": "bi-bandaid",
+        "icon": "fa-kit-medical",
         "group_name": "Clinical",
         "hod": "Assistant Professor Dr. Nasir Bakhtiar",
         "intro": [

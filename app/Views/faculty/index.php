@@ -1,4 +1,7 @@
 <?= $this->extend('layouts/main') ?>
+<?= $this->section('head') ?>
+<?= dept_icon_fonts() ?>
+<?= $this->endSection() ?>
 <?= $this->section('content') ?>
 
 <link href="<?= dds_asset('assets/css/faculty.css') ?>" rel="stylesheet"/>
@@ -145,25 +148,28 @@ const CV_BY_EMP = <?= json_encode((object) $faculty_cv_by_emp, JSON_UNESCAPED_SL
 const FACULTY_PHOTOS = <?= json_encode((object) $faculty_photos, JSON_UNESCAPED_SLASHES) ?>;
 const EXCLUDED_SLUGS = <?= json_encode(array_values($faculty_excluded_slugs), JSON_UNESCAPED_SLASHES) ?>;
 
+// Icons managed in ACP → Departments (bi-* / fa-* / ms-*). DEPT_CONFIG icons are only a fallback.
+const DEPT_ICONS = <?= json_encode((object) ($dept_icons ?? []), JSON_UNESCAPED_SLASHES | JSON_HEX_TAG) ?>;
+
 const DEPT_CONFIG = {
-  'Oral Pathology':                    { icon: 'bi-virus',              order: 1  },
-  'Sciences of Dental Materials':      { icon: 'bi-boxes',              order: 2  },
-  'Oral Biology':                      { icon: 'bi-flower1',            order: 3  },
-  'Community & Preventive Dentistry':  { icon: 'bi-people-fill',        order: 4  },
-  'Anatomy':                           { icon: 'bi-body-text',          order: 6  },
-  'Physiology':                        { icon: 'bi-activity',           order: 7  },
-  'Biochemistry':                      { icon: 'bi-moisture',           order: 8  },
-  'Pathology':                         { icon: 'bi-eyedropper',         order: 9  },
-  'Pharmacology':                      { icon: 'bi-capsule-pill',       order: 10 },
-  'Periodontology':                    { icon: 'bi-heart-pulse',        order: 11 },
-  'Orthodontics':                      { icon: 'bi-braces',             order: 12 },
-  'Prosthodontics':                    { icon: 'bi-grid-3x3-gap',       order: 13 },
-  'Operative Dentistry':               { icon: 'bi-tools',              order: 14 },
-  'Oral & Maxillofacial Surgery':      { icon: 'bi-scissors',           order: 15 },
-  'Paediatric Dentistry':              { icon: 'bi-emoji-smile',        order: 16 },
-  'Oral Medicine':                     { icon: 'bi-clipboard2-pulse',   order: 17 },
-  'Medicine':                          { icon: 'bi-heart-pulse-fill',   order: 18 },
-  'Surgery':                           { icon: 'bi-bandaid',            order: 19 },
+  'Oral Pathology':                    { icon: 'fa-virus',              order: 1  },
+  'Sciences of Dental Materials':      { icon: 'fa-flask-vial',              order: 2  },
+  'Oral Biology':                      { icon: 'fa-dna',            order: 3  },
+  'Community & Preventive Dentistry':  { icon: 'fa-people-group',        order: 4  },
+  'Anatomy':                           { icon: 'fa-skull',          order: 6  },
+  'Physiology':                        { icon: 'ms-body_system',           order: 7  },
+  'Biochemistry':                      { icon: 'fa-flask',           order: 8  },
+  'Pathology':                         { icon: 'fa-microscope',         order: 9  },
+  'Pharmacology':                      { icon: 'fa-pills',       order: 10 },
+  'Periodontology':                    { icon: 'ms-dentistry',        order: 11 },
+  'Orthodontics':                      { icon: 'fa-teeth',             order: 12 },
+  'Prosthodontics':                    { icon: 'fa-teeth-open',       order: 13 },
+  'Operative Dentistry':               { icon: 'fa-tooth',              order: 14 },
+  'Oral & Maxillofacial Surgery':      { icon: 'fa-user-doctor',           order: 15 },
+  'Paediatric Dentistry':              { icon: 'fa-child',        order: 16 },
+  'Oral Medicine':                     { icon: 'fa-prescription-bottle-medical',   order: 17 },
+  'Medicine':                          { icon: 'fa-stethoscope',   order: 18 },
+  'Surgery':                           { icon: 'fa-kit-medical',            order: 19 },
   'Administration':                    { icon: 'bi-building-fill',      order: 99 },
 };
 
@@ -214,7 +220,18 @@ const DESIG_PREFIX = {
 let allFaculty = [];
 
 function getDeptIcon(dept) {
-  return (DEPT_CONFIG[canonicalDept(dept)] || { icon: 'bi-person-badge' }).icon;
+  const name = canonicalDept(dept);
+  return DEPT_ICONS[name] || (DEPT_CONFIG[name] || { icon: 'bi-person-badge' }).icon;
+}
+
+/** Mirrors dept_icon() in faculty_helper.php. */
+function deptIconHtml(icon) {
+  icon = String(icon || 'bi-person-badge');
+  if (icon.startsWith('ms-')) {
+    return `<span class="material-symbols-rounded dept-ms" aria-hidden="true">${escapeHtml(icon.slice(3))}</span>`;
+  }
+  const cls = icon.startsWith('fa-') ? `fa-solid ${icon}` : `bi ${icon}`;
+  return `<i class="${escapeHtml(cls)}"></i>`;
 }
 
 function getDeptOrder(dept) {
@@ -519,7 +536,7 @@ function renderFaculty(faculty) {
     html += `
       <div class="dept-section">
         <div class="dept-header" onclick="toggleDept(this)" role="button" tabindex="0">
-          <div class="dept-icon"><i class="bi ${icon}"></i></div>
+          <div class="dept-icon">${deptIconHtml(icon)}</div>
           <div class="dept-name">${escapeHtml(dept)}</div>
           <span class="dept-count">${members.length} Member${members.length !== 1 ? 's' : ''}</span>
           <i class="bi bi-chevron-down dept-toggle-icon"></i>

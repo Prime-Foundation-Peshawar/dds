@@ -681,6 +681,11 @@
     .ct-bg-7 { background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../images/campus/pdc-transport.png'); background-size: cover; background-position: center; }
     .ct-bg-8 { background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../images/pdc/daycare.png'); background-size: cover; background-position: center; }
     .ct-bg-9 { background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../images/pdc/first-aid.png'); background-size: cover; background-position: center; }
+    .ct-bg-10 { background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../images/pdc/classroom.png'); background-color: #155f7a; background-size: cover; background-position: center; }
+    .ct-bg-11 { background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../images/pdc/skilllab.png'); background-color: #155f7a; background-size: cover; background-position: center; }
+    .ct-bg-12 { background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../images/pdc/multipurposelab.png'); background-color: #155f7a; background-size: cover; background-position: center; }
+    .ct-bg-13 { background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../images/pdc/museum.png'); background-color: #155f7a; background-size: cover; background-position: center; }
+    .ct-bg-14 { background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../images/pdc/xray.png'); background-color: #155f7a; background-size: cover; background-position: center; }
     .ct-ico { font-size: 1.7rem; color: rgba(255,255,255,.85); }
     .campus-tile.big .ct-ico { font-size: 3rem; }
     .ct-lbl { font-family: 'Montserrat', sans-serif; font-size: .76rem; font-weight: 700; color: rgba(255,255,255,.8); text-align: center; }
@@ -1174,6 +1179,7 @@
       background: var(--off-white, #f5f7fa);
       border-bottom: 1px solid var(--border);
     }
+    .dept-ms { font-size: 1.45em; line-height: 1; }
     .dept-panel-ico {
       width: 42px; height: 42px;
       border-radius: 11px;

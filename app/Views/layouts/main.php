@@ -69,6 +69,7 @@ $ld_graph = $ld_graph ?? [];
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
   <link href="<?= dds_asset('assets/css/pmc-global.css') ?>" rel="stylesheet" />
   <link href="<?= dds_asset('assets/css/style.css') ?>" rel="stylesheet" />
+  <?= $this->renderSection('head') ?>
   <?php if (!empty($preload_images) && is_array($preload_images)): ?>
     <?php foreach ($preload_images as $preload_href): ?>
       <?php
