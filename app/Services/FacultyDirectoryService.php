@@ -92,6 +92,42 @@ class FacultyDirectoryService
         // Do not append DB-only rows. Public directory is live HRMS only;
         // photo/CV fields attach above by empId from faculty_profiles.
 
+        $hasFurqan = false;
+        foreach ($out as $row) {
+            if (faculty_slugs_match(faculty_slug((string) ($row['empName'] ?? '')), 'muhammad-furqan')) {
+                $hasFurqan = true;
+                break;
+            }
+        }
+        if (! $hasFurqan) {
+            // Not in HRMS: static card keyed to empId 97 so the
+            // faculty_profiles row with emp_id = 97 (photo/CV, editable in ACP) attaches.
+            $staticEmpId = '97';
+            // Card fields come from that DB row (ACP-editable); literals are fallbacks only.
+            $rec = $this->profiles->findByEmpId($staticEmpId);
+            $str = static fn ($v, string $fallback): string => trim((string) $v) !== '' ? trim((string) $v) : $fallback;
+            $quals = $rec['qualifications'] ?? [];
+            $qualText = is_array($quals) ? implode(', ', array_filter(array_map('strval', $quals))) : (string) $quals;
+            $deptName = faculty_canonical_dept($str($rec['department_name'] ?? '', 'IT & MI'));
+            $isPublic = ! isset($rec['is_public']) || (int) $rec['is_public'] === 1;
+            if ($isPublic) {
+                $out[] = [
+                    'empId' => $staticEmpId,
+                    'empName' => $str($rec['name'] ?? '', 'Muhammad Furqan'),
+                    'desTitle' => $str($rec['designation'] ?? '', 'Director IT'),
+                    'depName' => $deptName,
+                    'hrmsDepName' => $deptName,
+                    'dept_override' => false,
+                    'cv_only' => true,
+                    'facPMDCNo' => '',
+                    'facFacRegNo' => '',
+                    'qualifications' => $str($qualText, 'MS Computer Science'),
+                    'photo' => (string) ($rec['photo'] ?? ''),
+                    'profile_id' => isset($rec['id']) ? (int) $rec['id'] : null,
+                ];
+            }
+        }
+
         $memo = $out;
         return $memo;
     }
