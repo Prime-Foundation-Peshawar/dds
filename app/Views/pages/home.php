@@ -26,15 +26,10 @@ $hospitals = [
       'Periodontology',
       'Paediatric Dentistry',
       'Oral Medicine',
-      'Community & Preventive Dentistry',
-      'Oral Pathology',
     ],
-    'services' => [
-      'Dental Outpatient Department (OPD)',
-      'Oral & Maxillofacial Operation Theatre',
-      'Phantom Laboratory',
-      'Surgical Skills Laboratory',
-    ],
+    'dept_label'   => 'Clinical Departments',
+    'services'     => ['All Dental Procedures'],
+    'services_summary' => 'All Dental Procedures',
     'facilities' => [],
   ],
   [
@@ -781,8 +776,12 @@ $heroVideo480V = @filemtime($heroVideo480) ?: time();
             <p class="hosp-desc"><?= hs_e($h['desc']) ?></p>
 
             <ul class="hosp-facts">
-              <li><strong><?= count($h['departments']) ?></strong> Departments</li>
-              <li><strong><?= count($h['services']) ?></strong> Services</li>
+              <li><strong><?= count($h['departments']) ?></strong> <?= hs_e($h['dept_label'] ?? 'Departments') ?></li>
+              <?php if (!empty($h['services_summary'])): ?>
+                <li><strong>All</strong> Dental Procedures</li>
+              <?php else: ?>
+                <li><strong><?= count($h['services']) ?></strong> Services</li>
+              <?php endif; ?>
             </ul>
 
             <!-- <ul class="hosp-tags" aria-label="Highlights">
@@ -816,7 +815,7 @@ $heroVideo480V = @filemtime($heroVideo480) ?: time();
         <section class="hd-panel">
           <header class="hd-panel-head">
             <span class="hd-panel-ico" aria-hidden="true"><i class="bi bi-diagram-3"></i></span>
-            <h4>Departments</h4>
+            <h4><?= hs_e($h['dept_label'] ?? 'Departments') ?></h4>
             <span class="hd-count"><?= count($h['departments']) ?></span>
           </header>
           <ul class="hd-list">
@@ -828,7 +827,7 @@ $heroVideo480V = @filemtime($heroVideo480) ?: time();
           <header class="hd-panel-head">
             <span class="hd-panel-ico" aria-hidden="true"><i class="bi bi-clipboard2-pulse"></i></span>
             <h4>Services</h4>
-            <span class="hd-count"><?= count($h['services']) ?></span>
+            <?php if (empty($h['services_summary'])): ?><span class="hd-count"><?= count($h['services']) ?></span><?php endif; ?>
           </header>
           <ul class="hd-list">
             <?php foreach ($h['services'] as $sv): ?><li><?= hs_e($sv) ?></li><?php endforeach; ?>
