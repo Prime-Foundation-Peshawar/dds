@@ -80,6 +80,9 @@ class FacultyDirectoryService
                     continue;
                 }
                 $empId = trim((string) ($row['empId'] ?? ''));
+                if ($empId === '1465') {
+                    continue;
+                }
                 $depName = faculty_canonical_dept((string) ($row['depName'] ?? ''));
                 $hrmsDept = $depName;
                 // Match local CV/profile by HRMS empId only (never by name).
