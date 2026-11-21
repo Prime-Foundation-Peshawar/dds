@@ -204,7 +204,7 @@ $ld_graph = $ld_graph ?? [];
                     <div class="mega-col-head"><i class="bi bi-info-circle"></i> Key Information</div>
                     <a class="mega-link" href="https://pdc.prime.edu.pk/downloads/Admission_Policy_Session_2023-24.pdf" target="_blank"><i class="bi bi-check-circle"></i>Admissions Policy (Undergraduate)</a>
                     <a class="mega-link" href="https://pdc.prime.edu.pk/downloads/pgmi-admission-policy-pg.pdf" target="_blank"><i class="bi bi-list-ol"></i>Admissions Policy (Postgraduate)</a>
-                    <a class="mega-link" href="https://pmc.prime.edu.pk/portal_login.php" target="_blank"><i class="bi bi-person-circle"></i>Portal</a>
+                    <a class="mega-link" href="<?= site_url('portal') ?>"><i class="bi bi-person-circle"></i>Portal</a>
                   </div>
                 </div>
               </div>
@@ -307,7 +307,7 @@ $ld_graph = $ld_graph ?? [];
           <div class="foot-contact"><i class="bi bi-envelope-fill"></i><span><a
                 href="mailto:info@riphahpsh.edu.pk">info@riphahpsh.edu.pk</a></span></div>
           <div class="mt-3">
-            <a href="https://pmc.prime.edu.pk/portal_login.php" target="_blank" rel="noopener" class="btn-pmc btn-pmc-teal"
+            <a href="<?= site_url('portal') ?>" class="btn-pmc btn-pmc-teal"
               style="background:var(--teal);color:white;font-size:.82rem;padding:10px 20px;">
               <i class="bi bi-person-circle"></i> Portal
             </a>

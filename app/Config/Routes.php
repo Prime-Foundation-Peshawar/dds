@@ -43,7 +43,7 @@ $static = [
     'literary-society', 'social-welfare', 'sports-society',
     'student-exchange', 'student-guide', 'student-research', 'umr',
     'vacant-seats', 'virtual-museum', 'pg-dental-education',
-    'pg-curriculum', 'pg-coming-soon', 'portal-login', 'sitemap-page',
+    'pg-curriculum', 'pg-coming-soon', 'portal', 'portal-login', 'sitemap-page',
 ];
 foreach ($static as $slug) {
     $routes->get($slug, 'PageController::show/' . $slug);
